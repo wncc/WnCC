@@ -4,16 +4,15 @@
     <nav id="nav">
         <ul>
             <li><a href="{{ site.baseurl }}/">Home</a></li>
-            <li><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li>
-            <li><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
-            <li><a href="{{ site.baseurl }}/no-sidebar.html">No Sidebar</a></li>
-            <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
+            <!-- <li><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li> -->
             {% for page in site.pages %}
-                  {% if page.title %}
+              {% if page.title %}
+                  {% unless page.title contains "Events" %}
                     <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                  {% endif %}
+                  {% endunless %}
+              {% endif %}
             {% endfor %}
-            <li><a href="#" class="button special">Events</a></li>
+            <li><a href="/events" class="button special">Events</a></li>
         </ul>
     </nav>
 </header>

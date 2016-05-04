@@ -12,3 +12,4 @@ github_username:  wncc
 
 # Build settings
 markdown: kramdown
+include: ['_pages']
