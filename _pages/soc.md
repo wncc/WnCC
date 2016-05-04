@@ -1,26 +1,104 @@
 ---
-layout: default
+layout: soc
 title: SoC
 permalink: /soc/
+banner: /images/soc.jpg
 ---
 
-Here is the list of projects I have contributed to:
+<section id="one" class="wrapper style1">
+				<header class="major">
+					<h2>Ipsum feugiat consequat</h2>
+					<p>Tempus adipiscing commodo ut aliquam blandit</p>
+				</header>
+				<div class="container">
+					<div class="row">
+						<div class="4u">
+							<section class="special box">
+								<i class="icon fa-area-chart major"></i>
+								<h3>Justo placerat</h3>
+								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="special box">
+								<i class="icon fa-refresh major"></i>
+								<h3>Blandit quis curae</h3>
+								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="special box">
+								<i class="icon fa-cog major"></i>
+								<h3>Amet sed accumsan</h3>
+								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<header class="major">
+					<h2>Commodo accumsan aliquam</h2>
+					<p>Amet nisi nunc lorem accumsan</p>
+				</header>
+				<div class="container">
+					<div class="row">
+						<div class="6u">
+							<section class="special">
+								<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+								<h3>Mollis adipiscing nisl</h3>
+								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id. Ac quis arcu amet. Arcu nascetur lorem adipiscing non faucibus odio nullam arcu lobortis. Aliquet ante feugiat. Turpis aliquet ac posuere volutpat lorem arcu aliquam lorem.</p>
+								<ul class="actions">
+									<li><a href="#" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+						</div>
+						<div class="6u">
+							<section class="special">
+								<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+								<h3>Neque ornare adipiscing</h3>
+								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id. Ac quis arcu amet. Arcu nascetur lorem adipiscing non faucibus odio nullam arcu lobortis. Aliquet ante feugiat. Turpis aliquet ac posuere volutpat lorem arcu aliquam lorem.</p>
+								<ul class="actions">
+									<li><a href="#" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
 
-* [MooDLD][MooDLD]: The Ultimate Moodle Downloader. A pythonic application that automates the download of course material from [moodle.iitb.ac.in](moodle.iitb.ac.in). It has a Tkinter based GUI and uses Mechanize for scraping. Made independently for Windows, it consists of a setup which installs MooDLD with all dependencies.
-
-* [IITB login extension for Chrome][IITB-login-extension-Chrome]: This extension automatically logs in to [internet.iitb.ac.in](internet.iitb.ac.in) page whenever Chrome browser is opened. Added integration for [moodle](moodle.iitb.ac.in) and [gpo](gpo.iitb.ac.in).
-
-* [AssistANT][AssistANT]: A simple game created using Unity 2D. Second prize winner for Lenovo GameJam 2015.
-
-* [alCHEMy][alCHEMy]: A game which completes chemical reactions, much like the classical Alchemy. code.fun.do submission 2016.
-
-* [RPG][RPG]: An RPG game in which players can interact with each other using video chat. Made using Kandy API. Third prize winner in Kandy Hackathon 2016
-
-
-
-
-[MooDLD]: https://github.com/nihal111/MooDLD
-[IITB-login-extension-Chrome]: https://github.com/nihal111/IITB-login-extension-Chrome
-[AssistANT]: https://drive.google.com/folderview?id=0B3HM64I0M4DmR3cyX3hBWnVoSXM&usp=sharing
-[RPG]: https://github.com/nihal111/RPG
-[alCHEMy]: https://github.com/nihal111/alCHEMy
+		<!-- Three -->
+			<section id="three" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="8u">
+							<section>
+								<h2>Mollis ut adipiscing</h2>
+								<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+								<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+							</section>
+						</div>
+						<div class="4u">
+							<section>
+								<h3>Magna massa blandit</h3>
+								<p>Feugiat amet accumsan ante aliquet feugiat accumsan. Ante blandit accumsan eu amet tortor non lorem felis semper. Interdum adipiscing orci feugiat penatibus adipiscing col cubilia lorem ipsum dolor sit amet feugiat consequat.</p>
+								<ul class="actions">
+									<li><a href="#" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+							<hr />
+							<section>
+								<h3>Ante sed commodo</h3>
+								<ul class="alt">
+									<li><a href="#">Erat blandit risus vis adipiscing</a></li>
+									<li><a href="#">Tempus ultricies faucibus amet</a></li>
+									<li><a href="#">Arcu commodo non adipiscing quis</a></li>
+									<li><a href="#">Accumsan vis lacinia semper</a></li>
+								</ul>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>			
