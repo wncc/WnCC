@@ -1,7 +1,7 @@
 ---
 layout: post
 image: /images/machinelearning.jpg
-date: 2013-12-25 17:34:22
+date: 2013-12-25 17:34:22 
 title: Adaboost
 mentor: "Riddhish Bhalodia"
 categories: projects
