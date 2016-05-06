@@ -35,9 +35,9 @@ banner: /images/soc.jpg
 						<div class="6u">
 							<section class="special box">
 								<img class="icon major" src="/svg/ondem-jedi.svg">
-								<h3>Jedi</h3>
+								<h3>Master</h3>
 								<p>I can feel you code. It gives you focus. It makes you stronger. Your focus determines your reality. Use the force and someday you will be the most powerful Jedi ever.</p>
-								<a href="#one" class="button big special">Become a Jedi</a>
+								<a target = "_blank" href="https://docs.google.com/forms/d/1YHkyL1i2kdTJbAN2UJKcDa30u9Ed6wc0-pGfMl3FuKQ/viewform" class="button big special">Become a Master</a>
 							</section>
 						</div>
 						
