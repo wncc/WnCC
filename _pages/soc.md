@@ -65,7 +65,8 @@ banner: /images/soc.jpg
 								<img class="icon major" src="/svg/light-siber-one.svg">
 								<h3>Padawan</h3>
 								<p>The Force is strong with you. Train yourself to let go of everything you fear to lose. The Force will be with you always. Ready are you?</p><br>
-								<a href="#https://docs.google.com/forms/d/1YHkyL1i2kdTJbAN2UJKcDa30u9Ed6wc0-pGfMl3FuKQ/viewform" class="button big special">Become a Padawan</a>
+<!-- TODO: Add Padawan form -->
+								<a target = "_blank" href="" class="button big special">Become a Padawan</a>
 							</section>
 						</div>
 						<div class="6u">
@@ -88,39 +89,20 @@ banner: /images/soc.jpg
 	</header>
 	<div class="container">
 		<div class="row">
+		{% assign projects = site.categories.projects | sort:"weight"  %}
+            {% for post in projects limit:5%}
 			<div class="4u">
 				<section class="special">
-					<a href="#" class="image fit"><img src="/images/machinelearning.jpg" alt="" /></a>
-					<h3>Adaboost</h3>
-					<h4>- Riddhish Bhalodia</h4>
-					<p>Boosting is a well known machine learning technique, we use simple weak classifiers in cascade fashion to form a strong classifier. It's extremely effective, facebook uses some version of this algorithm for detecting faces (99,9% accurate). Implement basic adaboost on simulated data, then for digit recognition. Again implementation in python using opencv and must follow blockwise execution and tutorial format.</p>
+					<a href="#" class="image fit"><img src="{{ post.image }}" alt="" /></a>
+					<h3>{{ post.title }}</h3>
+					<h4>- {{ post.mentor }}</h4>
+					<p>{{ post.description }}</p>
 					<ul class="actions">
 						<li><a href="#" class="button alt">Learn More</a></li>
 					</ul>
 				</section>
 			</div>
-			<div class="4u">
-				<section class="special">
-					<a href="#" class="image fit"><img src="/images/youtube.jpg" alt="" /></a>
-					<h3>Personal Youtube Tracker</h3>
-					<h4>- Meet Udeshi</h4>
-					<p>A browser extension to personally organise your youtube most viewed list. Create and share your own youtube playlists.</p>
-					<ul class="actions">
-						<li><a href="#" class="button alt">Learn More</a></li>
-					</ul>
-				</section>
-			</div>
-			<div class="4u">
-				<section class="special">
-					<a href="#" class="image fit"><img src="/images/mozilla	.jpg" alt="" /></a>
-					<h3>Mozilla - wptview</h3>
-					<h4>- Kalpesh Krishna</h4>
-					<p>A lot of development is needed for <a href="https://github.com/mozilla/wptview">this open source repository</a>.</p>
-					<ul class="actions">
-						<li><a href="#" class="button alt">Learn More</a></li>
-					</ul>
-				</section>
-			</div>
+            {% endfor %}
 		</div>
 		<div style="text-align: center;">
 		<a href="#" class="button big special">View All Projects</a>
