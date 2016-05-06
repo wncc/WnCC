@@ -5,5 +5,5 @@ title: WnCC - website
 mentor: "Nihal Singh"
 categories: projects
 weight: 4
-description: Come, let's make WnCC a better place</a>.
+description: Come, let's make WnCC a better place.
 ---
