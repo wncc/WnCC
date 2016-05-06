@@ -495,9 +495,15 @@
 			width: 100%;
 		}
 
-			.image.fit img {
+		.image.fit img {
+			display: block;
+			width: 100%;
+		}
+
+		.image.fit.heightfix img {
 				display: block;
 				width: 100%;
+				height: 250px;
 			}
 
 /* List */
