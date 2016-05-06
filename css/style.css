@@ -500,12 +500,7 @@
 			width: 100%;
 		}
 
-		.image.fit.heightfix img {
-				display: block;
-				width: 100%;
-				height: 250px;
-			}
-
+	
 /* List */
 
 	ol {

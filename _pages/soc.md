@@ -94,7 +94,7 @@ banner: /images/soc.jpg
             {% for post in projects limit:5%}
 			<div class="4u">
 				<section class="special">
-					<a href="#" class="image fit heightfix"><img src="{{ post.image }}" alt="" /></a>
+					<a href="#" class="image fit"><img src="{{ post.image }}" alt="" /></a>
 					<h3>{{ post.title }}</h3>
 					<h4>- {{ post.mentor }}</h4>
 					<p>{{ post.description }}</p>
