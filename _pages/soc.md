@@ -89,22 +89,27 @@ banner: /images/soc.jpg
 		<p>Your eyes can deceive you. Don’t trust them.</p>
 	</header>
 	<div class="container">
-		<div class="row">
 		{% assign projects = site.categories.projects | sort:"weight"  %}
-            {% for post in projects limit:5%}
-			<div class="4u">
-				<section class="special">
-					<a href="#" class="image fit"><img src="{{ post.image }}" alt="" /></a>
-					<h3>{{ post.title }}</h3>
-					<h4>- {{ post.mentor }}</h4>
-					<p>{{ post.description }}</p>
-					<ul class="actions">
-						<li><a href="#" class="button alt">Learn More</a></li>
-					</ul>
-				</section>
-			</div>
+            {% for project in projects%}
+            {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+            {% if modulo == '0' or forloop.first %}
+            	<div class="row">
+            {% endif %}
+				<div class="4u">
+					<section class="special">
+						<a href="#" class="image fit"><img src="{{ project.image }}" alt="{{ project.title }}" /></a>
+						<h3>{{ project.title }}</h3>
+						<h4>- {{ project.mentor }}</h4>
+						<p>{{ project.content | split:'<!--break-->' | first }}</p>
+						<ul class="actions">
+							<li><a href="{{ project.url | prepend: site.baseurl }}" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			{% if modulo == '2' or forloop.last %}
+    			</div>
+			{% endif %}
             {% endfor %}
-		</div>
 		<div style="text-align: center;">
 		<a href="#" class="button big special">View All Projects</a>
 		</div>

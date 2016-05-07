@@ -2,14 +2,16 @@
 title: WnCC
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the official page for The Seasons of Code programme initiated by the Web and Coding Club, IIT Bombay.
-  This website shall contain the list of all projects and their respective mentors. All forms for registration will also be present.
+  This is the official page for The Web and Coding Club of IIT Bombay.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "188.166.228.237/" # the base hostname & protocol for your site
 twitter_username: wncc_iitb
 github_username:  wncc
 
-# Build settings
-markdown: kramdown
+# Build Settings
+sass:
+  sass_dir: _sass
 include: ['_pages']
+kramdown:
+  input: GFM
