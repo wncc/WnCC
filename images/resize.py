@@ -1,28 +1,24 @@
 from PIL import Image
 import glob
 
-images = glob.glob("*.jpg")
+images = glob.glob("*")
 print images
-ignored = ['banner.jpg', 'coding.jpg', 'pic01.jpg', 'pic02.jpg', 'pic03.jpg', 'seasons.jpg', 'soc.jpg']
+ignored = ['banner.jpg', 'coding.jpg', 'pic01.jpg', 'pic02.jpg', 'pic03.jpg', 'seasons.jpg', 'soc.jpg', 'resize.py']
 
 for image in images:
     if image not in ignored:
         print image
         im = Image.open(image)
-        h = im.height
-        w = im.width
+        w,h = im.size
         aspectratio= w*1.0/h
         req_ratio = 1920.0/1080
 
-        print "OG height: " + str(int(h)) + " OG width: " + str(int(w))
+        print "OG width: " + str(int(w)) + " OG height: " + str(int(h))
         if aspectratio > req_ratio:
             w = h*req_ratio
-            im = im.resize((int(w), int(h)), Image.ANTIALIAS)
+            im = im.resize((int(round(w)), int(round(h))), Image.ANTIALIAS)
         else:
             h = w/req_ratio
-            im = im.resize((int(w), int(h)), Image.ANTIALIAS)
-        print "New height: " + str(int(h)) + " New width: " + str(int(w))
+            im = im.resize((int(round(w)), int(round(h))), Image.ANTIALIAS)
+        print "New width: " + str(int(round(w))) + " New height: " + str(int(round(h)))
         im.save(image)
-        im.close
-    
-
