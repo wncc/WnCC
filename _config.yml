@@ -15,3 +15,6 @@ sass:
 include: ['_pages']
 kramdown:
   input: GFM
+collections:
+  soc_projects:
+    output: true

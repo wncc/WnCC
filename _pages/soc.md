@@ -89,7 +89,7 @@ banner: /images/soc.jpg
 		<p>Your eyes can deceive you. Don’t trust them.</p>
 	</header>
 	<div class="container">
-		{% assign projects = site.categories.projects | sort:"weight"  %}
+		{% assign projects = site.soc_projects | sort:"weight"  %}
             {% for project in projects%}
             {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
             {% if modulo == '0' or forloop.first %}
@@ -97,12 +97,12 @@ banner: /images/soc.jpg
             {% endif %}
 				<div class="4u">
 					<section class="special">
-						<a href="#" class="image fit"><img src="{{ project.image }}" alt="{{ project.title }}" /></a>
+						<a href="{{ project.url }}" class="image fit"><img src="{{ project.image }}" alt="{{ project.title }}" /></a>
 						<h3>{{ project.title }}</h3>
 						<h4>- {{ project.mentor }}</h4>
 						<p>{{ project.content | split:'<!--break-->' | first }}</p>
 						<ul class="actions">
-							<li><a href="{{ project.url | prepend: site.baseurl }}" class="button alt">Learn More</a></li>
+							<li><a href="{{ project.url }}" class="button alt">Learn More</a></li>
 						</ul>
 					</section>
 				</div>

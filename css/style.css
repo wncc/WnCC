@@ -143,25 +143,7 @@
 			padding: 1em 1.5em;
 		}
 
-	.align-left {
-		text-align: left;
-	}
 
-	.align-center {
-		text-align: center;
-	}
-
-	.align-right {
-		text-align: right;
-	}
-
-    .float-left {
-        float: left;
-    }
-
-    .float-right {
-        float: right;
-    }
 
 /* Section/Article */
 
@@ -1100,3 +1082,30 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+/* Alignment and Floating */
+
+.align-left {
+		text-align: left;
+	}
+
+.align-center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-center {
+	display: table;
+		margin: auto;
+}
+
+.float-right {
+    float: right;
+}
