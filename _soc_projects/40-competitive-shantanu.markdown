@@ -1,10 +1,10 @@
 ---
-layout: project
+layout: soc-project
 image: /images/graph.jpg
 title: Competitive Programming
 mentor: "Shantanu Thakoor"
-categories: projects
-weight: 20
+category: "Competitive Coding"
+weight: 100
 ---
 
 Become the next ACM-ICPC superstar!

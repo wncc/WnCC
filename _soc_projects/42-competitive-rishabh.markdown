@@ -1,10 +1,10 @@
 ---
-layout: project
-image: /images/graph.jpg
+layout: soc-project
+image: /images/competitive3.png
 title: Competitive Programming
 mentor: "Rishabh Agrawal"
-categories: projects
-weight: 30
+category: Competitive Coding
+weight: 120
 ---
 
 Become the next ACM-ICPC superstar!

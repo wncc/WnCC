@@ -28,7 +28,7 @@ banner: /images/soc.jpg
 					<h2>What is Seasons of Code?</h2>
 					<a href="#" class="image fit"><img src="/images/coding.jpg" alt="" /></a>
 					<p>Seasons of Code is a programme launched by the WnCC, along the lines of GSoC without much greenery though. The incentive is similar to ITSP, based on the current form of it, the fundamental difference is that one can choose from the ideas offered by mentors who are senior undergrads, doctorate students or professors, and in some exceptional cases, startups. We plan to have a really long timeframe though, until the next winter extending this programme into a mentorship of sorts into the semester. It is not just about development by the way. We have some mentors ready to take up programmes regarding competitive coding and scientific computation too.
-</p>
+					</p>
 				</section>
 			</div>
 			<div class="4u">
@@ -43,10 +43,10 @@ banner: /images/soc.jpg
 				<section>
 					<h3>Types of Projects</h3>
 					<ul>
+						<li>Development</li>
 						<li>Open Source</li>
-						<li>Competitive Coding</li>
 						<li>Scientific Computation</li>
-						<li>Development</li>					
+						<li>Competitive Coding</li>
 					</ul>
 				</section>
 			</div>
@@ -90,8 +90,9 @@ banner: /images/soc.jpg
 	</header>
 	<div class="container">
 		{% assign projects = site.soc_projects | sort:"weight"  %}
-            {% for project in projects%}
+            {% for project in site.soc_projects%}
             {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+            <!-- Creating a new row after every three elements -->
             {% if modulo == '0' or forloop.first %}
             	<div class="row">
             {% endif %}
@@ -100,6 +101,7 @@ banner: /images/soc.jpg
 						<a href="{{ project.url }}" class="image fit"><img src="{{ project.image }}" alt="{{ project.title }}" /></a>
 						<h3>{{ project.title }}</h3>
 						<h4>- {{ project.mentor }}</h4>
+						<h4>- {{ project.category }}</h4>
 						<p>{{ project.content | split:'<!--break-->' | first }}</p>
 						<ul class="actions">
 							<li><a href="{{ project.url }}" class="button alt">Learn More</a></li>
@@ -111,7 +113,7 @@ banner: /images/soc.jpg
 			{% endif %}
             {% endfor %}
 		<div style="text-align: center;">
-		<a href="#" class="button big special">View All Projects</a>
+		<!-- <a href="#" class="button big special">View All Projects</a> -->
 		</div>
 	</div>
 </section>			

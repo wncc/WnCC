@@ -1,10 +1,10 @@
 ---
-layout: project
-image: /images/graph.jpg
+layout: soc-project
+image: /images/competitive.jpg
 title: Competitive Programming
 mentor: "Sai Sandeep Reddy"
-categories: projects
-weight: 10
+category: Competitive Coding
+weight: 110
 ---
 
 Become the next ACM-ICPC superstar!
