@@ -7,7 +7,7 @@
             <!-- <li><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li> -->
             {% for page in site.pages %}
               {% if page.title %}
-                  {% unless page.title contains "Events" %}
+                  {% unless page.title contains "Events" or page.title contains "Error" %}
                     <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
                   {% endunless %}
               {% endif %}

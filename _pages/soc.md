@@ -1,5 +1,5 @@
 ---
-layout: soc
+layout: default
 title: SoC
 permalink: /soc/
 banner: /images/soc.jpg
