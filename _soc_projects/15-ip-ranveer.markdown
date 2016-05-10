@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: /images/sound.jpg
+image: /images/imageprocessing.jpg
 title: Command Line Image Processing
 mentor: "Ranveer Aggarwal"
 category: Development
