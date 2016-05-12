@@ -41,6 +41,14 @@ layout: default
                         {% if page.mentor %} • {{ page.mentor }}{% endif %}
                         {% if page.category %}<br> • {{ page.category }}{% endif %}
                         {% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                        <p class="post-meta" style="color: black">
+                        Mentees: &nbsp;&nbsp;&nbsp;
+                        {% if page.mentees %}
+                            {% for mentee in page.mentees%}
+                                • {{ mentee }}&nbsp;&nbsp;&nbsp;
+                            {% endfor %}
+                        {% endif %}
+                        </p>
                     </header>
                     <div>
                         {{ content }}

@@ -100,7 +100,7 @@ banner: /images/soc.jpg
 				<div class="4u">
 					<section class="special">
 						<a href="{{ project.url | prepend: site.baseurl }}" class="image fit"><img src="{{ project.image | prepend: site.baseurl }}" alt="{{ project.title }}" /></a>
-						<h3>{{ modulo }}. {{ project.title }}</h3>
+						<h3>{{ project.title }}</h3>
 						<h4>- {{ project.mentor }}</h4>
 						<h4>- {{ project.category }}</h4>
 						<p>{{ project.content | split:'<!--break-->' | first }}</p>

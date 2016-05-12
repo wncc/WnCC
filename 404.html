@@ -7,7 +7,7 @@ permalink: /404.html
 <head>
     <!-- some other meta -->
     {% if page.url == "/404.html" %}
-        <meta http-equiv="refresh" content="5; url=/">
+        <meta http-equiv="refresh" content="5; url={{ '/' | prepend: site.baseurl }}">
     {% endif %}
     <!-- some other stuff like link or script -->
 </head>
@@ -19,7 +19,7 @@ permalink: /404.html
 		<div class="row">
 		<div class="8u">
 				<section>
-					<a href="#" class="image fit"><img src="/images/404.png" alt="" /></a>
+					<a href="#" class="image fit"><img src="{{ '/images/404.png' | prepend: site.baseurl }}" alt="" /></a>
 				</section>
 			</div>
 			<div class="4u">
