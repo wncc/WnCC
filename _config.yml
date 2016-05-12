@@ -18,3 +18,4 @@ kramdown:
 collections:
   soc_projects:
     output: true
+

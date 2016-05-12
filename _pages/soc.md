@@ -92,8 +92,9 @@ banner: /images/soc.jpg
 		{% assign projects = site.soc_projects | sort:"weight"  %}
             {% for project in site.soc_projects%}
             {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+            {% capture thecycle %}{% cycle '0', '1' ,'2' %}{% endcapture %}
             <!-- Creating a new row after every three elements -->
-            {% if modulo == '0' or forloop.first %}
+            {% if thecycle == '0' or forloop.first %}
             	<div class="row">
             {% endif %}
 				<div class="4u">
@@ -108,7 +109,7 @@ banner: /images/soc.jpg
 						</ul>
 					</section>
 				</div>
-			{% if modulo == '2' or forloop.last %}
+			{% if thecycle == '2' or forloop.last %}
     			</div>
 			{% endif %}
             {% endfor %}
