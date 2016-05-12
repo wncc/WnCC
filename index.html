@@ -4,7 +4,7 @@ banner: /images/codingbanner.jpg
 ---
 
 <!-- Banner -->
-<section id="banner" style="background-image:url({{ page.banner }})">
+<section id="banner" style="background-image:url({{ page.banner | prepend: site.baseurl}})">
 	<div class="inner">
 	    <h2>The Web and Coding Club</h2>
 	    <p> <a href="https://stab-iitb.org/wncc">IIT Bombay</a></p>
@@ -26,7 +26,7 @@ banner: /images/codingbanner.jpg
 			<div class="8u">
 				<section>
 					<h2>What is the Web and Coding Club?</h2>
-					<a href="#" class="image fit"><img src="/images/wncc.jpg" alt="" /></a>
+					<a href="#" class="image fit"><img src="{{ '/images/wncc.jpg' | prepend: site.baseurl }}" alt="" /></a>
 					<p>Web and Coding Club is one of the biggest clubs of IIT Bombay. As a part of the Students' Technical Activities Body, we aim to provide a gateway for the people in our institute to join the coding community. We create a platform which allows students to gain assistance and mentorship to enhance their coding ability. Our aim is to propagate the enthusiasm for coding in the institute and especially amongst freshmen. We believe that every student here at IITB should have an opportunity to learn how to code and develop a passion for it. The secret of getting ahead is getting started and we aim to provide every student with the right start.
 					</p>
 				</section>
@@ -56,7 +56,7 @@ banner: /images/codingbanner.jpg
 		<div class="row">
 			<div class="6u">
 				<section class="special">
-					<a href="#" class="image fit"><img src="/images/kandy2016.png" alt="" /></a>
+					<a href="#" class="image fit"><img src="{{ '/images/kandy2016.png' | prepend: site.baseurl }}" alt="" /></a>
 					<h3>Sugar Rush- Kandy Hackathon 2016</h3>
 					<p>Kandy's Sugar Rush Hackathon was a 24-hour race to complete a successful application or a web service that utilizes the Kandy API. With a large supply of refreshments and a total of 70,000 Rs worth of cash prizes, it was a fun and engaging event.</p>
 					<br><br>
@@ -67,7 +67,7 @@ banner: /images/codingbanner.jpg
 			</div>
 			<div class="6u">
 				<section class="special">
-					<a href="#" class="image fit"><img src="/images/gamejam2015.jpg" alt="" /></a>
+					<a href="#" class="image fit"><img src="{{ '/images/gamejam2015.jpg' | prepend: site.baseurl }}" alt="" /></a>
 					<h3>Lenovo's GameJam 2015</h3>
 					<p>Held early in the Spring Semester of 2015, this hackathon saw a large amount of participation especially from the freshmen. Having a rather large prize money of a grand total of 1,00,000 Rs, this hackathon had a timeframe of 72 hours i.e three days. There were a large number of successful submissions and a few really interesting games. It was also encouraging to freshmen teams bagging prizes too.</p>
 					<ul class="actions">
@@ -96,7 +96,7 @@ banner: /images/codingbanner.jpg
 					<p>App Inventor is a visual, blocks language for building Android Apps. It will be a basic event directed at freshmen.</p>
 					<br><br><br>
 					<ul class="actions">
-							<li><a href="{{ project.url }}" class="button alt">Learn More</a></li>
+							<li><a href="#" class="button alt">Learn More</a></li>
 					</ul>
 				</section>
 			</div>
@@ -108,7 +108,7 @@ banner: /images/codingbanner.jpg
 					<p>Scratch is a visual programming language that can be used to create event-driven games and applications. An event covering the basics followed by a fun competition.</p>
 					<br>
 					<ul class="actions">
-							<li><a href="{{ project.url }}" class="button alt">Learn More</a></li>
+							<li><a href="#" class="button alt">Learn More</a></li>
 					</ul>
 				</section>
 			</div>
@@ -119,14 +119,14 @@ banner: /images/codingbanner.jpg
 					<h4>- late August</h4>
 					<p>A session/camp to carry out dual booting amongst freshmen. A linux session will follow covering the basics of the Operating System and common functionalities.</p>
 					<ul class="actions">
-							<li><a href="{{ project.url }}" class="button alt">Learn More</a></li>
+							<li><a href="#" class="button alt">Learn More</a></li>
 					</ul>
 				</section>
 			</div>
 		</div>
 	</div>
 	<div style="text-align: center;">
-		<a href="/events" class="button big special">View All Events</a>
+		<a href="{{ '/events' | prepend: site.baseurl }}" class="button big special">View All Events</a>
 	</div>
 </section>
 

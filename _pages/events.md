@@ -12,7 +12,7 @@ banner: /images/soc.jpg
 		<div class="row">
 		<div class="8u">
 				<section>
-					<a href="#" class="image fit"><img src="/images/construction.jpg" alt="" /></a>
+					<a href="#" class="image fit"><img src="{{ '/images/construction.jpg'| prepend: site.baseurl }}" alt="" /></a>
 				</section>
 			</div>
 			<div class="4u">

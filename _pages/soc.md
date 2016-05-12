@@ -6,7 +6,7 @@ banner: /images/soc.jpg
 ---
 
 <!-- Banner -->
-<section id="banner" style="background-image:url({{ page.banner }})">
+<section id="banner" style="background-image:url({{ page.banner | prepend: site.baseurl }})">
     <div class="inner">
         <h2>Seasons Of Code</h2>
         <p> an initiative by <a href="https://stab-iitb.org/wncc">The Web and Coding Club, IIT Bombay</a></p>
@@ -26,7 +26,7 @@ banner: /images/soc.jpg
 			<div class="8u">
 				<section>
 					<h2>What is Seasons of Code?</h2>
-					<a href="#" class="image fit"><img src="/images/coding.jpg" alt="" /></a>
+					<a href="#" class="image fit"><img src="{{ '/images/coding.jpg' | prepend: site.baseurl }}" alt="" /></a>
 					<p>Seasons of Code is a programme launched by the WnCC, along the lines of GSoC without much greenery though. The incentive is similar to ITSP, based on the current form of it, the fundamental difference is that one can choose from the ideas offered by mentors who are senior undergrads, doctorate students or professors, and in some exceptional cases, startups. We plan to have a really long timeframe though, until the next winter extending this programme into a mentorship of sorts into the semester. It is not just about development by the way. We have some mentors ready to take up programmes regarding competitive coding and scientific computation too.
 					</p>
 				</section>
@@ -63,7 +63,7 @@ banner: /images/soc.jpg
 					<div class="row">
 						<div class="6u">
 							<section class="special box">
-								<img class="icon major" src="/svg/light-siber-one.svg">
+								<img class="icon major" src="{{ '/svg/light-siber-one.svg' | prepend: site.baseurl }}" />
 								<h3>Padawan</h3>
 								<p>The Force is strong with you. Train yourself to let go of everything you fear to lose. The Force will be with you always. Ready are you?</p><br>
 <!-- TODO: Add Padawan form -->
@@ -72,7 +72,7 @@ banner: /images/soc.jpg
 						</div>
 						<div class="6u">
 							<section class="special box">
-								<img class="icon major" src="/svg/light-siber.svg">
+								<img class="icon major" src="{{ '/svg/light-siber.svg' | prepend: site.baseurl }}" />
 								<h3>Master</h3>
 								<p>I can feel you code. It gives you focus. It makes you stronger. Your focus determines your reality. Use the force and someday you will be the most powerful Jedi ever.</p>
 								<a target = "_blank" href="https://docs.google.com/forms/d/1YHkyL1i2kdTJbAN2UJKcDa30u9Ed6wc0-pGfMl3FuKQ/viewform" class="button big special">Become a Master</a>
@@ -98,13 +98,13 @@ banner: /images/soc.jpg
             {% endif %}
 				<div class="4u">
 					<section class="special">
-						<a href="{{ project.url }}" class="image fit"><img src="{{ project.image }}" alt="{{ project.title }}" /></a>
+						<a href="{{ project.url | prepend: site.baseurl }}" class="image fit"><img src="{{ project.image | prepend: site.baseurl }}" alt="{{ project.title }}" /></a>
 						<h3>{{ project.title }}</h3>
 						<h4>- {{ project.mentor }}</h4>
 						<h4>- {{ project.category }}</h4>
 						<p>{{ project.content | split:'<!--break-->' | first }}</p>
 						<ul class="actions">
-							<li><a href="{{ project.url }}" class="button alt">Learn More</a></li>
+							<li><a href="{{ project.url | prepend: site.baseurl}}" class="button alt">Learn More</a></li>
 						</ul>
 					</section>
 				</div>

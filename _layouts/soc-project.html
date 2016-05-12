@@ -15,7 +15,7 @@ layout: default
                     <h3>WnCC - Seasons of Code</h3>
                     <p>Seasons of Code is a programme launched by WnCC along the lines of the Google Summer of Code. It provides one with an opprtunity to learn and participate in a variety of interesting projects under the mentorship of the very best in our institute.</p>
                     <ul class="actions">
-                        <li><a href="/soc" class="button alt">Learn More</a></li>
+                        <li><a href="{{ '/soc' | prepend: site.baseurl }}" class="button alt">Learn More</a></li>
                     </ul>
                 </section>
                 <hr />
@@ -26,7 +26,7 @@ layout: default
                         {% if {{project.url == page.url}} %}
                         <li><a class="button small fit-sidebar disabled" href="#nav" >{{ project.title }}</a></li>
                         {% else %}
-                        <li><a class="button small fit-sidebar" href="{{ project.url }}#nav">{{ project.title }}</a></li>
+                        <li><a class="button small fit-sidebar" href="{{ project.url | prepend: site.baseurl  }}#nav">{{ project.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                     </ul>
@@ -35,7 +35,7 @@ layout: default
             <div class="8u skel-cell-important">
                 <section >
                     <header class="major">
-                        <a id="nav" href="{{ page.url }}" class="image fit"><img  src="{{ page.image }}" alt="{{ page.title }}" /></a>
+                        <a id="nav" href="{{ page.url | prepend: site.baseurl }}" class="image fit"><img  src="{{ page.image | prepend: site.baseurl  }}" alt="{{ page.title }}" /></a>
                         <h2 class="post-title" >{{ page.title }}</h2>
                         <p class="post-meta">
                         {% if page.mentor %} • {{ page.mentor }}{% endif %}
@@ -48,18 +48,18 @@ layout: default
                     
                     <footer style="margin-bottom: 10em">
                         {% if page.previous %}
-                        <a href="{{ page.previous.url }}#nav" class="float-left button small">&larr; Previous project</a> 
+                        <a href="{{ page.previous.url | prepend: site.baseurl  }}#nav" class="float-left button small">&larr; Previous project</a> 
                         {% else %}
                         <a href="#" class="float-left button small disabled" onclick="return false;">&larr; Previous project</a> 
                         {% endif %}
 
                         {% if page.next %}
-                        <a href="{{ page.next.url }}#nav" class="float-right button small">Next project &rarr;</a> 
+                        <a href="{{ page.next.url | prepend: site.baseurl  }}#nav" class="float-right button small">Next project &rarr;</a> 
                         {% else %}
                         <a href="#" class="float-right button small disabled" onclick="return false;">&rarr; Next project</a> 
                         {% endif %}
                         <br><br>
-                        <a href="/soc#two" class="button small special float-center"> View all projects</a>
+                        <a href="{{ '/soc#two' | prepend: site.baseurl }}" class="button small special float-center"> View all projects</a>
                     </footer>
             </div>
         </div>
