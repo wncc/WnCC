@@ -4,7 +4,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   This is the official page for The Web and Coding Club of IIT Bombay.
 
-baseurl: "/WnCC" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "nihal111.github.io/" # the base hostname & protocol for your site
 twitter_username: wncc_iitb
 github_username:  wncc
