@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<!-- Main -->
+<section id="main" class="wrapper style1">
+    <header class="major">
+        <h2>Seasons Of Code</h2>
+        <p>{{ page.title }} - {{page.mentor}}</p>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="4u">
+                <section>
+                    <h3>WnCC - Seasons of Code</h3>
+                    <p>Seasons of Code is a programme launched by WnCC along the lines of the Google Summer of Code. It provides one with an opprtunity to learn and participate in a variety of interesting projects under the mentorship of the very best in our institute.</p>
+                    <ul class="actions">
+                        <li><a href="/soc" class="button alt">Learn More</a></li>
+                    </ul>
+                </section>
+                <hr />
+                <section>
+                    <h3>List of Projects</h3>
+                    <ul class="no-bullets">
+                        {% for project in site.soc_projects%}
+                        {% if {{project.url == page.url}} %}
+                        <li><a class="button small fit-sidebar disabled" href="#nav" >{{ project.title }}</a></li>
+                        {% else %}
+                        <li><a class="button small fit-sidebar" href="{{ project.url }}#nav">{{ project.title }}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </div>
+            <div class="8u skel-cell-important">
+                <section >
+                    <header class="major">
+                        <a id="nav" href="{{ page.url }}" class="image fit"><img  src="{{ page.image }}" alt="{{ page.title }}" /></a>
+                        <h2 class="post-title" >{{ page.title }}</h2>
+                        <p class="post-meta">
+                        {% if page.mentor %} • {{ page.mentor }}{% endif %}
+                        {% if page.category %}<br> • {{ page.category }}{% endif %}
+                        {% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                    </header>
+                    <div>
+                        {{ content }}
+                    </div>
+                    
+                    <footer style="margin-bottom: 10em">
+                        {% if page.previous %}
+                        <a href="{{ page.previous.url }}#nav" class="float-left button small">&larr; Previous project</a> 
+                        {% else %}
+                        <a href="#" class="float-left button small disabled" onclick="return false;">&larr; Previous project</a> 
+                        {% endif %}
+
+                        {% if page.next %}
+                        <a href="{{ page.next.url }}#nav" class="float-right button small">Next project &rarr;</a> 
+                        {% else %}
+                        <a href="#" class="float-right button small disabled" onclick="return false;">&rarr; Next project</a> 
+                        {% endif %}
+                        <br><br>
+                        <a href="/soc#two" class="button small special float-center"> View all projects</a>
+                    </footer>
+            </div>
+        </div>
+    </div>
+</section>
