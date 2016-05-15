@@ -2,28 +2,57 @@
 layout: default
 title: Showcase
 permalink: /showcase/
-banner: /images/soc.jpg
+banner: /images/showcase.jpg
 ---
 
-<!-- Three -->
-<section id="three" class="wrapper style1">
-	<div class="container">
-		<h2>Showcase</h2>
-		<div class="row">
-		<div class="8u">
-				<section>
-					<a href="#" class="image fit"><img src="{{ '/images/construction.jpg'| prepend: site.baseurl }}" alt="" /></a>
-				</section>
-			</div>
-			<div class="4u">
-				<section>
-					<h3>Sorry for the inconvenience!</h3>
-					<p>This page is under construction. Keep watching this space to know more about some of the best coding projects in the institute, soon.</p>
-					<ul class="actions">
-						<li><a href="/" class="button special big">Home</a></li>
-					</ul>
-				</section>
-			</div>
-		</div>
-	</div>
-</section>	
+<!-- Banner -->
+<section id="banner" style="background-image:url({{ page.banner | prepend: site.baseurl }})">
+    <div class="inner">
+        <h2 style="font-size: 90px;">Showcase</h2>
+        <p style="font-size: 50px; color: #fff;">The Hall of Fame</p>
+        <!-- <ul class="actions">
+            <li><a href="#one" class="button big special">Join The Force</a></li>
+        </ul>
+        <ul class="actions">
+            <li><a href="#two" class="button big special">Projects</a></li>
+        </ul> -->
+    </div>
+</section>
+
+
+<!-- Main -->
+<section id="main" class="wrapper style1">
+    <header class="major">
+       <!--  <h2>No Sidebar</h2>
+        <p>Tempus adipiscing commodo ut aliquam blandit</p> -->
+    </header>
+    <div class="container">
+    {% assign projects = site.showcase_projects | sort:"weight"  %}
+    {% for project in site.showcase_projects%}
+        <div class="row">
+            <div class="12u">
+                <section class="special">
+                	<div style="position: relative; left: 0; top: 0;">
+	                    <a href="{{ project.website }}" class="image fit"><img src="{{ project.image | prepend: site.baseurl }}" alt="" /></a>
+	                    <a href="{{ project.github }}"><img src="{{ project.avatar | prepend: site.baseurl }}" alt="" class="avatar-{{ project.avatar_position }}" /></a>
+	                </div>
+                    <a href="{{ project.repo }}" class="hyperlink-nodecoration"><h2>{{ project.title }}</h2></a>
+                    <a href="{{ project.github }}" class="hyperlink-nodecoration"><h3>{{ project.author }}</h3></a>
+                    <h4>
+                    {% if project.category %}
+	                    {% for category in project.category %}
+	                     • {{ category }}
+	                    {% endfor %}
+                    {% endif %}
+                    </h4>
+                    <p>{{ project.content}}</p>
+                    <!-- <ul class="actions">
+                        <li><a href="#" class="button alt">Learn More</a></li>
+                    </ul> -->
+                </section>
+            <hr class="major" />
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</section>

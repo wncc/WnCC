@@ -18,4 +18,6 @@ kramdown:
 collections:
   soc_projects:
     output: true
+  showcase_projects:
+    output: true
 
