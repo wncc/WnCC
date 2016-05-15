@@ -10,7 +10,7 @@ website: https://github.com/nihal111/J.A.R.V.I.S
 category:
 - AI
 - Python
-weight: 1
+weight: 2
 ---
 
-A simple personal assistant driven by text and voice with limitless possibilities of adding more features. The repository resides [here]({{ page.repo }}).
+A simple personal assistant driven by text and voice with limitless possibilities of adding more features. Uses AIML (Artificial Intelligence Markup Language) for pattern matching and chatbot abilities along with a few python and shell scripts to carry out system processes. The repository resides [here]({{ page.repo }}).
