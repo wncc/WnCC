@@ -5,16 +5,18 @@
             <div class="6u">
                 <div class="row collapse-at-2">
                     <div class="6u">
-                        <h3>Upcoming Events</h3>
+                        <h3><a href="{{'/events' | prepend: site.base_url }}">Upcoming Events</a></h3>
                         <ul class="alt">
                             Coming Soon!
                             <!-- <li><a href="#">Nascetur nunc varius</a></li> -->
                         </ul>
                     </div>
                     <div class="6u">
-                        <h3>Showcase</h3>
+                        <h3><a href="{{'/showcase' | prepend: site.base_url }}">Showcase</a></h3>
                         <ul class="alt">
-                            Coming Soon!
+                            {% for project in site.showcase_projects %}
+                                <li>{{ project.title }}- {{ project.author }}</li>
+                            {% endfor %}
                         </ul>
                     </div>
                 </div>
