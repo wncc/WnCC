@@ -1159,34 +1159,11 @@
     float: right;
 }
 
-.avatar-bottomleft {
-	width: 200px;
-	height: 200px;
-	border-radius: 5px;
-	position: absolute; bottom: 0px; left: 0px
+.avatar {
+	display: block;
+	width: 10%;
+	margin: 0 auto;
 }
-
-.avatar-topleft {
-	width: 200px;
-	height: 200px;
-	border-radius: 5px;
-	position: absolute; top: 0px; left: 0px
-}
-
-.avatar-bottomright {
-	width: 200px;
-	height: 200px;
-	border-radius: 5px;
-	position: absolute; bottom: 0px; right: 0px
-}
-
-.avatar-topright {
-	width: 200px;
-	height: 200px;
-	border-radius: 5px;
-	position: absolute; top: 0px; right: 0px
-}
-
 
 a.hyperlink-nodecoration {color: #629DD1;
 		text-decoration: none;
