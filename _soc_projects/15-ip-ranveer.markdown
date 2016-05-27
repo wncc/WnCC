@@ -1,7 +1,7 @@
 ---
 layout: soc-project
 image: /images/imageprocessing.jpg
-title: Command Line Image Processing
+title: An Image Processing Ensemble
 mentor: "Ranveer Aggarwal"
 category: Development
 weight: 130
@@ -10,4 +10,6 @@ mentees:
 - Sarthak Nijhawan
 ---
 
-Ability to crop all the images in a folder, for (a simple) example. What would you do? A programmer would probably write a huge python script. A non-programmer would do it one by one. This will do the following (for example)  `im-toolkit -do crop 12 12 23 23 *jpg` Cool, right? And cropping is just one thing, we can make it open source and make it modular enough to add more functions.
+We are developing an image processing ensemble which implements various IP algorithms for use in academics and applications. We plan on building open APIs, so that apps can be built out of these mini-applications.
+
+What's cool about this project? You can work on anything! Your own idea, a half implemented idea, anything. Over time, we identify common functions and integrate them in the core engine to be used by other applications. Currently, we are working on changing real life objects into cartoons, solving mazes and face swap.
