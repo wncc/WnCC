@@ -6,13 +6,14 @@ mentor: "Kumar Ayush"
 category: Scientific Computing
 weight: 80
 mentees:
-- Deepesh Singh
 - Kaustubh Vyas
 - Kaushik Vyas
+- Kalpesh Krishna
 ---
 A scientific computing project aimed at calculating redshifts of extra-galactic objects from photometric data.
+<!--break-->
 <p>
-    Redshifts caluclated from spectroscopic data is accurate but it is time expensive to measure the spectrum. There is a correlation between photometric data which is easier and faster to measure and the redshift which can be used to calculate <i>photometric</i> redshifts. We are currently trying to write a neural network in Keras to compute photometric z from photometric magnitudes.
+Redshifts caluclated from spectroscopic data is accurate but it is time expensive to measure the spectrum. There is a correlation between photometric data which is easier and faster to measure and the redshift which can be used to calculate <i>photometric</i> redshifts. We are currently trying to write a neural network in Keras to compute photometric z from photometric magnitudes.
 </p>
 
 <h3>Week 1</h3>
