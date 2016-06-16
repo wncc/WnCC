@@ -7,11 +7,12 @@ category: Scientific Computation
 weight: 70
 mentees:
 - Dhruv Ilesh Shah
-- Arunabh Saxena
 ---
 
 This notebook will be written using python, also employing numpy and OpenCV, we will initially implement Poisson solver for the discrete case which is immensely useful for many application then we will proceed on the application part which will be from <a href="https://www.cs.jhu.edu/~misha/Fall07/Papers/Perez03.pdf">this paper</a>
 The whole note book should be written in block execution manner and as a tutorial for learners.
+
+<!--break-->
 
 ### Week 0
  *  Read the concerned paper and discuss about implementation.
