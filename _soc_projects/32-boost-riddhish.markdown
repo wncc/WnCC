@@ -33,4 +33,4 @@ Boosting is a well known machine learning technique, we use simple weak classifi
 
 The project was completed in a little less than three weeks. 
 The repo for the project can be found [here](https://github.com/riddhishb/ipython-notebooks/tree/master/Adaboost).
-The rendered iPython notebook can be found at the official [iPython Wiki](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks#statistics-machine-learning-and-data-science).
+The rendered iPython notebook can be found at the official [iPython Wiki](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks#statistics-machine-learning-and-data-science) or can be directly accessed [here](https://nbviewer.jupyter.org/github/riddhishb/ipython-notebooks/blob/master/Adaboost/Adaboost_Final%20note.ipynb).
