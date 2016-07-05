@@ -101,9 +101,9 @@ banner: /images/soc.jpg
 					<section class="special">
 						<a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
                             <img src="{{ project.image | prepend: site.baseurl }}" alt="{{ project.title }}" />
-                            {% if page.ribbon != '' %}
-                            <div class = "ribbon {{page.ribbon}}"><span>{{page.ribbon}}</span></div>
-                            {% endif %}
+                            <!-- {% if page.ribbon != '' %} -->
+                            <div class = "ribbon {{project.ribbon}}"><span>{{project.ribbon}}</span></div>
+                            <!-- {% endif %} -->
                         </a>
 						<h3>{{ project.title }}</h3>
 						<h4>- {{ project.mentor }}</h4>
