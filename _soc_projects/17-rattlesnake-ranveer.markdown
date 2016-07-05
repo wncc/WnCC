@@ -5,6 +5,7 @@ title: Rattlesnake
 mentor: "Ranveer Aggarwal"
 category: Development
 weight: 160
+ribbon: new
 mentees:
 - Karthik Kalidas
 - Ishani Patni

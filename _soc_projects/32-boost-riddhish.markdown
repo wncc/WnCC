@@ -5,6 +5,7 @@ title: Adaboost
 mentor: "Riddhish Bhalodia"
 category: Scientific Computing
 weight: 90
+ribbon: completed
 mentees:
 - Shashwat Shukla
 - Om Kolhe
