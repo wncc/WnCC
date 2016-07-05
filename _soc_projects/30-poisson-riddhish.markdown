@@ -5,6 +5,7 @@ title: Poisson Solver with Image Editing
 mentor: "Riddhish Bhalodia"
 category: Scientific Computation
 weight: 70
+ribbon: completed
 mentees:
 - Dhruv Ilesh Shah
 - Arunabh Saxena 

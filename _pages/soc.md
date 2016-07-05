@@ -99,7 +99,12 @@ banner: /images/soc.jpg
             {% endif %}
 				<div class="4u">
 					<section class="special">
-						<a href="{{ project.url | prepend: site.baseurl }}" class="image fit"><img src="{{ project.image | prepend: site.baseurl }}" alt="{{ project.title }}" /></a>
+						<a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
+                            <img src="{{ project.image | prepend: site.baseurl }}" alt="{{ project.title }}" />
+                            {% if page.ribbon != '' %}
+                            <div class = "ribbon {{page.ribbon}}"><span>{{page.ribbon}}</span></div>
+                            {% endif %}
+                        </a>
 						<h3>{{ project.title }}</h3>
 						<h4>- {{ project.mentor }}</h4>
 						<h4>- {{ project.category }}</h4>
