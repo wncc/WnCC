@@ -5,6 +5,7 @@ title: An Image Processing Ensemble
 mentor: "Ranveer Aggarwal"
 category: Development
 weight: 130
+ribbon: vacancy
 mentees:
 - Anmol Kagrecha
 - Sarthak Nijhawan
