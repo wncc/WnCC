@@ -1248,3 +1248,19 @@ a.hyperlink-nodecoration {color: #629DD1;
         border-right: 3px solid #8F0808;
         border-top: 3px solid #8F0808;
     }
+
+    .vacancy span
+    {
+        background: #1e5799;
+        background: linear-gradient(#2989d8 0%, #1e5799 100%);
+    }
+    .vacancy span::before
+    {
+        border-left: 3px solid #1e5799;
+        border-top: 3px solid #1e5799;
+    }
+    .vacancy span::after
+    {
+        border-right: 3px solid #1e5799;
+        border-top: 3px solid #1e5799;
+    }
