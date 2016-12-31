@@ -5,14 +5,14 @@ This website is completely static and runs on jekyll.
 
 ## Content: 
 
+### [Wiki](http://wncc-iitb.org/wiki/)  
+WnCC's own wiki. Containing wide-ranging articles, references and guides for everyone and especially beginners. Join the community, read, request, contribute and share!
+
 ### [SoC- Seasons of Code](http://wncc-iitb.org/soc/)  
 Seasons of Code is a programme launched by the WnCC, along the lines of GSoC without much greenery though. The incentive is similar to ITSP, based on the current form of it, the fundamental difference is that one can choose from the ideas offered by mentors who are senior undergrads, doctorate students or professors, and in some exceptional cases, startups.
 
 ### [Showcase](http://wncc-iitb.org/showcase/)  
 Some of the best projects, made by us. These could be hackathon ideas, applications that make your life easier or purely for fun, hobby projects.
-
-### [Wiki](http://wncc-iitb.org/wiki/)  
-Everyone needs a wiki! A light weight, beautiful looking wiki picked from [tiddlywiki](http://tiddlywiki.com/).
 
 ### [Events](http://wncc-iitb.org/events/)  
 A list of events that are planned and are coming soon.
