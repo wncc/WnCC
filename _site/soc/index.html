@@ -92,7 +92,48 @@
     </nav>
 </header>
         <!-- Use <article></article>inside content to center align content-->
-        <!-- Banner -->
+        <head>
+	<style>
+    div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 245px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+
+    .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+</style>
+</head>
+
+<!-- Banner -->
 <section id="banner" style="background-image:url(/images/soc.jpg)">
     <div class="inner">
         <h2>Seasons Of Code</h2>
@@ -175,239 +216,34 @@
 		<h2>List of Projects</h2>
 		<p>Your eyes can deceive you. Don’t trust them.</p>
 	</header>
-	<div class="container">
+
+<div class="tab">
+  <button class="tablinks" onclick="openType(event, 'completed')">Completed Projects</button>
+  <button class="tablinks" onclick="openType(event, 'running')" id="defaultOpen">Running Projects</button>
+</div>
+
+<div id="completed" class="tabcontent">
+<div class="container">
 		
             
             
             
-            <!-- Creating a new row after every three elements -->
-            
-            	<div class="row">
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/10-yt-meet.html" class="image fit">
-                            <img src="/images/youtube.jpg" alt="Personal Youtube Tracker" />
-                            <!--  -->
-                            <div class="ribbon "><span></span></div>
-                            <!--  -->
-                        </a>
-						<h3>Personal Youtube Tracker</h3>
-						<h4>- Meet Udeshi</h4>
-						<h4>- Development</h4>
-						<p><p>A browser extension to personally organise your youtube most viewed list. Create and share your own youtube playlists.</p>
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/10-yt-meet.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
             
             
             
-            <!-- Creating a new row after every three elements -->
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/11-wncc-yt2-meet.html" class="image fit">
-                            <img src="/images/youtube2.jpg" alt="Android App / UI for Fast Playlist" />
-                            <!--  -->
-                            <div class="ribbon "><span></span></div>
-                            <!--  -->
-                        </a>
-						<h3>Android App / UI for Fast Playlist</h3>
-						<h4>- Meet Udeshi</h4>
-						<h4>- Development</h4>
-						<p><p>An android app version of my WebApp youtube fast playlist which you can find <a href="http://udiboy1209.github.io/fast_playlist/">here</a>.</p>
-
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/11-wncc-yt2-meet.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
             
             
             
-            <!-- Creating a new row after every three elements -->
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/12-aws-pardy.html" class="image fit">
-                            <img src="/images/video.png" alt="Video Streaming" />
-                            <!--  -->
-                            <div class="ribbon "><span></span></div>
-                            <!--  -->
-                        </a>
-						<h3>Video Streaming</h3>
-						<h4>- Shubham Bhartiya</h4>
-						<h4>- Development</h4>
-						<p><p>Using a camera module with arduno nano to live stream a particular area using AWS.</p>
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/12-aws-pardy.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
-    			</div>
-			
             
             
             
-            <!-- Creating a new row after every three elements -->
-            
-            	<div class="row">
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/13-network-ashray.html" class="image fit">
-                            <img src="/images/sound.jpg" alt="Sound Surround" />
-                            <!--  -->
-                            <div class="ribbon "><span></span></div>
-                            <!--  -->
-                        </a>
-						<h3>Sound Surround</h3>
-						<h4>- Ashray Malhotra</h4>
-						<h4>- Development</h4>
-						<p><p>Networking and Localization projects in SoundSurround. You can read more about this startup <a href="http://soundsurround.tech/">here</a></p>
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/13-network-ashray.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
             
             
             
-            <!-- Creating a new row after every three elements -->
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/14-kalpesh-cheeku.html" class="image fit">
-                            <img src="/images/chat.jpg" alt="Institute Wide Static Omegle" />
-                            <!--  -->
-                            <div class="ribbon "><span></span></div>
-                            <!--  -->
-                        </a>
-						<h3>Institute Wide Static Omegle</h3>
-						<h4>- Kumar Ayush &amp; Kalpesh Krishna</h4>
-						<h4>- Development</h4>
-						<p><p>The name says it all! The major differences from <a href="http://omegle.com">Omegle</a> would be the fact that it is NOT real time chatting, but something similar to emails. This project has been completely planned out and we would love to get a few contributors.</p>
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/14-kalpesh-cheeku.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
             
             
             
-            <!-- Creating a new row after every three elements -->
             
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/15-ip-ranveer.html" class="image fit">
-                            <img src="/images/imageprocessing.jpg" alt="An Image Processing Ensemble" />
-                            <!--  -->
-                            <div class="ribbon vacancy"><span>vacancy</span></div>
-                            <!--  -->
-                        </a>
-						<h3>An Image Processing Ensemble</h3>
-						<h4>- Ranveer Aggarwal</h4>
-						<h4>- Development</h4>
-						<p><p>We are developing an image processing ensemble which implements various IP algorithms for use in academics and applications. We plan on building open APIs, so that apps can be built out of these mini-applications.</p>
-
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/15-ip-ranveer.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
-    			</div>
-			
-            
-            
-            
-            <!-- Creating a new row after every three elements -->
-            
-            	<div class="row">
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/16-iitbapp-abhijit.html" class="image fit">
-                            <img src="/images/iitbapp.png" alt="IITB App" />
-                            <!--  -->
-                            <div class="ribbon "><span></span></div>
-                            <!--  -->
-                        </a>
-						<h3>IITB App</h3>
-						<h4>- Abhijit Tomar &amp; Bijoy Singh</h4>
-						<h4>- Development</h4>
-						<p><p>The IITB App is now under the purview of insight and needs developers for Backend work as well as Android App development. You can read more about / get the IITB App <a href="https://play.google.com/store/apps/details?id=com.gymkhana.iitbapp">here</a>. You can know more about the team <a href="https://gymkhana.iitb.ac.in/iitbapp/about/">here</a>.</p>
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/16-iitbapp-abhijit.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
-            
-            
-            
-            <!-- Creating a new row after every three elements -->
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/17-rattlesnake-ranveer.html" class="image fit">
-                            <img src="/images/rattlesnake.jpg" alt="Rattlesnake" />
-                            <!--  -->
-                            <div class="ribbon new"><span>new</span></div>
-                            <!--  -->
-                        </a>
-						<h3>Rattlesnake</h3>
-						<h4>- Ranveer Aggarwal</h4>
-						<h4>- Development</h4>
-						<p><p>A series of python programming challenges from basic to intermediate level. One new challenge will be posted every week marked by difficulty and would be evaluated after the next week’s post. The best solution will be put up as a model solution with the name of the author on the project git repo embedded for ever.</p>
-
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/17-rattlesnake-ranveer.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
-            
-            
-            
-            <!-- Creating a new row after every three elements -->
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/20-qoc-kalpesh.html" class="image fit">
-                            <img src="/images/mozilla.jpg" alt="Mozilla (QoC)" />
-                            <!--  -->
-                            <div class="ribbon "><span></span></div>
-                            <!--  -->
-                        </a>
-						<h3>Mozilla (QoC)</h3>
-						<h4>- Kalpesh Krishna</h4>
-						<h4>- Open Source</h4>
-						<p><p>There are a couple of open source projects at Mozilla you could work on. A UI revamp and few more features needed for <a href="https://github.com/mozilla/wptview">wptview</a>. Another project needing contributors is <a href="https://wiki.mozilla.org/EngineeringProductivity/Projects/Perfherder">Perfherder</a>, which monitors performance tests on Firefox.</p>
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/20-qoc-kalpesh.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
-    			</div>
-			
             
             
             
@@ -436,31 +272,10 @@ The whole note book should be written in block execution manner and as a tutoria
 					</section>
 				</div>
 			
-            
-            
-            
-            <!-- Creating a new row after every three elements -->
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/31-photz-cheeku.html" class="image fit">
-                            <img src="/images/meteor.jpg" alt="Photometric Redshift" />
-                            <!--  -->
-                            <div class="ribbon "><span></span></div>
-                            <!--  -->
-                        </a>
-						<h3>Photometric Redshift</h3>
-						<h4>- Kumar Ayush</h4>
-						<h4>- Scientific Computing</h4>
-						<p><p>A scientific computing project aimed at calculating redshifts of extra-galactic objects from photometric data.</p>
-
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/31-photz-cheeku.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
 			
+            
+            
+            
             
             
             
@@ -486,35 +301,10 @@ The whole note book should be written in block execution manner and as a tutoria
 					</section>
 				</div>
 			
-    			</div>
 			
             
             
             
-            <!-- Creating a new row after every three elements -->
-            
-            	<div class="row">
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/33-MexMemInter-arjun.html" class="image fit">
-                            <img src="/images/matlab.jpg" alt="MEX Memory Interfacing" />
-                            <!--  -->
-                            <div class="ribbon new"><span>new</span></div>
-                            <!--  -->
-                        </a>
-						<h3>MEX Memory Interfacing</h3>
-						<h4>- Arjun Rao</h4>
-						<h4>- Scientific Computing</h4>
-						<p><p>The aim of this project is to remove the annoyances typically faced when writing a MEX program so as to be able to write meaningful, clean MEX (Short for MATLAB EXtensions) code.</p>
-
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/33-MexMemInter-arjun.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
             
             
             
@@ -543,6 +333,341 @@ The whole note book should be written in block execution manner and as a tutoria
 					</section>
 				</div>
 			
+    			</div>
+			
+			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+		<div style="text-align: center;">
+		<!-- <a href="#" class="button big special">View All Projects</a> -->
+		</div>
+	</div>
+</div>
+
+<div id="running" class="tabcontent">
+<div class="container">
+		
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/10-yt-meet.html" class="image fit">
+                            <img src="/images/youtube.jpg" alt="Personal Youtube Tracker" />
+                            <!--  -->
+                            <div class="ribbon "><span></span></div>
+                            <!--  -->
+                        </a>
+						<h3>Personal Youtube Tracker</h3>
+						<h4>- Meet Udeshi</h4>
+						<h4>- Development</h4>
+						<p><p>A browser extension to personally organise your youtube most viewed list. Create and share your own youtube playlists.</p>
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/10-yt-meet.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/11-wncc-yt2-meet.html" class="image fit">
+                            <img src="/images/youtube2.jpg" alt="Android App / UI for Fast Playlist" />
+                            <!--  -->
+                            <div class="ribbon "><span></span></div>
+                            <!--  -->
+                        </a>
+						<h3>Android App / UI for Fast Playlist</h3>
+						<h4>- Meet Udeshi</h4>
+						<h4>- Development</h4>
+						<p><p>An android app version of my WebApp youtube fast playlist which you can find <a href="http://udiboy1209.github.io/fast_playlist/">here</a>.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/11-wncc-yt2-meet.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/12-aws-pardy.html" class="image fit">
+                            <img src="/images/video.png" alt="Video Streaming" />
+                            <!--  -->
+                            <div class="ribbon "><span></span></div>
+                            <!--  -->
+                        </a>
+						<h3>Video Streaming</h3>
+						<h4>- Shubham Bhartiya</h4>
+						<h4>- Development</h4>
+						<p><p>Using a camera module with arduno nano to live stream a particular area using AWS.</p>
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/12-aws-pardy.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+    			</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/13-network-ashray.html" class="image fit">
+                            <img src="/images/sound.jpg" alt="Sound Surround" />
+                            <!--  -->
+                            <div class="ribbon "><span></span></div>
+                            <!--  -->
+                        </a>
+						<h3>Sound Surround</h3>
+						<h4>- Ashray Malhotra</h4>
+						<h4>- Development</h4>
+						<p><p>Networking and Localization projects in SoundSurround. You can read more about this startup <a href="http://soundsurround.tech/">here</a></p>
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/13-network-ashray.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/14-kalpesh-cheeku.html" class="image fit">
+                            <img src="/images/chat.jpg" alt="Institute Wide Static Omegle" />
+                            <!--  -->
+                            <div class="ribbon "><span></span></div>
+                            <!--  -->
+                        </a>
+						<h3>Institute Wide Static Omegle</h3>
+						<h4>- Kumar Ayush &amp; Kalpesh Krishna</h4>
+						<h4>- Development</h4>
+						<p><p>The name says it all! The major differences from <a href="http://omegle.com">Omegle</a> would be the fact that it is NOT real time chatting, but something similar to emails. This project has been completely planned out and we would love to get a few contributors.</p>
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/14-kalpesh-cheeku.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/15-ip-ranveer.html" class="image fit">
+                            <img src="/images/imageprocessing.jpg" alt="An Image Processing Ensemble" />
+                            <!--  -->
+                            <div class="ribbon vacancy"><span>vacancy</span></div>
+                            <!--  -->
+                        </a>
+						<h3>An Image Processing Ensemble</h3>
+						<h4>- Ranveer Aggarwal</h4>
+						<h4>- Development</h4>
+						<p><p>We are developing an image processing ensemble which implements various IP algorithms for use in academics and applications. We plan on building open APIs, so that apps can be built out of these mini-applications.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/15-ip-ranveer.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+    			</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/16-iitbapp-abhijit.html" class="image fit">
+                            <img src="/images/iitbapp.png" alt="IITB App" />
+                            <!--  -->
+                            <div class="ribbon "><span></span></div>
+                            <!--  -->
+                        </a>
+						<h3>IITB App</h3>
+						<h4>- Abhijit Tomar &amp; Bijoy Singh</h4>
+						<h4>- Development</h4>
+						<p><p>The IITB App is now under the purview of insight and needs developers for Backend work as well as Android App development. You can read more about / get the IITB App <a href="https://play.google.com/store/apps/details?id=com.gymkhana.iitbapp">here</a>. You can know more about the team <a href="https://gymkhana.iitb.ac.in/iitbapp/about/">here</a>.</p>
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/16-iitbapp-abhijit.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/17-rattlesnake-ranveer.html" class="image fit">
+                            <img src="/images/rattlesnake.jpg" alt="Rattlesnake" />
+                            <!--  -->
+                            <div class="ribbon new"><span>new</span></div>
+                            <!--  -->
+                        </a>
+						<h3>Rattlesnake</h3>
+						<h4>- Ranveer Aggarwal</h4>
+						<h4>- Development</h4>
+						<p><p>A series of python programming challenges from basic to intermediate level. One new challenge will be posted every week marked by difficulty and would be evaluated after the next week’s post. The best solution will be put up as a model solution with the name of the author on the project git repo embedded for ever.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/17-rattlesnake-ranveer.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/20-qoc-kalpesh.html" class="image fit">
+                            <img src="/images/mozilla.jpg" alt="Mozilla (QoC)" />
+                            <!--  -->
+                            <div class="ribbon "><span></span></div>
+                            <!--  -->
+                        </a>
+						<h3>Mozilla (QoC)</h3>
+						<h4>- Kalpesh Krishna</h4>
+						<h4>- Open Source</h4>
+						<p><p>There are a couple of open source projects at Mozilla you could work on. A UI revamp and few more features needed for <a href="https://github.com/mozilla/wptview">wptview</a>. Another project needing contributors is <a href="https://wiki.mozilla.org/EngineeringProductivity/Projects/Perfherder">Perfherder</a>, which monitors performance tests on Firefox.</p>
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/20-qoc-kalpesh.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+    			</div>
+			
+			
+            
+            
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/31-photz-cheeku.html" class="image fit">
+                            <img src="/images/meteor.jpg" alt="Photometric Redshift" />
+                            <!--  -->
+                            <div class="ribbon "><span></span></div>
+                            <!--  -->
+                        </a>
+						<h3>Photometric Redshift</h3>
+						<h4>- Kumar Ayush</h4>
+						<h4>- Scientific Computing</h4>
+						<p><p>A scientific computing project aimed at calculating redshifts of extra-galactic objects from photometric data.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/31-photz-cheeku.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/33-MexMemInter-arjun.html" class="image fit">
+                            <img src="/images/matlab.jpg" alt="MEX Memory Interfacing" />
+                            <!--  -->
+                            <div class="ribbon new"><span>new</span></div>
+                            <!--  -->
+                        </a>
+						<h3>MEX Memory Interfacing</h3>
+						<h4>- Arjun Rao</h4>
+						<h4>- Scientific Computing</h4>
+						<p><p>The aim of this project is to remove the annoyances typically faced when writing a MEX program so as to be able to write meaningful, clean MEX (Short for MATLAB EXtensions) code.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/33-MexMemInter-arjun.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
             
             
             
@@ -569,6 +694,8 @@ The whole note book should be written in block execution manner and as a tutoria
 			
     			</div>
 			
+			
+            
             
             
             
@@ -595,6 +722,8 @@ The whole note book should be written in block execution manner and as a tutoria
 					</section>
 				</div>
 			
+			
+            
             
             
             
@@ -619,6 +748,8 @@ The whole note book should be written in block execution manner and as a tutoria
 					</section>
 				</div>
 			
+			
+            
             
             
             
@@ -645,6 +776,8 @@ The whole note book should be written in block execution manner and as a tutoria
 			
     			</div>
 			
+			
+            
             
             
             
@@ -673,11 +806,33 @@ The whole note book should be written in block execution manner and as a tutoria
 			
     			</div>
 			
+			
             
 		<div style="text-align: center;">
 		<!-- <a href="#" class="button big special">View All Projects</a> -->
 		</div>
 	</div>
+</div>
+<script>
+function openType(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+
+
+}
+
+document.getElementById("defaultOpen").click();
+
+</script>	
 </section>
 
         <!-- Footer -->
