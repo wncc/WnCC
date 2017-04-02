@@ -92,7 +92,48 @@
     </nav>
 </header>
         <!-- Use <article></article>inside content to center align content-->
-        <!-- Banner -->
+        <head>
+	<style>
+    div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 245px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+
+    .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+</style>
+</head>
+
+<!-- Banner -->
 <section id="banner" style="background-image:url(/images/soc.jpg)">
     <div class="inner">
         <h2>Seasons Of Code</h2>
@@ -175,139 +216,32 @@
 		<h2>List of Projects</h2>
 		<p>Your eyes can deceive you. Don’t trust them.</p>
 	</header>
-	<div class="container">
+
+<div class="tab">
+  <button class="tablinks" onclick="openType(event, 'completed')">Completed Projects</button>
+  <button class="tablinks" onclick="openType(event, 'running')" id="defaultOpen">Running Projects</button>
+</div>
+
+<div id="completed" class="tabcontent">
+<div class="container">
 		
             
             
             
-            <!-- Creating a new row after every three elements -->
-            
-            	<div class="row">
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/10-fossee-scilab-julia.html" class="image fit">
-                            <img src="/images/scilab.png" alt="Scilab-Julia Interface" />
-                            <!--  -->
-                            <div class="ribbon FOSSEE"><span>FOSSEE</span></div>
-                            <!--  -->
-                        </a>
-						<h3>Scilab-Julia Interface</h3>
-						<h4>- To Be Decided</h4>
-						<h4>- Development</h4>
-						<p><p>Create an interface that can call any Julia function from Scilab console and displays the output of the Julia function on Scilab console. Applicants are suggested to read about <a href="https://help.scilab.org/docs/5.5.2/en_US/section_204636e951f595409bc6782bb8e1d2d9.html">Scilab API</a> and <a href="http://docs.julialang.org/en/release-0.4/manual/embedding/">Embedding Julia in C</a></p>
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/10-fossee-scilab-julia.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
             
             
             
-            <!-- Creating a new row after every three elements -->
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/11-scilab-videoplayer.html" class="image fit">
-                            <img src="/images/scilab2.jpg" alt="Scilab Video Player" />
-                            <!--  -->
-                            <div class="ribbon FOSSEE"><span>FOSSEE</span></div>
-                            <!--  -->
-                        </a>
-						<h3>Scilab Video Player</h3>
-						<h4>- To Be Decided</h4>
-						<h4>- Development</h4>
-						<p><p>Create a native video player for Scilab. It should have all the basic features found in any video player- play, pause, stop, rewind and forward.</p>
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/11-scilab-videoplayer.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
             
             
             
-            <!-- Creating a new row after every three elements -->
             
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/12-scilab-server.html" class="image fit">
-                            <img src="/images/server.jpg" alt="Scilab server" />
-                            <!--  -->
-                            <div class="ribbon FOSSEE"><span>FOSSEE</span></div>
-                            <!--  -->
-                        </a>
-						<h3>Scilab server</h3>
-						<h4>- Srikant Patnaik</h4>
-						<h4>- Development</h4>
-						<p><p>Scilab Textbook Companion (TBC) is one of the flagship activities undertaken by FOSSEE. It is a collection of code for each solved example of a standard textbook. We have active Scilab and Python TBCs. Students and faculty of colleges have created more than 500 Scilab TBC and a similar number of Python TBC. As there are about 50,000 scripts in 500 TBCs, it becomes a valuable resource for documentation, function usage search and also as a subject learning material. More details could be fetched from <a href="http://www.scilab.in/Textbook_Companion_Project">here</a>.</p>
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/12-scilab-server.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
-    			</div>
-			
+            
             
             
             
             <!-- Creating a new row after every three elements -->
             
             	<div class="row">
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/13-fossee-xcos.html" class="image fit">
-                            <img src="/images/xcos.jpg" alt="Xcos on Web" />
-                            <!--  -->
-                            <div class="ribbon FOSSEE"><span>FOSSEE</span></div>
-                            <!--  -->
-                        </a>
-						<h3>Xcos on Web</h3>
-						<h4>- Inderpreet Arora</h4>
-						<h4>- Web Development</h4>
-						<p><p>The objective of Xcos on web project is to provide access to the capabilities of Xcos simulator over  web. Upon the completion of this project, the users with web-enabled devices will be able to load, create and simulate Xcos diagrams through a web browser. This project has been partially completed and available <a href="http://xcos.fossee.in/">here</a>.</p>
-
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/13-fossee-xcos.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
-            
-            
-            
-            <!-- Creating a new row after every three elements -->
-            
-				<div class="4u">
-					<section class="special">
-						<a href="/soc_projects/14-fossee-virtul-lab.html" class="image fit">
-                            <img src="/images/virtuallab.jpg" alt="Building a Generic Remote Triggered Virtual Lab Interface" />
-                            <!--  -->
-                            <div class="ribbon FOSSEE"><span>FOSSEE</span></div>
-                            <!--  -->
-                        </a>
-						<h3>Building a Generic Remote Triggered Virtual Lab Interface</h3>
-						<h4>- Rupak Rokade</h4>
-						<h4>- Scientific Computation</h4>
-						<p><p>A Virtual Laboratory is an online facility aimed at providing a laboratory experience to students. Unlike Simulation Virtual Labs, Remote Triggered Virtual Labs (RT labs for short) is that category of Virtual Labs which enables the student to access a real experimental setup, remotely. One such facility is available for a laboratory setup known as “Single Board Heater System”, SBHS for short. The SBHS RT lab can be accessed at http://vlabs.iitb.ac.in/sbhs/ To understand what is SBHS, see the spoken tutorial available <a href="http://goo.gl/lYdhRi">here</a>. If you want to quickly learn how to access SBHS RT labs click <a href="http://goo.gl/vs5P9d">here</a>. A good documentation on this is available <a href="http://sbhs.fossee.in/downloads">here</a> under the “Documentation” section. The document contains a dedicated chapter which attempts to explain the Client-Server architecture.</p>
-</p>
-						<ul class="actions">
-							<li><a href="/soc_projects/14-fossee-virtul-lab.html" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			
-            
-            
-            
-            <!-- Creating a new row after every three elements -->
             
 				<div class="4u">
 					<section class="special">
@@ -330,14 +264,12 @@ The whole note book should be written in block execution manner and as a tutoria
 					</section>
 				</div>
 			
-    			</div>
 			
             
             
             
-            <!-- Creating a new row after every three elements -->
             
-            	<div class="row">
+            <!-- Creating a new row after every three elements -->
             
 				<div class="4u">
 					<section class="special">
@@ -359,6 +291,8 @@ The whole note book should be written in block execution manner and as a tutoria
 					</section>
 				</div>
 			
+			
+            
             
             
             
@@ -389,12 +323,188 @@ The whole note book should be written in block execution manner and as a tutoria
 			
     			</div>
 			
+			
             
 		<div style="text-align: center;">
 		<!-- <a href="#" class="button big special">View All Projects</a> -->
 		</div>
 	</div>
-</section>
+</div>
+
+<div id="running" class="tabcontent">
+<div class="container">
+		
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/10-fossee-scilab-julia.html" class="image fit">
+                            <img src="/images/scilab.png" alt="Scilab-Julia Interface" />
+                            <!--  -->
+                            <div class="ribbon FOSSEE"><span>FOSSEE</span></div>
+                            <!--  -->
+                        </a>
+						<h3>Scilab-Julia Interface</h3>
+						<h4>- To Be Decided</h4>
+						<h4>- Development</h4>
+						<p><p>Create an interface that can call any Julia function from Scilab console and displays the output of the Julia function on Scilab console. Applicants are suggested to read about <a href="https://help.scilab.org/docs/5.5.2/en_US/section_204636e951f595409bc6782bb8e1d2d9.html">Scilab API</a> and <a href="http://docs.julialang.org/en/release-0.4/manual/embedding/">Embedding Julia in C</a></p>
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/10-fossee-scilab-julia.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/11-scilab-videoplayer.html" class="image fit">
+                            <img src="/images/scilab2.jpg" alt="Scilab Video Player" />
+                            <!--  -->
+                            <div class="ribbon FOSSEE"><span>FOSSEE</span></div>
+                            <!--  -->
+                        </a>
+						<h3>Scilab Video Player</h3>
+						<h4>- To Be Decided</h4>
+						<h4>- Development</h4>
+						<p><p>Create a native video player for Scilab. It should have all the basic features found in any video player- play, pause, stop, rewind and forward.</p>
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/11-scilab-videoplayer.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/12-scilab-server.html" class="image fit">
+                            <img src="/images/server.jpg" alt="Scilab server" />
+                            <!--  -->
+                            <div class="ribbon FOSSEE"><span>FOSSEE</span></div>
+                            <!--  -->
+                        </a>
+						<h3>Scilab server</h3>
+						<h4>- Srikant Patnaik</h4>
+						<h4>- Development</h4>
+						<p><p>Scilab Textbook Companion (TBC) is one of the flagship activities undertaken by FOSSEE. It is a collection of code for each solved example of a standard textbook. We have active Scilab and Python TBCs. Students and faculty of colleges have created more than 500 Scilab TBC and a similar number of Python TBC. As there are about 50,000 scripts in 500 TBCs, it becomes a valuable resource for documentation, function usage search and also as a subject learning material. More details could be fetched from <a href="http://www.scilab.in/Textbook_Companion_Project">here</a>.</p>
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/12-scilab-server.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+    			</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/13-fossee-xcos.html" class="image fit">
+                            <img src="/images/xcos.jpg" alt="Xcos on Web" />
+                            <!--  -->
+                            <div class="ribbon FOSSEE"><span>FOSSEE</span></div>
+                            <!--  -->
+                        </a>
+						<h3>Xcos on Web</h3>
+						<h4>- Inderpreet Arora</h4>
+						<h4>- Web Development</h4>
+						<p><p>The objective of Xcos on web project is to provide access to the capabilities of Xcos simulator over  web. Upon the completion of this project, the users with web-enabled devices will be able to load, create and simulate Xcos diagrams through a web browser. This project has been partially completed and available <a href="http://xcos.fossee.in/">here</a>.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/13-fossee-xcos.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/14-fossee-virtul-lab.html" class="image fit">
+                            <img src="/images/virtuallab.jpg" alt="Building a Generic Remote Triggered Virtual Lab Interface" />
+                            <!--  -->
+                            <div class="ribbon FOSSEE"><span>FOSSEE</span></div>
+                            <!--  -->
+                        </a>
+						<h3>Building a Generic Remote Triggered Virtual Lab Interface</h3>
+						<h4>- Rupak Rokade</h4>
+						<h4>- Scientific Computation</h4>
+						<p><p>A Virtual Laboratory is an online facility aimed at providing a laboratory experience to students. Unlike Simulation Virtual Labs, Remote Triggered Virtual Labs (RT labs for short) is that category of Virtual Labs which enables the student to access a real experimental setup, remotely. One such facility is available for a laboratory setup known as “Single Board Heater System”, SBHS for short. The SBHS RT lab can be accessed at http://vlabs.iitb.ac.in/sbhs/ To understand what is SBHS, see the spoken tutorial available <a href="http://goo.gl/lYdhRi">here</a>. If you want to quickly learn how to access SBHS RT labs click <a href="http://goo.gl/vs5P9d">here</a>. A good documentation on this is available <a href="http://sbhs.fossee.in/downloads">here</a> under the “Documentation” section. The document contains a dedicated chapter which attempts to explain the Client-Server architecture.</p>
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/14-fossee-virtul-lab.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            
+            
+            
+		<div style="text-align: center;">
+		<!-- <a href="#" class="button big special">View All Projects</a> -->
+		</div>
+	</div>
+</div>
+<script>
+function openType(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+
+
+}
+
+document.getElementById("defaultOpen").click();
+
+</script>	
+&lt;/section&gt;			
+</div></section>
 
         <!-- Footer -->
 <footer id="footer">
