@@ -135,9 +135,10 @@ div.tab button.active {
 	</header>
 
 <div class="tab" style="text-align : center">
-  <button class="tablinks" onclick="openType(event, 'completed')">Completed Projects</button>
   <button class="tablinks" onclick="openType(event, 'running')" id="defaultOpen">Running Projects</button>
+  <button class="tablinks" onclick="openType(event, 'completed')">Completed Projects</button>
 </div>
+<br/>
 
 <div id="completed" class="tabcontent">
 <div class="container">
