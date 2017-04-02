@@ -5,6 +5,47 @@ permalink: /soc/
 banner: /images/soc.jpg
 ---
 
+<head>
+	<style>
+    div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 245px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+
+    .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+</style>
+</head>
+
 <!-- Banner -->
 <section id="banner" style="background-image:url({{ page.banner | prepend: site.baseurl }})">
     <div class="inner">
@@ -88,9 +129,17 @@ banner: /images/soc.jpg
 		<h2>List of Projects</h2>
 		<p>Your eyes can deceive you. Don’t trust them.</p>
 	</header>
-	<div class="container">
+
+<div class="tab">
+  <button class="tablinks" onclick="openType(event, 'completed')">Completed Projects</button>
+  <button class="tablinks" onclick="openType(event, 'running')" id="defaultOpen">Running Projects</button>
+</div>
+
+<div id="completed" class="tabcontent">
+<div class="container">
 		{% assign projects = site.soc_projects | sort:"weight"  %}
             {% for project in site.soc_projects%}
+            {% if project.ribbon == "completed" %}
             {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
             {% capture thecycle %}{% cycle '0', '1' ,'2' %}{% endcapture %}
             <!-- Creating a new row after every three elements -->
@@ -117,9 +166,70 @@ banner: /images/soc.jpg
 			{% if thecycle == '2' or forloop.last %}
     			</div>
 			{% endif %}
+			{% endif %}
             {% endfor %}
 		<div style="text-align: center;">
 		<!-- <a href="#" class="button big special">View All Projects</a> -->
 		</div>
 	</div>
+</div>
+
+<div id="running" class="tabcontent">
+<div class="container">
+		{% assign projects = site.soc_projects | sort:"weight"  %}
+            {% for project in site.soc_projects%}
+            {% if project.ribbon != "completed" %}
+            {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+            {% capture thecycle %}{% cycle '0', '1' ,'2' %}{% endcapture %}
+            <!-- Creating a new row after every three elements -->
+            {% if thecycle == '0' or forloop.first %}
+            	<div class="row">
+            {% endif %}
+				<div class="4u">
+					<section class="special">
+						<a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
+                            <img src="{{ project.image | prepend: site.baseurl }}" alt="{{ project.title }}" />
+                            <!-- {% if page.ribbon != '' %} -->
+                            <div class = "ribbon {{project.ribbon}}"><span>{{project.ribbon}}</span></div>
+                            <!-- {% endif %} -->
+                        </a>
+						<h3>{{ project.title }}</h3>
+						<h4>- {{ project.mentor }}</h4>
+						<h4>- {{ project.category }}</h4>
+						<p>{{ project.content | split:'<!--break-->' | first }}</p>
+						<ul class="actions">
+							<li><a href="{{ project.url | prepend: site.baseurl}}" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			{% if thecycle == '2' or forloop.last %}
+    			</div>
+			{% endif %}
+			{% endif %}
+            {% endfor %}
+		<div style="text-align: center;">
+		<!-- <a href="#" class="button big special">View All Projects</a> -->
+		</div>
+	</div>
+</div>
+<script>
+function openType(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+
+
+}
+
+document.getElementById("defaultOpen").click();
+
+</script>	
 </section>			
