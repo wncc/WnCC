@@ -23,7 +23,7 @@ layout: default
                     <h3>List of Projects</h3>
                     <ul class="no-bullets">
                         {% for project in site.soc_projects%}
-                        {% if {{project.url == page.url}} %}
+                        {% if project.url == page.url %}
                         <li><a class="button small fit-sidebar disabled" href="#nav" >{{ project.title }}</a></li>
                         {% else %}
                         <li><a class="button small fit-sidebar" href="{{ project.url | prepend: site.baseurl  }}#nav">{{ project.title }}</a></li>
