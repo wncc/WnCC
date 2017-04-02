@@ -8,6 +8,9 @@ banner: /images/soc.jpg
 <head>
 	<style>
     div.tab {
+    float : center;
+    align-content: :center;
+    width: 100%;
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
@@ -20,9 +23,9 @@ div.tab button {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 245px;
+    padding: 14px 14%;	
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 25px;
 }
 
 /* Change background color of buttons on hover */
@@ -37,6 +40,7 @@ div.tab button.active {
 
 
     .tabcontent {
+
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
@@ -130,10 +134,11 @@ div.tab button.active {
 		<p>Your eyes can deceive you. Don’t trust them.</p>
 	</header>
 
-<div class="tab">
-  <button class="tablinks" onclick="openType(event, 'completed')">Completed Projects</button>
+<div class="tab" style="text-align : center">
   <button class="tablinks" onclick="openType(event, 'running')" id="defaultOpen">Running Projects</button>
+  <button class="tablinks" onclick="openType(event, 'completed')">Completed Projects</button>
 </div>
+<br/>
 
 <div id="completed" class="tabcontent">
 <div class="container">

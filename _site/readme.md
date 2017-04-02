@@ -17,7 +17,7 @@ Some of the best projects, made by us. These could be hackathon ideas, applicati
 ### [Events](http://wncc-iitb.org/events/)  
 A list of events that are planned and are coming soon.
 
-###Instructions for Contributing to WnCC website:
+## Contribution guidelines:
 
 #####If you want a page to be added/edited: 
 Please open a PR to WnCC:master.
