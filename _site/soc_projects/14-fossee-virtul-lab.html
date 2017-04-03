@@ -158,11 +158,25 @@
                         <a id="nav" href="/soc_projects/14-fossee-virtul-lab.html" class="image fit"><img  src="/images/virtuallab.jpg" alt="Building a Generic Remote Triggered Virtual Lab Interface" /></a>
                         <h2 class="post-title" >Building a Generic Remote Triggered Virtual Lab Interface</h2>
                         <p class="post-meta">
-                         • Rupak Rokade
-                        <br> • Development
+                        
+                         • Rupak Rokade<br/> 
+                        • Development<br/>
                         </p>
                         <p class="post-meta" style="color: black">
-                        Mentees: &nbsp;&nbsp;&nbsp;
+                        
+                        
+                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Application Procedure: </span>
+                            
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Submit a proposal <a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc5ZqQvIgxVK-Tf-uWEKcyCg2BrDM0Iu4QVj5RzoP6Y5TZtNA/viewform">here</a></span>
+                            
+                            
+                        
+                        <br/>
+                        
+                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Contact the Mentor: </span>
+                            
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Join the <a target = "_blank" href="https://fossee.slack.com/signup">FOSSEE Slack team</a> using the iitb.ac.in email address.</span>
+                            
                         
                         </p>
                     </header>
@@ -171,7 +185,24 @@
 
 <!--break-->
 
-<p>The SBHS RT lab can be accessed at http://vlabs.iitb.ac.in/sbhs/ To understand what is SBHS, see the spoken tutorial available <a href="http://goo.gl/lYdhRi">here</a>. If you want to quickly learn how to access SBHS RT labs click <a href="http://goo.gl/vs5P9d">here</a>. A good documentation on this is available <a href="http://sbhs.fossee.in/downloads">here</a> under the “Documentation” section. The document contains a dedicated chapter which attempts to explain the Client-Server architecture.</p>
+<p>The SBHS RT lab can be accessed <a href="http://vlabs.iitb.ac.in/sbhs/">here</a>. To understand what is SBHS, see the spoken tutorial available <a href="http://goo.gl/lYdhRi">here</a>. If you want to quickly learn how to access SBHS RT labs click <a href="http://goo.gl/vs5P9d">here</a>. A good documentation on this is available <a href="http://sbhs.fossee.in/downloads">here</a> under the “Documentation” section. The document contains a dedicated chapter which attempts to explain the Client-Server architecture.</p>
+
+<h3 id="shortcomings-in-the-current-solution">Shortcomings in the current solution:</h3>
+
+<ul>
+  <li>The solution is very specific to SBHS experimental setup. The architecture cannot work without re-writing a few modules if there is even a slight change in the hardware.</li>
+  <li>There are some known software bugs which make a few SBHS unusable. These bugs are random and are currently unsolved.
+It has very less admin specific features.</li>
+</ul>
+
+<h3 id="problem-statement">Problem Statement:</h3>
+
+<ul>
+  <li>You are expected to come up with a more generic solution for RT labs in general. The solution should be robust, low on maintenance, automated and easily adaptable for a new hardware experimental setup, with minimum changes in the code. You may think of a central interface to customise the web solution as per the new hardware. For example, a number of inputs-outputs, protocol etc.</li>
+  <li>The solution should have all the features of the existing SBHS RT lab solution. You can propose better alternatives, though.</li>
+  <li>The solution has to be well documented with a regular version controlling/ backup setup.</li>
+  <li>The admin should have easy interfaces to do health checkup of the hardware(s), bypassing all the user rules and also should be able to download users experimental data files based on the slot date-time value. Basically, the admin should have an easy control over the server without being a domain expert.</li>
+</ul>
 
                     </div>
                     

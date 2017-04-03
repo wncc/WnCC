@@ -38,15 +38,34 @@ layout: default
                         <a id="nav" href="{{ page.url | prepend: site.baseurl }}" class="image fit"><img  src="{{ page.image | prepend: site.baseurl  }}" alt="{{ page.title }}" /></a>
                         <h2 class="post-title" >{{ page.title }}</h2>
                         <p class="post-meta">
-                        {% if page.mentor %} • {{ page.mentor }}{% endif %}
-                        {% if page.category %}<br> • {{ page.category }}{% endif %}
+                        {% if page.ribbon == "completed" %}
+                        <span style="color: green; font-weight: 700; font-family: Arial">[COMPLETED]</span><br/><br/>
+                        {% endif %}
+                        {% if page.mentor %} • {{ page.mentor }}{% endif %}<br/> 
+                        {% if page.category %}• {{ page.category }}{% endif %}<br/>
                         {% if page.meta %} • {{ page.meta }}{% endif %}</p>
                         <p class="post-meta" style="color: black">
-                        Mentees: &nbsp;&nbsp;&nbsp;
                         {% if page.mentees %}
+                        Mentees: &nbsp;&nbsp;&nbsp;
                             {% for mentee in page.mentees%}
                                 • {{ mentee }}&nbsp;&nbsp;&nbsp;
                             {% endfor %}
+                        {% endif %}
+                        {% if page.application_procedure %}
+                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Application Procedure: </span>
+                            {% if page.application_procedure == "proposal" %}
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Submit a proposal <a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc5ZqQvIgxVK-Tf-uWEKcyCg2BrDM0Iu4QVj5RzoP6Y5TZtNA/viewform">here</a></span>
+                            {% endif %}
+                            {% if page.application_procedure == "coding_task" %}
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Applicants should attempt the coding test for the various toolboxes that will be put up <a target = "_blank" href="http://fossee.in/internship">here</a> on May 1, 2017. Submission steps and deadline will be mentioned in the problem statement for each toolbox. No reminder regarding the test or submission deadline will be sent.</span>
+                            {% endif %}
+                        {% endif %}
+                        <br/>
+                        {% if page.contact %}
+                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Contact the Mentor: </span>
+                            {% if page.contact == "FOSSEE" %}
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Join the <a target = "_blank" href="https://fossee.slack.com/signup">FOSSEE Slack team</a> using the iitb.ac.in email address.</span>
+                            {% endif %}
                         {% endif %}
                         </p>
                     </header>

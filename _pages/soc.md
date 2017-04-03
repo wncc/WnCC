@@ -111,7 +111,7 @@ div.tab button.active {
 					<img class="icon major" src="{{ '/svg/light-siber-one.svg' | prepend: site.baseurl }}" />
 					<h3>Padawan</h3>
 					<p>The Force is strong with you. Train yourself to let go of everything you fear to lose. The Force will be with you always. Ready are you?</p><br>
-					<a target = "_balnk" href="https://docs.google.com/forms/d/1uzp4XbKcTIiXMG9cvflzwnxpkAZVHpJ6jDJeQu7-45k/viewform" class="button big special">Become a Padawan</a>
+					<a target = "_balnk" href="https://docs.google.com/forms/d/e/1FAIpQLSc5ZqQvIgxVK-Tf-uWEKcyCg2BrDM0Iu4QVj5RzoP6Y5TZtNA/viewform" class="button big special">Become a Padawan</a>
 				</section>
 			</div>
 			<div class="6u">
@@ -119,7 +119,7 @@ div.tab button.active {
 					<img class="icon major" src="{{ '/svg/light-siber.svg' | prepend: site.baseurl }}" />
 					<h3>Master</h3>
 					<p>I can feel you code. It gives you focus. It makes you stronger. Your focus determines your reality. Use the force and someday you will be the most powerful Jedi ever.</p>
-					<a target = "_blank" href="https://docs.google.com/forms/d/1YHkyL1i2kdTJbAN2UJKcDa30u9Ed6wc0-pGfMl3FuKQ/viewform" class="button big special">Become a Master</a>
+					<a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd57osi_wuufUt9caLo5q3QFXNzjXBhcuaKtj2RTK5OG5JFfw/viewform" class="button big special">Become a Master</a>
 				</section>
 			</div>
 		</div>
@@ -197,7 +197,9 @@ div.tab button.active {
                             <div class = "ribbon {{project.ribbon}}"><span>{{project.ribbon}}</span></div>
                             <!-- {% endif %} -->
                         </a>
+                        <a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
 						<h3>{{ project.title }}</h3>
+						</a>
 						<h4>- {{ project.mentor }}</h4>
 						<h4>- {{ project.category }}</h4>
 						<p>{{ project.content | split:'<!--break-->' | first }}</p>
