@@ -7,6 +7,7 @@ category: "Web Development"
 weight: 40
 ribbon: FOSSEE
 application_procedure: "proposal"
+contact: "FOSSEE"
 ---
 
 The objective of Xcos on web project is to provide access to the capabilities of Xcos simulator over  web. Upon the completion of this project, the users with web-enabled devices will be able to load, create and simulate Xcos diagrams through a web browser. This project has been partially completed and available [here](http://xcos.fossee.in/).

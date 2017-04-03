@@ -7,6 +7,7 @@ category: "Development"
 weight: 30
 ribbon: FOSSEE
 application_procedure: "proposal"
+contact: "FOSSEE"
 ---
 
 Enchancing the Scilab server to efficiently load and deliver results to the user.
