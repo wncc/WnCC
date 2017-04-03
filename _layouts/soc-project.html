@@ -38,15 +38,24 @@ layout: default
                         <a id="nav" href="{{ page.url | prepend: site.baseurl }}" class="image fit"><img  src="{{ page.image | prepend: site.baseurl  }}" alt="{{ page.title }}" /></a>
                         <h2 class="post-title" >{{ page.title }}</h2>
                         <p class="post-meta">
-                        {% if page.mentor %} • {{ page.mentor }}{% endif %}
-                        {% if page.category %}<br> • {{ page.category }}{% endif %}
+                        {% if page.ribbon == "completed" %}
+                        <span style="color: green; font-weight: 700; font-family: Arial">[COMPLETED]</span><br/><br/>
+                        {% endif %}
+                        {% if page.mentor %} • {{ page.mentor }}{% endif %}<br/> 
+                        {% if page.category %}• {{ page.category }}{% endif %}<br/>
                         {% if page.meta %} • {{ page.meta }}{% endif %}</p>
                         <p class="post-meta" style="color: black">
-                        Mentees: &nbsp;&nbsp;&nbsp;
                         {% if page.mentees %}
+                        Mentees: &nbsp;&nbsp;&nbsp;
                             {% for mentee in page.mentees%}
                                 • {{ mentee }}&nbsp;&nbsp;&nbsp;
                             {% endfor %}
+                        {% endif %}
+                        {% if page.application_procedure %}
+                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 18pt">Application Procedure: </span>
+                            {% if page.application_procedure == "proposal" %}
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 16pt">Submit a proposal through the attached link</span>
+                            {% endif %}
                         {% endif %}
                         </p>
                     </header>

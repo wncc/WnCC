@@ -154,20 +154,46 @@
                         <a id="nav" href="/soc_projects/12-scilab-server.html" class="image fit"><img  src="/images/server.jpg" alt="Scilab server" /></a>
                         <h2 class="post-title" >Scilab server</h2>
                         <p class="post-meta">
-                         • Srikant Patnaik
-                        <br> • Development
+                        
+                         • Srikant Patnaik<br/> 
+                        • Development<br/>
                         </p>
                         <p class="post-meta" style="color: black">
-                        Mentees: &nbsp;&nbsp;&nbsp;
+                        
+                        
+                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 18pt">Application Procedure: </span>
+                            
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 16pt">Submit a proposal through the attached link</span>
+                            
                         
                         </p>
                     </header>
                     <div>
-                        <p>Scilab Textbook Companion (TBC) is one of the flagship activities undertaken by FOSSEE. It is a collection of code for each solved example of a standard textbook. We have active Scilab and Python TBCs. Students and faculty of colleges have created more than 500 Scilab TBC and a similar number of Python TBC. As there are about 50,000 scripts in 500 TBCs, it becomes a valuable resource for documentation, function usage search and also as a subject learning material.</p>
+                        <p>Enchancing the Scilab server to efficiently load and deliver results to the user.</p>
 
 <!--break-->
 
-<p>More details could be fetched from <a href="http://www.scilab.in/Textbook_Companion_Project">here</a>.</p>
+<p>Scilab Textbook Companion (TBC) is one of the flagship activities undertaken by FOSSEE. It is a collection of code for each solved example of a standard textbook. We have active Scilab and Python TBCs. Students and faculty of colleges have created more than 500 Scilab TBC and a similar number of Python TBC. As there are about 50,000 scripts in 500 TBCs, it becomes a valuable resource for documentation, function usage search and also as a subject learning material. More details could be fetched from <a href="http://www.scilab.in/Textbook_Companion_Project">here</a>.</p>
+
+<p>Unlike other scripting languages, Scilab loads a huge set of libraries in the background. Thus a single instance causes considerable consumption of computer resources.This would create a problem if we want to have parallel instances of Scilab.</p>
+
+<p>We have thought of a couple of solutions to this problem.</p>
+
+<ul>
+  <li>Fixing the Scilab core to only load libraries which are called in the program at the run time.</li>
+  <li>Developing an atoms module to accept code from various threads and pipe them to a single Scilab instance.</li>
+</ul>
+
+<p>The atoms module shall do the following:</p>
+
+<ol>
+  <li>It should decode communication packet(code) received from user</li>
+  <li>Execute Scilab code in a protected environment</li>
+  <li>Return the result/error to the user</li>
+  <li>Clear the Scilab memory</li>
+</ol>
+
+<p>In the case of overloading on a single Scilab instance, there should be an intermediate program to monitor and initiate a new Scilab instance. This autoscaling operation should happen seamlessly. The autoscaling program should keep track of user requests.</p>
 
                     </div>
                     
