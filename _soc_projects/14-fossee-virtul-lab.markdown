@@ -3,7 +3,7 @@ layout: soc-project
 image: /images/virtuallab.jpg
 title: Building a Generic Remote Triggered Virtual Lab Interface
 mentor: "Rupak Rokade"
-category: "Scientific Computation"
+category: "Development"
 weight: 50
 ribbon: FOSSEE
 ---

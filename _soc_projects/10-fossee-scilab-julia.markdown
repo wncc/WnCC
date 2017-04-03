@@ -2,7 +2,7 @@
 layout: soc-project
 image: /images/scilab.png
 title: Scilab-Julia Interface
-mentor: "To Be Decided"
+mentor: "Shamika Mohanan"
 category: "Development"
 weight: 10
 ribbon: FOSSEE
