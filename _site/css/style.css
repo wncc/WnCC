@@ -1264,3 +1264,19 @@ a.hyperlink-nodecoration {color: #629DD1;
         border-right: 3px solid #1e5799;
         border-top: 3px solid #1e5799;
     }
+
+    .FOSSEE span
+    {
+        background: #1e5799;
+        background: linear-gradient(#2989d8 0%, #1e5799 100%);
+    }
+    .FOSSEE span::before
+    {
+        border-left: 3px solid #1e5799;
+        border-top: 3px solid #1e5799;
+    }
+    .FOSSEE span::after
+    {
+        border-right: 3px solid #1e5799;
+        border-top: 3px solid #1e5799;
+    }

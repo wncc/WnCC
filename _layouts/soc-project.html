@@ -6,7 +6,12 @@ layout: default
 <section id="main" class="wrapper style1">
     <header class="major">
         <h2>Seasons Of Code</h2>
-        <p>{{ page.title }} - {{page.mentor}}</p>
+        <p>
+        <span style="font-weight: 500; color: #212121">{{ page.title }} </span>&nbsp;&nbsp;
+        {% for mentor in page.mentor%}
+            • {{ mentor }}&nbsp;&nbsp;&nbsp;
+        {% endfor %}
+        </p>
     </header>
     <div class="container">
         <div class="row">
@@ -41,7 +46,11 @@ layout: default
                         {% if page.ribbon == "completed" %}
                         <span style="color: green; font-weight: 700; font-family: Arial">[COMPLETED]</span><br/><br/>
                         {% endif %}
-                        {% if page.mentor %} • {{ page.mentor }}{% endif %}<br/> 
+                        {% if page.mentor %}
+                            {% for mentor in page.mentor%}
+                                • {{ mentor }}&nbsp;&nbsp;&nbsp;
+                            {% endfor %}
+                        {% endif %}<br/> 
                         {% if page.category %}• {{ page.category }}{% endif %}<br/>
                         {% if page.meta %} • {{ page.meta }}{% endif %}</p>
                         <p class="post-meta" style="color: black">
@@ -65,14 +74,18 @@ layout: default
                             <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Contact the Mentor: </span>
                             {% if page.contact == "FOSSEE" %}
                             <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Join the <a target = "_blank" href="https://fossee.slack.com/signup">FOSSEE Slack team</a> using the iitb.ac.in email address.</span>
+                            {% else %}
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">
+                                {% for contact in page.contact%}
+                                • {{ contact }}&nbsp;&nbsp;
+                                {% endfor %}
+                            </span>
                             {% endif %}
                         {% endif %}
                         {% if page.stipend %}
                             <br/>
                             <span style="color: darkgreen; font-weight: 700; font-family: Arial; font-size: 16pt">Stipend: </span>
-                            {% if page.contact == "FOSSEE" %}
                             <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt">INR {{ page.stipend }} </span>
-                            {% endif %}
                         {% endif %}
                         </p>
                     </header>

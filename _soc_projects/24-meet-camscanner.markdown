@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: /images/camscanner.jpg
+image: /images/camsca.jpg
 title: Panorama Feature For Cam-Scanner
 mentor: "Meet Udeshi"
 category: "Image Processing"
