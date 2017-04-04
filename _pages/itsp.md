@@ -2,6 +2,7 @@
 layout: default
 title: ITSP
 permalink: /itsp-resources/
+show-in-header: true
 ---
 
 <br/>

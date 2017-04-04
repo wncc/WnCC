@@ -3,6 +3,7 @@ layout: default
 title: Showcase
 permalink: /showcase/
 banner: /images/showcase.jpg
+show-in-header: true
 ---
 
 <!-- Banner -->

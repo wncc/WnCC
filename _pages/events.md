@@ -3,6 +3,7 @@ layout: default
 title: Events
 permalink: /events/
 banner: /images/soc.jpg
+show-in-header: true
 ---
 
 <!-- Three -->
