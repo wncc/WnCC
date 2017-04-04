@@ -20,7 +20,7 @@ The **Run** app was born at the Yahoo! hackathon and ended up winning the "_most
 
 <!--break-->
 
-Some random (pre-clicked) photos around your location come up on your screen and you have to find them and click as similar a photo to the original as you can. Then, after some image processing magic, it tells youif it's a match or not. The first to match them all wins!
+Some random (pre-clicked) photos around your location come up on your screen and you have to find them and click as similar a photo to the original as you can. Then, after some image processing magic, it tells you if it's a match or not. The first to match them all wins!
 
 There are two sides to this project - 
 
