@@ -2,12 +2,13 @@
 layout: soc-project
 image: /images/fosseetoolbox.jpg
 title: FOSSEE Toolbox Project
-mentor: "To Be Decided"
+mentor: "Shamika Mohanan"
 category: "Development"
 weight: 60
 ribbon: FOSSEE
 application_procedure: "coding_task"
 contact: "FOSSEE"
+stipend: 50000
 ---
 
 The FOSSEE group has developed various toolboxes in Scilab to match Matlab’s functionalities. The interns will have to develop functions, provide documentation and test existing functions. Interns from any background can apply. For each toolbox, domain expertise in terms of projects and courses is expected.

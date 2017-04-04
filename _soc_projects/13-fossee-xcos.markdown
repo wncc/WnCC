@@ -8,13 +8,15 @@ weight: 40
 ribbon: FOSSEE
 application_procedure: "proposal"
 contact: "FOSSEE"
+stipend: 50000
 ---
 
 The objective of Xcos on web project is to provide access to the capabilities of Xcos simulator over  web. Upon the completion of this project, the users with web-enabled devices will be able to load, create and simulate Xcos diagrams through a web browser. This project has been partially completed and available [here](http://xcos.fossee.in/).
 
 <!--break-->
 
-The current implementation framework is as follows.
+The current implementation framework is as follows:
+
 1. Overall system design – Design of browser based Xcos simulator to include editor, several menu options, palette libraries, simulation options, etc.
 2. Graphical User Interface – Provision of palette blocks in the left pane, set scope parameters and right click functionalities, port constraints for the simulator blocks, Tooltip and color wheel features, Set context option, etc.
 3. Data Structures – To enable relevant function call for each block dragged and dropped on the browser-based editor followed by setting the values of model, graphics, GUI and docs; Mapping of Xcos blocks' sci files to JavaScript.

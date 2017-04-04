@@ -60,11 +60,18 @@ layout: default
                             <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Applicants should attempt the coding test for the various toolboxes that will be put up <a target = "_blank" href="http://fossee.in/internship">here</a> on May 1, 2017. Submission steps and deadline will be mentioned in the problem statement for each toolbox. No reminder regarding the test or submission deadline will be sent.</span>
                             {% endif %}
                         {% endif %}
-                        <br/>
                         {% if page.contact %}
+                            <br/>
                             <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Contact the Mentor: </span>
                             {% if page.contact == "FOSSEE" %}
                             <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Join the <a target = "_blank" href="https://fossee.slack.com/signup">FOSSEE Slack team</a> using the iitb.ac.in email address.</span>
+                            {% endif %}
+                        {% endif %}
+                        {% if page.stipend %}
+                            <br/>
+                            <span style="color: darkgreen; font-weight: 700; font-family: Arial; font-size: 16pt">Stipend: </span>
+                            {% if page.contact == "FOSSEE" %}
+                            <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt">INR {{ page.stipend }} </span>
                             {% endif %}
                         {% endif %}
                         </p>
