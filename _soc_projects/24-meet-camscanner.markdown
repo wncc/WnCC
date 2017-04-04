@@ -1,11 +1,11 @@
 ---
 layout: soc-project
 image: /images/camscanner.jpg
-title: Panorama Feature For Cam-Scanner
+title: Panorama in Cam-Scanner
 mentor: "Meet Udeshi"
 category: "Image Processing"
 weight: 120
-ribbon: NEW
+ribbon: new
 application_procedure: "proposal"
 stipend: 9000
 contact:

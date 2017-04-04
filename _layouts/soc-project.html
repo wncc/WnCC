@@ -6,7 +6,12 @@ layout: default
 <section id="main" class="wrapper style1">
     <header class="major">
         <h2>Seasons Of Code</h2>
-        <p>{{ page.title }} - {{page.mentor}}</p>
+        <p>
+        <span style="font-weight: 500; color: #212121">{{ page.title }} </span>&nbsp;&nbsp;
+        {% for mentor in page.mentor%}
+            • {{ mentor }}&nbsp;&nbsp;&nbsp;
+        {% endfor %}
+        </p>
     </header>
     <div class="container">
         <div class="row">

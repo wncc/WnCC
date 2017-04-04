@@ -1,13 +1,13 @@
 ---
 layout: soc-project
 image: /images/sift.jpg
-title: Scale & Orientation Invariant Object Recognition (SIFT)
+title: SIFT
 mentor:
 - Dhruv Shah 
 - Shashwat Shukla
 category: "Scientific Computing"
 weight: 110
-ribbon: NEW
+ribbon: new
 application_procedure: "proposal"
 stipend: 9000
 contact:
@@ -15,7 +15,7 @@ contact:
 - Facebook- <a target="_blank" href="https://www.facebook.com/shashwat.shukla.5203">Shashwat Shukla</a>, <a target="_blank" href="https://www.facebook.com/dhruv.ilesh">Dhruv Shah</a>
 ---
 
-Despite many recent groundbreaking advances in pattern recognition and image recognition, most of which are attributable to Machine Learning methods like Convolutional Neural Networks, these algorithms face multiple problems like a [lack of robustness](https://arxiv.org/abs/1412.1897) with respect to scale, lighting, rotation, noise etc. Enter SIFT.
+Despite many recent groundbreaking advances in pattern recognition and image recognition, most of which are attributable to Machine Learning methods like Convolutional Neural Networks, these algorithms face multiple problems like a [lack of robustness](https://arxiv.org/abs/1412.1897) with respect to scale, lighting, rotation, noise etc. Enter Scale & Orientation Invariant Object Recognition .
 
 <!--break-->
 

@@ -7,7 +7,7 @@ mentor:
 - "Chitwan Saharia"
 category: "Machine Learning"
 weight: 90
-ribbon: NEW
+ribbon: new
 application_procedure: "proposal"
 stipend: 9000
 contact:

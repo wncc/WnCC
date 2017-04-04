@@ -1,13 +1,13 @@
 ---
 layout: soc-project
 image: /images/openai.jpg
-title: Game-playing AI agents on OpenAI Universe
+title: Game-playing AI agents
 mentor: 
 - Shashwat Shukla
 - Dhruv Shah
 category: "Artificial Intelligence"
 weight: 100
-ribbon: NEW
+ribbon: new
 application_procedure: "proposal"
 stipend: 9000
 contact:
