@@ -5,7 +5,7 @@ title: SIFT
 mentor:
 - Dhruv Shah 
 - Shashwat Shukla
-category: "Scientific Computing"
+category: "Computer Vision"
 weight: 110
 ribbon: new
 application_procedure: "proposal"

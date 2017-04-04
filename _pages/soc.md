@@ -163,7 +163,9 @@ div.tab button.active {
                             <div class = "ribbon {{project.ribbon}}"><span>{{project.ribbon}}</span></div>
                             <!-- {% endif %} -->
                         </a>
+						<a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
 						<h3>{{ project.title }}</h3>
+						</a>
 						<h4>- {{ project.mentor }}</h4>
 						<h4>- {{ project.category }}</h4>
 						<p>{{ project.content | split:'<!--break-->' | first }}</p>

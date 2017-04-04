@@ -19,5 +19,12 @@ Learn to Flap is a machine learning project to use supervised and unsupervised l
 
 <!--break-->
 
-We may also work on other variations of the game if time permits.
-Reading material would include some book on machine learning to get the basics and some work that has been done by other people (will provide them as the project progresses). A student is expected to have interest in machine learning and AI (coding experience isn't necessary).
+We may also work on other variations of the game if time permits.  
+Reading material would include some book on machine learning to get the basics and some work that has been done by other people (will provide them as the project progresses). Refer to [this link](http://deeplearning.stanford.edu/tutorial/) for a good deep learning tutorial.
+
+A student is expected to have interest in machine learning and AI (coding experience isn't necessary).
+
+<center>
+<iframe width="800" height="415" src="https://www.youtube.com/embed/unFUqHdWHaQ" frameborder="0" allowfullscreen></iframe>
+</center>
+<br/>
