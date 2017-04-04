@@ -1,16 +1,14 @@
 ---
 layout: soc-project
-image: /images/camscanner.jpg
-title: Panorama in Cam-Scanner
+image: /images/camsca.jpg
+title: Panorama Feature For Cam-Scanner
 mentor: "Meet Udeshi"
 category: "Image Processing"
 weight: 120
-ribbon: new
+ribbon: NEW
 application_procedure: "proposal"
-stipend: 9000
-contact:
-- <a target="_blank" href="https://gitter.im/wncc/SoC_CamScanner">Gitter</a>
-- Facebook- <a target="_blank" href="https://www.facebook.com/udiboy1209">Meet Udeshi</a>
+contact: smudeshi1209@gmail.com
+stipend: 10000
 ---
 
 Each one of us must have used the Cam-scanner app on Android phones for quick and good quality scanning of documents. But what if you have to scan a really big document? Or maybe you want to capture more detail?

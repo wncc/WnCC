@@ -1,4 +1,3 @@
----
 layout: soc-project
 image: /images/sift.jpg
 title: SIFT
@@ -28,3 +27,4 @@ Despite many recent groundbreaking advances in pattern recognition and image rec
 
 ### What to Expect:
 Hands-on experience with Python | Image Processing & Computer Vision algorithms | Applied Statistics & Linear Algebra
+
