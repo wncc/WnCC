@@ -6,20 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-<<<<<<< HEAD
-    <pubDate>Tue, 04 Apr 2017 19:40:39 +0530</pubDate>
-    <lastBuildDate>Tue, 04 Apr 2017 19:40:39 +0530</lastBuildDate>
+    <pubDate>Wed, 05 Apr 2017 22:40:45 +0530</pubDate>
+    <lastBuildDate>Wed, 05 Apr 2017 22:40:45 +0530</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
-||||||| merged common ancestors
-    <pubDate>Tue, 04 Apr 2017 19:00:18 +0530</pubDate>
-    <lastBuildDate>Tue, 04 Apr 2017 19:00:18 +0530</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
     
-=======
-    <pubDate>Wed, 05 Apr 2017 00:58:12 +0530</pubDate>
-    <lastBuildDate>Wed, 05 Apr 2017 00:58:12 +0530</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
-    
->>>>>>> b45a02a7932dc1688d59fab96a219a6188599c9f
   </channel>
 </rss>
