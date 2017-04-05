@@ -8,7 +8,7 @@ weight: 60
 ribbon: FOSSEE
 application_procedure: "coding_task"
 contact: "FOSSEE"
-stipend: 50000
+stipend: "Interns will be paid on the quantum of work completed rather than a bulk amount. Complete honorarium details will be provided once the applicant has been selected for the project."
 ---
 
 The FOSSEE group has developed various toolboxes in Scilab to match Matlab’s functionalities. The interns will have to develop functions, provide documentation and test existing functions. Interns from any background can apply. For each toolbox, domain expertise in terms of projects and courses is expected.
