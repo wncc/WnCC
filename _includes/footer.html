@@ -15,7 +15,7 @@
                         <h3><a href="{{'/showcase' | prepend: site.base_url }}">Showcase</a></h3>
                         <ul class="alt">
                             {% for project in site.showcase_projects %}
-                                <li>{{ project.title }}- {{ project.author }}</li>
+                                <a target="_blank" href="/showcase#{{ project.title }}"><li>{{ project.title }}- {{ project.author }}</li></a>
                             {% endfor %}
                         </ul>
                     </div>

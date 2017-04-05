@@ -10,10 +10,10 @@ category: "Development"
 weight: 130
 ribbon: new
 application_procedure: "proposal"
-stipend: 9000
+stipend: INR 9000
 contact:
-- <a target="_blank" href="https://gitter.im/LearnToFlap-SOC/Lobby">Slack</a>
-- Facebook- <a target="_blank" href="https://www.facebook.com/rohit.rango">Rohit Jena</a>, <a target="_blank" href="https://www.facebook.com/chitwaniit">Chitwan Saharia</a>
+- <a target="_blank" href="https://run-app.slack.com/shared_invite/MTY1MDEyMzQxMjg3LTE0OTEzMjE3MjEtYmIwYmNhMTc2YQ">Slack</a>
+- Facebook- <a target="_blank" href="https://www.facebook.com/nihal111">Nihal Singh</a>, <a target="_blank" href="https://www.facebook.com/arpanbnrj9">Arpan Banerjee</a>, <a target="_blank" href="https://www.facebook.com/AkashTrehan21">Akash Trehan</a>
 ---
 
 The **Run** app was born at the Yahoo! hackathon and ended up winning the "_most creative and fun hack_" award. It is basically a multiplayer(currently only 1v1) photo treasure hunt game...

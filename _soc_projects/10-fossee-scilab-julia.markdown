@@ -8,7 +8,7 @@ weight: 10
 ribbon: FOSSEE
 application_procedure: "proposal"
 contact: "FOSSEE"
-stipend: 10000
+stipend: INR 10000
 ---
 
 Create an interface that can call any Julia function from Scilab console and displays the output of the Julia function on Scilab console. 

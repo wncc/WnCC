@@ -33,7 +33,7 @@ show-in-header: true
         <div class="row">
             <div class="12u">
                 <section class="special">
-                    <a href="{{ project.repo }}" class="hyperlink-nodecoration"><h2 style="font-weight: 500;">{{ project.title }}</h2></a>
+                    <a href="{{ project.repo }}" class="hyperlink-nodecoration"><h2 style="font-weight: 500;" id="{{ project.title }}">{{ project.title }}</h2></a>
                 	<a href="{{ project.website }}" class="image fit"><img src="{{ project.image | prepend: site.baseurl }}" alt="" /></a>
                     <div style="margin: 0 auto;">
                     <a href="{{ project.github }}"><img src="{{ project.avatar }}" alt="" class="avatar"/></a>

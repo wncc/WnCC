@@ -8,7 +8,7 @@ weight: 50
 ribbon: FOSSEE
 application_procedure: "proposal"
 contact: "FOSSEE"
-stipend: 50000
+stipend: INR 50000
 ---
 
 A Virtual Laboratory is an online facility aimed at providing a laboratory experience to students. Unlike Simulation Virtual Labs, Remote Triggered Virtual Labs (RT labs for short) is that category of Virtual Labs which enables the student to access a real experimental setup, remotely. One such facility is available for a laboratory setup known as “Single Board Heater System”, SBHS for short.
