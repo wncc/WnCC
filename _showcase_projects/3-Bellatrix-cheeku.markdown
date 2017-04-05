@@ -14,5 +14,24 @@ weight: 2
 ---
 
 A simple personal assistant driven by text and voice with limitless possibilities of adding more features. Uses AIML (Artificial Intelligence Markup Language) for pattern matching and chatbot abilities along with a few python and shell scripts to carry out system processes. The repository resides [here]({{ page.repo }}).
-
-<iframe width="1024" height="500" src="https://www.youtube.com/embed/v_A9FpL3Sa4" frameborder="0" allowfullscreen></iframe>
+<style>
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+<div class = "videowrapper">
+	<iframe width="1024" height="500" src="https://www.youtube.com/embed/v_A9FpL3Sa4" frameborder="0" allowfullscreen></iframe>
+</div>
