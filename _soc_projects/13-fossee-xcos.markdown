@@ -2,7 +2,9 @@
 layout: soc-project
 image: /images/xcos.jpg
 title: Xcos on Web
-mentor: "Inderpreet Arora"
+mentor: 
+- Inderpreet Arora
+- Dipti Ghosalkar
 category: "Web Development"
 weight: 40
 ribbon: FOSSEE

@@ -2,7 +2,9 @@
 layout: soc-project
 image: /images/server.jpg
 title: Scilab server
-mentor: "Srikant Patnaik"
+mentor: 
+- Srikant Patnaik
+- Shamika Mohanan
 category: "Development"
 weight: 30
 ribbon: FOSSEE

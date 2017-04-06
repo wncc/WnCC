@@ -2,7 +2,9 @@
 layout: soc-project
 image: /images/virtuallab.jpg
 title: Remote Triggered Virtual Lab
-mentor: "Rupak Rokade"
+mentor: 
+- Rupak Rokade
+- Inderpreet Arora
 category: "Development"
 weight: 50
 ribbon: FOSSEE
