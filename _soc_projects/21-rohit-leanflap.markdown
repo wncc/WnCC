@@ -9,7 +9,8 @@ category: "Machine Learning"
 weight: 90
 ribbon: new
 application_procedure: "proposal"
-stipend: INR 9000
+stipend: To be decided
+openings: To be decided
 contact:
 - <a target="_blank" href="https://gitter.im/LearnToFlap-SOC/Lobby">Gitter</a>
 - Facebook- <a target="_blank" href="https://www.facebook.com/rohit.rango">Rohit Jena</a>, <a target="_blank" href="https://www.facebook.com/chitwaniit">Chitwan Saharia</a>

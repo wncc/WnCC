@@ -8,7 +8,8 @@ weight: 30
 ribbon: FOSSEE
 application_procedure: "proposal"
 contact: "FOSSEE"
-stipend: INR 50000
+stipend: INR 50000 per person
+openings: 2
 ---
 
 Enchancing the Scilab server to efficiently load and deliver results to the user.

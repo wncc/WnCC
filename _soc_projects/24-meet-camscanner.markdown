@@ -7,7 +7,8 @@ category: "Image Processing"
 weight: 120
 ribbon: new
 application_procedure: "proposal"
-stipend: INR 9000
+stipend: To be decided
+openings: To be decided
 contact:
 - <a target="_blank" href="https://gitter.im/wncc/SoC_CamScanner">Gitter</a>
 - Facebook- <a target="_blank" href="https://www.facebook.com/udiboy1209">Meet Udeshi</a>
