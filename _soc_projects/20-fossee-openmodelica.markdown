@@ -4,7 +4,7 @@ image: /images/openmodelica.png
 title: Develop GUI for OpenModelica using Python
 mentor: Rahul
 category: "Development"
-weight: 130
+weight: 70
 openings: 2
 ribbon: FOSSEE
 application_procedure: "proposal"
