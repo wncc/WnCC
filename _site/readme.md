@@ -23,7 +23,7 @@ A list of events that are planned and are coming soon.
 Please open a PR to WnCC:master.
 
 ##### If you are a mentor, and want to update your SoC page:
-Please create a PR to WnCC:master. All content you add will go to your project page. Keep a brief introduction regarding the page at the start followed by a `<!--break-->` and further by more content. Everything prior to the break will appear in the short project description in the main SoC page under "List of Projects". Don't forget to update the list of mentees. You may also want to keep your project page updated with where the project is headed and what all has been accomplished.
+Please create a PR to WnCC:master. All content you add will go to your project page. Keep a brief introduction regarding the page at the start followed by a *newline* `<!--break-->` *newline* and further by more content. Everything prior to the break will appear in the short project description in the main SoC page under "List of Projects". Don't forget to update the list of mentees. You may also want to keep your project page updated with where the project is headed and what all has been accomplished.
 
 ##### If adding an event/showcase/soc-project:
 Add a relevant image to the `_images` folder and resize it if needed using the `resize.py` script. If it doesn't need to be resized add it to the ignored list inside `resize.py`. If in doubt or unable to do the above, mention it in the PR.
