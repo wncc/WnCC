@@ -9,6 +9,7 @@ weight: 10
 ---
 
 This was an introductory session to Python. Students were encouraged to build a tic-tac-toe app ground up using Python 
+
 <!--break-->
 
 The one day workshop was followed by a series of weekly problems which required  interested students to submit their solution in Python.
