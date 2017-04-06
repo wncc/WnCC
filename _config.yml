@@ -20,3 +20,5 @@ collections:
     output: true
   showcase_projects:
     output: true
+  events:
+    output: true
