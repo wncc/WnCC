@@ -5,6 +5,7 @@ title: Rattlesnake
 year: 2016
 date: "Jan 14 | 2016"
 weight: 10
+
 ---
 
 This was an introductory session to Python. Students were encouraged to build a tic-tac-toe app ground up using Python 
@@ -33,10 +34,8 @@ The one day workshop was followed by a series of weekly problems which required 
     }
   </style>
 
-   <script src="http://code.jquery.com/jquery-latest.min.js">
-   </script>
-   <script src="jquery.slides.min.js">
-   </script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="jquery.slides.min.js"></script>
 
 <script>
     $(function(){
@@ -49,7 +48,7 @@ The one day workshop was followed by a series of weekly problems which required 
     $(function(){
   	  $("#slides").slidesjs({
     navigation: {
-      active: false,
+      active: true,
       effect: "fade"
     }
   });
