@@ -10,7 +10,8 @@ category: "Development"
 weight: 130
 ribbon: new
 application_procedure: "proposal"
-stipend: INR 9000
+stipend: To be decided
+openings: To be decided
 contact:
 - <a target="_blank" href="https://run-app.slack.com/shared_invite/MTY1MDEyMzQxMjg3LTE0OTEzMjE3MjEtYmIwYmNhMTc2YQ">Slack</a>
 - Facebook- <a target="_blank" href="https://www.facebook.com/nihal111">Nihal Singh</a>, <a target="_blank" href="https://www.facebook.com/arpanbnrj9">Arpan Banerjee</a>, <a target="_blank" href="https://www.facebook.com/AkashTrehan21">Akash Trehan</a>

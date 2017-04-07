@@ -4,12 +4,13 @@ image: /images/eduapp.jpg
 title: Estabilishing P2P Communication for Education App/Platform
 mentor: Pushpdeep
 category: "Development"
-weight: 160
+weight: 68
 openings: 2
 ribbon: FOSSEE
 application_procedure: "proposal"
 contact: "FOSSEE"
-stipend: INR 40000
+stipend: INR 40000 per person
+openings: 2
 ---
 
 A edu-tech platform easy to use for learning, Sharing data (user analytics, videos, coruseworks, annotations etc)

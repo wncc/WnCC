@@ -6,12 +6,13 @@ mentor:
 - Prashant
 - Priyanka
 category: "Development"
-weight: 150
+weight: 64
 openings: 2
 ribbon: FOSSEE
 application_procedure: "proposal"
 contact: "FOSSEE"
-stipend: INR 15000
+stipend: INR 15000 per person
+openings: 2
 ---
 
 This internship involves development of a common Drupal based theme .

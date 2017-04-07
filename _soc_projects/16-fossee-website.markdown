@@ -6,12 +6,13 @@ mentor:
 - Priyanka
 - Prashant
 category: "Web Development"
-weight: 140
+weight: 62
 openings: 2
 ribbon: FOSSEE
 application_procedure: "proposal"
 contact: "FOSSEE"
-stipend: INR 20000
+stipend: INR 20000 per person
+openings: 2
 ---
 
 This internship involves front-end development for various FOSSEE websites.
