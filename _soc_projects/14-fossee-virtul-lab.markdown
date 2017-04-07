@@ -3,7 +3,7 @@ layout: soc-project
 image: /images/virtuallab.jpg
 title: Remote Triggered Virtual Lab
 mentor: 
-- Rupak Rokade
+- Dipti Ghosalkar
 - Inderpreet Arora
 category: "Development"
 weight: 50
