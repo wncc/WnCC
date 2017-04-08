@@ -18,48 +18,43 @@ The one day workshop was followed by a series of weekly problems which required 
 
 -[Tic-Tac-Toe Code](http://wncc-iitb.org/wiki/index.php/Python_Workshop_Resources)
 
-<!-- jQuery 3.x.x -->
-<script src="//code.jquery.com/jquery-3.2.0.min.js"></script>
-<!-- jQuery 1.x -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<!-- Latest jQuery library -->
-<script src="//code.jquery.com/jquery-latest.min.js"></script>
-<script src="jquery.slides.js"></script>
-
-<head>
-  <style>
-    /* Prevents slides from flashing */
-    #slides {
-      display:none;
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  </head>
+  <body>
+<style>
+    .slick-slide img {
+    height:400px;
     }
-  </style>
+</style>
 
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="jquery.slides.min.js"></script>
-
-<script>
-    $(function(){
-      $("#slides").slidesjs({
-        width: 940,
-        height: 528
-      });
-    });
-
-    $(function(){
-  	  $("#slides").slidesjs({
-    navigation: {
-      active: true,
-      effect: "fade"
-    }
-  });
-});
- </script>
-</head>
-<body>
-  <div id="slides">
-    <img src="/images/rattlesnake1.jpg">
-    <img src="/images/rattlesnake2.jpg">
-    <img src="/images/rattlesnake3.jpg">
-    <img src="/images/rattlesnake4.jpg">
+<div class="slick-slides">
+    <div><img src="/images/rattlesnake1.jpg"></div>
+    <div><img src="/images/rattlesnake2.jpg"></div>
+    <div><img src="/images/rattlesnake3.jpg"></div>
+    <div><img src="/images/rattlesnake4.jpg"></div>
   </div>
-</body>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slick-slides').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        cssEase: 'linear',
+        adaptiveHeight: true
+        });
+    });
+  </script>
+
+  </body>
+</html>
