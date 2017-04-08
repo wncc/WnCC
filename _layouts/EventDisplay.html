@@ -52,13 +52,14 @@ layout: default
     height:420px;
     }
 </style>
-
-	<div class="slick-slides">
+<div class="slider-box _clearfix">
+<div class="slick-slides">
    {% for img in page.slides %}
    <div><img src="{{ img }}"></div>
    {% endfor %}
    </div>
 
+   </div>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="/slick/slick.min.js"></script>
@@ -67,6 +68,7 @@ layout: default
     $(document).ready(function(){
       $('.slick-slides').slick({
         dots: true,
+        arrows: true,
         infinite: true,
         speed: 500,
         fade: true,
@@ -74,7 +76,7 @@ layout: default
         autoplaySpeed: 2000,
         cssEase: 'linear',
         adaptiveHeight: true
-        });
+      });
     });
   </script>
 

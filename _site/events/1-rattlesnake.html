@@ -156,7 +156,8 @@
     height:420px;
     }
 </style>
-
+    
+    <div class="slider-box _clearfix">
 	<div class="slick-slides">
    
    <div><img src="/images/rattlesnake1.jpg"></div>
@@ -168,6 +169,31 @@
    <div><img src="/images/rattlesnake4.jpg"></div>
    
    </div>
+   </div>
+
+
+<<<<<<< HEAD
+	<div class="slick-slides">
+   
+   <div><img src="/images/rattlesnake1.jpg"></div>
+   
+   <div><img src="/images/rattlesnake2.jpg"></div>
+   
+   <div><img src="/images/rattlesnake3.jpg"></div>
+   
+   <div><img src="/images/rattlesnake4.jpg"></div>
+   
+   </div>
+||||||| merged common ancestors
+<div class="slick-slides">
+    <div><img src="/images/rattlesnake1.jpg" /></div>
+    <div><img src="/images/rattlesnake2.jpg" /></div>
+    <div><img src="/images/rattlesnake3.jpg" /></div>
+    <div><img src="/images/rattlesnake4.jpg" /></div>
+  </div>
+=======
+<!--Untested buttons-->
+>>>>>>> cfd6cc339faa4bbda0134b9c91f9fe4e5cd15bcb
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -177,6 +203,7 @@
     $(document).ready(function(){
       $('.slick-slides').slick({
         dots: true,
+        arrows: true,
         infinite: true,
         speed: 500,
         fade: true,
@@ -184,6 +211,7 @@
         autoplaySpeed: 2000,
         cssEase: 'linear',
         adaptiveHeight: true
+
         });
     });
   </script>
