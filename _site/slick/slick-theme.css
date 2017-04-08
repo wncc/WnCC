@@ -39,16 +39,22 @@
     color: transparent;
     border: none;
     outline: none;
-    background: transparent;
+    background: #629DD1;
 }
 .slick-prev:hover,
-.slick-prev:focus,
-.slick-next:hover,
-.slick-next:focus
+.slick-next:hover
 {
     color: transparent;
+    flood-color: #111111; 
     outline: none;
-    background: transparent;
+    background: #111111;
+}
+.slick-prev:focus,
+.slick-next:focus
+{
+    color: orange;
+    outline: none;
+    background: #629DD1;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
