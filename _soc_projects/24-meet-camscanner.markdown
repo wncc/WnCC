@@ -8,6 +8,7 @@ weight: 120
 ribbon: NEW
 application_procedure: "proposal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 contact: smudeshi1209@gmail.com
 stipend: 10000
 ||||||| merged common ancestors
@@ -17,6 +18,12 @@ contact:
 - Facebook- <a target="_blank" href="https://www.facebook.com/udiboy1209">Meet Udeshi</a>
 =======
 stipend: INR 9000
+||||||| merged common ancestors
+stipend: INR 9000
+=======
+stipend: To be decided
+openings: To be decided
+>>>>>>> c21f3b1292e457808d7c208c37908e1b6a844c92
 contact:
 - <a target="_blank" href="https://gitter.im/wncc/SoC_CamScanner">Gitter</a>
 - Facebook- <a target="_blank" href="https://www.facebook.com/udiboy1209">Meet Udeshi</a>

@@ -2,13 +2,16 @@
 layout: soc-project
 image: /images/xcos.jpg
 title: Xcos on Web
-mentor: "Inderpreet Arora"
+mentor: 
+- Inderpreet Arora
+- Dipti Ghosalkar
 category: "Web Development"
 weight: 40
 ribbon: FOSSEE
 application_procedure: "proposal"
 contact: "FOSSEE"
-stipend: INR 50000
+stipend: INR 50000 per person
+openings: 2
 ---
 
 The objective of Xcos on web project is to provide access to the capabilities of Xcos simulator over  web. Upon the completion of this project, the users with web-enabled devices will be able to load, create and simulate Xcos diagrams through a web browser. This project has been partially completed and available [here](http://xcos.fossee.in/).
