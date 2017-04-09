@@ -33,7 +33,7 @@ layout: default
                         <h2 class="post-title" >{{ page.title }}</h2>
                         <p class="post-meta">
                         {% if page.date %}
-                            {{ date | date: "%B -%d, %Y"}}&nbsp;&nbsp;&nbsp;
+                            {{ page.date | date: "%B %d, %Y"}}&nbsp;&nbsp;&nbsp;
                         {% endif %}<br/> 
                         
                         {% if page.category %}• {{ page.category }}{% endif %}<br/>
