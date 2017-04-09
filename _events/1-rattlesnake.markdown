@@ -1,11 +1,13 @@
 ---
 layout: EventDisplay
-image: /images/rattlesnake.jpg
+image: /images/rattlesnakecover.jpg
 title: Rattlesnake
 year: 2016
 date: "Jan 14 | 2016"
 weight: 10
-
+slides:
+- /images/rattlesnake1.jpg
+- /images/rattlesnake2.jpg
 ---
 
 This was an introductory session to Python. Students were encouraged to build a tic-tac-toe app ground up using Python 
