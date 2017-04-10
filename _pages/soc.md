@@ -232,6 +232,10 @@ div.tab button.active {
 	</div>
 </div>
 
+<div style="text-align: center; color: green; font-weight: 700; font-family: Arial; font-size: 24pt">
+		<p>More Projects Coming Soon!</p>
+</div>
+
 
 
 <script>

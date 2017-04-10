@@ -69,7 +69,7 @@ div.tab button.active {
 
 <div class="tab" style="text-align : center">
   <button class="tablinks" onclick="openType(event, '2017')" id="defaultOpen">2017</button>
-  <button class="tablinks" onclick="openType(event, '2016')">2016</button>
+  <button class="tablinks" onclick="openType(event, '2016')" id="tab2016">2016</button>
 </div>
 <br/>
 
@@ -161,11 +161,20 @@ function openType(event, cityName) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
+    var newurl;
+    newurl="{{site.baseurl}}"+"{{page.permalink}}"+"?year="+cityName; 
+    window.history.pushState({path:newurl},'',newurl);
+    
     document.getElementById(cityName).style.display = "block";
     event.currentTarget.className += " active";
 }
-
-document.getElementById("defaultOpen").click();
+var link="{{page.permalink}}"+"?year=";
+if (document.URL.endsWith(link + "2016")) {
+    document.getElementById("tab2016").click();
+}
+else {
+    document.getElementById("defaultOpen").click();
+}
 
 </script>			
 

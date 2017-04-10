@@ -99,6 +99,7 @@
 </header>
         <!-- Use <article></article>inside content to center align content-->
         <!-- Main -->
+
 <section id="main" class="wrapper style1">
     <header class="major">
         <h2>Events</h2>
@@ -123,11 +124,11 @@
             <div class="8u skel-cell-important">
                 <section >
                     <header class="major">
-                        <a id="nav" href="/events/1-rattlesnake.html" class="image fit"><img  src="/images/rattlesnake.jpg" alt="Rattlesnake" /></a>
+                        <a id="nav" href="/events/1-rattlesnake.html" class="image fit"><img  src="/images/rattlesnakecover.jpg" alt="Rattlesnake" /></a>
                         <h2 class="post-title" >Rattlesnake</h2>
                         <p class="post-meta">
                         
-                            &nbsp;&nbsp;&nbsp;
+                            January 14, 2017&nbsp;&nbsp;&nbsp;
                         <br/> 
                         
                         <br/>
@@ -146,6 +147,46 @@
 <p>-<a href="http://wncc-iitb.org/wiki/index.php/Python_Workshop_Resources">Tic-Tac-Toe Code</a></p>
 
                     </div>
+	  <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+	  <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
+  
+<style>
+    .slick-slide img {
+    height:420px;
+    }
+</style>
+<div class="slider-box _clearfix">
+<div class="slick-slides">
+   
+   <div><img src="/images/rattlesnake1.jpg" style="width: 100%; height: 100%"></div>
+   
+   <div><img src="/images/rattlesnake2.jpg" style="width: 100%; height: 100%"></div>
+   
+   </div>
+</div>
+<br/>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="/slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slick-slides').slick({
+        dots: true,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        cssEase: 'linear',
+        adaptiveHeight: true
+      });
+    });
+  </script>
+
+                    
                     
                     <footer style="margin-bottom: 10em">
                         

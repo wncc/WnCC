@@ -3,6 +3,7 @@ layout: default
 ---
 
 <!-- Main -->
+
 <section id="main" class="wrapper style1">
     <header class="major">
         <h2>Events</h2>
@@ -33,7 +34,7 @@ layout: default
                         <h2 class="post-title" >{{ page.title }}</h2>
                         <p class="post-meta">
                         {% if page.date %}
-                            {{ date | date: "%B -%d, %Y"}}&nbsp;&nbsp;&nbsp;
+                            {{ page.date | date: "%B %d, %Y"}}&nbsp;&nbsp;&nbsp;
                         {% endif %}<br/> 
                         
                         {% if page.category %}• {{ page.category }}{% endif %}<br/>
@@ -43,6 +44,44 @@ layout: default
                     <div>
                         {{ content }}
                     </div>
+	  <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+	  <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
+  
+<style>
+    .slick-slide img {
+    height:420px;
+    }
+</style>
+<div class="slider-box _clearfix">
+<div class="slick-slides">
+   {% for img in page.slides %}
+   <div><img src="{{ img }}" style="width: 100%; height: 100%"></div>
+   {% endfor %}
+   </div>
+</div>
+<br/>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="/slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slick-slides').slick({
+        dots: true,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        cssEase: 'linear',
+        adaptiveHeight: true
+      });
+    });
+  </script>
+
+                    
                     
                     <footer style="margin-bottom: 10em">
                         {% if page.previous %}
