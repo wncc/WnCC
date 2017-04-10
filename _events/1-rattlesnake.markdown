@@ -2,8 +2,8 @@
 layout: EventDisplay
 image: /images/rattlesnakecover.jpg
 title: Rattlesnake
-year: 2016
-date: "Jan 14 | 2016"
+year: 2017
+date: "Jan 14 | 2017"
 weight: 10
 slides:
 - /images/rattlesnake1.jpg
