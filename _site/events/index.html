@@ -233,11 +233,13 @@ function openType(event, cityName) {
     document.getElementById(cityName).style.display = "block";
     event.currentTarget.className += " active";
 }
-var link=""+"/events/"+"?year=";
-if (document.URL==link + "2016")
+var link="/events/"+"?year=";
+if (document.URL.endsWith(link + "2016")) {
     document.getElementById("tab2016").click();
-else
+}
+else {
     document.getElementById("defaultOpen").click();
+}
 
 </script>
 
