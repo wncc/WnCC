@@ -43,7 +43,6 @@ A student is expected to have interest in machine learning and AI (coding experi
 }
 </style>
 
-</style>
 <div class = "videowrapper">
 	<iframe width="1024" height="500" src="https://www.youtube.com/embed/unFUqHdWHaQ" frameborder="0" allowfullscreen></iframe>
 </div>
