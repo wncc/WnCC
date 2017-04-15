@@ -4,7 +4,7 @@ image: /images/rattlesnakecover.jpg
 title: Rattlesnake
 year: 2017
 date: "Jan 14 | 2017"
-weight: 10
+weight: 20
 slides:
 - /images/rattlesnake1.jpg
 - /images/rattlesnake2.jpg
