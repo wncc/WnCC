@@ -21,7 +21,7 @@ layout: default
                         {% if evt.url == page.url %}
                         <li><a class="button small fit-sidebar disabled" href="#nav" >{{ evt.title }}</a></li>
                         {% else %}
-                        <li><a class="button small fit-sidebar" href="{{ evt.url | prepend: site.baseurl  }}#nav">{{ project.title }}</a></li>
+                        <li><a class="button small fit-sidebar" href="{{ evt.url | prepend: site.baseurl  }}#nav">{{ evt.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                     </ul>
