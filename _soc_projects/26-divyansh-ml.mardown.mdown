@@ -1,0 +1,16 @@
+---
+layout: soc-project
+image: /images/ml-lead.png
+title: Machine Learning Web Portal
+mentor: Divyansh
+category: "Web Development"
+weight: 140
+ribbon: new
+application_procedure: "proposal"
+stipend: To be decided
+openings: 4
+contact: Facebook- <a target="_blank" href="https://www.facebook.com/somil25">Divyansh</a>
+---
+
+The project deals with building an open source website that could be used to evaluate Machine Learning models on a data set directly by giving a link or manually uploading data set. Backend here would based on c++ ( ML pack library for machine learning ) and PHP. Work will involve preparing a Highly user friendly frontend portal with user login, Signup and dashboard.
+
