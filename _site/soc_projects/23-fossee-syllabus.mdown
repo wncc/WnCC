@@ -8,7 +8,7 @@
 -->
 <head>
     <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'/ >
-    <title>Xcos on Web</title>
+    <title>To Create Dynamic Syllabus Matrix for Virtual Labs Community portal</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -103,11 +103,9 @@
     <header class="major">
         <h2>Seasons Of Code</h2>
         <p>
-        <span style="font-weight: 500; color: #212121">Xcos on Web </span>&nbsp;&nbsp;
+        <span style="font-weight: 500; color: #212121">To Create Dynamic Syllabus Matrix for Virtual Labs Community portal </span>&nbsp;&nbsp;
         
-            • Inderpreet Arora&nbsp;&nbsp;&nbsp;
-        
-            • Dipti Ghosalkar&nbsp;&nbsp;&nbsp;
+            • Pushpdeep&nbsp;&nbsp;&nbsp;
         
         </p>
     </header>
@@ -139,7 +137,7 @@
                         
                         
                         
-                        <li><a class="button small fit-sidebar disabled" href="#nav" >Xcos on Web</a></li>
+                        <li><a class="button small fit-sidebar" href="/soc_projects/13-fossee-xcos.html#nav">Xcos on Web</a></li>
                         
                         
                         
@@ -179,7 +177,7 @@
                         
                         
                         
-                        <li><a class="button small fit-sidebar" href="/soc_projects/23-fossee-syllabus.mdown#nav">To Create Dynamic Syllabus Matrix for Virtual Labs Community portal</a></li>
+                        <li><a class="button small fit-sidebar disabled" href="#nav" >To Create Dynamic Syllabus Matrix for Virtual Labs Community portal</a></li>
                         
                         
                         
@@ -240,18 +238,16 @@
             <div class="8u skel-cell-important">
                 <section >
                     <header class="major">
-                        <a id="nav" href="/soc_projects/13-fossee-xcos.html" class="image fit"><img  src="/images/xcos.jpg" alt="Xcos on Web" /></a>
-                        <h2 class="post-title" >Xcos on Web</h2>
+                        <a id="nav" href="/soc_projects/23-fossee-syllabus.mdown" class="image fit"><img  src="/images/vlabs.png" alt="To Create Dynamic Syllabus Matrix for Virtual Labs Community portal" /></a>
+                        <h2 class="post-title" >To Create Dynamic Syllabus Matrix for Virtual Labs Community portal</h2>
                         <p class="post-meta">
                         
                         
                             
-                                • Inderpreet Arora&nbsp;&nbsp;&nbsp;
-                            
-                                • Dipti Ghosalkar&nbsp;&nbsp;&nbsp;
+                                • Pushpdeep&nbsp;&nbsp;&nbsp;
                             
                         <br/> 
-                        • Web Development<br/>
+                        • Development<br/>
                         </p>
                         <p class="post-meta" style="color: black">
                         
@@ -272,43 +268,31 @@
                         
                             <br/>
                             <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Openings: </span>
-                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">2 </span>
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">1 </span>
                         
                         
                             <br/>
                             <span style="color: darkgreen; font-weight: 700; font-family: Arial; font-size: 16pt">Stipend: </span>
-                            <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt">INR 50000 per person </span>
+                            <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt">INR 40000 </span>
                         
                         </p>
                     </header>
                     <div>
-                        <p>The objective of Xcos on web project is to provide access to the capabilities of Xcos simulator over  web. Upon the completion of this project, the users with web-enabled devices will be able to load, create and simulate Xcos diagrams through a web browser. This project has been partially completed and available <a href="http://xcos.fossee.in/">here</a>.</p>
+                        To create a web based dynamic syllabus matrix, which can be used for searching the experiments. This results will also be mapped to know the current development status of the virtual labs and if it's deployed and live.
 
 <!--break-->
 
-<p>The current implementation framework is as follows:</p>
-
-<ol>
-  <li>Overall system design – Design of browser based Xcos simulator to include editor, several menu options, palette libraries, simulation options, etc.</li>
-  <li>Graphical User Interface – Provision of palette blocks in the left pane, set scope parameters and right click functionalities, port constraints for the simulator blocks, Tooltip and color wheel features, Set context option, etc.</li>
-  <li>Data Structures – To enable relevant function call for each block dragged and dropped on the browser-based editor followed by setting the values of model, graphics, GUI and docs; Mapping of Xcos blocks’ sci files to JavaScript.</li>
-  <li>XSLT (eXtensible Stylesheet Language Transformations) – Use of a style sheet language to convert XML generated by GUI into Scilab compatible XML.</li>
-  <li>Parser – Conversion of data structures to JavaScript using regex in Python.</li>
-  <li>Server – Xcos file after suitable conversion is sent to the server for computation and simulation and the results are brought back at the user end in the form of images.</li>
-</ol>
-
-<p>Technologies used: mxGraph, XSLT, JavaScript, Python, Java Servlet, NGINX, Apache Tomcat.
-The code is available <a href="https://github.com/FOSSEE/xcos-on-web">here</a>.</p>
-
+**Skills Required:** Databases
+**Problem statement:** The New community based virtual labs development requires the developed labs to be mapped with the University, Disciplines and Semesters. This will help user to choose an experiment to perform as per his choice.
                     </div>
                     
                     <footer style="margin-bottom: 10em">
                         
-                        <a href="/soc_projects/12-scilab-server.html#nav" class="float-left button small">&larr; Previous project</a> 
+                        <a href="/soc_projects/22-fossee-ip.html#nav" class="float-left button small">&larr; Previous project</a> 
                         
 
                         
-                        <a href="/soc_projects/14-fossee-virtul-lab.html#nav" class="float-right button small">Next project &rarr;</a> 
+                        <a href="/soc_projects/27-fossee-openfoam.html#nav" class="float-right button small">Next project &rarr;</a> 
                         
                         <br><br>
                         <a href="/soc#two" class="button small special float-center"> View all projects</a>
