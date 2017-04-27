@@ -8,7 +8,7 @@ category: "Development"
 weight: 180
 ribbon: new
 application_procedure: "proposal"
-stipend: To be decided
+stipend: INR 3000
 openings: 2
 contact:
 - Facebook- <a target="_blank" href="https://www.facebook.com/arunabh.ghosh.5">Arunabh Ghosh</a>
