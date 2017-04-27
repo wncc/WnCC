@@ -7,7 +7,7 @@ category: "Web Development"
 weight: 160
 ribbon: new
 application_procedure: "proposal"
-stipend: To be decided
+stipend: INR 3000
 openings: 2
 contact: Email- mihirk.1994@gmail.com
 ---
