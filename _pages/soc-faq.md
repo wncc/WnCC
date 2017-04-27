@@ -16,12 +16,7 @@ show-in-header: false
     <div class="container">
         <section>
             <a href="#" class="image fit"><img src="{{ page.banner | prepend: site.baseurl }}" alt="" /></a>
-
-<h3 style="font-weight: 900;">Is SoC considered an internship, a job, or any form of employment?</h3>
-<p>No. SoC is an activity for only IIT Bombay students perform as independent developers for which they are paid a stipend.
-</p>
-
-
+            
 <h3 style="font-weight: 900;">Where does SoC take place?</h3>
 <p>Season of Code occurs entirely online; there is no requirement to travel as part of the program. Although it would be better if done from IIT-Bombay itself.
 </p>
