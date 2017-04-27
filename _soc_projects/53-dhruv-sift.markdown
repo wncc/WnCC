@@ -9,16 +9,8 @@ category: "Computer Vision"
 weight: 110
 ribbon: new
 application_procedure: "proposal"
-<<<<<<< HEAD:_soc_projects/23-dhruv-sift.markdown
 stipend: INR 3000
 openings: 2
-||||||| merged common ancestors
-stipend: To be decided
-openings: To be decided
-=======
-stipend: INR 3000
-openings: T2
->>>>>>> 859816af3c7c3658cb2492ddf32bbda92201c994:_soc_projects/53-dhruv-sift.markdown
 contact:
 - <a target="_blank" href="https://gitter.im/wncc/SoC_IntelAgents">Gitter</a>
 - Facebook- <a target="_blank" href="https://www.facebook.com/shashwat.shukla.5203">Shashwat Shukla</a>, <a target="_blank" href="https://www.facebook.com/dhruv.ilesh">Dhruv Shah</a>
