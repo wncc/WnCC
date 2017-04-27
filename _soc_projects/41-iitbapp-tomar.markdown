@@ -9,7 +9,7 @@ category: "Development"
 weight: 170
 ribbon: new
 application_procedure: "proposal"
-stipend: Letter of Recommendation from Dean of Student Affairs
+stipend: Letter of Recommendation from Dean of Student Affairs and INR 3000
 openings: 4
 contact:
 - Facebook- <a target="_blank" href="https://www.facebook.com/abhijit.tomar">Abhijit Tomar</a>, <a target="_blank" href="www.facebook.com/sajalnarang">Sajal Narang</a>
