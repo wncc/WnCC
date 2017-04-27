@@ -3,7 +3,7 @@ layout: soc-project
 image: /images/virtuallab.jpg
 title: Continuous integration for Virtual Labs
 mentor: 
--Pushpdeep
+- Pushpdeep
 category: "Development"
 weight: 75
 ribbon: FOSSEE
