@@ -16,11 +16,11 @@ The group is working on a couple of medical devices which capture images and hel
 
 <!--break-->
 
-#### Skills Required:
+### Skills Required:
 1. Well-versed with image processing algorithms and their implementation in python/ OpenCV.
 2. He/ She should be open to research new algorithms.
 
-####  Roles and Responsibilities:
+###  Roles and Responsibilities:
 1. Research and Implement image stitching algorithms
 2. Quantify image quality
 3. Extract Regions of Interest from an image
