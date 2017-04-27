@@ -59,7 +59,6 @@ div.tab button.active {
     </div>
 </section>
 
-
 <!-- Two -->
 <section id="two" class="wrapper style1">
 	<header class="major">
@@ -68,14 +67,19 @@ div.tab button.active {
 	</header>
 
 <div class="tab" style="text-align : center">
-  <button class="tablinks" onclick="openType(event, '2017')" id="defaultOpen">2017</button>
-  <button class="tablinks" onclick="openType(event, '2016')" id="tab2016">2016</button>
-</div>
+	{% assign years = [2013,2014,2015,2016,2017] %}
+	{% for y in years %}
+		{% assign ids = 'tab'+y %}
+		{{ids}}
+  		<button class="tablinks" onclick="openType(event, yr)" id=ids>{{y}}</button>
+    {% endfor %}
+  </div>
 <br/>
+
 
 <div id="2016" class="tabcontent">
 	<div class="container">
-		{% assign eventList = site.events | sort:"weight"  %}
+		{% assign eventList = site.events | sort:"weight" %}
             {% for event in site.events%}
 	            {% if event.year == 2016 %}
 		            {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
