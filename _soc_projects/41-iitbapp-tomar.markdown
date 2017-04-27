@@ -10,17 +10,14 @@ weight: 170
 ribbon: new
 application_procedure: "proposal"
 stipend: Letter of Recommendation from Dean of Student Affairs
-openings: 2
+openings: 4
 contact:
 - Facebook- <a target="_blank" href="https://www.facebook.com/abhijit.tomar">Abhijit Tomar</a>, <a target="_blank" href="www.facebook.com/sajalnarang">Sajal Narang</a>
 - <a target="_blank" href="https://iitb-app.slack.com/signup">Slack</a> (Sign in using iitb.ac.in email)
 ---
 
-The aim of this project is to turn our smartphones into a wireless mouse -- and not just any wireless mouse, the smartest of them all. 
+The aim of this project is to unify all the events in the institute and keep students updated with events they are interested in.
 
 <!--break-->
 
-We initially start with figuring out ways to measure the distance glided by the phone, using the phone's camera and other sensors in it such as accelerometer and gyroscope. Main work will include extracting features out of images and using those predict the distance travelled by the phone using machine learning techniques. Though this is expected to be a fun project and inspire learning and curiosity but at the end we can hope for an android app which converts our smartphones into wireless mouses. And then using the power of our smartphones we can make it as much smarter as we want. 
-
-Quite a bit work has already been done. You can find the source code and results till date over here - [https://github.com/Arunabh98/Local-localization](https://github.com/Arunabh98/Local-localization). 
-Do have a look at the plots which show the correlation of distance to various features I have already extracted -- [https://github.com/Arunabh98/Local-localization/tree/master/Plots](https://github.com/Arunabh98/Local-localization/tree/master/Plots).
+The design for the IITB App has already been decided through a Design GC and can be found at https://l.facebook.com/l.php?u=https%3A%2F%2Finvis.io%2FD4ADJKT5U&h=ATMtOQjo6z14LoARnrbYe8S7sjMWwxGHLEGNxzp5-Yx3DWIEPUiPM0IUPaHvXbFdxB5XiAaLb2IYKOxZnE5awj0NDVP7B9z5gTnCUBbeV6XHDvtNfvlthkRzdxV6cZ7jQYY. The task at hand is to develop an app based on this design which will contain upcoming events related to all clubs, cultural, technical and academic councils. Students can suscribe to the clubs and councils they are interested in and they will be set notifications about reated events. The aim is to reduce the dependence on social media and word of mouth to spread awareness about an event and replace it with a more reliable source. The backend development would be mentored by Abhijit Tomar and the frontend by Sajal Narang. If you have any doubts or are interested in the project, join the Slack team whose link is given above.
