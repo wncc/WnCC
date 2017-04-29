@@ -2,7 +2,7 @@
 layout: soc-project
 image: /images/iitbapp.png
 title: IIT-B App
-mentor: 
+mentor:
 - "Abhijit Tomar"
 - "Sajal Narang"
 category: "Development"
@@ -10,7 +10,7 @@ weight: 170
 ribbon: new
 application_procedure: "proposal"
 stipend: Letter of Appreciation from DoSA and INR 3000
-openings: 4
+openings: 5 (2 Android developers, 2 Backend developer, 1 designer)</br>Please specify what you're applying for in the abstract
 contact:
 - Facebook- <a target="_blank" href="https://www.facebook.com/abhijit.tomar">Abhijit Tomar</a>, <a target="_blank" href="www.facebook.com/sajalnarang">Sajal Narang</a>
 - <a target="_blank" href="https://iitb-app.slack.com/signup">Slack</a> (Sign in using iitb.ac.in email)
