@@ -230,12 +230,6 @@ div.tab button.active {
 		<!-- <a href="#" class="button big special">View All Projects</a> -->
 		</div>
 	</div>
-</div>
-
-<div style="text-align: center; color: green; font-weight: 700; font-family: Arial; font-size: 24pt">
-		<p>More Projects Coming Soon!</p>
-</div>
-
 
 
 <script>
