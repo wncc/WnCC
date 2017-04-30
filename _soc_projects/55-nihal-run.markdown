@@ -36,7 +36,7 @@ their location and selection of appropriate images based on the location of the 
 * ***Spectators*** - Add a new option on start of the game - to spectate instead of play. Spectators will see player scores, a live map
 with the players on them. Further additions possible - spectators can dynamically add an image to the game they are watching. 
 
-The repositories can be found here-
+The repositories can be found here:
 
 - [Android App](https://github.com/CodeMaxx/Run-App)
 - [Backend](https://github.com/CodeMaxx/Run-Backend)

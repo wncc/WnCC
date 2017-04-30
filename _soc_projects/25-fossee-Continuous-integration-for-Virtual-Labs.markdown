@@ -4,7 +4,7 @@ image: /images/virtuallab.jpg
 title: Continuous integration for Virtual Labs
 mentor: 
 - Pushpdeep
-category: "Development"
+category: "Web Development"
 weight: 75
 ribbon: FOSSEE
 application_procedure: "proposal"
