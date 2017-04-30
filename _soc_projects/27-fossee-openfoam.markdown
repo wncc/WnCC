@@ -5,7 +5,7 @@ title: Revive pythonFlu package for OpenFOAM
 mentor: 
 - Prof. Prabhu
 - Prof. Shiva
-category: "Development"
+category: "Development, Scientific Computation"
 weight: 77
 ribbon: FOSSEE
 application_procedure: "proposal"
