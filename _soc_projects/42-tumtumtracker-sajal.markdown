@@ -3,6 +3,7 @@ layout: soc-project
 image: /images/tumtum.jpg
 title: Tum Tum Tracker
 mentor:
+- "Pratik Lodha"
 - "Sajal Narang"
 category: "Development"
 weight: 175
