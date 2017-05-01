@@ -12,7 +12,7 @@ stipend: INR 3000
 openings: 4 (2 Android developers, 2 backend developers)</br>Please specify what you're applying for in the abstract
 contact:
 - Facebook- <a target="_blank" href="www.facebook.com/sajalnarang">Sajal Narang</a>
-- <a target="_blank" href="https://tumtumtracker.slack.com/signup">Slack</a> (Sign in using iitb.ac.in email)
+- <a target="_blank" href="https://tum-tum-tracker.slack.com/signup">Slack</a> (Sign in using iitb.ac.in email)
 ---
 
 The aim of this project is to create a crowd-sourced Android application to dynamically track the location of Tum-Tums in the institute and display them on a map in the same app.
