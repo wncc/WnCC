@@ -3,8 +3,8 @@ layout: soc-project
 image: /images/google-analytics.jpg 
 title: Mapping Analytics from Virtual lab to edX
 mentor: 
--Pushpdeep
--Rupak
+- Pushpdeep
+- Rupak
 category: "Development"
 weight: 74
 ribbon: FOSSEE

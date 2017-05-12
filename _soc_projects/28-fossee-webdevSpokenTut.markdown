@@ -5,7 +5,7 @@ title: Website development for Spoken Tutorial project
 mentor: 
 - Kirti
 - Nancy
-category: "Development"
+category: "Web Development"
 weight: 78
 ribbon: FOSSEE
 application_procedure: "proposal"

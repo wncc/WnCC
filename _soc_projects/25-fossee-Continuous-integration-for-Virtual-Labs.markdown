@@ -3,8 +3,8 @@ layout: soc-project
 image: /images/virtuallab.jpg
 title: Continuous integration for Virtual Labs
 mentor: 
--Pushpdeep
-category: "Development"
+- Pushpdeep
+category: "Web Development"
 weight: 75
 ribbon: FOSSEE
 application_procedure: "proposal"
