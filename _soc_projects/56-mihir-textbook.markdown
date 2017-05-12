@@ -10,6 +10,9 @@ application_procedure: "proposal"
 stipend: INR 3000
 openings: 2
 contact: Email- mihirk.1994@gmail.com
+mentees: 
+- Rupesh
+- Ashish Mittal
 ---
 
 We're creating an interactive textbook for exposition of probability and statistics. The idea is to motivate the concepts and allow consumers to interact with various parts of the exposition for a better subject understanding. 
