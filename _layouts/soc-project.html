@@ -45,6 +45,9 @@ layout: default
                         <p class="post-meta">
                         {% if page.ribbon == "completed" %}
                         <span style="color: green; font-weight: 700; font-family: Arial">[COMPLETED]</span><br/><br/>
+                        {% elsif page.ribbon == "progress" %}
+                        <span style="color: red; font-weight: 700; font-family: Arial">
+                        [In Progress]</span><br/><br/>
                         {% endif %}
                         {% if page.mentor %}
                             {% for mentor in page.mentor%}
@@ -53,7 +56,7 @@ layout: default
                         {% endif %}<br/> 
                         {% if page.category %}• {{ page.category }}{% endif %}<br/>
                         {% if page.meta %} • {{ page.meta }}{% endif %}</p>
-                        <p class="post-meta" style="color: black">
+                        <p class="post-meta" style="color:#555f66">
                         {% if page.mentees %}
                         Mentees: &nbsp;&nbsp;&nbsp;
                             {% for mentee in page.mentees%}
