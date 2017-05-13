@@ -55,9 +55,9 @@ layout: default
                         {% if page.meta %} • {{ page.meta }}{% endif %}</p>
                         <p class="post-meta" style="color: black">
                         {% if page.mentees %}
-                        Mentees: &nbsp;&nbsp;&nbsp;
+                        <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Mentees: &nbsp;&nbsp;&nbsp;</span>
                             {% for mentee in page.mentees%}
-                                • {{ mentee }}&nbsp;&nbsp;&nbsp;
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">• {{ mentee }}&nbsp;&nbsp;&nbsp;</span>
                             {% endfor %}
                         {% endif %}
                         {% if page.application_procedure %}
