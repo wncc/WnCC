@@ -7,13 +7,14 @@ mentor:
 - Shashwat Shukla
 category: "Computer Vision"
 weight: 110
-ribbon: new
-application_procedure: "proposal"
 stipend: INR 3000
-openings: 2
 contact:
 - <a target="_blank" href="https://gitter.im/wncc/SoC_IntelAgents">Gitter</a>
 - Facebook- <a target="_blank" href="https://www.facebook.com/shashwat.shukla.5203">Shashwat Shukla</a>, <a target="_blank" href="https://www.facebook.com/dhruv.ilesh">Dhruv Shah</a>
+mentees:
+- Chinmay Awale
+- Sucheta Ravikanti
+- Partasarathi Khirwadkar
 ---
 
 Despite many recent groundbreaking advances in pattern recognition and image recognition, most of which are attributable to Machine Learning methods like Convolutional Neural Networks, these algorithms face multiple problems like a [lack of robustness](https://arxiv.org/abs/1412.1897) with respect to scale, lighting, rotation, noise etc. Enter Scale & Orientation Invariant Object Recognition .
