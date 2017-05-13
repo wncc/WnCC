@@ -8,7 +8,6 @@ weight: 73
 ribbon: FOSSEE
 application_procedure: "proposal"
 stipend: INR 40000
-openings: 1
 contact: "FOSSEE"
 mentees: Saqib Azim
 ---
@@ -26,7 +25,7 @@ The group is working on a couple of medical devices which capture images and hel
 2. Quantify image quality
 3. Extract Regions of Interest from an image
 4. Work along with the optical Engineer, to ensure image quality
-5. Optimize code for parallel computing.
+5. Optimize code for parallel computing
 6. Maintain coding standards and documentation
 
 You can checkout the code [here](https://github.com/FOSSEE/).
