@@ -7,8 +7,6 @@ mentor:
 - Shashwat Shukla
 category: "Computer Vision"
 weight: 110
-ribbon: new
-application_procedure: "proposal"
 stipend: INR 3000
 contact:
 - <a target="_blank" href="https://gitter.im/wncc/SoC_IntelAgents">Gitter</a>
