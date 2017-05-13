@@ -14,7 +14,11 @@ openings: 4(+4)
 contact: Email- govindlahoti22@gmail.com
 ---
 
+<<<<<<< HEAD
 Learn and practice algorithms and data structures needed for competitive programming contests. The project will involve learning the important algorithms/data structures in the field of Computer Science on your own (I will provide the reference material) and then practice lots and lots of problems on competitive coding websites like [www.spoj.com](https://www.spoj.com), [www.codeforces.com](http://codeforces.com).
+=======
+Learn and practice algorithms and data structures needed for competitive programming contests. The project will involve learning the important algorithms/data structures in the field of Computer Science on your own (I will provide the reference material) and then practice lots and lots of problems on competitive coding websites like [spoj](https://www.spoj.com), [codeforces](https://www.codeforces.com).
+>>>>>>> upstream/master
 
 <!--break-->
 
