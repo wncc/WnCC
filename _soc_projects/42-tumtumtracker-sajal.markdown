@@ -7,7 +7,7 @@ mentor:
 - "Sajal Narang"
 category: "Development"
 weight: 175
-ribbon: new
+ribbon: progress
 stipend: INR 3000
 mentees:
 - Shubham Anand (frontend)

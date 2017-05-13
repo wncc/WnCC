@@ -5,7 +5,7 @@ title: Scilab-Julia Interface
 mentor: "Shamika Mohanan"
 category: "Development"
 weight: 10
-ribbon: FOSSEE
+ribbon: progress
 application_procedure: "proposal"
 stipend: INR 10000
 mentees:

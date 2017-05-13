@@ -5,7 +5,7 @@ title: Develop GUI for OpenModelica using Python
 mentor: Rahul
 category: "Development"
 weight: 70
-ribbon: FOSSEE
+ribbon: progress
 contact: "FOSSEE"
 stipend: INR 25000
 mentees:

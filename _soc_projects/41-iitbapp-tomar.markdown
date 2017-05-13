@@ -7,7 +7,7 @@ mentor:
 - "Sajal Narang"
 category: "Development"
 weight: 170
-ribbon: new
+ribbon: progress
 stipend: Letter of Appreciation from DoSA and INR 3000
 mentees:
 - Sriram YV (frontend)

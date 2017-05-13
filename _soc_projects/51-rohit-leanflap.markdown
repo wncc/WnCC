@@ -7,7 +7,7 @@ mentor:
 - "Chitwan Saharia"
 category: "Machine Learning"
 weight: 90
-ribbon: new
+ribbon: progress
 stipend: INR 3000
 contact:
 - <a target="_blank" href="https://gitter.im/LearnToFlap-SOC/Lobby">Gitter</a>

@@ -5,7 +5,7 @@ title: Image Processing  for Healthcare Research
 mentor: Hina
 category: "Computer Vision"
 weight: 73
-ribbon: FOSSEE
+ribbon: progress
 stipend: INR 40000
 contact: "FOSSEE"
 mentees: Saqib Azim

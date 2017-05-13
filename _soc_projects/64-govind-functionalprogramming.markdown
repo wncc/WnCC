@@ -5,7 +5,7 @@ title: Functional Programming
 mentor: Govind Lahoti
 category: "Development, Functional Programming Language"
 weight: 120
-ribbon: new
+ribbon: progress
 stipend: INR 3000
 contact: Email- govindlahoti22@gmail.com
 mentees:
