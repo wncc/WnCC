@@ -10,7 +10,6 @@ weight: 110
 ribbon: new
 application_procedure: "proposal"
 stipend: INR 3000
-openings: 2
 contact:
 - <a target="_blank" href="https://gitter.im/wncc/SoC_IntelAgents">Gitter</a>
 - Facebook- <a target="_blank" href="https://www.facebook.com/shashwat.shukla.5203">Shashwat Shukla</a>, <a target="_blank" href="https://www.facebook.com/dhruv.ilesh">Dhruv Shah</a>
