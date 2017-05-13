@@ -9,6 +9,12 @@ category: "Development"
 weight: 170
 ribbon: new
 stipend: Letter of Appreciation from DoSA and INR 3000
+mentees:
+- Sriram YV (frontend)
+- Mrunmayi Mungekar (frontend)
+- Abhiskek Singhal (backend)
+- Kaushal Kishore (backend)
+- Bidish Ghosh (design)
 contact:
 - Facebook- <a target="_blank" href="https://www.facebook.com/abhijit.tomar">Abhijit Tomar</a>, <a target="_blank" href="www.facebook.com/sajalnarang">Sajal Narang</a>
 - <a target="_blank" href="https://iitb-app.slack.com/signup">Slack</a> (Sign in using iitb.ac.in email)
