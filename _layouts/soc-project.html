@@ -58,18 +58,20 @@ layout: default
                         {% if page.meta %} • {{ page.meta }}{% endif %}</p>
                         <p class="post-meta" style="color:#555f66">
                         {% if page.mentees %}
-                        Mentees: &nbsp;&nbsp;&nbsp;
+                        <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Mentees: &nbsp;&nbsp;&nbsp;</span>
                             {% for mentee in page.mentees%}
-                                • {{ mentee }}&nbsp;&nbsp;&nbsp;
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">• {{ mentee }}&nbsp;&nbsp;&nbsp;</span>
                             {% endfor %}
                         {% endif %}
-                        {% if page.application_procedure %}
-                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Application Procedure: </span>
-                            {% if page.application_procedure == "proposal" %}
-                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Submit a proposal <a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc5ZqQvIgxVK-Tf-uWEKcyCg2BrDM0Iu4QVj5RzoP6Y5TZtNA/viewform">here</a></span>
-                            {% endif %}
-                            {% if page.application_procedure == "coding_task" %}
-                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Applicants should attempt the coding test for the various toolboxes that will be put up <a target = "_blank" href="http://fossee.in/internship">here</a> on May 1, 2017. Submission steps and deadline will be mentioned in the problem statement for each toolbox. No reminder regarding the test or submission deadline will be sent.</span>
+                        {% if page.ribon != progress %}
+                            {% if page.application_procedure %}
+                                <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Application Procedure: </span>
+                                {% if page.application_procedure == "proposal" %}
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Submit a proposal <a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc5ZqQvIgxVK-Tf-uWEKcyCg2BrDM0Iu4QVj5RzoP6Y5TZtNA/viewform">here</a></span>
+                                {% endif %}
+                                {% if page.application_procedure == "coding_task" %}
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Applicants should attempt the coding test for the various toolboxes that will be put up <a target = "_blank" href="http://fossee.in/internship">here</a> on May 1, 2017. Submission steps and deadline will be mentioned in the problem statement for each toolbox. No reminder regarding the test or submission deadline will be sent.</span>
+                                {% endif %}
                             {% endif %}
                         {% endif %}
                         {% if page.contact %}
@@ -85,10 +87,12 @@ layout: default
                             </span>
                             {% endif %}
                         {% endif %}
-                        {% if page.openings %}
-                            <br/>
-                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Openings: </span>
-                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">{{ page.openings }} </span>
+                        {% if page.ribbon != "progress"%}
+                            {% if page.openings %}
+                             <br/>
+                                <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Openings: </span>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">{{ page.openings }} </span>
+                            {% endif %}
                         {% endif %}
                         {% if page.stipend %}
                             <br/>

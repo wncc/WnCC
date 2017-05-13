@@ -6,9 +6,13 @@ mentor: "Arunabh Ghosh"
 category: "Development"
 weight: 180
 ribbon: progress
+stipend: INR 3000
+contact:
+- Facebook- <a target="_blank" href="https://www.facebook.com/arunabh.ghosh.5">Arunabh Ghosh</a>
+- Email- arunabhghosh98@gmail.com
 mentees:
+- Beni Madhav Agrawal
 - Pranil Joshi
-- Beni Madhav Agarwal
 ---
 
 The aim of this project is to turn our smartphones into a wireless mouse -- and not just any wireless mouse, the smartest of them all. 

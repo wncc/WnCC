@@ -5,11 +5,11 @@ title: Scilab-Julia Interface
 mentor: "Shamika Mohanan"
 category: "Development"
 weight: 10
-ribbon: FOSSEE
+ribbon: progress
 application_procedure: "proposal"
-contact: "FOSSEE"
 stipend: INR 10000
-openings: 1
+mentees:
+- Harshith Goka
 ---
 
 Create an interface that can call any Julia function from Scilab console and displays the output of the Julia function on Scilab console. 

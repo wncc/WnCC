@@ -5,11 +5,13 @@ title: Functional Programming
 mentor: Govind Lahoti
 category: "Development, Functional Programming Language"
 weight: 120
-ribbon: new
-application_procedure: "proposal"
+ribbon: progress
 stipend: INR 3000
-openings: 3
 contact: Email- govindlahoti22@gmail.com
+mentees:
+- Adarsh Kumar
+- Ishan Tarunesh
+- Shubham Anand
 ---
 
 Learn and use functional programming for software development. You will learn one or more functional programming languages of your choice (Clojure, Haskell, Ocaml, Racket etc), and then use it for developing software/tool/game of your choice.

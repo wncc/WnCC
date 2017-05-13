@@ -6,6 +6,8 @@ mentor: Mihir Kulkarni
 category: "Web Development"
 weight: 160
 ribbon: progress
+stipend: INR 3000
+contact: Email- mihirk.1994@gmail.com
 mentees: 
 - Rupesh
 - Ashish Mittal
