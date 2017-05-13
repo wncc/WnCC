@@ -6,7 +6,6 @@ mentor: Hina
 category: "Computer Vision"
 weight: 73
 ribbon: FOSSEE
-application_procedure: "proposal"
 stipend: INR 40000
 contact: "FOSSEE"
 mentees: Saqib Azim
