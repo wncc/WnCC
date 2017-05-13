@@ -8,7 +8,6 @@ mentor:
 category: "Development"
 weight: 175
 ribbon: new
-application_procedure: "proposal"
 stipend: INR 3000
 mentees:
 - Shubham Anand (frontend)
