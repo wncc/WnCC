@@ -10,6 +10,7 @@ application_procedure: "proposal"
 stipend: INR 40000
 openings: 1
 contact: "FOSSEE"
+mentees: Saqib Azim
 ---
 
 The group is working on a couple of medical devices which capture images and help in diagnosis of diseases.
