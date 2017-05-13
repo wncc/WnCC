@@ -8,7 +8,6 @@ weight: 73
 ribbon: FOSSEE
 application_procedure: "proposal"
 stipend: INR 40000
-openings: 1
 contact: "FOSSEE"
 mentees: Saqib Azim
 ---
