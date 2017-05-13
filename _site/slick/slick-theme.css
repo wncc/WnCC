@@ -15,6 +15,19 @@
     src: url('./fonts/slick.eot');
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
+
+/* Bootstrap Glyphicons
+ * for better arrows */
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot');
+    src: url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+    url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff') format('woff'),
+    url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
 /* Arrows */
 .slick-prev,
 .slick-next
@@ -27,9 +40,7 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
-    padding: 0;
+    padding: 2px;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
@@ -39,15 +50,7 @@
     color: transparent;
     border: none;
     outline: none;
-    background: #629DD1;
-}
-.slick-prev:hover,
-.slick-next:hover
-{
-    color: transparent;
-    flood-color: #111111; 
-    outline: none;
-    background: #111111;
+    background: transparent;
 }
 .slick-prev:focus,
 .slick-next:focus
@@ -63,6 +66,7 @@
 .slick-next:focus:before
 {
     opacity: 1;
+    color: gray;
 }
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
@@ -73,12 +77,12 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: 'slick';
+    font-family: 'Glyphicons Halflings';
     font-size: 20px;
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: black;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -95,11 +99,11 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: '\e079';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: '\e080';
 }
 
 .slick-next
@@ -113,11 +117,11 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: '\e080';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: '\e079';
 }
 
 /* Dots */
