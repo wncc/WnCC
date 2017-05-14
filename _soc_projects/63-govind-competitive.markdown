@@ -21,7 +21,7 @@ stipend: INR 3000
 contact: Email- govindlahoti22@gmail.com
 ---
 
-Learn and practice algorithms and data structures needed for competitive programming contests. The project will involve learning the important algorithms/data structures in the field of Computer Science on your own (I will provide the reference material) and then practice lots and lots of problems on competitive coding websites like [spoj](https://www.spoj.com), [codeforces](http://codeforces.com).
+Learn and practice algorithms and data structures needed for competitive programming contests. The project will involve learning the important algorithms/data structures in the field of Computer Science on your own (I will provide the reference material) and then practice lots and lots of problems on competitive coding websites like [spoj](https://www.spoj.com), [codeforces](https://www.codeforces.com).
 
 <!--break-->
 
