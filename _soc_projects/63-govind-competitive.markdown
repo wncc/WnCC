@@ -28,4 +28,3 @@ Learn and practice algorithms and data structures needed for competitive program
 In your proposal mention your familiarity with C++
 
 Reading material: There is humongous collection of tutorials, videos, practice problems on the internet. Google them.
-
