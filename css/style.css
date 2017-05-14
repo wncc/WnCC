@@ -1249,6 +1249,22 @@ a.hyperlink-nodecoration {color: #629DD1;
         border-top: 3px solid #8F0808;
     }
 
+    .progress span
+    {
+        background: #FFD633;
+        background: linear-gradient(#FF3300 0%, #FFD633 100%);
+    }
+    .progress span::before
+    {
+        border-left: 3px solid #FFD633;
+        border-top: 3px solid #FFD633;
+    }
+    .progress span::after
+    {
+        border-right: 3px solid #FFD633;
+        border-top: 3px solid #FFD633;
+    }
+
     .vacancy span
     {
         background: #1e5799;

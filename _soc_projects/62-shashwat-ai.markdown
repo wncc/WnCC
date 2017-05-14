@@ -7,10 +7,12 @@ mentor:
 - Dhruv Shah
 category: "Artificial Intelligence"
 weight: 100
-ribbon: new
-application_procedure: "proposal"
+ribbon: progress
 stipend: INR 3000
-openings: 2
+mentees:
+- Atharva Khandait
+- Ishan Tarunesh
+- Sharvik
 contact:
 - <a target="_blank" href="https://gitter.im/wncc/SoC_IntelAgents">Gitter</a>
 - Facebook- <a target="_blank" href="https://www.facebook.com/shashwat.shukla.5203">Shashwat Shukla</a>, <a target="_blank" href="https://www.facebook.com/dhruv.ilesh">Dhruv Shah</a>

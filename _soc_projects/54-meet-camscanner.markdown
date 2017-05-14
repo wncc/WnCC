@@ -5,13 +5,14 @@ title: Panorama in Cam-Scanner
 mentor: "Meet Udeshi"
 category: "Image Processing"
 weight: 120
-ribbon: new
-application_procedure: "proposal"
+ribbon: progress
 stipend: INR 3000
-openings: 2
 contact:
 - <a target="_blank" href="https://gitter.im/wncc/SoC_CamScanner">Gitter</a>
 - Facebook- <a target="_blank" href="https://www.facebook.com/udiboy1209">Meet Udeshi</a>
+mentees:
+- Nived
+- Bhishma Dedhia
 ---
 
 Each one of us must have used the Cam-scanner app on Android phones for quick and good quality scanning of documents. But what if you have to scan a really big document? Or maybe you want to capture more detail?

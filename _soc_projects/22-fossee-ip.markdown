@@ -5,11 +5,10 @@ title: Image Processing  for Healthcare Research
 mentor: Hina
 category: "Computer Vision"
 weight: 73
-ribbon: FOSSEE
-application_procedure: "proposal"
+ribbon: progress
 stipend: INR 40000
-openings: 1
 contact: "FOSSEE"
+mentees: Saqib Azim
 ---
 
 The group is working on a couple of medical devices which capture images and help in diagnosis of diseases.
