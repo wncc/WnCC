@@ -10,6 +10,7 @@ mentor:
 - Shantanu Thakoor
 mentees:
 - Anmol Saxena
+- Akash Kumar
 - Ashutosh Kumar Verma
 - Sahil Shah
 - Ashish Mittal
