@@ -7,7 +7,7 @@ mentor:
 - Dhruv Shah
 category: "Artificial Intelligence"
 weight: 100
-ribbon: new
+ribbon: progress
 stipend: INR 3000
 mentees:
 - Atharva Khandait

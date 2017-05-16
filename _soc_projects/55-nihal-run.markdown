@@ -8,7 +8,7 @@ mentor:
 - "Akash Trehan"
 category: "Development"
 weight: 130
-ribbon: new
+ribbon: progress
 stipend: INR 3000
 mentees:
 - Sarthak Khandelwal

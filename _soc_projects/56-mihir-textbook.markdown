@@ -5,10 +5,8 @@ title: Interactive textbook for Probability & Statistics
 mentor: Mihir Kulkarni
 category: "Web Development"
 weight: 160
-ribbon: new
-application_procedure: "proposal"
+ribbon: progress
 stipend: INR 3000
-openings: 2
 contact: Email- mihirk.1994@gmail.com
 mentees: 
 - Rupesh

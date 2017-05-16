@@ -7,10 +7,15 @@ mentor:
 - "Sajal Narang"
 category: "Development"
 weight: 175
-ribbon: new
-application_procedure: "proposal"
+ribbon: progress
 stipend: INR 3000
-openings: 4 (2 Android developers, 2 backend developers)</br>Please specify what you're applying for in the abstract
+mentees:
+- Shubham Anand (frontend)
+- Shubhang Bhatnagar (frontend)
+- Arsh Akhtar Ansari (backend)
+- Alok Kumar (backend)
+- Rajarshi Saha
+- Owais Chunawala
 contact:
 - Facebook- <a target="_blank" href="www.facebook.com/sajalnarang">Sajal Narang</a>
 - <a target="_blank" href="https://tum-tum-tracker.slack.com/signup">Slack</a> (Sign in using iitb.ac.in email)
