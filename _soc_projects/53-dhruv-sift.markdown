@@ -14,7 +14,7 @@ contact:
 mentees:
 - Chinmay Awale
 - Sucheta Ravikanti
-- Partasarathi Khirwadkar
+- Parthasarathi Khirwadkar
 ---
 
 Despite many recent groundbreaking advances in pattern recognition and image recognition, most of which are attributable to Machine Learning methods like Convolutional Neural Networks, these algorithms face multiple problems like a [lack of robustness](https://arxiv.org/abs/1412.1897) with respect to scale, lighting, rotation, noise etc. Enter Scale & Orientation Invariant Object Recognition .
