@@ -66,13 +66,13 @@ div.tab button.active {
 		<p>Go on. Check them out.</p>
 	</header>
 
-{% assign years = "" %}
+{% assign years = 'a,b' |split: ',' %}
+{% assign years = years |pop: 2 %}
 {% for event in site.events %}
-	{% assign years = years | append: event.year %}
-	{% unless forloop.last %}
-	{% assign years = years | append: ', ' %}{% endunless %}
+	{% assign years = years |push: event.year %}
 {% endfor %}
-{% assign years = years |split: ', ' |uniq %}
+
+{% assign years = years |uniq %}
 
 <div class="tab" style="text-align : center">
 {% for year in years%}
@@ -81,18 +81,22 @@ div.tab button.active {
 {% endfor %}
 <br/>
 
+{% assign eventList = site.events |sort: "weight"%}
 {% for year in years%}
 <div id="{{ year }}" class="tabcontent">
 	<div class="container">
-		{% assign eventList = site.events | sort:"weight" %}
-            {% for event in site.events%}
-	            {% if event.year == year %}
-		            {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-		            {% capture thecycle %}{% cycle '0', '1' ,'2' %}{% endcapture %}
+				{% assign thecycle = '0' %}
+	            {% for event in eventList %}
+		            {% capture thecycle %}
+		            {% if event.year == year %}
+		            {% cycle '0', '1' ,'2' %}
+		            {% endif %}
+		            {% endcapture %}
 		            <!-- Creating a new row after every three elements -->
 		            {% if thecycle == '0' or forloop.first %}
 		            	<div class="row">
 		            {% endif %}
+		      		{% if event.year == year %}
 						<div class="4u">
 							<section class="special">
 								<a href="{{ event.url | prepend: site.baseurl }}" class="image fit">
@@ -108,10 +112,10 @@ div.tab button.active {
 								</ul>
 							</section>
 						</div>
+					{% endif %}
 					{% if thecycle == '2' or forloop.last %}
 		    			</div>
-					{% endif %}
-				{% endif %}
+					{% endif %}	
             {% endfor %}
 		<div style="text-align: center;">
 		<!-- <a href="#" class="button big special">View All Events</a> -->
