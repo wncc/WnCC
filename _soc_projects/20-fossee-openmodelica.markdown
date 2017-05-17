@@ -10,6 +10,7 @@ contact: "FOSSEE"
 stipend: INR 25000
 mentees:
 - Kumar Ashutosh
+- Vikrant Nagpure
 ---
 
 OpenModelica is a free and open source environment based on the Modelica modelling language for modelling, simulating, optimising and analysing complex dynamic systems. Its development is supported by Open Source Modelica Consortium. It runs on Windows, Linux and Mac OS X. Please visit [https://www.openmodelica.org/](https://www.openmodelica.org/) for more details about OpenModelica.

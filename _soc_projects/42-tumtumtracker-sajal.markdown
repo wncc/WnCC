@@ -11,7 +11,7 @@ ribbon: progress
 stipend: INR 3000
 mentees:
 - Shubham Anand (frontend)
-- Pranil Joshi (frontend)
+- Shubhang Bhatnagar (frontend)
 - Arsh Akhtar Ansari (backend)
 - Alok Kumar (backend)
 - Rajarshi Saha

@@ -1,14 +1,23 @@
 ---
 layout: soc-project
 image: /images/competitive-programming.jpg
-title: Competitive Programming 
-mentor: Govind Lahoti
+title: Competitive Programming
 category: "Competitive Coding"
 weight: 110
-ribbon: new
-application_procedure: "proposal"
+ribbon: progress
+mentor:
+- Govind Lahoti 
+- Shantanu Thakoor
+mentees:
+- Anmol Saxena
+- Akash Kumar
+- Ashutosh Kumar Verma
+- Sahil Shah
+- Ashish Mittal
+- Sriram YV
+- Tushar Dhawal Baranwal
+- Aryan Agal
 stipend: INR 3000
-openings: 4
 contact: Email- govindlahoti22@gmail.com
 ---
 
