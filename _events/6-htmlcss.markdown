@@ -1,14 +1,14 @@
 ---
 layout: EventDisplay
-image: /images/htmlcss.jpg
+image: /images/htmlcss-eventCover.jpg
 title: Scratch Day
 year: 2014
 date: "Sept 20 | 2014"
 weight: 60
 slides:
-- /images/htmlcss1.jpg
-- /images/htmlcss2.jpg
-- /images/htmlcss3.jpg
+- /event_images/htmlcss1.jpg
+- /event_images/htmlcss2.jpg
+- /event_images/htmlcss3.jpg
 ---
 
 An introductory session on web development.
