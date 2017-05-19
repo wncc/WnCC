@@ -1,6 +1,6 @@
 ---
 layout: EventDisplay
-image: /images/ciphers.jpg
+image: /images/ciphers-eventCover.jpg
 title: Ciphers
 year: 2016
 date: "Sept 23 | 2016"
