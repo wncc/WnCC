@@ -24,7 +24,7 @@ div.tab button {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 14%;	
+    padding: 2%;	
     transition: 0.3s;
     font-size: 25px;
 }
@@ -40,7 +40,7 @@ div.tab button.active {
 }
 
 
-    .tabcontent {
+.tabcontent {
 
     display: none;
     padding: 6px 12px;
@@ -79,7 +79,7 @@ div.tab button.active {
  <button class="tablinks" onclick="openType(event, '{{ year }}')" {% if forloop.last %} id="defaultOpen" {% endif %}> {{ year }}
  </button>
 {% endfor %}
-<br/>
+<br/><br/>
 
 {% assign eventList = site.events |sort: "weight"%}
 {% for year in years%}
