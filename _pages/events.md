@@ -81,22 +81,26 @@ div.tab button.active {
 {% endfor %}
 <br/><br/>
 
-{% assign eventList = site.events |sort: "weight"%}
 {% for year in years%}
 <div id="{{ year }}" class="tabcontent">
 	<div class="container">
-				{% assign thecycle = '0' %}
-	            {% for event in eventList %}
-		            {% capture thecycle %}
+
+				{% assign eventList = 'a,b' |split: ',' %}
+				{% assign eventList = eventList | pop: 2 %}
+	            {% for event in site.events %}
 		            {% if event.year == year %}
-		            {% cycle '0', '1' ,'2' %}
+		            	{% assign eventList = eventList |push: event %}
 		            {% endif %}
+	            {% endfor %}
+
+	            {% for event in eventList |sort: "weight" %}
+		            {% capture thecycle %}
+		            {% cycle year: '0', '1' ,'2' %}
 		            {% endcapture %}
+		            {% if thecycle == ' 0 ' or forloop.first %}
 		            <!-- Creating a new row after every three elements -->
-		            {% if thecycle == '0' or forloop.first %}
 		            	<div class="row">
 		            {% endif %}
-		      		{% if event.year == year %}
 						<div class="4u">
 							<section class="special">
 								<a href="{{ event.url | prepend: site.baseurl }}" class="image fit">
@@ -112,11 +116,11 @@ div.tab button.active {
 								</ul>
 							</section>
 						</div>
-					{% endif %}
 					{% if thecycle == '2' or forloop.last %}
 		    			</div>
 					{% endif %}	
             {% endfor %}
+
 		<div style="text-align: center;">
 		<!-- <a href="#" class="button big special">View All Events</a> -->
 		</div>
