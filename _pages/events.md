@@ -85,11 +85,10 @@ div.tab button.active {
 {% for year in years%}
 <div id="{{ year }}" class="tabcontent">
 	<div class="container">
-				{% assign thecycle = '0' %}
 	            {% for event in eventList %}
 		            {% capture thecycle %}
 		            {% if event.year == year %}
-		            {% cycle '0', '1' ,'2' %}
+		            {% cycle year: '0', '1' ,'2' %}
 		            {% endif %}
 		            {% endcapture %}
 		            <!-- Creating a new row after every three elements -->
@@ -117,6 +116,7 @@ div.tab button.active {
 		    			</div>
 					{% endif %}	
             {% endfor %}
+
 		<div style="text-align: center;">
 		<!-- <a href="#" class="button big special">View All Events</a> -->
 		</div>
