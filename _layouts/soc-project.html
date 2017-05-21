@@ -29,9 +29,9 @@ layout: default
                     <ul class="no-bullets">
                         {% for project in site.soc_projects%}
                         {% if project.url == page.url %}
-                        <li><a class="button small fit-sidebar disabled" href="#nav" >{{ project.title }}</a></li>
+                        <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >{{ project.title }}</a></li>
                         {% else %}
-                        <li><a class="button small fit-sidebar" href="{{ project.url | prepend: site.baseurl  }}#nav">{{ project.title }}</a></li>
+                        <li><a class="button small fit-sidebar soc_project_button" href="{{ project.url | prepend: site.baseurl  }}#nav">{{ project.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                     </ul>

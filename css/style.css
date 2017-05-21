@@ -1296,3 +1296,11 @@ a.hyperlink-nodecoration {color: #629DD1;
         border-right: 3px solid #1e5799;
         border-top: 3px solid #1e5799;
     }
+
+.soc_project_button {
+	height: auto !important;
+	white-space: normal !important;
+	line-height: 2;
+	padding: 3%;
+	margin: 0;
+}
