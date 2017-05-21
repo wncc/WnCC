@@ -33,6 +33,6 @@ With this application we aim to create a community where people with similar int
 The repository can be found [here](https://github.com/codemaxx/LendIt).
 
 <center>
-<iframe width="800" height="415" src="https://www.youtube.com/watch?v=LNy_56rEOi4" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="415" src="https://www.youtube.com/embed/LNy_56rEOi4" frameborder="0" allowfullscreen></iframe>
 </center>
 <br/>
