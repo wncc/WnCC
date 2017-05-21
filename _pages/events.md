@@ -93,7 +93,7 @@ div.tab button.active {
 		            {% endif %}
 	            {% endfor %}
 
-	            {% for event in eventList |sort: "weight" %}
+	            {% for event in eventList %}
 		            {% capture thecycle %}
 		            {% cycle year: '0', '1' ,'2' %}
 		            {% endcapture %}
