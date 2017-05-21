@@ -12,7 +12,7 @@ ribbon: progress
 stipend: INR 3000
 mentees:
 - Sarthak Khandelwal
-- Yashwardhan Didwania
+- Yashvardhan Didwania
 contact:
 - <a target="_blank" href="https://lendit-kwoc.slack.com/signup">Slack</a>
 - Facebook- <a target="_blank" href="https://www.facebook.com/nihal111">Nihal Singh</a>, <a target="_blank" href="https://www.facebook.com/arpanbnrj9">Arpan Banerjee</a>, <a target="_blank" href="https://www.facebook.com/AkashTrehan21">Akash Trehan</a>
@@ -36,3 +36,8 @@ The repository can be found [here](https://github.com/codemaxx/LendIt).
 <iframe width="800" height="415" src="https://www.youtube.com/embed/LNy_56rEOi4" frameborder="0" allowfullscreen></iframe>
 </center>
 <br/>
+
+### Week 0
+* In depth discussions were done about what has to be done in the project.
+* APIs were searched for implementing the relevant features.
+* The structure of the database was finalised.
