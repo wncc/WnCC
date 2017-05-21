@@ -46,3 +46,8 @@ The repositories can be found here:
 <iframe width="800" height="415" src="https://www.youtube.com/watch?v=LwbLDQScoNw" frameborder="0" allowfullscreen></iframe>
 </center>
 <br/>
+
+### Week 0
+* In depth discussions were made about what has to be done in the project.
+* APIs were searched for implementing the relevant features
+* The structure of the database was finalised
