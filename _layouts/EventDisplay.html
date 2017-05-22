@@ -19,9 +19,9 @@ layout: default
                     <ul class="no-bullets">
                         {% for evt in site.events%}
                         {% if evt.url == page.url %}
-                        <li><a class="button small fit-sidebar disabled" href="#nav" >{{ evt.title }}</a></li>
+                        <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >{{ evt.title }}</a></li>
                         {% else %}
-                        <li><a class="button small fit-sidebar" href="{{ evt.url | prepend: site.baseurl  }}#nav">{{ evt.title }}</a></li>
+                        <li><a class="button small fit-sidebar soc_project_button" href="{{ evt.url | prepend: site.baseurl  }}#nav">{{ evt.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                     </ul>
