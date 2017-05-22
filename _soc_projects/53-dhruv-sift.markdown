@@ -14,7 +14,7 @@ contact:
 mentees:
 - Chinmay Awale
 - Sucheta Ravikanti
-- Partasarathi Khirwadkar
+- Parthasarathi Khirwadkar
 ribbon: progress
 ---
 

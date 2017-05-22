@@ -116,7 +116,7 @@ div.tab button {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 14%;	
+    padding: 2%;	
     transition: 0.3s;
     font-size: 25px;
 }
@@ -132,7 +132,7 @@ div.tab button.active {
 }
 
 
-    .tabcontent {
+.tabcontent {
 
     display: none;
     padding: 6px 12px;
@@ -157,36 +157,190 @@ div.tab button.active {
 		<p>Go on. Check them out.</p>
 	</header>
 
+
+
+
+
+
+
 <div class="tab" style="text-align : center">
-	
-	
-  </div>
-<br />
+
+ <button class="tablinks" onclick="openType(event, '2013')"> 2013
+ </button>
+
+ <button class="tablinks" onclick="openType(event, '2014')"> 2014
+ </button>
+
+ <button class="tablinks" onclick="openType(event, '2015')"> 2015
+ </button>
+
+ <button class="tablinks" onclick="openType(event, '2016')"> 2016
+ </button>
+
+ <button class="tablinks" onclick="openType(event, '2017')" id="defaultOpen"> 2017
+ </button>
+
+<br /><br />
 
 
-<div id="2016" class="tabcontent">
+<div id="2013" class="tabcontent">
 	<div class="container">
-		
-            
+
+				
+				
 	            
-            
-	            
-            
-	            
-            
-	            
-            
+
 	            
 		            
 		            
 		            <!-- Creating a new row after every three elements -->
+		            	<div class="row">
 		            
+						<div class="4u">
+							<section class="special">
+								<a href="/events/7-moztalk.html" class="image fit">
+									<img src="/images/moztalk-eventCover.jpg" alt="Moz Talk" />
+								</a>
+		                        <a href="/events/7-moztalk.html" class="image fit">
+		                        	<h3>Moz Talk</h3>
+		                        </a>
+								<h4>June 2, 2013</h4>
+								<p>
+</p>
+								<ul class="actions">
+									<li><a href="/events/7-moztalk.html" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+						</div>
+					
+		    			</div>
+						
+            
+
+		<div style="text-align: center;">
+		<!-- <a href="#" class="button big special">View All Events</a> -->
+		</div>
+	</div>
+</div>
+
+<div id="2014" class="tabcontent">
+	<div class="container">
+
+				
+				
+	            
+
+	            
+		            
+		            
+		            <!-- Creating a new row after every three elements -->
+		            	<div class="row">
+		            
+						<div class="4u">
+							<section class="special">
+								<a href="/events/6-htmlcss.html" class="image fit">
+									<img src="/images/htmlcss-eventCover.jpg" alt="Scratch Day" />
+								</a>
+		                        <a href="/events/6-htmlcss.html" class="image fit">
+		                        	<h3>Scratch Day</h3>
+		                        </a>
+								<h4>September 20, 2014</h4>
+								<p><p>An introductory session on web development.</p>
+
+</p>
+								<ul class="actions">
+									<li><a href="/events/6-htmlcss.html" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+						</div>
+						
+            
+		            
+		            
+						<div class="4u">
+							<section class="special">
+								<a href="/events/8-androidconclave.html" class="image fit">
+									<img src="/images/androidconclave-eventCover.jpg" alt="Android Wear Conclave" />
+								</a>
+		                        <a href="/events/8-androidconclave.html" class="image fit">
+		                        	<h3>Android Wear Conclave</h3>
+		                        </a>
+								<h4>October 12, 2014</h4>
+								<p>
+</p>
+								<ul class="actions">
+									<li><a href="/events/8-androidconclave.html" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+						</div>
+					
+		    			</div>
+						
+            
+
+		<div style="text-align: center;">
+		<!-- <a href="#" class="button big special">View All Events</a> -->
+		</div>
+	</div>
+</div>
+
+<div id="2015" class="tabcontent">
+	<div class="container">
+
+				
+				
+	            
+
+	            
+		            
+		            
+		            <!-- Creating a new row after every three elements -->
+		            	<div class="row">
+		            
+						<div class="4u">
+							<section class="special">
+								<a href="/events/9-scratchday.html" class="image fit">
+									<img src="/images/scratchday-eventCover.jpg" alt="Scratch Day" />
+								</a>
+		                        <a href="/events/9-scratchday.html" class="image fit">
+		                        	<h3>Scratch Day</h3>
+		                        </a>
+								<h4>September 22, 2015</h4>
+								<p>
+</p>
+								<ul class="actions">
+									<li><a href="/events/9-scratchday.html" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+						</div>
+					
+		    			</div>
+						
+            
+
+		<div style="text-align: center;">
+		<!-- <a href="#" class="button big special">View All Events</a> -->
+		</div>
+	</div>
+</div>
+
+<div id="2016" class="tabcontent">
+	<div class="container">
+
+				
+				
+	            
+
+	            
+		            
+		            
+		            <!-- Creating a new row after every three elements -->
 		            	<div class="row">
 		            
 						<div class="4u">
 							<section class="special">
 								<a href="/events/4-ciphers.html" class="image fit">
-									<img src="/images/ciphers.jpg" alt="Ciphers" />
+									<img src="/images/ciphers-eventCover.jpg" alt="Ciphers" />
 								</a>
 		                        <a href="/events/4-ciphers.html" class="image fit">
 		                        	<h3>Ciphers</h3>
@@ -200,18 +354,14 @@ You can check out the event page <a href="https://www.facebook.com/events/158302
 								</ul>
 							</section>
 						</div>
-					
-				
+						
             
-	            
 		            
-		            
-		            <!-- Creating a new row after every three elements -->
 		            
 						<div class="4u">
 							<section class="special">
 								<a href="/events/5-webdevhack.html" class="image fit">
-									<img src="/images/wdh.jpg" alt="Web Development Hackathon" />
+									<img src="/images/webDevHackathon-eventCover.jpg" alt="Web Development Hackathon" />
 								</a>
 		                        <a href="/events/5-webdevhack.html" class="image fit">
 		                        	<h3>Web Development Hackathon</h3>
@@ -225,18 +375,14 @@ You can check out the event page <a href="https://www.facebook.com/events/158302
 								</ul>
 							</section>
 						</div>
-					
-				
+						
             
-	            
 		            
-		            
-		            <!-- Creating a new row after every three elements -->
 		            
 						<div class="4u">
 							<section class="special">
 								<a href="/events/3-microsoftcfd.html" class="image fit">
-									<img src="/images/microsoftcfd.jpg" alt="Microsoft Code.Fun.Do" />
+									<img src="/images/microsoftcfd-eventCover.jpg" alt="Microsoft Code.Fun.Do" />
 								</a>
 		                        <a href="/events/3-microsoftcfd.html" class="image fit">
 		                        	<h3>Microsoft Code.Fun.Do</h3>
@@ -252,13 +398,9 @@ You can check out the event page <a href="https://www.facebook.com/events/158302
 						</div>
 					
 		    			</div>
-					
-				
+						
             
-	            
-            
-	            
-            
+
 		<div style="text-align: center;">
 		<!-- <a href="#" class="button big special">View All Events</a> -->
 		</div>
@@ -267,37 +409,25 @@ You can check out the event page <a href="https://www.facebook.com/events/158302
 
 <div id="2017" class="tabcontent">
 	<div class="container">
-		
-            
+
+				
+				
 	            
-            
-	            
-            
-	            
-            
-	            
-            
-	            
-            
-	            
-            
-	            
-            
+
 	            
 		            
 		            
 		            <!-- Creating a new row after every three elements -->
-		            
 		            	<div class="row">
 		            
 						<div class="4u">
 							<section class="special">
 								<a href="/events/2-rattlesnake.html" class="image fit">
-		                            <img src="/images/rattlesnakecover.jpg" alt="Rattlesnake" />
-		                        </a>
-		                        <a href="/events/2-rattlesnake.html" class="image fit">
-									<h3>Rattlesnake</h3>
+									<img src="/images/rattlesnake-eventCover.jpg" alt="Rattlesnake" />
 								</a>
+		                        <a href="/events/2-rattlesnake.html" class="image fit">
+		                        	<h3>Rattlesnake</h3>
+		                        </a>
 								<h4>January 14, 2017</h4>
 								<p><p>This was an introductory session to Python. Students were encouraged to build a tic-tac-toe app ground up using Python</p>
 
@@ -307,22 +437,18 @@ You can check out the event page <a href="https://www.facebook.com/events/158302
 								</ul>
 							</section>
 						</div>
-					
-				
+						
             
-	            
 		            
-		            
-		            <!-- Creating a new row after every three elements -->
 		            
 						<div class="4u">
 							<section class="special">
 								<a href="/events/1-yahoohacku.html" class="image fit">
-		                            <img src="/images/yahoohackucover.jpg" alt="Yahoo! Hack U" />
-		                        </a>
-		                        <a href="/events/1-yahoohacku.html" class="image fit">
-									<h3>Yahoo! Hack U</h3>
+									<img src="/images/yahoohacku-eventCover.jpg" alt="Yahoo! Hack U" />
 								</a>
+		                        <a href="/events/1-yahoohacku.html" class="image fit">
+		                        	<h3>Yahoo! Hack U</h3>
+		                        </a>
 								<h4>March 25, 2017</h4>
 								<p><p>Hack U is an event conducted by Yahoo! JAPAN exclusively for students from various universities all over the world. Students get a platform to develop their innovative ideas and showcase their talent. 
 You can check out the event page <a href="https://hacku.yahoo.co.jp/iitb2017/">here</a></p>
@@ -333,20 +459,65 @@ You can check out the event page <a href="https://hacku.yahoo.co.jp/iitb2017/">h
 								</ul>
 							</section>
 						</div>
+						
+            
+		            
+		            
+						<div class="4u">
+							<section class="special">
+								<a href="/events/10-amangoelstalk.html" class="image fit">
+									<img src="/images/agt-eventCover.JPG" alt="Build a Career in Tech Without a CS Major" />
+								</a>
+		                        <a href="/events/10-amangoelstalk.html" class="image fit">
+		                        	<h3>Build a Career in Tech Without a CS Major</h3>
+		                        </a>
+								<h4>April 9, 2017</h4>
+								<p><p>This talk was based on the blog post written by Aman Goel- https://medium.com/@amangoeliitb/build-a-solid-career-in-tech-without-a-cs-major-39cdef86013#.nmx11184b which was widely read. Sumith Kulal also accompanied him to pitch in a few facts about the Google Summer of Code program.
+The overall agenda was to get a roadmap to prepare for tech internships and jobs.</p>
+</p>
+								<ul class="actions">
+									<li><a href="/events/10-amangoelstalk.html" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+						</div>
+						
+            
+		            
+		            
+						<div class="4u">
+							<section class="special">
+								<a href="/events/11-GoogleIOExtended17.html" class="image fit">
+									<img src="/images/gio17-eventCover.jpg" alt="Google I/O Extended 2017" />
+								</a>
+		                        <a href="/events/11-GoogleIOExtended17.html" class="image fit">
+		                        	<h3>Google I/O Extended 2017</h3>
+		                        </a>
+								<h4>May 18, 2017</h4>
+								<p><p>Google I/O Extended -experience of the magic and innovation of Google I/O remotely. Part viewing experience and part community building, I/O Extended programme included everything from live streaming the Google I/O content to local developer demos and speaker sessions.</p>
+
+</p>
+								<ul class="actions">
+									<li><a href="/events/11-GoogleIOExtended17.html" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+						</div>
 					
 		    			</div>
-					
-				
+						
             
+
 		<div style="text-align: center;">
 		<!-- <a href="#" class="button big special">View All Events</a> -->
 		</div>
 	</div>
 </div>
-</section>
+
+
+
+
 
 <script>
-function openType(event, cityName) {
+function openType(evt, year) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -356,23 +527,16 @@ function openType(event, cityName) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    var newurl;
-    newurl=""+"/events/"+"?year="+cityName; 
-    window.history.pushState({path:newurl},'',newurl);
-    
-    document.getElementById(cityName).style.display = "block";
-    event.currentTarget.className += " active";
-}
-var link="/events/"+"?year=";
-if (document.URL.endsWith(link + "2016")) {
-    document.getElementById("tab2016").click();
-}
-else {
-    document.getElementById("defaultOpen").click();
+    document.getElementById(year).style.display = "block";
+    evt.currentTarget.className += " active";
 }
 
-</script>
+document.getElementById("defaultOpen").click();
 
+</script>			
+
+
+</div></section>
 
         <!-- Footer -->
 <footer id="footer">

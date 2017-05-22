@@ -1,12 +1,12 @@
 ---
 layout: EventDisplay
-image: /images/scratchday.jpg
+image: /images/scratchday-eventCover.jpg
 title: Scratch Day
 year: 2015
 date: "Sept 22 | 2015"
 weight: 90
 slides:
-- /images/scratchday1.jpg
-- /images/scratchday2.jpg
-- /images/scratchday3.jpg
+- /event_images/scratchday1.jpg
+- /event_images/scratchday2.jpg
+- /event_images/scratchday3.jpg
 ---
