@@ -25,9 +25,3 @@ Google them.
 [http://www.braveclojure.com/](http://www.braveclojure.com/)
 [https://racket-lang.org/](https://racket-lang.org/)
 
-<h3 id="week-0"><b>Week 0:</b></h3>
-<ul>
-  <li>Mentees explored the differet functional programming languages that could be used for their projects.</li>
-  <li>The libraries available were also explored to find the one best suited for every project.</li>
-  <li>After research and some discussion, most students chose Haskell and started reading up on the syntax and libraries.</li>
-</ul>
