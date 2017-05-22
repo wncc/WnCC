@@ -31,3 +31,7 @@ This internship involves front-end development for various FOSSEE websites.
 
 ### Tasks
 Improve three Django based websites
+
+### Week 0
+* Learnt the basics of Django
+* Learnt CSS for styling
