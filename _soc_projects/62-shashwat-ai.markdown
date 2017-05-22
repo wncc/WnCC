@@ -30,3 +30,8 @@ The aim of this project is to build, code and observe the behaviour of such AI a
 ### What to expect from the project: 
 Hands on coding with Python and specific use of TensorFlow and the OpenAI framework.
 Solid literature review of Reinforcement Learning will also be required. 
+
+### Week 0
+* Installed Docker, openAI gym and Universe
+* Got familiar with the platform
+* Understood basic RL Algorithms
