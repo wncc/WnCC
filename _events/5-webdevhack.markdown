@@ -1,6 +1,6 @@
 ---
 layout: EventDisplay
-image: /images/wdh.jpg
+image: /images/webDevHackathon-eventCover.jpg
 title: Web Development Hackathon
 year: 2016
 date: "Sept 24 | 2016"

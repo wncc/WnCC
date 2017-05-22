@@ -25,3 +25,9 @@ Referenes-
 
 - [https://github.com/udiboy1209/cs663-document-scanner](https://github.com/udiboy1209/cs663-document-scanner)
 - [https://github.com/udiboy1209/cs663-document-scanner/blob/master/report/doc_scan.pdf](https://github.com/udiboy1209/cs663-document-scanner/blob/master/report/doc_scan.pdf)
+
+
+ ### Week 0
+ * Finalization of algorithm to calculate inliers
+ * Implemented Feature Detection using ORB
+ * Currently working on Feature Matching  
