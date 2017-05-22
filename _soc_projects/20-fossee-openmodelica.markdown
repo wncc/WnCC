@@ -25,3 +25,8 @@ We are looking for a python developer with experience in GUI development. You wi
 2. Familiar with GUI concepts.
 3. Experience in Tkinter or PyQt is preferred.
 4. Good understanding of OOPs.
+
+### Week 0
+* Develop fluency with kivy (GUI development module for python). 
+* Install the necessary API and get the present code working. 
+* Understand the present code.
