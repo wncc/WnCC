@@ -28,7 +28,7 @@ The applicant should-
 - [Scilab API](https://help.scilab.org/docs/5.5.2/en_US/section_204636e951f595409bc6782bb8e1d2d9.html)
 - [Embedding Julia in C](http://docs.julialang.org/en/release-0.4/manual/embedding/)
 
- Week 0
-Read through the Scilab API and how to build and load libraries in Scilab
-Created a test library for familiarising myself with the Scilab API
-Also successfully linked Julia to the test library and called a function in Julia
+### Week 0
+  *Read through the Scilab API and how to build and load libraries in Scilab
+  *Created a test library for familiarising myself with the Scilab API
+  *Also successfully linked Julia to the test library and called a function in Julia
