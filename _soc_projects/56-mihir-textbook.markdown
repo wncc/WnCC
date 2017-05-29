@@ -18,3 +18,13 @@ We're creating an interactive textbook for exposition of probability and statist
 <!--break-->
 
 You can get a feel of what we're trying to do by looking at [this](http://students.brown.edu/seeing-theory). **Task:** You will be required to create interactive models for visualizing various concepts. We plan to use the  D3.js library for this (https://d3js.org/). People with experience in D3.js or generic Javascript are preferred.
+
+### Week 1
+* Learnt JavaScript.
+* Learnt CSS. 
+* Prepared a working model of coin-flips.
+
+### Week 2
+* Added a dynamic bar graph.
+* Started on Conditional Probability. 
+* Learned D3 js and bootstrap.
