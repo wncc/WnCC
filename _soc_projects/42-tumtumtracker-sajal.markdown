@@ -26,3 +26,7 @@ The aim of this project is to create a crowd-sourced Android application to dyna
 <!--break-->
 
 The idea is to place passive RFID tags inside all buses that are to be tracked. Once a user that has NFC enabled enters the bus, his phone detects the tag and starts sending the phone's location to the server, till the phone disconnects from the tag. This location is then displayed on the app. The aim is to make the system more reliable and also to understand patterns in the usage of such buses. There have been attempts in the past to make such a tracker but they all used heavy hardware and thus incurred large costs. This is the first attempt at crowd-sourcing the location data. If you have any doubts or are interested in the project, join the Slack team whose link is given above.
+
+### Week 0
+* **Frontend** - Forked the Android Studio Project, Added google Maps API to the app
+* **Backend** - Got familiar with Django, Made Database Design for the project
