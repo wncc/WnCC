@@ -30,3 +30,7 @@ The idea is to place passive RFID tags inside all buses that are to be tracked. 
 ### Week 0
 * **Frontend** - Forked the Android Studio Project, Added google Maps API to the app
 * **Backend** - Got familiar with Django, Made Database Design for the project
+
+### Week 1
+* **Frontend** - Solved issues on the app repository on Github
+* **Backend** - Created database to store bus ID, NFC data and location, and used APIs to fetch the data
