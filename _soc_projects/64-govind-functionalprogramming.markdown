@@ -29,3 +29,7 @@ Google them.
   * Mentees explored the differet functional programming languages that could be used for their projects.
   * The libraries available were also explored to find the one best suited for every project.
   * After research and some discussion, most students chose Haskell and started reading up on the syntax and libraries.
+
+### Week 1:
+  * Started understanding the syntax of Haskell
+  * Practicing problems on functional programming on Hackerrank
