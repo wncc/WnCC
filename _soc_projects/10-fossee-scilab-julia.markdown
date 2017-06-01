@@ -34,3 +34,9 @@ The applicant should-
 * Created a test library for familiarising myself with the Scilab API.
 * Also successfully linked Julia to the test library and called a function in Julia.
 
+### Week 1
+
+* Wrote a code converting a scilab double matrix to a Julia double matrix and vice versa
+* Debugging the above conversion code 
+* Resolved an issue in double conversion 
+* Added conversion code similar to double for boolean
