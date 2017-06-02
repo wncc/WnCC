@@ -36,3 +36,13 @@ The repository can be found [here](https://github.com/codemaxx/LendIt).
 <iframe width="800" height="415" src="https://www.youtube.com/embed/LNy_56rEOi4" frameborder="0" allowfullscreen></iframe>
 </center>
 <br/>
+
+### Week 0
+* In dept discussions were conducted about the details of the project and every single feature.
+* Relevant APIs were searched for.
+* The structure of the database was finalised.
+
+### Week 1
+* Used the APIs, got familiar with them.
+* Compeleted the Facebook OAuth.
+* Finalised the framework for frontend, ReactJS and started it's tutorial.
