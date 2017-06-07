@@ -53,15 +53,17 @@ layout: default
                             {% for mentor in page.mentor%}
                                 • {{ mentor }}&nbsp;&nbsp;&nbsp;
                             {% endfor %}
-                        {% endif %}<br/> 
+                        {% endif %}<br/>
                         {% if page.category %}• {{ page.category }}{% endif %}<br/>
                         {% if page.meta %} • {{ page.meta }}{% endif %}</p>
                         <p class="post-meta" style="color:#555f66">
                         {% if page.mentees %}
-                        <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Mentees: &nbsp;&nbsp;&nbsp;</span>
+                        <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Mentees:</span>
                             {% for mentee in page.mentees%}
-                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">• {{ mentee }}&nbsp;&nbsp;&nbsp;</span>
+				<br/>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">• {{ mentee }}</span>
                             {% endfor %}
+			    <br/>
                         {% endif %}
                         {% if page.ribon != progress %}
                             {% if page.application_procedure %}
@@ -75,47 +77,53 @@ layout: default
                             {% endif %}
                         {% endif %}
                         {% if page.contact %}
-                            <br/>
-                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Contact the Mentor: </span>
+                        <br/>
+                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Contact the Mentor: </span>
                             {% if page.contact == "FOSSEE" %}
-                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Join the <a target = "_blank" href="https://fossee.slack.com/signup">FOSSEE Slack team</a> using the iitb.ac.in email address.</span>
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">Join the <a target = "_blank" href="https://fossee.slack.com/signup">FOSSEE Slack team</a> using the iitb.ac.in email address.</span>
+							<br/>
                             {% else %}
                             <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">
                                 {% for contact in page.contact%}
-                                • {{ contact }}&nbsp;&nbsp;
+								<br/>
+                                <span style="float: left; margin-left: 50pt">• {{ contact }}</span>
                                 {% endfor %}
                             </span>
                             {% endif %}
+							<br/>
                         {% endif %}
                         {% if page.ribbon != "progress"%}
                             {% if page.openings %}
                              <br/>
-                                <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Openings: </span>
-                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">{{ page.openings }} </span>
-                            {% endif %}
+                                <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Openings: </span>
+                                <br/>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">{{ page.openings }} </span>
+								<br/>
+							{% endif %}
                         {% endif %}
                         {% if page.stipend %}
                             <br/>
-                            <span style="color: darkgreen; font-weight: 700; font-family: Arial; font-size: 16pt">Stipend: </span>
-                            <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt">{{ page.stipend }} </span>
+                            <span style="color: darkgreen; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Stipend: </span>
+			        		<br/>
+                            <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">{{ page.stipend }} </span>
                         {% endif %}
                         </p>
                     </header>
                     <div>
                         {{ content }}
                     </div>
-                    
+
                     <footer style="margin-bottom: 10em">
                         {% if page.previous %}
-                        <a href="{{ page.previous.url | prepend: site.baseurl  }}#nav" class="float-left button small">&larr; Previous project</a> 
+                        <a href="{{ page.previous.url | prepend: site.baseurl  }}#nav" class="float-left button small">&larr; Previous project</a>
                         {% else %}
-                        <a href="#" class="float-left button small disabled" onclick="return false;">&larr; Previous project</a> 
+                        <a href="#" class="float-left button small disabled" onclick="return false;">&larr; Previous project</a>
                         {% endif %}
 
                         {% if page.next %}
-                        <a href="{{ page.next.url | prepend: site.baseurl  }}#nav" class="float-right button small">Next project &rarr;</a> 
+                        <a href="{{ page.next.url | prepend: site.baseurl  }}#nav" class="float-right button small">Next project &rarr;</a>
                         {% else %}
-                        <a href="#" class="float-right button small disabled" onclick="return false;">Next project &rarr;</a> 
+                        <a href="#" class="float-right button small disabled" onclick="return false;">Next project &rarr;</a>
                         {% endif %}
                         <br><br>
                         <a href="{{ '/soc#two' | prepend: site.baseurl }}" class="button small special float-center"> View all projects</a>
@@ -123,5 +131,5 @@ layout: default
             </div>
         </div>
     </div>
-    
+
 </section>
