@@ -31,3 +31,25 @@ This internship involves front-end development for various FOSSEE websites.
 
 ### Tasks
 Improve three Django based websites
+
+### Week 0
+* Learnt the basics of Django
+* Learnt CSS for styling
+* Learnt JavaScript, jQuery
+ 
+### Week 1
+* Learnt Bootstrap
+* Setup development environment
+* Fetched multiple data sets for the website
+* Website was very slow to load as data was fetched using search methods( defining models for each category and book). 
+* Fixed some minor errors like missing images, padding issues etc.
+ 
+### Week 2
+* Learnt git
+* Learnt Ajax for fetching data faster on the website (Vidhan: Although I didn't learn ajax in week0, but I guess it would've taken much lesser time to fetch data dynamically if I did.)
+* Removed all previously defined models for searching in database, fetched all data with ajax( much faster, no lag issues.). 
+ 
+### Week 3
+* Setup a textbox, to load example-code and execute it. 
+* Currently fixing navbar errors - Chapters and Books don’t load in same panel.
+* Defined some jQuery functions to add div dynamically to rendered html.

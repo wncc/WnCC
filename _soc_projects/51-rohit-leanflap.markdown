@@ -24,6 +24,11 @@ Learn to Flap is a machine learning project to use supervised and unsupervised l
 We may also work on other variations of the game if time permits.  
 Reading material would include some book on machine learning to get the basics and some work that has been done by other people (will provide them as the project progresses). Refer to [this link](http://deeplearning.stanford.edu/tutorial/) for a good deep learning tutorial.
 
+### Week 1
+* Learnt basic methods of machine learning like Linear and Logistic Regression
+* Enrolled for the ML course by Andrew Ng on Coursera
+* Read up multiclass logistic regressions and did a few tutorials
+
 A student is expected to have interest in machine learning and AI (coding experience isn't necessary).
 <style>
 .videowrapper {
