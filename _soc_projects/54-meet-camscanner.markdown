@@ -37,5 +37,8 @@ Referenes-
 * Identified Issues in Feature Detection
 * Resolved Mixed Color Channel Issue 
 
-
+### Week 2
+* Optimized ORB and Feature Matching algo
+* Added Image Alignment
+* Started working on Homography
  
