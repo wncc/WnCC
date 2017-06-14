@@ -27,7 +27,15 @@ Referenes-
 - [https://github.com/udiboy1209/cs663-document-scanner/blob/master/report/doc_scan.pdf](https://github.com/udiboy1209/cs663-document-scanner/blob/master/report/doc_scan.pdf)
 
 
- ### Week 0
- * Finalization of algorithm to calculate inliers
- * Implemented Feature Detection using ORB
- * Currently working on Feature Matching  
+### Week 0
+* Finalization of algorithm to calculate inliers
+* Implemented Feature Detection using ORB
+* Currently working on Feature Matching  
+
+### Week 1
+* Implemented Feature Matching and ORB
+* Identified Issues in Feature Detection
+* Resolved Mixed Color Channel Issue 
+
+
+ 
