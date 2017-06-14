@@ -41,4 +41,9 @@ Referenes-
 * Optimized ORB and Feature Matching algo
 * Added Image Alignment
 * Started working on Homography
+
+### Week 3
+* Warping Images to Global Coordinate
+* Implemented Image Averaging
+* Working on Multiband Blending
  
