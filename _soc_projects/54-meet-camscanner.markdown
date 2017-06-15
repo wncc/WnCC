@@ -27,7 +27,23 @@ Referenes-
 - [https://github.com/udiboy1209/cs663-document-scanner/blob/master/report/doc_scan.pdf](https://github.com/udiboy1209/cs663-document-scanner/blob/master/report/doc_scan.pdf)
 
 
- ### Week 0
- * Finalization of algorithm to calculate inliers
- * Implemented Feature Detection using ORB
- * Currently working on Feature Matching  
+### Week 0
+* Finalization of algorithm to calculate inliers
+* Implemented Feature Detection using ORB
+* Currently working on Feature Matching  
+
+### Week 1
+* Implemented Feature Matching and ORB
+* Identified Issues in Feature Detection
+* Resolved Mixed Color Channel Issue 
+
+### Week 2
+* Optimized ORB and Feature Matching algo
+* Added Image Alignment
+* Started working on Homography
+
+### Week 3
+* Warping Images to Global Coordinate
+* Implemented Image Averaging
+* Working on Multiband Blending
+ 
