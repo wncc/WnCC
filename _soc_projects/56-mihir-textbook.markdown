@@ -28,3 +28,9 @@ You can get a feel of what we're trying to do by looking at [this](http://studen
 * Added a dynamic bar graph.
 * Started on Conditional Probability. 
 * Learned D3 js and bootstrap.
+
+### Week 3
+* Completion of the coin-flips model
+
+### Week 4
+* Conditional Probability model to near completion with minor edits to be made.
