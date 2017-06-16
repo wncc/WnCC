@@ -36,3 +36,12 @@ The design for the IITB App has already been decided through a Design GC (Shoham
 
 * Addition of a GoogleMap Fragment.
 
+### Week 3
+* Creating Timetable layout.
+* Setting up the Timetable database.
+
+
+### Week 4
+* Adding current-location and other features to MapFragment.
+* Adding add-event fragment to the Calendar
+
