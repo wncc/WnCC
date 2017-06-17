@@ -40,8 +40,3 @@ Google them.
 ### Week 3:
   * Worked on understanding graphical libraries
   * Projects started and github repo uploaded for Mid-Term evaluation
-
-# Mid Term Evaluation
-  **Github repositories for projects**
-  * [Ishan Tarunesh](https://github.com/ishan00/Hunger-Games)
-  * [Shubham Anand](https://github.com/shubhamthebest/Magic-Slide-Puzzle)
