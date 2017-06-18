@@ -2,7 +2,7 @@
 layout: soc-project
 image: /images/learntoflap.png
 title: Learn To Flap
-mentor: 
+mentor:
 - "Rohit Kumar Jena"
 - "Chitwan Saharia"
 category: "Machine Learning"
@@ -28,6 +28,16 @@ Reading material would include some book on machine learning to get the basics a
 * Learnt basic methods of machine learning like Linear and Logistic Regression
 * Enrolled for the ML course by Andrew Ng on Coursera
 * Read up multiclass logistic regressions and did a few tutorials
+
+### Week 2
+* Implemented a tensorflow [tutorial](https://www.tensorflow.org/get_started/mnist/beginners)
+* Started reading up Neural Networks theory from various sources like Andrew Ng's Course
+
+### Week 3
+* Started implementing stuff learnt in the past couple of weeks on Flappy Bird [clone](https://github.com/sourabhv/FlapPyBird)
+* Used the above model to train neural Network
+* Finished upto Week 5 in Andrew Ng's course
+
 
 A student is expected to have interest in machine learning and AI (coding experience isn't necessary).
 <style>
