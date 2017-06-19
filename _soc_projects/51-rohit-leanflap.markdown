@@ -35,8 +35,12 @@ Reading material would include some book on machine learning to get the basics a
 
 ### Week 3
 * Started implementing stuff learnt in the past couple of weeks on Flappy Bird [clone](https://github.com/sourabhv/FlapPyBird)
-* Used the above model to train neural Network
+* Decided attributes for feature space
 * Finished upto Week 5 in Andrew Ng's course
+
+### Week 4
+* Used the above model to train neural Network
+* Started collecting data for Flappy Bird using a game playing [bot](https://github.com/yenchenlin/DeepLearningFlappyBird)
 
 
 A student is expected to have interest in machine learning and AI (coding experience isn't necessary).
