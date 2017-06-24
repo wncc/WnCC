@@ -92,8 +92,8 @@ div.tab button.active {
 		            	{% assign eventList = eventList |push: event %}
 		            {% endif %}
 	            {% endfor %}
-
-	            {% for event in eventList %}
+              {% assign eventList = eventList | sort: "weight" %}
+	            {% for event in eventList reversed %}
 		            {% capture thecycle %}
 		            {% cycle year: '0', '1' ,'2' %}
 		            {% endcapture %}

@@ -25,3 +25,23 @@ The aim of this project is to unify all the events in the institute under one ro
 <!--break-->
 
 The design for the IITB App has already been decided through a Design GC (Shoham Khadtare's entry) and can be found [here](https://invis.io/D4ADJKT5U). The task at hand is to develop an app based on this design which will contain upcoming events related to all clubs, cultural, technical and academic councils. Students can suscribe to the clubs and councils they are interested in and they will be set notifications about reated events. The aim is to reduce the dependence on social media and word of mouth to spread awareness about an event and replace it with a more reliable source. The backend development would be mentored by Abhijit Tomar and the app along with frontend by Sajal Narang. After completion all contributors will be given a letter of appreciation from the Dean of Student Affairs. If you have any doubts or are interested in the project, join the Slack team whose link is given above.
+
+### Week 1
+* Addition of SSO Login.
+* Addition of a Calendar Fragment.
+
+### Week 2
+* Learnt Python.
+* Learning Django.
+
+* Addition of a GoogleMap Fragment.
+
+### Week 3
+* Creating Timetable layout.
+* Setting up the Timetable database.
+
+
+### Week 4
+* Adding current-location and other features to MapFragment.
+* Adding add-event fragment to the Calendar
+

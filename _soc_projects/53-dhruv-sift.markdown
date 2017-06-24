@@ -31,3 +31,8 @@ Despite many recent groundbreaking advances in pattern recognition and image rec
 
 ### What to Expect:
 Hands-on experience with Python | Image Processing & Computer Vision algorithms | Applied Statistics & Linear Algebra
+
+### Week 0 and 1:
++ Study related to some python libraries namely matplotlib, OpenCV, Numpy.
++ To study the impact of applications of SIFT.
++ To study the impact and applications of SIFT.

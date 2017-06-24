@@ -32,3 +32,7 @@ Reading material: There is humongous collection of tutorials, videos, practice p
 ### Week 0
 * Accounts created in SpOJ, Codeforces and A2OJ
 * A2OJ group of Mentees and Mentors created, Problem Sheets uploaded
+
+### Week 1
+* Problem Sheets 2, 3, 4  Uploaded
+* Implementation of Greedy Algorithms Started.
