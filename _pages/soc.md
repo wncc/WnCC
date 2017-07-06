@@ -146,6 +146,7 @@ div.tab button.active {
 
 <div id="completed" class="tabcontent">
 <div class="container">
+<!-- the following line is optional to sort by weight -->
 		{% assign projects = site.soc_projects | sort:"weight"  %}
             {% for project in site.soc_projects%}
             {% if project.ribbon == "completed" %}
