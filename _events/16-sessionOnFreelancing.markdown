@@ -1,6 +1,6 @@
 ---
 layout: EventDisplay
-image: /images/freelancing-cover-cover.jpg
+image: /images/freelancing-cover.jpg
 title: Session On Freelancing
 year: 2016
 date: "September 17 | 2016"
