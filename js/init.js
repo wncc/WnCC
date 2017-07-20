@@ -4,9 +4,12 @@
 	Ion by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+
+    Edited by Kumar Ayush
+    cheekujodhpur@gmail.com
 */
 
-(function($) {
+$(document).ready(function() {
 
 	skel.init({
 		reset: 'full',
@@ -121,4 +124,4 @@
 		
 	});
 
-})(jQuery);
+});
