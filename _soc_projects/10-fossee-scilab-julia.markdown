@@ -40,3 +40,16 @@ The applicant should-
 * Debugging the above conversion code 
 * Resolved an issue in double conversion 
 * Added conversion code similar to double for boolean
+
+### Week 2
+* Converted to efficient copying of data from scilab to Julia
+* Added support for multiple outputs of a function
+* Added code for Integer data types
+* Fixed a bug regarding scalar return types
+* Added macOS Julia libraries and tried linking them
+
+### Week 3
+* Added support for scalar types conversions for all three types
+* Added boolean support completed and tested
+* Added code for Hypermat doubles extraction from scilab but can’t inject into julia environment
+* Added similar code for Hypermat int and boolean conversion

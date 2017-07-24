@@ -12,7 +12,7 @@ ribbon: progress
 stipend: INR 3000
 mentees:
 - Sarthak Khandelwal
-- Yashwardhan Didwania
+- Yashvardhan Didwania
 contact:
 - <a target="_blank" href="https://lendit-kwoc.slack.com/signup">Slack</a>
 - Facebook- <a target="_blank" href="https://www.facebook.com/nihal111">Nihal Singh</a>, <a target="_blank" href="https://www.facebook.com/arpanbnrj9">Arpan Banerjee</a>, <a target="_blank" href="https://www.facebook.com/AkashTrehan21">Akash Trehan</a>

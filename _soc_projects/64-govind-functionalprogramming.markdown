@@ -33,3 +33,15 @@ Google them.
 ### Week 1:
   * Started understanding the syntax of Haskell
   * Practicing problems on functional programming on Hackerrank
+
+### Week 2:
+  * More problems solved on HackerRank : Functional Programming
+
+### Week 3:
+  * Worked on understanding graphical libraries
+  * Projects started and github repo uploaded for Mid-Term evaluation
+
+# Mid Term Evaluation
+  **Github repositories for projects**
+  * [Ishan Tarunesh](https://github.com/ishan00/Hunger-Games)
+  * [Shubham Anand](https://github.com/shubhamthebest/Magic-Slide-Puzzle)
