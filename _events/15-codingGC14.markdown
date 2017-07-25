@@ -3,7 +3,7 @@ layout: EventDisplay
 image: /images/coding-gc-14-cover.jpg
 title: Coding GC 2014
 year: 2014
-date: ""
+date: "August 30 | 2014"
 weight: 10
 slides:
 - /event_images/coding-gc-14-1.jpg
