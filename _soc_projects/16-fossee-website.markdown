@@ -53,3 +53,9 @@ Improve three Django based websites
 * Setup a textbox, to load example-code and execute it. 
 * Currently fixing navbar errors - Chapters and Books don’t load in same panel.
 * Defined some jQuery functions to add div dynamically to rendered html.
+
+### Week 4
+* Loaded codes from example directory into textbox.
+* Minor navbar issues still there. Started working on 2nd task while side by side debugging navbar issues of 1st task.
+* Fetching results of loaded example by sending data to scilab app and then loading compiled code from app into result textbox.
+
