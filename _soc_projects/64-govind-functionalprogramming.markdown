@@ -9,7 +9,6 @@ ribbon: progress
 stipend: INR 3000
 contact: Email- govindlahoti22@gmail.com
 mentees:
-- Adarsh Kumar
 - Ishan Tarunesh
 - Shubham Anand
 ---
@@ -45,3 +44,8 @@ Google them.
   **Github repositories for projects**
   * [Ishan Tarunesh](https://github.com/ishan00/Hunger-Games)
   * [Shubham Anand](https://github.com/shubhamthebest/Magic-Slide-Puzzle)
+
+### Weeks 4-8:
+  * Worked on their respective individual projects/games, learning about new libraries on the go.
+  * Ishan Tarunesh created a survival game similar to the Hunger Games series using Racket.
+  * Shubham Anand created a game called Magic Slide Puzzle also using Racket.
