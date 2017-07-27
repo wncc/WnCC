@@ -53,3 +53,27 @@ The applicant should-
 * Added boolean support completed and tested
 * Added code for Hypermat doubles extraction from scilab but can’t inject into julia environment
 * Added similar code for Hypermat int and boolean conversion
+
+### Week 4
+* Debugged the Hypermat conversions for double data types
+* Added Hypermat conversions for boolean and int data types
+* Added Scalar String conversion to and fro Scilab and Julia
+
+### Week 5
+* Added complex scalars conversions
+* Added support for array of strings
+* Added Double complex arrays conversion
+* Created the function “evalJulia”, to just evaluate a string in Julia
+
+### Week 6
+* Tried to build the code on Windows, but there was a compiler compatibility problem
+* Was able to create a sparse in Julia from scilab
+* Completed the sparse matrix conversion
+* Julia 0.6 released and ported the code to the latest release, there was a change in the way of storing Boolean Matrices, fixed that
+* Made the code more modular, and added functionality to import julia packages
+* Handling Void Julia return type
+
+### Week 7
+* Added support for non-scilab compatible types by storing them as pointers to Julia variable in Scilab. 
+* Added another function to get any Global Variables in Julia to use as argument to the Functions
+* Restructured the code to match a scilab toolbox, added a shell script to install julia packages before importing the julia package in Scilab
