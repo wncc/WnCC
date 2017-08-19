@@ -42,6 +42,13 @@ Reading material would include some book on machine learning to get the basics a
 * Used the above model to train neural Network
 * Started collecting data for Flappy Bird using a game playing [bot](https://github.com/yenchenlin/DeepLearningFlappyBird)
 
+### Week 5 - 8
+* Spent on implementing the neural network, debugging and improving
+    * Implemented the neural network using keras and got a good accuracy
+    * Increased neurons in the first hidden layer to improve performance
+    * made a few calibrations to remove abrupt gap in the beginning
+    * Increased the depth of the neural net to three layers
+    * Increased size of training set
 
 A student is expected to have interest in machine learning and AI (coding experience isn't necessary).
 <style>
