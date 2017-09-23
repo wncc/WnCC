@@ -32,3 +32,4 @@ Add a relevant image to the `_images` folder and resize it if needed using the `
 Please (jekyll) build and push to the master. Server is on auto-deploy and reflects everything built and pushed to production. **Do not forget to cherry-pick the last commits from master to gh-pages. The gh-pages website is: [http://nihal111.github.io/WnCC/](http://nihal111.github.io/WnCC/) which serves as a backup to the main website. Also checkout production and merge it with master.** If you don't want to do the above, just create a PR with the change to WnCC:master.
 
 PLEASE SHOW LOVE TO WNCC! <3
+Heelo world
