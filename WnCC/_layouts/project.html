@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="wrapper style1">
+    <article class="container">
+        <header class="major">
+            <h2 class="post-title">{{ page.title }}</h2>
+            <p class="post-meta">{% if page.mentor %} • {{ page.mentor }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+            <a href="{{ page.url | prepend: site.baseurl }}" class="image fit"><img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}" /></a>
+        </header>
+
+        <section class="post-content">
+            {{ content }}
+        </section>
+        
+        <footer>
+            {% if page.previous %}
+            <a href="{{ page.previous.url | prepend: site.baseurl }}" class="float-left button small">&larr; Previous project</a> 
+            {% else %}
+            <a href="#" class="float-left button small disabled" onclick="return false;">&larr; Previous project</a> 
+            {% endif %}
+
+            {% if page.next %}
+            <a href="{{ page.next.url | prepend: site.baseurl }}" class="float-right button small">Next project &rarr;</a> 
+            {% else %}
+            <a href="#" class="float-right button small disabled" onclick="return false;">&rarr; Next project</a> 
+            {% endif %}
+
+            <a href="#" class="button small special float-center"> View all projects</a>
+        </footer>
+
+    </article>
+
+</div>
