@@ -1,0 +1,135 @@
+---
+layout: default
+---
+
+<!-- Main -->
+<section id="main" class="wrapper style1">
+    <header class="major">
+        <h2>Seasons Of Code</h2>
+        <p>
+        <span style="font-weight: 500; color: #212121">{{ page.title }} </span>&nbsp;&nbsp;
+        {% for mentor in page.mentor%}
+            • {{ mentor }}&nbsp;&nbsp;&nbsp;
+        {% endfor %}
+        </p>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="4u">
+                <section>
+                    <h3>WnCC - Seasons of Code</h3>
+                    <p>Seasons of Code is a programme launched by WnCC along the lines of the Google Summer of Code. It provides one with an opprtunity to learn and participate in a variety of interesting projects under the mentorship of the very best in our institute.</p>
+                    <ul class="actions">
+                        <li><a href="{{ '/soc' | prepend: site.baseurl }}" class="button alt">Learn More</a></li>
+                    </ul>
+                </section>
+                <hr />
+                <section>
+                    <h3>List of Projects</h3>
+                    <ul class="no-bullets">
+                        {% for project in site.soc_projects%}
+                        {% if project.url == page.url %}
+                        <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >{{ project.title }}</a></li>
+                        {% else %}
+                        <li><a class="button small fit-sidebar soc_project_button" href="{{ project.url | prepend: site.baseurl  }}#nav">{{ project.title }}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </div>
+            <div class="8u skel-cell-important">
+                <section >
+                    <header class="major">
+                        <a id="nav" href="{{ page.url | prepend: site.baseurl }}" class="image fit"><img  src="{{ page.image | prepend: site.baseurl  }}" alt="{{ page.title }}" /></a>
+                        <h2 class="post-title" >{{ page.title }}</h2>
+                        <p class="post-meta">
+                        {% if page.ribbon == "completed" %}
+                        <span style="color: green; font-weight: 700; font-family: Arial">[COMPLETED]</span><br/><br/>
+                        {% elsif page.ribbon == "progress" %}
+                        <span style="color: red; font-weight: 700; font-family: Arial">
+                        [In Progress]</span><br/><br/>
+                        {% endif %}
+                        {% if page.mentor %}
+                            {% for mentor in page.mentor%}
+                                • {{ mentor }}&nbsp;&nbsp;&nbsp;
+                            {% endfor %}
+                        {% endif %}<br/>
+                        {% if page.category %}• {{ page.category }}{% endif %}<br/>
+                        {% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                        <p class="post-meta" style="color:#555f66">
+                        {% if page.mentees %}
+                        <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Mentees:</span>
+                            {% for mentee in page.mentees%}
+				<br/>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">• {{ mentee }}</span>
+                            {% endfor %}
+			    <br/>
+                        {% endif %}
+                        {% if page.ribon != progress %}
+                            {% if page.application_procedure %}
+                                <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt">Application Procedure: </span>
+                                {% if page.application_procedure == "proposal" %}
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Submit a proposal <a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc5ZqQvIgxVK-Tf-uWEKcyCg2BrDM0Iu4QVj5RzoP6Y5TZtNA/viewform">here</a></span>
+                                {% endif %}
+                                {% if page.application_procedure == "coding_task" %}
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">Applicants should attempt the coding test for the various toolboxes that will be put up <a target = "_blank" href="http://fossee.in/internship">here</a> on May 1, 2017. Submission steps and deadline will be mentioned in the problem statement for each toolbox. No reminder regarding the test or submission deadline will be sent.</span>
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                        {% if page.contact %}
+                        <br/>
+                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Contact the Mentor: </span>
+                            {% if page.contact == "FOSSEE" %}
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">Join the <a target = "_blank" href="https://fossee.slack.com/signup">FOSSEE Slack team</a> using the iitb.ac.in email address.</span>
+							<br/>
+                            {% else %}
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">
+                                {% for contact in page.contact%}
+								<br/>
+                                <span style="float: left; margin-left: 50pt">• {{ contact }}</span>
+                                {% endfor %}
+                            </span>
+                            {% endif %}
+							<br/>
+                        {% endif %}
+                        {% if page.ribbon != "progress"%}
+                            {% if page.openings %}
+                             <br/>
+                                <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Openings: </span>
+                                <br/>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">{{ page.openings }} </span>
+								<br/>
+							{% endif %}
+                        {% endif %}
+                        {% if page.stipend %}
+                            <br/>
+                            <span style="color: darkgreen; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Stipend: </span>
+			        		<br/>
+                            <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">{{ page.stipend }} </span>
+                        {% endif %}
+                        </p>
+                    </header>
+                    <div>
+                        {{ content }}
+                    </div>
+
+                    <footer style="margin-bottom: 10em">
+                        {% if page.previous %}
+                        <a href="{{ page.previous.url | prepend: site.baseurl  }}#nav" class="float-left button small">&larr; Previous project</a>
+                        {% else %}
+                        <a href="#" class="float-left button small disabled" onclick="return false;">&larr; Previous project</a>
+                        {% endif %}
+
+                        {% if page.next %}
+                        <a href="{{ page.next.url | prepend: site.baseurl  }}#nav" class="float-right button small">Next project &rarr;</a>
+                        {% else %}
+                        <a href="#" class="float-right button small disabled" onclick="return false;">Next project &rarr;</a>
+                        {% endif %}
+                        <br><br>
+                        <a href="{{ '/soc#two' | prepend: site.baseurl }}" class="button small special float-center"> View all projects</a>
+                    </footer>
+            </div>
+        </div>
+    </div>
+
+</section>
