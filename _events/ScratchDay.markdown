@@ -6,14 +6,14 @@ year: 2017
 date: "Aug 5| 2017"
 weight: 20
 slides:
-- /event_images/scratchday17-1.jpg
-- /event_images/scratchday17-2.jpg
-- /event_images/scratchday17-3.jpg
-- /event_images/scratchday17-4.jpg
-- /event_images/scratchday17-5.jpg
-- /event_images/scratchday17-6.jpg
-- /event_images/scratchday17-7.jpg
-- /event_images/scratchday17-8.jpg
+- /event_images/scratchday17-1.JPG
+- /event_images/scratchday17-2.JPG
+- /event_images/scratchday17-3.JPG
+- /event_images/scratchday17-4.JPG
+- /event_images/scratchday17-5.JPG
+- /event_images/scratchday17-6.JPG
+- /event_images/scratchday17-7.JPG
+- /event_images/scratchday17-8.JPG
 ---
 
 A Scratch workshop was held on 5th and 6th of August as we celebrated Scratch Day, followed by a 24hr freshie competition at game making! The basics of game making and animations were taught Saturday morning before the battle began in groups of two. After a gruelling day, the students submitted really awesome projects. The results of the Scratch Game Malking Competition are:
