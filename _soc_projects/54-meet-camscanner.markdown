@@ -5,7 +5,7 @@ title: Panorama in Cam-Scanner
 mentor: "Meet Udeshi"
 category: "Image Processing"
 weight: 120
-ribbon: progress
+ribbon: completed
 stipend: INR 3000
 contact:
 - <a target="_blank" href="https://gitter.im/wncc/SoC_CamScanner">Gitter</a>
