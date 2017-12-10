@@ -1,4 +1,5 @@
 .sass-cache/
 hook.rb
 .jekyll-metadata
-_site/
+_site/wiki/*
+_site/feed.xml
