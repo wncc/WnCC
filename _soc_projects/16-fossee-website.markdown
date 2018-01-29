@@ -8,11 +8,11 @@ mentor:
 category: "Web Development"
 weight: 62
 openings: 2
-ribbon: progress
+ribbon: completed
 mentees:
 - Vidhan Arya
 contact: "FOSSEE"
-stipend: INR 20000 per person
+stipend: INR 10000 per person
 ---
 
 This internship involves front-end development for various FOSSEE websites.
