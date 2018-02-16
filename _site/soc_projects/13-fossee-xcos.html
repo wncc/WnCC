@@ -20,18 +20,17 @@
     <noscript>
         <link rel="stylesheet" href="/css/skel.css" />
     </noscript>
-    <!-- Google Analytics Wing -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65902553-1"></script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  ga('create', 'UA-80646316-1', 'auto');
-    ga('send', 'pageview');
-
+      gtag('config', 'UA-65902553-1');
     </script>
-    <!-- Google Analytics Wing -->
+
 </head>
 
 
@@ -313,7 +312,7 @@
   <li>Server – Xcos file after suitable conversion is sent to the server for computation and simulation and the results are brought back at the user end in the form of images.</li>
 </ol>
 
-<p>Technologies used: mxGraph, XSLT, JavaScript, Python, Java Servlet, NGINX, Apache Tomcat.
+<p>Technologies used: mxGraph, XSLT, JavaScript, Python, Java Servlet, NGINX, Apache Tomcat.<br />
 The code is available <a href="https://github.com/FOSSEE/xcos-on-web">here</a>.</p>
 
                     </div>
