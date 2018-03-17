@@ -25,3 +25,11 @@
 	#footer {
 		padding: 4em 0;
 	}
+
+/* Collaborations */
+
+.layout-company-logos img{
+	display: inline-block;
+	margin: 0 1em 1em;
+	height: 60px;
+}

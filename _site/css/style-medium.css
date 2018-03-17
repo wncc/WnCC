@@ -112,3 +112,12 @@
 			#navPanel nav .button {
 				width: 100%;
 			}
+
+
+/* Collaborations */
+
+.layout-company-logos img{
+	display: inline-block;
+	margin: 0 1em 1em;
+	height: 40px;
+}

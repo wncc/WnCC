@@ -1333,46 +1333,49 @@ a.hyperlink-nodecoration {color: #629DD1;
 /* Team Section*/
 
 .team-container {
-    width: 100%;
     display: inline-block;
     text-align: center;
-    margin-top: 20px
 }
 
 .team-image-container {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     overflow: hidden;
-    border-radius: 50px;
+    border-radius: 75px;
     background: rgba(0, 0, 0, .1);
-    margin: 0 auto
+    margin: 0 auto;
 }
 
-.team {
-    width: 190px;
+.team-image-container img {
+	height: 150px;
+    width: 150px;
+}
+
+.member {
+    width: 250px;
     display: inline-block;
     vertical-align: top;
-    margin-top: 25px
+    margin-top: 25px;
 }
 
-.team-image {
-    height: 100px;
-    width: 100px
-}
-
-.team-name {
-    font-size: 16px;
+.member-name {
+    font-size: 16pt;
+    color: white;
     font-family: OpenSans-Regular, sans-serif;
-    margin-top: 10px
+    margin-top: 10px;
 }
 
-.team-position {
-    font-size: 13px;
+.member-position {
+    font-size: 14pt;
     font-family: OpenSans-Light, sans-serif;
-    color: #ef476f
+    color: #a3a5a7;
 }
 
-.team-social {
+.member-social {
     font-size: 20px;
-    margin-top: 5px
+    margin-top: 5px;
+}
+
+.member-social i{
+    color: white;
 }
