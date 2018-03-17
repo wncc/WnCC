@@ -1315,3 +1315,64 @@ a.hyperlink-nodecoration {color: #629DD1;
 	padding: 3%;
 	margin: 0;
 }
+
+
+/* Collaborations */
+.layout-company-logos {
+	display: inline-block;
+    text-align: center;
+}
+
+.layout-company-logos img{
+	display: inline-block;
+	margin: 0 1em 1em;
+	height: 80px;
+}
+
+
+/* Team Section*/
+
+.team-container {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px
+}
+
+.team-image-container {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, .1);
+    margin: 0 auto
+}
+
+.team {
+    width: 190px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px
+}
+
+.team-image {
+    height: 100px;
+    width: 100px
+}
+
+.team-name {
+    font-size: 16px;
+    font-family: OpenSans-Regular, sans-serif;
+    margin-top: 10px
+}
+
+.team-position {
+    font-size: 13px;
+    font-family: OpenSans-Light, sans-serif;
+    color: #ef476f
+}
+
+.team-social {
+    font-size: 20px;
+    margin-top: 5px
+}
