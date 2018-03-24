@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WnCC</title>
+    <description>This is the official page for The Web and Coding Club of IIT Bombay.
+</description>
+    <link>nihal111.github.io//</link>
+    <atom:link href="nihal111.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 24 Mar 2018 16:08:47 +0530</pubDate>
+    <lastBuildDate>Sat, 24 Mar 2018 16:08:47 +0530</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+  </channel>
+</rss>
