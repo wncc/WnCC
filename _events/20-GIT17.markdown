@@ -18,7 +18,7 @@ A Git workshop was held on 2nd September to introduce the Freshies to the world 
 <!--break-->
 The session had an introduction to version control softwares like Git.
 This was the second session in the series of sessions as a part of the GSoC Incubation Cell.
-People who attend this session were registered for the GSoC Incubation Cell.
-Learning the basic commands of Git are an absoulte need for getting started with Open Source.
+People who attended this session were registered for the GSoC Incubation Cell.
+Learning the basic commands of Git are an absolute need for getting started with Open Source.
 Refer to the following wiki page to learn all about it.
 http://wncc-iitb.org/wiki/index.php/Git_Tutorial
