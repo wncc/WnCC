@@ -21,4 +21,4 @@ This was the second session in the series of sessions as a part of the GSoC Incu
 People who attended this session were registered for the GSoC Incubation Cell.
 Learning the basic commands of Git are an absolute need for getting started with Open Source.
 Refer to the following wiki page to learn all about it.
-<A href ="http://wncc-iitb.org/wiki/index.php/Git_Tutorial">Git Tutorials</A>
+[Git Tutorials](https://www.google.com "Git Tutorials")
