@@ -25,5 +25,5 @@ This internship involves development of a web tool for rapidly creating and edit
 
 ### For more information, contact Meet Udeshi
 
-Via [Messenger](https://udiboy1209@messenger.com "Facebook Messenger"); or [Gitter](https://gitter.im/fast-playlist  "Gitter") ; or [Email:](https://mudeshi1209@gmail.com "Email ID") (https://mudeshi1209@gmail.com); 
+Via [Messenger](https://udiboy1209@messenger.com "Facebook Messenger"); or [Gitter](https://gitter.im/fast-playlist  "Gitter") ; or [Email:](https://mudeshi1209@gmail.com "Email ID") (https://mudeshi1209@gmail.com);
 
