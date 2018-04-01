@@ -55,8 +55,8 @@ div.tab button.active {
 <section id="banner" style="background-image:url({{ page.banner | prepend: site.baseurl }})">
     <div class="inner">
         <h2>Seasons Of Code</h2>
-        <p> an initiative by <a href="https://stab-iitb.org/wncc">The Web and Coding Club, IIT Bombay</a><br/><br/>
-        Powered by <a href="http://fossee.in/">FOSSEE</a></p>
+        <p> An Initiative By <a href="https://www.wncc-iitb.org/">The Web and Coding Club, IIT Bombay</a><br/><br/>
+        Tentative Dates: <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=N3ZxOHNlNDFtcnY2bzFhNXJpZjVmbDk2MDMgYWJlZW45QG0&tmsrc=abeen9%40gmail.com">15th May - 15th July</a></p>
         <ul class="actions">
             <li><a href="#one" class="button big special">Join The Force</a></li>
         </ul>
