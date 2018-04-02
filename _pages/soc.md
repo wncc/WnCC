@@ -24,7 +24,7 @@ div.tab button {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 14%;	
+    padding: 14px 14%;
     transition: 0.3s;
     font-size: 25px;
 }
@@ -102,7 +102,7 @@ div.tab button.active {
 			</div>
 		</div>
 	</div>
-</section>	
+</section>
 
 <section id="one" class="wrapper style2">
 	<header class="major">
@@ -130,7 +130,7 @@ div.tab button.active {
 		</div>
 	</div>
 </section>
-			
+
 <!-- Two -->
 <section id="two" class="wrapper style1">
 	<header class="major">
@@ -143,51 +143,6 @@ div.tab button.active {
   <button class="tablinks" onclick="openType(event, 'completed')">Completed Projects</button>
 </div>
 <br/>
-
-<div id="completed" class="tabcontent">
-<div class="container">
-<!-- the following line is optional to sort by weight -->
-		{% assign projects = site.soc_projects | sort:"weight"  %}
-            {% for project in site.soc_projects%}
-            {% if project.ribbon == "completed" %}
-            {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-            {% capture thecycle %}{% cycle '0', '1' ,'2' %}{% endcapture %}
-            <!-- Creating a new row after every three elements -->
-            {% if thecycle == '0' or forloop.first %}
-            	<div class="row">
-            {% endif %}
-				<div class="4u">
-					<section class="special">
-						<a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
-                            <img src="{{ project.image | prepend: site.baseurl }}" alt="{{ project.title }}" />
-                            <!-- {% if page.ribbon != '' %} -->
-                            <div class = "ribbon {{project.ribbon}}"><span>{{project.ribbon}}</span></div>
-                            <!-- {% endif %} -->
-                        </a>
-                        <a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
-						<h3>{{ project.title }}</h3>
-						</a>
-						<h4>- 
-						{% for mentor in project.mentor%}
-				            {{ mentor }}&nbsp;
-			        	{% endfor %}</h4>
-						<h4>- {{ project.category }}</h4>
-						<p>{{ project.content | split:'<!--break-->' | first }}</p>
-						<ul class="actions">
-							<li><a href="{{ project.url | prepend: site.baseurl}}" class="button alt">Learn More</a></li>
-						</ul>
-					</section>
-				</div>
-			{% if thecycle == '2' or forloop.last %}
-    			</div>
-			{% endif %}
-			{% endif %}
-            {% endfor %}
-		<div style="text-align: center;">
-		<!-- <a href="#" class="button big special">View All Projects</a> -->
-		</div>
-	</div>
-</div>
 
 <div id="running" class="tabcontent">
 <div class="container">
@@ -211,7 +166,7 @@ div.tab button.active {
                         <a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
 						<h3>{{ project.title }}</h3>
 						</a>
-						<h4>- 
+						<h4>-
 						{% for mentor in project.mentor%}
 				            {{ mentor }}&nbsp;
 			        	{% endfor %}</h4>
@@ -231,6 +186,51 @@ div.tab button.active {
 		<!-- <a href="#" class="button big special">View All Projects</a> -->
 		</div>
 	</div>
+</div>
+<div id="completed" class="tabcontent">
+<div class="container">
+<!-- the following line is optional to sort by weight -->
+		{% assign projects = site.soc_projects | sort:"weight"  %}
+            {% for project in site.soc_projects%}
+            {% if project.ribbon == "completed" %}
+            {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+            {% capture thecycle %}{% cycle '0', '1' ,'2' %}{% endcapture %}
+            <!-- Creating a new row after every three elements -->
+            {% if thecycle == '0' or forloop.first %}
+            	<div class="row">
+            {% endif %}
+				<div class="4u">
+					<section class="special">
+						<a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
+                            <img src="{{ project.image | prepend: site.baseurl }}" alt="{{ project.title }}" />
+                            <!-- {% if page.ribbon != '' %} -->
+                            <div class = "ribbon {{project.ribbon}}"><span>{{project.ribbon}}</span></div>
+                            <!-- {% endif %} -->
+                        </a>
+                        <a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
+						<h3>{{ project.title }}</h3>
+						</a>
+						<h4>-
+						{% for mentor in project.mentor%}
+				            {{ mentor }}&nbsp;
+			        	{% endfor %}</h4>
+						<h4>- {{ project.category }}</h4>
+						<p>{{ project.content | split:'<!--break-->' | first }}</p>
+						<ul class="actions">
+							<li><a href="{{ project.url | prepend: site.baseurl}}" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			{% if thecycle == '2' or forloop.last %}
+    			</div>
+			{% endif %}
+			{% endif %}
+            {% endfor %}
+		<div style="text-align: center;">
+		<!-- <a href="#" class="button big special">View All Projects</a> -->
+		</div>
+	</div>
+</div>
 
 
 <script>
