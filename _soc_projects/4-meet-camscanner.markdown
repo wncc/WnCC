@@ -4,7 +4,7 @@ image: /images/camscanner.jpg
 title: Panorama in Cam-Scanner
 mentor: "Meet Udeshi"
 category: "Image Processing"
-weight: 120
+weight: 75
 ribbon: completed
 stipend: INR 3000
 contact:
@@ -35,7 +35,7 @@ Referenes-
 ### Week 1
 * Implemented Feature Matching and ORB
 * Identified Issues in Feature Detection
-* Resolved Mixed Color Channel Issue 
+* Resolved Mixed Color Channel Issue
 
 ### Week 2
 * Optimized ORB and Feature Matching algo
@@ -46,4 +46,3 @@ Referenes-
 * Warping Images to Global Coordinate
 * Implemented Image Averaging
 * Working on Multiband Blending
- 

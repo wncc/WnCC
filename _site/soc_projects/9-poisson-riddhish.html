@@ -8,7 +8,7 @@
 -->
 <head>
     <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'/ >
-    <title>Front end development for FOSSEE websites</title>
+    <title>Poisson Solver with Image Editing</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="Web and Coding Club is one of the biggest clubs of IIT Bombay. As a part of the Students' Technical Activities Body, we aim to provide a gateway for the people in our institute to join the coding community. We create a platform which allows students to gain assistance and mentorship to enhance their coding ability. Our aim is to propagate the enthusiasm for coding in the institute and especially amongst freshmen. We believe that every student here at IITB should have an opportunity to learn how to code and develop a passion for it. The secret of getting ahead is getting started and we aim to provide every student with the right start." />
     <meta name="keywords" content="web,coding,c++,cpp,c,javascript,android,app,development,java,css,python,ml,ai,machine learning,iitb,iit bombay,mumbai,graphics,competitive coding,hacking,security,network,information,data structures,algorithms,open source,hackathons" />
@@ -101,11 +101,9 @@
     <header class="major">
         <h2>Seasons Of Code</h2>
         <p>
-        <span style="font-weight: 500; color: #212121">Front end development for FOSSEE websites </span>&nbsp;&nbsp;
+        <span style="font-weight: 500; color: #212121">Poisson Solver with Image Editing </span>&nbsp;&nbsp;
         
-            • Priyanka&nbsp;&nbsp;&nbsp;
-        
-            • Prashant&nbsp;&nbsp;&nbsp;
+            • Riddhish Bhalodia&nbsp;&nbsp;&nbsp;
         
         </p>
     </header>
@@ -129,7 +127,7 @@
                         
                         
                         
-                        <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >Front end development for FOSSEE websites</a></li>
+                        <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/16-fossee-website.html#nav">Front end development for FOSSEE websites</a></li>
                         
                         
                         
@@ -153,7 +151,7 @@
                         
                         
                         
-                        <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/9-poisson-riddhish.html#nav">Poisson Solver with Image Editing</a></li>
+                        <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >Poisson Solver with Image Editing</a></li>
                         
                         
                     </ul>
@@ -162,123 +160,77 @@
             <div class="8u skel-cell-important">
                 <section >
                     <header class="major">
-                        <a id="nav" href="/soc_projects/16-fossee-website.html" class="image fit"><img  src="/images/fosseewebsite.jpg" alt="Front end development for FOSSEE websites" /></a>
-                        <h2 class="post-title" >Front end development for FOSSEE websites</h2>
+                        <a id="nav" href="/soc_projects/9-poisson-riddhish.html" class="image fit"><img  src="/images/poisson.png" alt="Poisson Solver with Image Editing" /></a>
+                        <h2 class="post-title" >Poisson Solver with Image Editing</h2>
                         <p class="post-meta">
                         
                         <span style="color: green; font-weight: 700; font-family: Arial">[COMPLETED]</span><br/><br/>
                         
                         
                             
-                                • Priyanka&nbsp;&nbsp;&nbsp;
-                            
-                                • Prashant&nbsp;&nbsp;&nbsp;
+                                • Riddhish Bhalodia&nbsp;&nbsp;&nbsp;
                             
                         <br/>
-                        • Web Development<br/>
+                        • Scientific Computation<br/>
                         </p>
                         <p class="post-meta" style="color:#555f66">
                         
                         <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Mentees:</span>
                             
 				<br/>
-                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">• Vidhan Arya</span>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">• Dhruv Ilesh Shah</span>
                             
 			    <br/>
                         
                         
                         
-                        <br/>
-                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Contact the Mentor: </span>
-                            
-                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">Join the <a target = "_blank" href="https://fossee.slack.com/signup">FOSSEE Slack team</a> using the iitb.ac.in email address.</span>
-							<br/>
-                            
-							<br/>
-                        
                         
                             
-                             <br/>
-                                <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Openings: </span>
-                                <br/>
-                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">2 </span>
-								<br/>
-							
                         
-                        
-                            <br/>
-                            <span style="color: darkgreen; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Stipend: </span>
-			        		<br/>
-                            <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">INR 10000 per person </span>
                         
                         </p>
                     </header>
                     <div>
-                        <p>This internship involves front-end development for various FOSSEE websites.</p>
+                        <p>This notebook will be written using python, also employing numpy and OpenCV, we will initially implement Poisson solver for the discrete case which is immensely useful for many application then we will proceed on the application part which will be from <a href="https://www.cs.jhu.edu/~misha/Fall07/Papers/Perez03.pdf">this paper</a></p>
 
 <!--break-->
 
-<h3 id="requirements">Requirements</h3>
-<ol>
-  <li>Wireframe/layout a website or web application.</li>
-  <li>Design and implement user-facing features considering rendering time and reusability of UI components.</li>
-  <li>Optimize web applications to maximize speed and scale. Support diverse clients from high powered desktop computers to small footprint mobile devices.</li>
-  <li>Write client-side code for web-based applications, create fast, easy-to- use, high volume production applications, and develop prototypes quickly.</li>
-  <li>Create and edit PNG and JPEG images and/or take a PSD and turn it into a working website.</li>
-  <li>Write HTML and CSS from scratch.</li>
-  <li>Add interactivity to a website with JavaScript (or jQuery)</li>
-  <li>Knowledge of Django/Python/PHP is required.</li>
-</ol>
-
-<h3 id="tasks">Tasks</h3>
-<p>Improve three Django based websites</p>
-
 <h3 id="week-0">Week 0</h3>
 <ul>
-  <li>Learnt the basics of Django</li>
-  <li>Learnt CSS for styling</li>
-  <li>Learnt JavaScript, jQuery</li>
+  <li>Read the concerned paper and discuss about implementation.</li>
+  <li>Familiarize with simple optimization problems and how they are treated in the discrete domain.</li>
+  <li>Familiarize with Image handling in Python (OpenCV or PIL)</li>
 </ul>
 
 <h3 id="week-1">Week 1</h3>
 <ul>
-  <li>Learnt Bootstrap</li>
-  <li>Setup development environment</li>
-  <li>Fetched multiple data sets for the website</li>
-  <li>Website was very slow to load as data was fetched using search methods( defining models for each category and book).</li>
-  <li>Fixed some minor errors like missing images, padding issues etc.</li>
+  <li>Design discretized algorithm for Laplace solver, with no Gradient field.</li>
+  <li>Work out a method for obtaining a mask - manually/on click.</li>
+  <li>Get good images to work upon and implement the mask.</li>
+  <li>Implement the Laplacian Solver on an image with random regions highlihgted. Worked Fine.</li>
+  <li>Temporary usage of <code class="highlighter-rouge">gimp</code> for creating mask, at the same time as naive cloning.</li>
+  <li>First real implementation of the Poisson Solver, complete with guidance field and real mask. (Geometric implementation)</li>
 </ul>
 
 <h3 id="week-2">Week 2</h3>
 <ul>
-  <li>Learnt git</li>
-  <li>Learnt Ajax for fetching data faster on the website (Vidhan: Although I didn’t learn ajax in week0, but I guess it would’ve taken much lesser time to fetch data dynamically if I did.)</li>
-  <li>Removed all previously defined models for searching in database, fetched all data with ajax( much faster, no lag issues.).</li>
+  <li>Vectorize the search step of algorithm: Speed goes 3x.</li>
+  <li>Attempt to approach the problem by the <em>Algebraic Method</em>, which can accomplish the task in under 5 seconds, employing sparse matrices.</li>
+  <li>Futile efforts. Implementation on python might not work due to underlying design of sparse matrices (easily done on MATLAB).</li>
+  <li>Start off with the notebook by explaining the math and the implementation of the algorithm in the block-wise manner.</li>
 </ul>
 
-<h3 id="week-3">Week 3</h3>
-<ul>
-  <li>Setup a textbox, to load example-code and execute it.</li>
-  <li>Currently fixing navbar errors - Chapters and Books don’t load in same panel.</li>
-  <li>Defined some jQuery functions to add div dynamically to rendered html.</li>
-</ul>
-
-<h3 id="week-4">Week 4</h3>
-<ul>
-  <li>Loaded codes from example directory into textbox.</li>
-  <li>Minor navbar issues still there. Started working on 2nd task while side by side debugging navbar issues of 1st task.</li>
-  <li>Fetching results of loaded example by sending data to scilab app and then loading compiled code from app into result textbox.</li>
-</ul>
+<p>The notebook has been completed and this project has been completed in just over two weeks. Follow this <a href="https://github.com/riddhishb/ipython-notebooks/blob/master/Poisson%20Editing/README.md">readme</a> to run the notebook on your system, or check out the rendered notebook on the official <a href="https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks#signal-and-sound-processing">iPython Wiki</a>.</p>
 
                     </div>
 
                     <footer style="margin-bottom: 10em">
                         
-                        <a href="/soc_projects/16-cheeku-montecarlo.html#nav" class="float-left button small">&larr; Previous project</a>
+                        <a href="/soc_projects/4-meet-camscanner.html#nav" class="float-left button small">&larr; Previous project</a>
                         
 
                         
-                        <a href="/soc_projects/17-udiboy-fastplaylist.html#nav" class="float-right button small">Next project &rarr;</a>
+                        <a href="#" class="float-right button small disabled" onclick="return false;">Next project &rarr;</a>
                         
                         <br><br>
                         <a href="/soc#two" class="button small special float-center"> View all projects</a>

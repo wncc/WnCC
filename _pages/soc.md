@@ -24,7 +24,7 @@ div.tab button {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 14%;	
+    padding: 14px 14%;
     transition: 0.3s;
     font-size: 25px;
 }
@@ -102,7 +102,7 @@ div.tab button.active {
 			</div>
 		</div>
 	</div>
-</section>	
+</section>
 
 <section id="one" class="wrapper style2">
 	<header class="major">
@@ -130,7 +130,7 @@ div.tab button.active {
 		</div>
 	</div>
 </section>
-			
+
 <!-- Two -->
 <section id="two" class="wrapper style1">
 	<header class="major">
@@ -167,7 +167,7 @@ div.tab button.active {
                         <a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
 						<h3>{{ project.title }}</h3>
 						</a>
-						<h4>- 
+						<h4>-
 						{% for mentor in project.mentor%}
 				            {{ mentor }}&nbsp;
 			        	{% endfor %}</h4>
@@ -211,7 +211,7 @@ div.tab button.active {
                         <a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
 						<h3>{{ project.title }}</h3>
 						</a>
-						<h4>- 
+						<h4>-
 						{% for mentor in project.mentor%}
 				            {{ mentor }}&nbsp;
 			        	{% endfor %}</h4>

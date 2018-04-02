@@ -4,7 +4,7 @@ image: /images/blind-source.jpg
 title: Blind Source Separation
 mentor: "Riddhish Bhalodia"
 category: Scientific Computing
-weight: 175
+weight: 75
 ribbon: completed
 mentees:
 - Dhruv Ilesh Shah
