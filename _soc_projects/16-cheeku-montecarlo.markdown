@@ -20,7 +20,7 @@ This internship involves the implementation of a Monte Carlo Path Tracer.
 <!--break-->
 
 ### Monte Carlo Path Tracing Renderer
-"In this project, you will implement a Monte Carlo Path Tracer. A path tracer is a kind of renderer in computer graphics. A renderer is responsible for generating the image or the graphics that you see on your screen. Even this text that you are reading is displayed via a font renderer. Path tracers are often used for photorealistic rendering, which means generating an image indistinguishable from a photograph. At the end of the project, you can expect to have a code capable of producing such images.
+In this project, you will implement a Monte Carlo Path Tracer. A path tracer is a kind of renderer in computer graphics. A renderer is responsible for generating the image or the graphics that you see on your screen. Even this text that you are reading is displayed via a font renderer. Path tracers are often used for photorealistic rendering, which means generating an image indistinguishable from a photograph. At the end of the project, you can expect to have a code capable of producing such images.
 
 <!--break-->
 
@@ -40,18 +40,18 @@ I expect about 100 hours of work spread over ten weeks.
 
 <!--break-->
 
-|Week Number  |Tasks to be Completed|
+|Week Number  | Tasks to be Completed|
 |--- | --- | ---|
-|Week 1 |Read the book|
-|Week 2 |Write an XML parser. This is the submodule that reads the scene.|
-|Week 3 |Write the skeleton of the graphics pipeline. This involves implementing coordinate transformations|
-|Week 4 |Implement the Ray and Object class. Most of the Path Tracing routine can be summarised as measuring intersection of instances of Ray class with instances of the Object class.|
-|Week 5 |Implement Direct Lighting and Whitted Ray Tracing|
-|Week 6 |Implement Recursive Rays to capture higher order light paths|
-|Week 7 |Debugging buffer & Implement Jittering and Supersampling|
-|Week 8 |Monte Carlo enters. Learn Sampling. Implement Diffuse Sampling and Area lights. Effects like soft shadows and colour bleeding start to appear|
-|Week 9 |Debugging Buffer|
-|Week 10 |Documentation, Generating Scenes, Videos
+|**Week 1** |Read the book|
+|**Week 2** |Write an XML parser. This is the submodule that reads the scene.|
+|**Week 3** |Write the skeleton of the graphics pipeline. This involves implementing coordinate transformations|
+|**Week 4** |Implement the Ray and Object class. Most of the Path Tracing routine can be summarised as measuring intersection of instances of Ray class with instances of the Object class.|
+|**Week 5** |Implement Direct Lighting and Whitted Ray Tracing|
+|**Week 6** |Implement Recursive Rays to capture higher order light paths|
+|**Week 7** |Debugging buffer & Implement Jittering and Supersampling|
+|**Week 8** |Monte Carlo enters. Learn Sampling. Implement Diffuse Sampling and Area lights. Effects like soft shadows and colour bleeding start to appear|
+|**Week 9** |Debugging Buffer|
+|**Week 10**|Documentation, Generating Scenes, Videos
 
 <!--break-->
 
