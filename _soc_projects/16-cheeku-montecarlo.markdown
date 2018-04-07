@@ -41,7 +41,7 @@ I expect about 100 hours of work spread over ten weeks.
 <!--break-->
 
 |Week Number  | Tasks to be Completed|
-|--- | --- | ---|
+|--- | --- | 
 |**Week 1** |Read the book|
 |**Week 2** |Write an XML parser. This is the submodule that reads the scene.|
 |**Week 3** |Write the skeleton of the graphics pipeline. This involves implementing coordinate transformations|
