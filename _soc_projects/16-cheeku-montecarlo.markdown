@@ -9,7 +9,7 @@ weight: 65
 ribbon: new
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/cheekujodhpur">Kumar Ayush</a>
-- <a target="_blank" href="https://cheekujodhpur@gmail.com">Email ID</a> - cheekujodhpur@gmail.com
+- <a target="_blank" href="mailto:https://cheekujodhpur@gmail.com">Email ID</a> - cheekujodhpur@gmail.com
 openings: Two
 ---
 
