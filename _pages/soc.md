@@ -194,9 +194,9 @@ div.tab button.active {
             {% for project in site.soc_projects%}
             {% if project.ribbon == "completed" %}
             {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-            {% capture thecycle %}{% cycle '0', '1' ,'2' %}{% endcapture %}
+            {% capture thecycle %}{% cycle '1', '2' ,'3' %}{% endcapture %}
             <!-- Creating a new row after every three elements -->
-            {% if thecycle == '0' or forloop.first %}
+            {% if thecycle == '1' or forloop.first %}
             	<div class="row">
             {% endif %}
 				<div class="4u">
@@ -221,7 +221,7 @@ div.tab button.active {
 						</ul>
 					</section>
 				</div>
-			{% if thecycle == '2' or forloop.last %}
+			{% if thecycle == '3' or forloop.last %}
     			</div>
 			{% endif %}
 			{% endif %}

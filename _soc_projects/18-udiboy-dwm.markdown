@@ -11,7 +11,7 @@ weight: 70
 ribbon: new
 contact:
 - Messenger - <a target="_blank" href="https://www.messenger.com/t/udiboy1209">Meet Udeshi</a>
-- <a target="_blank" href="https://mudeshi1209@gmail.com">Email ID</a> - mudeshi1209@gmail.com
+- <a target="_blank" href="mailto:https://mudeshi1209@gmail.com">Email ID</a> - mudeshi1209@gmail.com
 openings: One.
 ---
 
