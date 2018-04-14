@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: /images/sarthak-texter.png
+image: /images/varun-instiapp.png
 title: InstiApp
 mentor: "Varun Patil"
 category:
@@ -11,6 +11,7 @@ weight: 70
 ribbon: new
 contact:
 - Messenger - <a target="_blank" href="Facebook - https://www.facebook.com/varunpp2>Sarthak Khandelwal</a>
+<a target="_blank" href="https://varunpp2@gmail.com">Email ID</a> - varunpp2@gmail.com
 openings: Five.
 ---
 InstiApp is a WnCC initiative to create a unified platform for everything that happens inside IIT Bombay. The chief component of this is events, which aims for students being kept updated with talks, competitions and even informal events happening inside the institute. The broad aim is not only to reduce dependence on social media and word of mouth, but to make this a one-stop solution for all informative, as well as promotional needs.
