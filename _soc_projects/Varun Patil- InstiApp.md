@@ -11,7 +11,7 @@ weight: 65
 ribbon: new
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/varunpp2">Varun Patil</a>
-- <a target="_blank" href="mailto:https://varunpp2@gmail.com">Email ID</a> - varunpp2@gmail.com
+- <a target="_blank" href="mailto:varunpp2@gmail.com">Email ID</a> - varunpp2@gmail.com
 openings: Five
 ---
 ---
