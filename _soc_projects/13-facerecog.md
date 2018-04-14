@@ -48,4 +48,4 @@ openings: Three
 
 <!--break-->
 
-#### [Existing Project Repository Link](https://github.com/Naman-ntc/FaceRecognition) : https://github.com/Naman-ntc/FaceRecognition
+#### [Existing Project Repository Link](https://github.com/Naman-ntc/FaceRecognition) : [ https://github.com/Naman-ntc/FaceRecognition ](https://github.com/Naman-ntc/FaceRecognition)

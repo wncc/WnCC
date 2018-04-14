@@ -13,7 +13,7 @@ openings: Two
 
 ---
 
-#### This project is mostly aimed towards people who are interested in Machine Learning. This project involves the use of Machine Learning to identify the various music genres
+#### This project is mostly aimed towards people who are interested in machine learning and involves the use of machine learning algorithms to identify the various music genres
 
 <!--break-->
 
@@ -25,7 +25,7 @@ openings: Two
 
 <!--break-->
 
-#### Get familiarized with the basics of machine learning. One of the excellent resources to kick-off your machine learning journey would be this excellent course offered by Andrew Ng on [Coursera](https://www.coursera.org/learn/machine-learning)
+#### Get familiarized with the basics of machine learning. One of the excellent resources to kick-off your machine learning journey would be this excellent course offered by Andrew Ng on [Coursera](https://www.coursera.org/learn/machine-learning "Coursera")
 
 <!--break-->
 
@@ -34,6 +34,14 @@ openings: Two
 <!--break-->
 
 
-#### [Click here for GitHub Repository for existing work](https://github.com/Arunabh98/Genre-Identification)
+#### [Click here for GitHub Repository for existing work](https://github.com/Arunabh98/Genre-Identification "Github")
+
+<!--break-->
+
+Name | Links
+--- | ---
+[Coursera Machine Learning Course](https://www.coursera.org/learn/machine-learning) | https://www.coursera.org/learn/machine-learning
+[Github Repository](https://github.com/Arunabh98/Genre-Identification) |https://github.com/Arunabh98/Genre-Identification
+
 
 

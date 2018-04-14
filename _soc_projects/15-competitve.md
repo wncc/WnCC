@@ -23,4 +23,4 @@ openings: Five
 
 <!--break-->
 
-#### Note : Mention your familiarity with C++ in the proposal. Also if you already practice on some online judge, do provide the link to your profile"
+#### Note : Mention your familiarity with C++ in the proposal. Also if you already practice on some online judge, do provide the link to your profile
