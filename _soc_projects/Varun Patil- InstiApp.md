@@ -1,17 +1,15 @@
 ---
 layout: soc-project
-image: /images/varun-instiapp.png
+image: /images/varun-instiapp.jpg
 title: InstiApp
 mentor: "Varun Patil"
-category:
- "Development\n and \n"
- "Web Development"
+category: "Computer Graphics"
 application_procedure: "proposal"
-weight: 70
+weight: 65
 ribbon: new
 contact:
-- Facebook - <a target="_blank" href="Facebook - https://www.facebook.com/varunpp2>Varun Patil</a>
-- <a target="_blank" href="https://varunpp2@gmail.com">Email ID</a> - varunpp2@gmail.com
+- Facebook - <a target="_blank" href="https://www.facebook.com/varunpp2">Varun Patil</a>
+- <a target="_blank" href="mailto:https://varunpp2@gmail.com">Email ID</a> - varunpp2@gmail.com
 openings: Five
 ---
 ---
