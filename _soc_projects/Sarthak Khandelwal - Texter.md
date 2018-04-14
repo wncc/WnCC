@@ -11,7 +11,7 @@ weight: 70
 ribbon: new
 contact:
 - Messenger - <a target="_blank" href="Facebook - https://www.facebook.com/mastermind.sarthak>Sarthak Khandelwal</a>
-- <a target="_blank" href="https://mastermind.sarthak@gmail.com">Email ID</a> - mudeshi1209@gmail.com
+- <a target="_blank" href="https://mastermind.sarthak@gmail.com">Email ID</a> - mastermind.sarthak@gmail.com
 openings: Three.
 ---
 
