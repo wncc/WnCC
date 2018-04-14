@@ -3,7 +3,9 @@ layout: soc-project
 image: /images/varun-instiapp.jpg
 title: InstiApp
 mentor: "Varun Patil"
-category: "Computer Graphics"
+category: 
+- "Development\n and \n'
+- "Web Development" 
 application_procedure: "proposal"
 weight: 65
 ribbon: new
