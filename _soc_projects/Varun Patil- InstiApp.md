@@ -4,14 +4,14 @@ image: /images/varun-instiapp.png
 title: InstiApp
 mentor: "Varun Patil"
 category:
-- "Development\n and \n"
-- "Web Development"
+ "Development\n and \n"
+ "Web Development"
 application_procedure: "proposal"
 weight: 70
 ribbon: new
 contact:
-- Messenger - <a target="_blank" href="Facebook - https://www.facebook.com/varunpp2>Varun Patil</a>
---<a target="_blank" href="https://varunpp2@gmail.com">Email ID</a> - varunpp2@gmail.com
+- Facebook - <a target="_blank" href="Facebook - https://www.facebook.com/varunpp2>Varun Patil</a>
+- <a target="_blank" href="https://varunpp2@gmail.com">Email ID</a> - varunpp2@gmail.com
 openings: Five
 ---
 ---
