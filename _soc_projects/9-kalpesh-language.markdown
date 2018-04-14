@@ -19,8 +19,6 @@ openings: Two
 
 <!--break-->
 
-### Statistical Modelling of Star Maps
-
 #### The idea here is to convert English to code and convert code back into English. A number of use cases can be possible here, automatic generation of test code, comments, docstrings, or maybe more efficient ways to write code / code review.
 
 #### My goal is to somehow use signals from a compiler (as reinforcement learning rewards / or loss function terms) to assist this modelling.
