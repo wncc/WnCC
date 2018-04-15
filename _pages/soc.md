@@ -54,7 +54,7 @@ div.tab button.active {
 <!-- Banner -->
 <section id="banner" style="background-image:url({{ page.banner | prepend: site.baseurl }})">
     <div class="inner">
-        <h2>Seasons Of Code</h2>
+        <h2>Seasons Of Code 2018</h2>
         <p> An Initiative By <a href="https://www.wncc-iitb.org/">The Web and Coding Club, IIT Bombay</a><br/><br/>
         Tentative Dates: <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=N3ZxOHNlNDFtcnY2bzFhNXJpZjVmbDk2MDMgYWJlZW45QG0&tmsrc=abeen9%40gmail.com">15th May - 15th July</a></p>
         <ul class="actions">
