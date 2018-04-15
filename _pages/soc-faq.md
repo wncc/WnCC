@@ -26,7 +26,7 @@ show-in-header: false
 </p>
 
 <h3 style="font-weight: 900;">Do I get a room retention if I am doing SoC?</h3>
-<p>No. However, activities like ITSP, SURP etc do offer room retention.</p>
+<p>No. Because it is not necessary to be in the insti for SoC. However, activities like ITSP, SURP etc do offer room retention.</p>
 
 <h3 style="font-weight: 900;">Can I do ITSP/SURP and SoC together?</h3>
 <p>It is possible to do one of ITSP/SURP along with SoC. However, bear in mind that it might get a little difficult since both the projects would demand time. If you're planning to go on a vacation for a considerable period, doing both might not be a good idea. SoC has a rigid two month time frame but it can be done from home, provided considerable amout of time is put in.
@@ -53,7 +53,7 @@ show-in-header: false
 </p>
 
 <h3 style="font-weight: 900;">How do I apply for SoC as a student?</h3>
-<p>To start off, fill the <a target = "_balnk" href="https://docs.google.com/forms/d/e/1FAIpQLSc5ZqQvIgxVK-Tf-uWEKcyCg2BrDM0Iu4QVj5RzoP6Y5TZtNA/viewform" >Padawan form</a> with details. Most projects require a proposal to be submitted containg details of what you plan to do. These details can be found on each project's page. If a proposal is not required for your project, fill "-" in the proposal field in the form. Note that you can submit the form whenever you want, before the deadline. The link to the proposal can be of a draft that you keep editin. On the deadline i.e. 7th May, we would download all proposals and consider them as final. Filling the proposal early may attract feedback from the respective project's mentor. You can also approach the mentor on your own for proposal feedback.
+<p>To start off, fill the <a target = "_balnk" href="https://docs.google.com/forms/d/e/1FAIpQLScF3u5o_D-6G4E8-jl5ftqDN27tLpnAmR5ThE81OKrMHuFzuQ/viewform" >Padawan form</a> with details. Most projects require a proposal to be submitted containg details of what you plan to do. These details can be found on each project's page. If a proposal is not required for your project, fill "-" in the proposal field in the form. Note that you can submit the form whenever you want, before the deadline. The link to the proposal can be of a draft that you keep editin. On the deadline i.e. 7th May, we would download all proposals and consider them as final. Filling the proposal early may attract feedback from the respective project's mentor. You can also approach the mentor on your own for proposal feedback.
 </p>
 
 <h3 style="font-weight: 900;">What should the proposal contain?</h3>
@@ -61,20 +61,12 @@ show-in-header: false
 </p>
 
 <h3 style="font-weight: 900;">Can I submit more than one proposal?</h3>
-<p>Yes, you surely can. Just fill the <a target = "_balnk" href="https://docs.google.com/forms/d/e/1FAIpQLSc5ZqQvIgxVK-Tf-uWEKcyCg2BrDM0Iu4QVj5RzoP6Y5TZtNA/viewform" >Padawan form</a> multiple times with links to your proposals.
+<p>Yes, you surely can. Just fill the <a target = "_balnk" href="https://docs.google.com/forms/d/e/1FAIpQLScF3u5o_D-6G4E8-jl5ftqDN27tLpnAmR5ThE81OKrMHuFzuQ/viewform" >Padawan form</a> multiple times with links to your proposals.
 </p>	
 
 <h3 style="font-weight: 900;">Can I mentor more than one project?</h3>
 <p>Yes, you can. Just fill the <a target = "_balnk" href="https://docs.google.com/forms/d/e/1FAIpQLSd57osi_wuufUt9caLo5q3QFXNzjXBhcuaKtj2RTK5OG5JFfw/viewform" >Master form</a> multiple times. Note that you would have to put in more time if you plan to mentor ultiple projects. Mentoring can take up a minimum of 4-5 hours per week for one project.
 </p>	
-
-<h3 style="font-weight: 900;">What is the stipend involved?</h3>
-<p>The stipend associated with each project is listed in the project page. It varies from INR 9000 to INR 50000.
-</p>	
-
-<h3 style="font-weight: 900;">Am I assured a stipend if I participate?</h3>
-<p>Depending on the project you choose, there will be either one or two review meets where your work would be evaluated by the mentor. If it passes the bar, you are assured to receive the stipend. FOSSEE is sponsoring the SoC this time, all stipends will come from FOSSEE.
-</p>
 
 <h3 style="font-weight: 900;">How should I contact the mentor?</h3>
 <p>The contact details for mentors are also listed in the project page.
@@ -86,11 +78,11 @@ show-in-header: false
 
 
 <h3 style="font-weight: 900;">Should I send proposals directly to the mentoring organizations?</h3>
-<p>No only the proposals submitted through our portal, i.e. by submitting the <a target = "_balnk" href="https://docs.google.com/forms/d/e/1FAIpQLSc5ZqQvIgxVK-Tf-uWEKcyCg2BrDM0Iu4QVj5RzoP6Y5TZtNA/viewform" >Padawan form</a> will be considered valid.
+<p>No only the proposals submitted through our portal, i.e. by submitting the <a target = "_balnk" href="https://docs.google.com/forms/d/e/1FAIpQLScF3u5o_D-6G4E8-jl5ftqDN27tLpnAmR5ThE81OKrMHuFzuQ/viewform" >Padawan form</a> will be considered valid.
 </p>
 
 <h3 style="font-weight: 900;">What if I have more questions?</h3>
-<p>Feel free to ping <a href = "https://www.facebook.com/nihal111">Nihal Singh</a> or <a href = "https://www.facebook.com/sajalnarang">Sajal Narang</a>. You can also directly message <a href="https://www.facebook.com/wncc.iitb/">WnCC</a>.
+<p>Feel free to ping <a href = "https://www.facebook.com/mastermind.sarthak">Sarthak Khandelwal</a> or <a href = "https://www.facebook.com/ydidwania">Yashwardhan Didwania</a> or <a href = "https://www.facebook.com/profile.php?id=100000338522650">Abeen Bhattacharya</a> or any other WnCC Member. You can also directly message <a href="https://www.facebook.com/wncc.iitb/">WnCC</a>.
 </p>
 
 </section>
