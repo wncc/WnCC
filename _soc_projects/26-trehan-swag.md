@@ -28,7 +28,7 @@ Challenges would get harder as the days go on. We'll be covering all categories 
 
 <!--break-->
 
-Previous experience with CTFs, proficiency in Python, should've done a networks course or have equivalent knowledge, knowledge of operating systems is a plus.
+Previous experience with CTFs, proficiency in Python and C/C++, should've done a networks course or have equivalent knowledge, knowledge of operating systems is a plus.
 
 <!--break-->
 
