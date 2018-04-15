@@ -11,7 +11,7 @@ ribbon: new
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/AkashTrehan21?ref=br_rs">Akash Trehan</a>
 - <a target="_blank" href="mailto:akash.trehan123@gmail.com">Email ID</a> - akash.trehan123@gmail.com
-openings: Five
+openings: Three
 ---
 ---
 
