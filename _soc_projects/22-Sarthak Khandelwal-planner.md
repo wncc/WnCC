@@ -10,14 +10,14 @@ application_procedure: "proposal"
 weight: 70
 ribbon: new
 contact:
-- Messenger - <a target="_blank" href="Facebook - https://www.facebook.com/mastermind.sarthak"> Sarthak Khandelwal </a>
+- Messenger - <a target="_blank" href="https://www.facebook.com/mastermind.sarthak"> Sarthak Khandelwal </a>
 - <a target="_blank" href="mailto:mastermind.sarthak@gmail.com">Email ID</a> - mastermind.sarthak@gmail.com
 openings: Two.
 ---
 
 ---
 
-This an application by which a user can plan his day to day schedule and get timely reminders for the various tasks or events he has set or planned for any particular day chosen at the appropriate time.
+This is an application by which a user can plan his day to day schedule and get timely reminders for the various tasks or events he has set or planned for any particular day chosen at the appropriate time.
 
 <!--break-->
 
