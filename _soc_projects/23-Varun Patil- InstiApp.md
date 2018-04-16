@@ -2,7 +2,9 @@
 layout: soc-project
 image: /images/iitbapp.png
 title: InstiApp
-mentor: "Varun Patil"
+mentor:
+- Varun Patil
+- Yashvardhan Didwania
 category: 
 - "Development\n and \n"
 - "Web Development" 
@@ -10,7 +12,7 @@ application_procedure: "proposal"
 weight: 65
 ribbon: new
 contact:
-- Facebook - <a target="_blank" href="https://www.facebook.com/varunpp2">Varun Patil</a>
+- Facebook - <a target="_blank" href="https://www.facebook.com/varunpp2">Varun Patil</a>, <a target="_blank" href="https://www.facebook.com/ydidwania">Yashvardhan Didwania</a>
 - <a target="_blank" href="mailto:varunpp2@gmail.com">Email ID</a> - varunpp2@gmail.com
 openings: Five
 ---
@@ -27,9 +29,9 @@ The chief component of this is events, which aims for students being kept update
 
 The project has three sections:
 
-1. The **backend** of the app, which is a RESTful API in Django. This project enforces very strict coding standards and testing routines, so you will essentially learn not only Python and Django, but software development as a whole.
-2. A **Progressive Web Application**, which is written in Angular. You will learn fairly advanced TypeScript, HTML, CSS and JavaScript if you are working on this. It will also involve a lot of async programming, cache handling, performance optimization etc.
-3. A native Android app, which is a separate project
+1. The **API Backend** of the app, which is a RESTful API in Django. This project enforces very strict coding standards and testing routines, so you will essentially learn not only Python and Django, but software development as a whole.
+2. A **Progressive Web Application** (PWA), written in Angular. You will learn fairly advanced TypeScript, HTML, CSS and JavaScript if you are working on this. It will also involve a lot of async programming, cache handling, performance optimization etc.
+3. A native **Android App**, which is a separate project
 
 <!--break-->
 
@@ -65,4 +67,4 @@ For the backend, you can get a broad idea of what you will be working on by brow
 * Further ideation
 
 ### Proposal
-Include your vision and a general idea of how such an app would be useful for students (or anyone else). Include your ideas on how this could be further expanded, what possible things could be added etc. Make sure you put in your existing work and why you want to work on this. Also state which project you preferentially want to work on, which can be any of *Backend*, *Frontend* or *Full Stack*.
+Include your vision and a general idea of how such an app would be useful for students (or anyone else). Include your ideas on how this could be further expanded, what possible things could be added etc. Make sure you put in your existing work and why you want to work on this. Also state which section you preferentially want to work on, which can be any of *Backend*, *Frontend* or *Full Stack*.
