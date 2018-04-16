@@ -10,11 +10,7 @@ application_procedure: "proposal"
 weight: 70
 ribbon: new
 contact:
-<<<<<<< HEAD
-- Facebook - <a target="_blank" href="https://www.facebook.com/mastermind.sarthak"> Sarthak Khandelwal </a>
-=======
 - Messenger - <a target="_blank" href="https://www.facebook.com/mastermind.sarthak"> Sarthak Khandelwal </a>
->>>>>>> production
 - <a target="_blank" href="mailto:mastermind.sarthak@gmail.com">Email ID</a> - mastermind.sarthak@gmail.com
 openings: Three.
 ---
