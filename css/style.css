@@ -1276,6 +1276,22 @@ a.hyperlink-nodecoration {color: #629DD1;
         border-top: 3px solid #FFD633;
     }
 
+    .devcom span
+    {
+        background: #9932CC;
+        background: linear-gradient(#9400D3 0%, #9932CC 100%);
+    }
+    .devcom span::before
+    {
+        border-left: 3px solid #9932CC;
+        border-top: 3px solid #9932CC;
+    }
+    .devcom span::after
+    {
+        border-right: 3px solid #9932CC;
+        border-top: 3px solid #9932CC;
+    }
+
     .vacancy span
     {
         background: #1e5799;
