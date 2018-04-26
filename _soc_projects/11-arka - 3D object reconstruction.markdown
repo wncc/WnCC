@@ -17,7 +17,7 @@ openings: Three
 
 <!--break-->
 
-#### The code is available at: https://github.com/fanhqme/PointSetGeneration. Since the code is done using Tensorflow, this will try to replicate the results using Pytorch. A bonus part of the project would be to try to remove a major constraint imposed by the author.
+#### The code is available at: <a href="https://github.com/fanhqme/PointSetGeneration"> https://github.com/fanhqme/PointSetGeneration</a>. Since the code is done using Tensorflow, this will try to replicate the results using Pytorch. A bonus part of the project would be to try to remove a major constraint imposed by the author.
 
 <!--break-->
 
