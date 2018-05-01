@@ -14,6 +14,8 @@ openings: Two
 ---
 
 ---
+#### This project is aimed towards people who are interested in ML and Neuro-Linguistic Programming; and handles Neural Machine Translation with an unusual approach 
+<!--break-->
 
 Neural Networks are being extensively used for machine translation. While tools like Google Translate might look so practically effective in translation, the accuracy (BLEU scores) of such models on test benchmarks is just in the range of 28-40%! From our initial experiments with such models, we can say that these networks essentially learn to output translations all of which carry the same semantic structure -- a different way of referring to the same thing or paraphrasing. There has been some previous work in the domain of learning to align to fixed semantic structure or learning to handle paraphrasing during NMT. We have a simple approach in mind, which we want to try out.
 
