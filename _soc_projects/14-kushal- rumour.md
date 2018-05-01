@@ -13,10 +13,11 @@ openings: Two
 ---
 
 ---
-This is a completely new project with no past work.
+Spreading 'rumours' on devices connected to the same Wi-Fi via an app
+
 
 <!--break-->
-
+This is a completely new project with no past work.
 The project will take the form of an app (android/ios). 
 
 <!--break-->
