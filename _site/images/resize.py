@@ -3,7 +3,7 @@ import glob
 
 images = glob.glob("*")
 print images
-ignored = ['banner.jpg', 'coding.jpg', 'pic01.jpg', 'pic02.jpg', 'pic03.jpg', 'seasons.jpg', 'soc.jpg', 'resize.py','HoldTheBeat.png','JARVIS.jpg','404.png']
+ignored = ['banner.jpg', 'coding.jpg', 'pic01.jpg', 'pic02.jpg', 'pic03.jpg', 'seasons.jpg', 'soc.jpg', 'resize.py','HoldTheBeat.png','JARVIS.jpg','404.png','collaborations','team','initiatives','yahoohacku-eventCover.jpg']
 
 for image in images:
     if image not in ignored:
