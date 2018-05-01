@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: /images/mri-ct.jpg
+image: /images/mri-ct.jpeg
 title: Automated Fiducial Localisation from MRI/CT Images 
 mentor: 
 - Ritwick Chaudhry
@@ -10,9 +10,9 @@ application_procedure: "proposal"
 weight: 70
 ribbon: new
 contact:
-- <a target="_blank" href="Facebook -  facebook.com/ritwickchaudhry>Ritwick Chaudhary/a>
+- <a target="_blank" href="facebook.com/ritwickchaudhry>Ritwick Chaudhary/a>
 - <a target="_blank" href="mailto:ritwickchaudhry@gmail.com">Email ID</a> - ritwickchaudhry@gmail.com
-- <a target="_blank" href="Facebook -  facebook.com/s.g0el>Shubham Goel/a>
+- <a target="_blank" href="facebook.com/s.g0el>Shubham Goel/a>
 - <a target="_blank" href="mailto:sgoel160@gmail.com">Email ID</a> - sgoel160@gmail.com
 openings: Three
 ---
