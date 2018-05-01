@@ -10,10 +10,11 @@ application_procedure: "proposal"
 weight: 70
 ribbon: new
 contact:
-- <a target="_blank" href="facebook.com/ritwickchaudhry>Ritwick Chaudhary/a>
+- Facebook - <a target="_blank" href="https://www.facebook.com/ritwickchaudhry">Ritwick Chaudhary</a>
 - <a target="_blank" href="mailto:ritwickchaudhry@gmail.com">Email ID</a> - ritwickchaudhry@gmail.com
-- <a target="_blank" href="facebook.com/s.g0el>Shubham Goel/a>
+- Facebook - <a target="_blank" href="https://www.facebook.com/s.g0el">Shubham Goel</a>
 - <a target="_blank" href="mailto:sgoel160@gmail.com">Email ID</a> - sgoel160@gmail.com
+
 openings: Three
 ---
 
