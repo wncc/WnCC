@@ -9,21 +9,21 @@ category: "Machine Learning, NLP;"
 application_procedure: "proposal"
 weight: 30
 ribbon: new
-contact: <a target="_blank" href="">Email ID</a> - aviralkumar2907@gmail.com, sid7954@gmail.com
+contact: <a target="_blank" >Email ID</a> - aviralkumar2907@gmail.com, sid7954@gmail.com
 openings: Two
 ---
 
 ---
 
-#### Neural Networks are being extensively used for machine translation. While tools like Google Translate might look so practically effective in translation, the accuracy (BLEU scores) of such models on test benchmarks is just in the range of 28-40%! From our initial experiments with such models, we can say that these networks essentially learn to output translations all of which carry the same semantic structure -- a different way of referring to the same thing or paraphrasing. There has been some previous work in the domain of learning to align to fixed semantic structure or learning to handle paraphrasing during NMT. We have a simple approach in mind, which we want to try out.
+Neural Networks are being extensively used for machine translation. While tools like Google Translate might look so practically effective in translation, the accuracy (BLEU scores) of such models on test benchmarks is just in the range of 28-40%! From our initial experiments with such models, we can say that these networks essentially learn to output translations all of which carry the same semantic structure -- a different way of referring to the same thing or paraphrasing. There has been some previous work in the domain of learning to align to fixed semantic structure or learning to handle paraphrasing during NMT. We have a simple approach in mind, which we want to try out.
 
 <!--break-->
 
-#### We stick to the standard Encoder-Decoder architecture for Neural Machine Translation(NMT). To give a brief overview, a recurrent neural network (Encoder) takes the input sequence and converts it to an intermediate hidden representation on which another recurrent neural network (Decoder) operates and produces the output sequence. The standard NMT architecture involves a single encoder and decoder mechanism. Here, essentially, we want to have multiple decoders, each of which can capture a different semantic structure of the sequence. Training these multiple decoders will involve not only maximising the likelihood for prediction for each but also producing diverse outputs among themselves. If successfully learned, this model can learn to produce translations which are different ways of saying the same thing. 
+We stick to the standard Encoder-Decoder architecture for Neural Machine Translation(NMT). To give a brief overview, a recurrent neural network (Encoder) takes the input sequence and converts it to an intermediate hidden representation on which another recurrent neural network (Decoder) operates and produces the output sequence. The standard NMT architecture involves a single encoder and decoder mechanism. Here, essentially, we want to have multiple decoders, each of which can capture a different semantic structure of the sequence. Training these multiple decoders will involve not only maximising the likelihood for prediction for each but also producing diverse outputs among themselves. If successfully learned, this model can learn to produce translations which are different ways of saying the same thing. 
 
 <!--break-->
 
-#### The motivation for this idea comes from an analogy to generative models like GANs. Often GANs suffer from mode collapse, that is they fail to capture different modes in the space of images, and rotate among different modes. Having a ‘n-way’ mixture (which essentially is implemented by multiple decoders), we can prevent such a problem from arising.
+The motivation for this idea comes from an analogy to generative models like GANs. Often GANs suffer from mode collapse, that is they fail to capture different modes in the space of images, and rotate among different modes. Having a ‘n-way’ mixture (which essentially is implemented by multiple decoders), we can prevent such a problem from arising.
 
 <!--break-->
 
