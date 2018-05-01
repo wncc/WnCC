@@ -5,7 +5,7 @@ title: Capturing semantic structures in Neural Machine Translation
 mentor: 
 - Aviral Kumar
 - Siddhant Garg
-category: "Machine Learning, NLP;"
+category: "Machine Learning, NLP"
 application_procedure: "proposal"
 weight: 30
 ribbon: new
@@ -28,12 +28,12 @@ The motivation for this idea comes from an analogy to generative models like GAN
 <!--break-->
 
 #### Some (initial) relevant papers:
-1. Adversarial Example Generation with Syntactically Controlled Paraphrase Networks https://arxiv.org/pdf/1804.06059.pdf 
-2. Diverse Beam Search https://arxiv.org/abs/1610.02424
-3. Breaking softmax bottleneck (might be interesting to see if their solution captures semantic structures too)  https://arxiv.org/abs/1711.03953 
+1. Adversarial Example Generation with Syntactically Controlled Paraphrase Networks [https://arxiv.org/pdf/1804.06059.pdf](https://arxiv.org/pdf/1804.06059.pdf)
+2. Diverse Beam Search [https://arxiv.org/abs/1610.02424](https://arxiv.org/abs/1610.02424)
+3. Breaking softmax bottleneck (might be interesting to see if their solution captures semantic structures too)  [https://arxiv.org/abs/1711.03953](https://arxiv.org/abs/1711.03953)
 
 <!--break-->
-#### Base Code: Tensorflow Official NMT repository  https://github.com/tensorflow/nmt
+#### Base Code: Tensorflow Official NMT repository  [https://github.com/tensorflow/nmt](https://github.com/tensorflow/nmt)
 <!--break-->
 
 #### Why should one choose this project?
