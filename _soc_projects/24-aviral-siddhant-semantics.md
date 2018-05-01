@@ -9,6 +9,7 @@ category: "Machine Learning, NLP"
 application_procedure: "proposal"
 weight: 30
 ribbon: new
+stipend: INR 3000
 contact: <a target="_blank" >Email ID</a> - aviralkumar2907@gmail.com, sid7954@gmail.com
 openings: Two
 ---

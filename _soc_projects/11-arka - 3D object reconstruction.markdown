@@ -7,6 +7,7 @@ category: "Image Processing, Machine Learning and 3D Vision;"
 application_procedure: "proposal"
 weight: 30
 ribbon: new
+stipend: INR 3000
 contact: <a target="_blank" href="mailto:blackreaper4039@gmail.com">Email ID</a> - blackreaper4039@gmail.com
 openings: Three
 ---

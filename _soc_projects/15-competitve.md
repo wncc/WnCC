@@ -7,6 +7,7 @@ category: "Competitive Coding"
 application_procedure: "proposal"
 weight: 25
 ribbon: new
+stipend: INR 3000
 contact: <a target="_blank" href="mailto:https://ishantarunesh@gmail.com">Email</a> - ishantarunesh@gmail.com
 openings: Five  
 ---

@@ -9,6 +9,7 @@ category:
 application_procedure: "proposal"
 weight: 70
 ribbon: new
+stipend: INR 3000
 contact:
 - Messenger - <a target="_blank" href="https://www.facebook.com/mastermind.sarthak"> Sarthak Khandelwal </a>
 - <a target="_blank" href="mailto:mastermind.sarthak@gmail.com">Email ID</a> - mastermind.sarthak@gmail.com

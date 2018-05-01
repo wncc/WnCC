@@ -9,6 +9,7 @@ category: "Development"
 application_procedure: "proposal"
 weight: 70
 ribbon: new
+stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/ritwickchaudhry">Ritwick Chaudhary</a>
 - <a target="_blank" href="mailto:ritwickchaudhry@gmail.com">Email ID</a> - ritwickchaudhry@gmail.com

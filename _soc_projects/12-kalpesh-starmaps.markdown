@@ -7,6 +7,7 @@ category: "Image Processing & Machine Learning"
 application_procedure: "proposal"
 weight: 30
 ribbon: new
+stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/kalpesh.krishna.9">Kalpesh Krishna</a>
 - <a target="_blank" href="mailto:https://kalpeshk2011@gmail.com">Email ID</a> - kalpeshk2011@gmail.com

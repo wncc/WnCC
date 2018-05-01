@@ -9,6 +9,7 @@ category:
 application_procedure: "proposal"
 weight: 70
 ribbon: devcom
+stipend: INR 3000
 contact:
 - Messenger - <a target="_blank" href="Facebook - https://www.facebook.com/abhijit.tomar"> Abhijit Tomar </a>
 - <a target="_blank" href="mailto:abhijit@abhijittomar.com">Email ID</a> - abhijit@abhijittomar.com
