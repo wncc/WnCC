@@ -7,6 +7,7 @@ category: "Web Development"
 application_procedure: "proposal"
 weight: 75
 ribbon: new
+stipend: INR 3000
 contact:
 - <a target="_blank" href="https://gitter.im/fast-playlist">Gitter</a>
 - Messenger - <a target="_blank" href="https://www.messenger.com/t/udiboy1209">Meet Udeshi</a>

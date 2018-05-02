@@ -7,6 +7,7 @@ category: "Machine Learning"
 application_procedure: "proposal"
 weight: 25
 ribbon: new
+stipend: INR 3000
 contact: <a target="_blank" href="https://join.slack.com/t/genre-identification/shared_invite/enQtMzQ0NTQ1MDE0NDcwLTNlMTc4MDZmN2ZhYWIxMDc2MDEzMzgwNGM0ZDc4MDQ3ODc1YWRkMTVlMTBmMTcwYWUwZjYwMDBiNjYyZWRjZTI">Slack </a>
 openings: Two  
 ---

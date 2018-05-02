@@ -9,6 +9,7 @@ category:
 application_procedure: "proposal"
 weight: 70
 ribbon: new
+stipend: INR 3000
 contact:
 - Messenger - <a target="_blank" href="Facebook - https://www.facebook.com/bhishma.dedhia>Bhishma Dedhia/a>
 - <a target="_blank" href="mailto:bhishma.dedhia@gmail.com">Email ID</a> - bhishma.dedhia@gmail.com

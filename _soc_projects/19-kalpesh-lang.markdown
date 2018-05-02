@@ -7,6 +7,7 @@ category: "Development & Machine Learning"
 application_procedure: "proposal"
 weight: 25
 ribbon: new
+stipend: INR 3000
 contact:
 - Messenger - <a target="_blank" href="https://www.messenger.com/t/kalpesh.krishna.9">Kalpesh Krishna</a>
 - <a target="_blank" href="mailto:https://kalpeshk2011@gmail.com">Email ID</a> - kalpeshk2011@gmail.com
