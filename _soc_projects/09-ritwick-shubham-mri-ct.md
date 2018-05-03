@@ -5,7 +5,7 @@ title: Automated Fiducial Localisation from MRI/CT Images
 mentor: 
 - Ritwick Chaudhry
 - Shubham Goel
-category: "Development"
+category: "Computer Vision"
 application_procedure: "proposal"
 weight: 70
 ribbon: new
