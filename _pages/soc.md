@@ -124,7 +124,7 @@ div.tab button.active {
 					<img class="icon major" src="{{ '/svg/light-siber.svg' | prepend: site.baseurl }}" />
 					<h3>Master</h3>
 					<p>I can feel you code. It gives you focus. It makes you stronger. Your focus determines your reality. Use the force and someday you will be the most powerful Jedi ever.</p>
-					<a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd57osi_wuufUt9caLo5q3QFXNzjXBhcuaKtj2RTK5OG5JFfw/viewform" class="button big special">Become a Master</a>
+					<a target = "_blank" href="https://goo.gl/forms/1WXW4oSDwlCHD4313" class="button big special">Become a Master</a>
 				</section>
 			</div>
 		</div>
