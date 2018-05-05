@@ -17,7 +17,7 @@ openings: Three
 ---
 
 ---
-###This project aims at the use of Machine Learning to build an algorithm to find the right emoji.
+### This project aims at the use of Machine Learning to build an algorithm to find the right emoji.
 
 <!--break-->
 
