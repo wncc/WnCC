@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: /images/emoji_detector.png
+image: /images/emoji-detector.png
 title: Emoji Detector
 mentor:
 - Sucheta Ravikanti
