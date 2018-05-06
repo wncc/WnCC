@@ -4,6 +4,8 @@ rvm:
   - 2.4.4
 
 script:
+   - gem update --system
+   - gem install bundler
    - chmod +x build-gh-pages.sh && ./build-gh-pages.sh
 
 deploy:
