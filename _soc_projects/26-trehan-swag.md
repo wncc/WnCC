@@ -7,12 +7,13 @@ category:
 - Network Security
 application_procedure: "proposal"
 weight: 65
-ribbon: new
+ribbon: in progress
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/AkashTrehan21?ref=br_rs">Akash Trehan</a>
 - <a target="_blank" href="mailto:akash.trehan123@gmail.com">Email ID</a> - akash.trehan123@gmail.com
-openings: Three
+mentees:
+- Darshil Desai
 ---
 ---
 
