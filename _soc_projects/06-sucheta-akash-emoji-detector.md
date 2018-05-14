@@ -1,7 +1,7 @@
 ---
 layout: soc-project
 image: /images/emoji-detector.png
-title: Emoji Detector
+title: Emoji Predictor
 mentor:
 - Sucheta Ravikanti
 - Akash Kumar
