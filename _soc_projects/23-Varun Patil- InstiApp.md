@@ -22,7 +22,6 @@ stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/varunpp2">Varun Patil</a>, <a target="_blank" href="https://www.facebook.com/ydidwania">Yashvardhan Didwania</a>
 - <a target="_blank" href="mailto:varunpp2@gmail.com">Email ID</a> - varunpp2@gmail.com
-openings: Five
 ---
 ---
 
