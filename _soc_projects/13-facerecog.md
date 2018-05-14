@@ -8,10 +8,16 @@ mentor:
 category: "Image Processing & Machine Learning"
 application_procedure: "proposal"
 weight: 25
-ribbon: new
+ribbon: in progress
 stipend: INR 3000
 contact: <a target="_blank" href="https://gitter.im/Face-Recognition-Systems/SOC?utm_source=share-link&utm_medium=link&utm_campaign=share-link">Gitter Room Link </a>
-openings: Three   
+mentees:
+- Mohit Kumar Gupta
+- Parikshit Bansal
+- Piyush Tibarewal
+- Rahul Bhardwaj
+- SIddharth Maniar
+- Sumrit Gupta
 ---
 
 ---
