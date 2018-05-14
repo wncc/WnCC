@@ -13,7 +13,7 @@ weight: 65
 mentees:
 - Bavish K
 - Hrushikesh Bodas
-- Janvhi Nandwan
+- Janhvi Nandwani
 - Mayuresh Bhattu
 - Shivam Jaiswal
 - Yash Khemchandani
