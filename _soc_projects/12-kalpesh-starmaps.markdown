@@ -9,7 +9,7 @@ weight: 30
 mentees:
 - Kushagra Juneja
 - Ramolla Nikhil Reddy
-ribbon: In Progress
+ribbon: in progress
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/kalpesh.krishna.9">Kalpesh Krishna</a>
