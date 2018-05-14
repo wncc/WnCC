@@ -10,7 +10,14 @@ category:
 - "Web Development" 
 application_procedure: "proposal"
 weight: 65
-ribbon: devcom
+mentees:
+- Bavish K
+- Hrushikesh Bodas
+- Janvhi Nandwan
+- Mayuresh Bhattu
+- Shivam Jaiswal
+- Yash Khemchandani
+ribbon: in progress
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/varunpp2">Varun Patil</a>, <a target="_blank" href="https://www.facebook.com/ydidwania">Yashvardhan Didwania</a>
