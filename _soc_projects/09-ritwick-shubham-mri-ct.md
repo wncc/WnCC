@@ -8,7 +8,10 @@ mentor:
 category: "Computer Vision"
 application_procedure: "proposal"
 weight: 70
-ribbon: new
+ribbon: in progress
+mentees:
+- Jian Vora
+- Rishabh Dsouza
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/ritwickchaudhry">Ritwick Chaudhary</a>
@@ -16,7 +19,7 @@ contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/s.g0el">Shubham Goel</a>
 - <a target="_blank" href="mailto:sgoel160@gmail.com">Email ID</a> - sgoel160@gmail.com
 
-openings: Three
+openings: Two
 ---
 
 ---
