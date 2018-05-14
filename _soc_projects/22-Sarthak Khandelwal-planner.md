@@ -11,7 +11,7 @@ weight: 70
 mentees:
 - Himanshu Goyal
 - Adithya Iyer
-ribbon: In Progress
+ribbon: in progress
 stipend: INR 3000
 contact:
 - Messenger - <a target="_blank" href="https://www.facebook.com/mastermind.sarthak"> Sarthak Khandelwal </a>
