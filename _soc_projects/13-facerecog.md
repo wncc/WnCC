@@ -16,7 +16,7 @@ mentees:
 - Parikshit Bansal
 - Piyush Tibarewal
 - Rahul Bhardwaj
-- SIddharth Maniar
+- Siddharth Maniar
 - Sumrit Gupta
 ---
 
