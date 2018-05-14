@@ -7,10 +7,13 @@ mentor:
 category: "Development"
 application_procedure: "proposal"
 weight: 25
-ribbon: new
+ribbon: in progress
 stipend: INR 3000
 contact: <a target="_blank" href="https://www.facebook.com/kushal.babel"> Kushal Babel </a>
-openings: Two 
+mentees:
+- Aashish Waikar
+- Yash Jain
+
 ---
 
 ---
