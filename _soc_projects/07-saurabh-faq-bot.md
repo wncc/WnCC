@@ -6,12 +6,15 @@ mentor: Saurabh Kumar
 category: "Web Development, Machine Learning, NLP"
 application_procedure: "proposal"
 weight: 30
-ribbon: new
+ribbon: in progress
 stipend: INR 3000
 contact: 
 - <a target="_blank" href="mailto:https://saurabhkm007@gmail.com">Email ID</a> - saurabhkm007@gmail.com
 - Facebook - <a target="_blank" href="https://www.facebook.com/saurabhkm"> Saurabh Kumar </a>
-openings: Two
+mentees:
+- Ayush Raj Mehrotra
+- Manas Jain
+- Soumya Chatterjee
 ---
 
 ---
