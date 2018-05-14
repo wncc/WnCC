@@ -10,8 +10,7 @@ application_procedure: "proposal"
 weight: 70
 ribbon: in progress
 mentees:
-- Jian Vora
-- Rishabh Dsouza
+- Siddhesh Pawar
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/ritwickchaudhry">Ritwick Chaudhary</a>
