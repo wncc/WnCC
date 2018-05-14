@@ -6,7 +6,10 @@ mentor: "Kalpesh Krishna"
 category: "Image Processing & Machine Learning"
 application_procedure: "proposal"
 weight: 30
-ribbon: new
+mentees:
+- Kushagra Juneja
+- Ramolla Nikhil Reddy
+ribbon: In Progress
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/kalpesh.krishna.9">Kalpesh Krishna</a>
