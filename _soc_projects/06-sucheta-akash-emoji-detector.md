@@ -8,12 +8,16 @@ mentor:
 category: "Machine Learning"
 application_procedure: "proposal"
 weight: 30
-ribbon: new
+ribbon: in progress
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/Suchetaaa">Sucheta Ravikanti</a>
 - <a target="_blank" href="mailto:sucheta317@gmail.com">Email ID</a> - sucheta317@gmail.com
-openings: Three
+mentees:
+- Harsh Dolhare
+- Madhav Gupta
+- Mohanish verma
+- Prince Sharma
 ---
 
 ---
