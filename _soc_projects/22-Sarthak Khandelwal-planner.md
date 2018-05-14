@@ -8,7 +8,10 @@ category:
 - "Web Development"
 application_procedure: "proposal"
 weight: 70
-ribbon: new
+mentees:
+- Himanshu Goyal
+- Adithya Iyer
+ribbon: In Progress
 stipend: INR 3000
 contact:
 - Messenger - <a target="_blank" href="https://www.facebook.com/mastermind.sarthak"> Sarthak Khandelwal </a>
