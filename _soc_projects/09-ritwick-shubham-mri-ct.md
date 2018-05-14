@@ -18,8 +18,6 @@ contact:
 - <a target="_blank" href="mailto:ritwickchaudhry@gmail.com">Email ID</a> - ritwickchaudhry@gmail.com
 - Facebook - <a target="_blank" href="https://www.facebook.com/s.g0el">Shubham Goel</a>
 - <a target="_blank" href="mailto:sgoel160@gmail.com">Email ID</a> - sgoel160@gmail.com
-
-openings: Two
 ---
 
 ---
