@@ -6,10 +6,25 @@ mentor: Ishan Tarunesh
 category: "Competitive Coding"
 application_procedure: "proposal"
 weight: 25
-ribbon: new
-stipend: INR 3000
+ribbon: in progress
 contact: <a target="_blank" href="mailto:https://ishantarunesh@gmail.com">Email</a> - ishantarunesh@gmail.com
-openings: Five  
+mentees:
+- Ansh Khurana
+- Anuj Diwan
+- Anurag Arun Kedia
+- Arpit Aggarwal
+- Ayan Sharma
+- Devesh Kumar
+- Kritin Garg
+- Mohd Safwan
+- Mrigank Ashesh
+- Rathod Harekrissna Upendra
+- Rishi Agarwal
+- Ritik Roongta
+- Shubham Anand Jain
+- Tezan Sahu
+- Tushar gautam
+- Ujjwal Agarwal
 ---
 
 ---
