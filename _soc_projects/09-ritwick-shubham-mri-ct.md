@@ -11,6 +11,7 @@ weight: 70
 ribbon: in progress
 mentees:
 - Siddhesh Pawar
+- Jian Vora
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/ritwickchaudhry">Ritwick Chaudhary</a>
