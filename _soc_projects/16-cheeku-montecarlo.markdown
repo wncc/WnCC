@@ -66,3 +66,9 @@ Apart from learning about path tracers and rendering, you can expect to learn ab
 - Monte Carlo Sampling
 - Basics of ImageMagick
 - OpenMP Parallelization.
+
+<!--break-->
+
+### Repositories
+The project will be done in groups of two. We will consider minor variations
+in the raytracers, Swati ([swati-rt](https://github.com/wncc/swati-rt)) and Revati ([revati-rt](https://github.com/wncc/revati-rt))
