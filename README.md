@@ -1,6 +1,6 @@
 # WnCC Website
 
-The official website for [WnCC: www.wncc-iitb.org](www.wncc-iitb.org) resides in this repository.  
+The official website for [WnCC: www.wncc-iitb.org](https://www.wncc-iitb.org) resides in this repository.  
 This website is completely static and runs on jekyll.
 
 ## Content: 
