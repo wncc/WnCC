@@ -4,7 +4,7 @@ image: /images/bellatrix.jpg
 title: Bellatrix
 author: "Meet Udeshi"
 avatar: https://avatars3.githubusercontent.com/u/7384411?v=3&s=400
-github: https://github.com/nihal111
+github: https://github.com/udiboy1209
 repo: https://github.com/udiboy1209/bellatrix
 website: https://github.com/udiboy1209/bellatrix
 category:
