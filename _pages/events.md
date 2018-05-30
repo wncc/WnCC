@@ -97,7 +97,8 @@ div.tab button.active {
 		            {% capture thecycle %}
 		            {% cycle year: '0', '1' ,'2' %}
 		            {% endcapture %}
-		            {% if thecycle == ' 0 ' or forloop.first %}
+                    {% assign cycleidx = thecycle | plus: 0 %}
+		            {% if cycleidx == 0 or forloop.first %}
 		            <!-- Creating a new row after every three elements -->
 		            	<div class="row">
 		            {% endif %}
@@ -116,7 +117,7 @@ div.tab button.active {
 								</ul>
 							</section>
 						</div>
-					{% if thecycle == '2' or forloop.last %}
+					{% if cycleidx == 2 or forloop.last %}
 		    			</div>
 					{% endif %}	
             {% endfor %}
