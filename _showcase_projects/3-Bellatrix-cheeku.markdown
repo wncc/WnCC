@@ -13,7 +13,7 @@ category:
 weight: 2
 ---
 
-A simple personal assistant driven by text and voice with limitless possibilities of adding more features. Uses AIML (Artificial Intelligence Markup Language) for pattern matching and chatbot abilities along with a few python and shell scripts to carry out system processes. The repository resides [here]({{ page.repo }}).
+This is an augemented reality gaming platform. The game is projected on a screen and a camera records the user interaction with the screen. The repository resides [here]({{ page.repo }}).
 <style>
 .videowrapper {
     float: none;
