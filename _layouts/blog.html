@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<!-- Main -->
+<section id="main" class="wrapper style1">
+    <header class="major">
+        <h2>WnCC Blogs</h2>
+        <p>
+        <span style="font-weight: 500; color: #212121">{{ page.title }} </span>&nbsp;&nbsp;
+        {% for author in page.author%}
+            • {{ author }}&nbsp;&nbsp;&nbsp;
+        {% endfor %}
+        </p>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="4u">
+                <hr />
+                <section>
+                    <h3>List of Blog Posts</h3>
+                    <ul class="no-bullets">
+                        {% for project in site.blogs %}
+                        {% if project.url == page.url %}
+                        <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >{{ project.title }}</a></li>
+                        {% else %}
+                        <li><a class="button small fit-sidebar soc_project_button" href="{{ project.url | prepend: site.baseurl  }}#nav">{{ project.title }}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </div>
+            <div class="8u skel-cell-important">
+                <section >
+                    <header class="major">
+                        <a id="nav" href="{{ page.url | prepend: site.baseurl }}" class="image fit"><img  src="{{ page.image | prepend: site.baseurl  }}" alt="{{ page.title }}" /></a>
+                        <h2 class="post-title" >{{ page.title }}</h2>
+                        <p class="post-meta">
+                        {% if page.author %}
+                            {% for author in page.author%}
+                                 {{ author }}&nbsp;&nbsp;&nbsp;
+                            {% endfor %}
+                        {% endif %}<br/>
+                        {% if page.category %}• {{ page.category }}{% endif %}<br/>
+                        
+                        
+                        
+                        
+                        </p>
+                    </header>
+                    <div>
+                        {{ content }}
+                    </div>
+
+                    <footer style="margin-bottom: 10em">
+                        {% if page.previous %}
+                        <a href="{{ page.previous.url | prepend: site.baseurl  }}#nav" class="float-left button small">&larr; Previous Blog Post</a>
+                        {% else %}
+                        <a href="#" class="float-left button small disabled" onclick="return false;">&larr; Previous Blog Post</a>
+                        {% endif %}
+
+                        {% if page.next %}
+                        <a href="{{ page.next.url | prepend: site.baseurl  }}#nav" class="float-right button small">Next pBlog Post &rarr;</a>
+                        {% else %}
+                        <a href="#" class="float-right button small disabled" onclick="return false;">Next Blog Post &rarr;</a>
+                        {% endif %}
+                        <br><br>
+                        <a href="{{ '/blogs' | prepend: site.baseurl }}" class="button small special float-center"> View all Blog Posts</a>
+                    </footer>
+            </div>
+        </div>
+    </div>
+
+</section>
