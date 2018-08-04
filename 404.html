@@ -1,0 +1,37 @@
+---
+layout: default
+title: Error-404
+permalink: /404.html
+---
+
+<head>
+    <!-- some other meta -->
+    {% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="5; url={{ '/' | prepend: site.baseurl }}">
+    {% endif %}
+    <!-- some other stuff like link or script -->
+</head>
+<body>
+    
+  <!-- Three -->
+<section id="three" class="wrapper style1">
+	<div class="container">
+		<div class="row">
+		<div class="8u">
+				<section>
+					<a href="#" class="image fit"><img src="{{ '/images/404.png' | prepend: site.baseurl }}" alt="" /></a>
+				</section>
+			</div>
+			<div class="4u">
+				<section>
+					<h3>This page is unavailable!</h3>
+					<p>This page does not exist. You are being redirected to the home page.</p>
+					<ul class="actions">
+						<li><a href="/" class="button special big">Home</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+</section>	
+</body>

@@ -1,0 +1,19 @@
+<!-- Header -->
+<header id="header" class="skel-layers-fixed">
+    <h1><a href="{{ site.baseurl }}/" class="site-title" >{{ site.title }}</a></h1>
+    <nav id="nav">
+        <ul>
+            <li><a href="{{ site.baseurl }}/">Home</a></li>
+            <!-- <li><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li> -->
+            {% for page in site.pages %}
+              {% if page.title %}
+                  {% if page.show-in-header == true %}
+                    <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                  {% endif %}
+              {% endif %}
+            {% endfor %}
+            <li><a href="http://portals.wncc-iitb.org/internships/" class="page-link ">Internship Portal</a></li>
+            <li><a href="{{ '/wiki'| prepend: site.baseurl }}" class="button special">Wiki</a></li>
+        </ul>
+    </nav>
+</header>

@@ -1,0 +1,41 @@
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="row double">
+            <div class="6u">
+                <div class="row collapse-at-2">
+                    <div class="6u">
+                        <h3><a href="{{'/events' | prepend: site.base_url }}">Upcoming Events</a></h3>
+                        <ul class="alt">
+                           <li><a href="https://www.facebook.com/groups/itsp18/">ITSP 2018</a></li>
+                           <li><a href="https://www.wncc-iitb.org/soc/">Seasons of Code 2018</a></li>
+                        </ul>
+                    </div>
+                    <div class="6u">
+                        <h3><a href="{{'/showcase' | prepend: site.base_url }}">Showcase</a></h3>
+                        <ul class="alt">
+                            {% for project in site.showcase_projects %}
+                                <a target="_blank" href="/showcase#{{ project.title }}"><li>{{ project.title }}- {{ project.author }}</li></a>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="6u">
+                <h2>The Web and Coding Club</h2>
+                <p>We are the coding community of IIT Bombay. WnCC is one of the biggest clubs of IIT Bombay. We believe that every individual should know how to code. Under the aegis of ITC (former STAB), we carry forward our vision of propagating the enthusiasm for coding in our institute.</p>
+                <ul class="icons">
+                    <li><a href="https://twitter.com/wncc_iitb" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/wncc.iitb/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.wncc-iitb.org" class="icon fa-globe"><span class="label">Instagram</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- <ul class="copyright">
+            <li>&copy; Untitled. All rights reserved.</li>
+            <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+            <li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+            <li>Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
+        </ul> -->
+    </div>
+</footer>

@@ -1,0 +1,106 @@
+---
+layout: default
+---
+
+<!-- Main -->
+
+<section id="main" class="wrapper style1">
+    <header class="major">
+        <h2>Events</h2>
+        <p>
+        <span style="font-weight: 500; color: #212121">{{ page.title }} </span>&nbsp;&nbsp;
+        </p>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="4u">
+                <section>
+                    <h3>List of Events</h3>
+                    <ul class="no-bullets">
+                        {% for evt in site.events%}
+                        {% if evt.url == page.url %}
+                        <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >{{ evt.title }}</a></li>
+                        {% else %}
+                        <li><a class="button small fit-sidebar soc_project_button" href="{{ evt.url | prepend: site.baseurl  }}#nav">{{ evt.title }}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </div>
+            <div class="8u skel-cell-important">
+                <section >
+                    <header class="major">
+                        <a id="nav" href="{{ page.url | prepend: site.baseurl }}" class="image fit"><img  src="{{ page.image | prepend: site.baseurl  }}" alt="{{ page.title }}" /></a>
+                        <h2 class="post-title" >{{ page.title }}</h2>
+                        <p class="post-meta">
+                        {% if page.date %}
+                            {{ page.date | date: "%B %d, %Y"}}&nbsp;&nbsp;&nbsp;
+                        {% endif %}<br/> 
+                        
+                        {% if page.category %}• {{ page.category }}{% endif %}<br/>
+                        {% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                        
+                    </header>
+                    <div>
+                        {{ content }}
+                    </div>
+	  <link rel="stylesheet" type="text/css" href="/css/slick.css"/>
+	  <link rel="stylesheet" type="text/css" href="/css/slick-theme.css"/>
+  
+<style>
+    .slick-slide img {
+    height:50vh;
+    object-fit:contain;
+    }
+</style>
+<div class="slider-box _clearfix">
+<div class="slick-slides">
+   {% for img in page.slides %}
+   <div class="image fit"><img src="{{ img }}" style="width:100%"></div>
+   {% endfor %}
+   </div>
+</div>
+<br/>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="/js/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slick-slides').slick({
+        dots: true,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        cssEase: 'linear',
+        adaptiveHeight: true
+      });
+    });
+  </script>
+
+                    
+                    
+                    <footer style="margin-bottom: 10em">
+                        {% if page.previous %}
+                        <a href="{{ page.previous.url | prepend: site.baseurl  }}#nav" class="float-left button small">&larr; Previous Event</a> 
+                        {% else %}
+                        <a href="#" class="float-left button small disabled" onclick="return false;">&larr; Previous Event</a> 
+                        {% endif %}
+
+                        {% if page.next %}
+                        <a href="{{ page.next.url | prepend: site.baseurl  }}#nav" class="float-right button small">Next Event &rarr;</a> 
+                        {% else %}
+                        <a href="#" class="float-right button small disabled" onclick="return false;">Next Event &rarr;</a> 
+                        {% endif %}
+                        <br><br>
+                        <a href="{{ '/events#two' | prepend: site.baseurl }}" class="button small special float-center"> View all Events</a>
+                    </footer>
+            </div>
+        </div>
+    </div>
+    
+</section>

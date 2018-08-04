@@ -1,0 +1,124 @@
+<html>
+
+<style type="text/css">
+  body {
+  background-color: #1D1D1D;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Droid Sans', sans-serif;
+}
+body:before {
+  content: '';
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  bottom: 0px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 4px;
+  background-color: #fff;
+}
+body .entries {
+  width: calc(100% - 80px);
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  left: -5px;
+}
+body .entries .entry {
+  width: calc(50% - 80px);
+  float: left;
+  padding: 20px;
+  clear: both;
+  text-align: right;
+}
+body .entries .entry:not(:first-child) {
+  margin-top: -60px;
+}
+body .entries .entry .title {
+  font-size: 32px;
+  margin-bottom: 12px;
+  position: relative;
+  color: #fff;
+}
+body .entries .entry .title:before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 4px solid #ffffff;
+  background-color: #1D1D1D;
+  border-radius: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: -73px;
+  z-index: 1000;
+}
+body .entries .entry .title.big:before {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: translate(8px, -50%);
+          transform: translate(8px, -50%);
+}
+body .entries .entry .body {
+  color: #aaa;
+}
+body .entries .entry .body p {
+  line-height: 1.4em;
+}
+body .entries .entry .body h2 {
+  font-size: 24px;
+}
+body .entries .entry:nth-child(2n) {
+  text-align: left;
+  float: right;
+}
+body .entries .entry:nth-child(2n) .title:before {
+  left: -63px;
+}
+body .entries .entry:nth-child(2n) .title.big:before {
+  -webkit-transform: translate(-8px, -50%);
+          transform: translate(-8px, -50%);
+}
+
+</style>
+
+<div class="entries">
+  <div class="entry">
+    <div class="title big">Dec '17</div>
+    <div class="body">
+      <h2>Internship Portal Launched</h2>
+      <p>250 registrations in one hour!</p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">Dec '16</div>
+    <div class="body">
+      <h2>Wiki Goes Live</h2>
+      <p>Over 50 articles on programming!</p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">May '16</div>
+    <div class="body">
+      <h2>Seasons of Code Introduced</h2>
+      <p>Happens every year along the lines of GSoC with over 15 projects</p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title big">March '13</div>
+    <div class="body">
+      <h2>Facebook Page Launched</h2>
+      <p>Reaching 12,000 likes</p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title">Sometime '10</div>
+    <div class="body">
+      <h2>Birth of WnCC</h2>
+      <p>One of the biggest clubs in India</p>
+    </div>
+  </div>
+</div>
+</html>

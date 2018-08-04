@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html>
+    
+    <!--
+	Ion by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<head>
+    <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'/ >
+    <title>SoC</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Web and Coding Club is one of the biggest clubs of IIT Bombay. As a part of the Students' Technical Activities Body, we aim to provide a gateway for the people in our institute to join the coding community. We create a platform which allows students to gain assistance and mentorship to enhance their coding ability. Our aim is to propagate the enthusiasm for coding in the institute and especially amongst freshmen. We believe that every student here at IITB should have an opportunity to learn how to code and develop a passion for it. The secret of getting ahead is getting started and we aim to provide every student with the right start." />
+    <meta name="keywords" content="web,coding,c++,cpp,c,javascript,android,app,development,java,css,python,ml,ai,machine learning,iitb,iit bombay,mumbai,graphics,competitive coding,hacking,security,network,information,data structures,algorithms,open source,hackathons" />
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/skel-layers.min.js"></script>
+    <script src="/js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="/css/skel.css" />
+    </noscript>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65902553-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-65902553-1');
+    </script>
+
+</head>
+
+
+	<body id="top">
+
+        <!-- Header -->
+<header id="header" class="skel-layers-fixed">
+    <h1><a href="/" class="site-title" >WnCC</a></h1>
+    <nav id="nav">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <!-- <li><a href="/left-sidebar.html">Left Sidebar</a></li> -->
+            
+              
+                  
+              
+            
+              
+                  
+                    <li><a class="page-link" href="/blogs/">Blogs</a></li>
+                  
+              
+            
+              
+                  
+                    <li><a class="page-link" href="/events/">Events</a></li>
+                  
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                  
+                    <li><a class="page-link" href="/itsp-resources/">ITSP</a></li>
+                  
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                  
+                    <li><a class="page-link" href="/showcase/">Showcase</a></li>
+                  
+              
+            
+              
+                  
+              
+            
+              
+                  
+                    <li><a class="page-link" href="/soc/">SoC</a></li>
+                  
+              
+            
+            <li><a href="http://portals.wncc-iitb.org/internships/" class="page-link ">Internship Portal</a></li>
+            <li><a href="/wiki" class="button special">Wiki</a></li>
+        </ul>
+    </nav>
+</header>
+        <!-- Use <article></article>inside content to center align content-->
+        <head>
+	<style>
+    div.tab {
+    float : center;
+    align-content: :center;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 14%;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+
+    .tabcontent {
+
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+</style>
+</head>
+
+<!-- Banner -->
+<section id="banner" style="background-image:url(/images/soc.jpg)">
+    <div class="inner">
+        <h2>Seasons Of Code 2018</h2>
+        <p> An Initiative By <a href="https://www.wncc-iitb.org/">The Web and Coding Club, IIT Bombay</a><br /><br />
+        Tentative Dates: <a href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N3ZxOHNlNDFtcnY2bzFhNXJpZjVmbDk2MDMgYWJlZW45QG0&amp;tmsrc=abeen9%40gmail.com">16th May - 16th July</a></p>
+        <ul class="actions">
+            <li><a href="#one" class="button big special">Join The Force</a></li>
+        </ul>
+        <ul class="actions">
+            <li><a href="#two" class="button big special">Projects</a></li>
+        </ul>
+        <ul class="actions">
+        	<li><a href="faq.html" class="button big special">FAQ</a></li>
+        </ul>
+    </div>
+</section>
+
+<!-- Three -->
+<section id="three" class="wrapper style1">
+	<div class="container">
+		<div class="row">
+			<div class="8u">
+				<section>
+					<h2>What is Seasons of Code?</h2>
+					<a href="#" class="image fit"><img src="/images/coding.jpg" alt="" /></a>
+					<p>Seasons of Code is a programme launched by the WnCC, along the lines of GSoC without much greenery though. The incentive is similar to ITSP, based on the current form of it, the fundamental difference is that one can choose from the ideas offered by mentors who are senior undergrads, doctorate students or professors, and in some exceptional cases, startups. We plan to have a really long timeframe though, until the next winter extending this programme into a mentorship of sorts into the semester. It is not just about development by the way. We have some mentors ready to take up programmes regarding competitive coding and scientific computation too.
+					</p>
+				</section>
+			</div>
+			<div class="4u">
+				<section>
+					<h3>Why should you participate?</h3>
+					<p>Seasons of Code gives you an amazing opportunity to learn and dive into coding under the mentorship of the best in our institute. Our list of projects gives you a chance to pick up and work on any topic you are enthusiastic about.</p>
+					<ul class="actions">
+						<li><a href="#two" class="button alt">Projects</a></li>
+					</ul>
+				</section>
+				<hr />
+				<section>
+					<h3>Types of Projects</h3>
+					<ul>
+						<li>Development</li>
+						<li>Open Source</li>
+						<li>Scientific Computation</li>
+						<li>Competitive Coding</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="one" class="wrapper style2">
+	<header class="major">
+		<h2>Join The Force</h2>
+		<p>Do. Or do not. There is no try.</p>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="6u">
+				<section class="special box">
+					<img class="icon major" src="/svg/light-siber-one.svg" />
+					<h3>Padawan</h3>
+					<p>The Force is strong with you. Train yourself to let go of everything you fear to lose. The Force will be with you always. Ready are you?</p><br />
+					<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScF3u5o_D-6G4E8-jl5ftqDN27tLpnAmR5ThE81OKrMHuFzuQ/viewform?usp=sf_link" class="button big special">Become a Padawan</a>
+				</section>
+			</div>
+			<div class="6u">
+				<section class="special box">
+					<img class="icon major" src="/svg/light-siber.svg" />
+					<h3>Master</h3>
+					<p>I can feel you code. It gives you focus. It makes you stronger. Your focus determines your reality. Use the force and someday you will be the most powerful Jedi ever.</p>
+					<a target="_blank" href="https://goo.gl/forms/1WXW4oSDwlCHD4313" class="button big special">Become a Master</a>
+				</section>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Two -->
+<section id="two" class="wrapper style1">
+	<header class="major">
+		<h2>List of Projects</h2>
+		<p>Your eyes can deceive you. Don’t trust them.</p>
+	</header>
+
+<div class="tab" style="text-align : center">
+  <button class="tablinks" onclick="openType(event, 'running')" id="defaultOpen">Running Projects</button>
+  <button class="tablinks" onclick="openType(event, 'completed')">Completed Projects</button>
+</div>
+<br />
+
+<div id="completed" class="tabcontent">
+<div class="container">
+<!-- the following line is optional to sort by weight -->
+		
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/21-fossee-website.html" class="image fit">
+                            <img src="/images/fosseewebsite.jpg" alt="Front end development for FOSSEE websites" />
+                            <!--  -->
+                            <div class="ribbon completed"><span>completed</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/21-fossee-website.html" class="image fit">
+						<h3>Front end development for FOSSEE websites</h3>
+						</a>
+						<h4>-
+						
+				            Priyanka&nbsp;
+			        	
+				            Prashant&nbsp;
+			        	</h4>
+						<h4>- Web Development</h4>
+						<p><p>This internship involves front-end development for various FOSSEE websites.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/21-fossee-website.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/36-meet-camscanner.html" class="image fit">
+                            <img src="/images/camscanner.jpg" alt="Panorama in Cam-Scanner" />
+                            <!--  -->
+                            <div class="ribbon completed"><span>completed</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/36-meet-camscanner.html" class="image fit">
+						<h3>Panorama in Cam-Scanner</h3>
+						</a>
+						<h4>-
+						
+				            Meet Udeshi&nbsp;
+			        	</h4>
+						<h4>- Image Processing</h4>
+						<p><p>Each one of us must have used the Cam-scanner app on Android phones for quick and good quality scanning of documents. But what if you have to scan a really big document? Or maybe you want to capture more detail?</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/36-meet-camscanner.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/37-poisson-riddhish.html" class="image fit">
+                            <img src="/images/poisson.png" alt="Poisson Solver with Image Editing" />
+                            <!--  -->
+                            <div class="ribbon completed"><span>completed</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/37-poisson-riddhish.html" class="image fit">
+						<h3>Poisson Solver with Image Editing</h3>
+						</a>
+						<h4>-
+						
+				            Riddhish Bhalodia&nbsp;
+			        	</h4>
+						<h4>- Scientific Computation</h4>
+						<p><p>This notebook will be written using python, also employing numpy and OpenCV, we will initially implement Poisson solver for the discrete case which is immensely useful for many application then we will proceed on the application part which will be from <a href="https://www.cs.jhu.edu/~misha/Fall07/Papers/Perez03.pdf">this paper</a></p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/37-poisson-riddhish.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+    			</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/38-boost-riddhish.html" class="image fit">
+                            <img src="/images/machinelearning.jpg" alt="Adaboost" />
+                            <!--  -->
+                            <div class="ribbon completed"><span>completed</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/38-boost-riddhish.html" class="image fit">
+						<h3>Adaboost</h3>
+						</a>
+						<h4>-
+						
+				            Riddhish Bhalodia&nbsp;
+			        	</h4>
+						<h4>- Scientific Computing</h4>
+						<p><p>Boosting is a well known machine learning technique, we use simple weak classifiers in cascade fashion to form a strong classifier. It’s extremely effective, facebook uses some version of this algorithm for detecting faces (99.9% accurate). Implement basic adaboost on simulated data, then for digit recognition.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/38-boost-riddhish.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/39-BlindSource-riddhish.html" class="image fit">
+                            <img src="/images/blind-source.jpg" alt="Blind Source Separation" />
+                            <!--  -->
+                            <div class="ribbon completed"><span>completed</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/39-BlindSource-riddhish.html" class="image fit">
+						<h3>Blind Source Separation</h3>
+						</a>
+						<h4>-
+						
+				            Riddhish Bhalodia&nbsp;
+			        	</h4>
+						<h4>- Scientific Computing</h4>
+						<p><p>The project involves exploring various implementations of Independent Component Analysis on sound/images and demonstrating through an ipython notebook.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/39-BlindSource-riddhish.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+    			</div>
+			
+			
+            
+		<div style="text-align: center;">
+		<!-- <a href="#" class="button big special">View All Projects</a> -->
+		</div>
+	</div>
+</div>
+
+<div id="running" class="tabcontent">
+<div class="container">
+		
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/06-sucheta-akash-emoji-detector.html" class="image fit">
+                            <img src="/images/emoji-detector.png" alt="Emoji Predictor" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/06-sucheta-akash-emoji-detector.html" class="image fit">
+						<h3>Emoji Predictor</h3>
+						</a>
+						<h4>-
+						
+				            Sucheta Ravikanti&nbsp;
+			        	
+				            Akash Kumar&nbsp;
+			        	</h4>
+						<h4>- Machine Learning</h4>
+						<p><hr />
+<h3 id="this-project-aims-at-the-use-of-machine-learning-to-build-an-algorithm-to-find-the-right-emoji">This project aims at the use of Machine Learning to build an algorithm to find the right emoji.</h3>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/06-sucheta-akash-emoji-detector.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/07-saurabh-faq-bot.html" class="image fit">
+                            <img src="/images/faq-bot.jpg" alt="FAQ Bot for Freshmen" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/07-saurabh-faq-bot.html" class="image fit">
+						<h3>FAQ Bot for Freshmen</h3>
+						</a>
+						<h4>-
+						
+				            Saurabh Kumar&nbsp;
+			        	</h4>
+						<h4>- Web Development, Machine Learning, NLP</h4>
+						<p><hr />
+<p>The task is to build a chatbot for answering FAQs aimed primarily at the newly joined students, faculty and staff at the Institute.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/07-saurabh-faq-bot.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/08-aviral-siddhant-semantics.html" class="image fit">
+                            <img src="/images/semantics.png" alt="Capturing semantic structures in Neural Machine Translation" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/08-aviral-siddhant-semantics.html" class="image fit">
+						<h3>Capturing semantic structures in Neural Machine Translation</h3>
+						</a>
+						<h4>-
+						
+				            Aviral Kumar&nbsp;
+			        	
+				            Siddhant Garg&nbsp;
+			        	</h4>
+						<h4>- Machine Learning, NLP</h4>
+						<p><hr />
+<h4 id="this-project-is-aimed-towards-people-who-are-interested-in-ml-and-neuro-linguistic-programming-and-handles-neural-machine-translation-with-an-unusual-approach">This project is aimed towards people who are interested in ML and Neuro-Linguistic Programming; and handles Neural Machine Translation with an unusual approach</h4>
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/08-aviral-siddhant-semantics.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+    			</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/09-ritwick-shubham-mri-ct.html" class="image fit">
+                            <img src="/images/mri-ct.jpeg" alt="Automated Fiducial Localisation from MRI/CT Images" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/09-ritwick-shubham-mri-ct.html" class="image fit">
+						<h3>Automated Fiducial Localisation from MRI/CT Images</h3>
+						</a>
+						<h4>-
+						
+				            Ritwick Chaudhry&nbsp;
+			        	
+				            Shubham Goel&nbsp;
+			        	</h4>
+						<h4>- Computer Vision</h4>
+						<p><hr />
+<h4 id="this-project-aims-to-automate-the-marking-of-the-fiducials-bone-based-markers-in-mrict-scan-images">This project aims to automate the marking of the fiducials (bone based markers) in MRI/CT scan images.</h4>
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/09-ritwick-shubham-mri-ct.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/10-kushal-%20rumour.html" class="image fit">
+                            <img src="/images/rumour.jpeg" alt="Rumour" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/10-kushal-%20rumour.html" class="image fit">
+						<h3>Rumour</h3>
+						</a>
+						<h4>-
+						
+				            Kushal Babel&nbsp;
+			        	</h4>
+						<h4>- Development</h4>
+						<p><hr />
+<p>Spreading ‘rumours’ on devices connected to the same Wi-Fi via an app</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/10-kushal-%20rumour.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/11-arka%20-%203D%20object%20reconstruction.html" class="image fit">
+                            <img src="/images/3d-object-reconstruction.jpg" alt="3D Object Reconstruction from Single Image" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/11-arka%20-%203D%20object%20reconstruction.html" class="image fit">
+						<h3>3D Object Reconstruction from Single Image</h3>
+						</a>
+						<h4>-
+						
+				            Arka Sadhu&nbsp;
+			        	</h4>
+						<h4>- Image Processing, Machine Learning and 3D Vision;</h4>
+						<p><hr />
+
+<h4 id="the-project-will-be-a-implementation-of-the-paper-a-point-set-generation-network-for-3d-object-reconstruction-from-a-single-image">The project will be a implementation of the paper A Point Set Generation Network for 3D Object Reconstruction from a Single Image</h4>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/11-arka%20-%203D%20object%20reconstruction.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+    			</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/12-kalpesh-starmaps.html" class="image fit">
+                            <img src="/images/kalpesh-starmap11.jpg" alt="Statistical Modelling of Star Maps" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/12-kalpesh-starmaps.html" class="image fit">
+						<h3>Statistical Modelling of Star Maps</h3>
+						</a>
+						<h4>-
+						
+				            Kalpesh Krishna&nbsp;
+			        	</h4>
+						<h4>- Image Processing &amp; Machine Learning</h4>
+						<p><hr />
+
+<p>The task is to identify all constellations in images of the sky.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/12-kalpesh-starmaps.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/13-facerecog.html" class="image fit">
+                            <img src="/images/facerecog.jpg" alt="Face Recognition Systems" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/13-facerecog.html" class="image fit">
+						<h3>Face Recognition Systems</h3>
+						</a>
+						<h4>-
+						
+				            Naman Jain&nbsp;
+			        	
+				            Syamantak Kumar&nbsp;
+			        	</h4>
+						<h4>- Image Processing &amp; Machine Learning</h4>
+						<p><hr />
+
+<h4 id="the-project-lies-at-the-crossroad-of-computer-vision-and-machine-learning-trying-approaches-to-solve-problem-of-facial-recognition-and-maybe-detection">The project lies at the crossroad of computer vision and machine learning trying approaches to solve problem of facial recognition (and maybe detection).</h4>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/13-facerecog.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/15-competitve.html" class="image fit">
+                            <img src="/images/competitive-programming.jpg" alt="Competitive Coding" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/15-competitve.html" class="image fit">
+						<h3>Competitive Coding</h3>
+						</a>
+						<h4>-
+						
+				            Ishan Tarunesh&nbsp;
+			        	</h4>
+						<h4>- Competitive Coding</h4>
+						<p><hr />
+
+<h4 id="this-project-is-mostly-aimed-towards-people-who-want-to-excel-in-the-sport-of-competitive-programming">This project is mostly aimed towards people who want to excel in the sport of competitive programming.</h4>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/15-competitve.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+    			</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/15-genres.html" class="image fit">
+                            <img src="/images/types-of-western-music.png" alt="Can Machines Identify Genres?" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/15-genres.html" class="image fit">
+						<h3>Can Machines Identify Genres?</h3>
+						</a>
+						<h4>-
+						
+				            Arunabh Ghosh&nbsp;
+			        	</h4>
+						<h4>- Machine Learning</h4>
+						<p><hr />
+
+<h4 id="this-project-is-mostly-aimed-towards-people-who-are-interested-in-machine-learning-and-involves-the-use-of-machine-learning-algorithms-to-identify-the-various-music-genres">This project is mostly aimed towards people who are interested in machine learning and involves the use of machine learning algorithms to identify the various music genres</h4>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/15-genres.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/16-cheeku-montecarlo.html" class="image fit">
+                            <img src="/images/cheeku-montecarlo.gif" alt="Monte Carlo Path Tracing Renderer" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/16-cheeku-montecarlo.html" class="image fit">
+						<h3>Monte Carlo Path Tracing Renderer</h3>
+						</a>
+						<h4>-
+						
+				            Kumar Ayush&nbsp;
+			        	</h4>
+						<h4>- Computer Graphics</h4>
+						<p><hr />
+
+<p>This internship involves the implementation of a Monte Carlo Path Tracer.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/16-cheeku-montecarlo.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/19-kalpesh-lang.html" class="image fit">
+                            <img src="/images/kalpesh-language.GIF" alt="Joint Modelling of Source Code and Natural Language" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/19-kalpesh-lang.html" class="image fit">
+						<h3>Joint Modelling of Source Code and Natural Language</h3>
+						</a>
+						<h4>-
+						
+				            Kalpesh Krishna&nbsp;
+			        	</h4>
+						<h4>- Development &amp; Machine Learning</h4>
+						<p><hr />
+
+<h4 id="the-task-is-to-convert-english-to-code-and-convert-code-back-into-english">The task is to convert English to code and convert code back into English</h4>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/19-kalpesh-lang.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+    			</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/21-Bhishma%20Dedhia%20-%20Panorama%20in%20Camscanner.html" class="image fit">
+                            <img src="/images/camscanner.jpg" alt="Panorama in Cam Scanner" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/21-Bhishma%20Dedhia%20-%20Panorama%20in%20Camscanner.html" class="image fit">
+						<h3>Panorama in Cam Scanner</h3>
+						</a>
+						<h4>-
+						
+				            Bhishma Dedhia&nbsp;
+			        	</h4>
+						<h4>- Development
+ and 
+Image Processing</h4>
+						<p><hr />
+
+<h4 id="we-will-be-looking-at-ways-to-capture-multiple-images-of-sections-of-a-single-document-and-stitching-them-together-to-get-a-scan-quality-image">We will be looking at ways to capture multiple images of sections of a single document and “stitching” them together to get a scan-quality image.</h4>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/21-Bhishma%20Dedhia%20-%20Panorama%20in%20Camscanner.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/22-Sarthak%20Khandelwal%20-%20Texter.html" class="image fit">
+                            <img src="/images/texter.png" alt="Texter" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/22-Sarthak%20Khandelwal%20-%20Texter.html" class="image fit">
+						<h3>Texter</h3>
+						</a>
+						<h4>-
+						
+				            Sarthak Khandelwal&nbsp;
+			        	</h4>
+						<h4>- Development
+ and 
+Image Processing</h4>
+						<p><hr />
+
+<p>Texter takes a piece of boring text, mostly educational and inserts relevant images in between to make the reading interesting.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/22-Sarthak%20Khandelwal%20-%20Texter.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/22-Sarthak%20Khandelwal-planner.html" class="image fit">
+                            <img src="/images/planner.png" alt="Planner" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/22-Sarthak%20Khandelwal-planner.html" class="image fit">
+						<h3>Planner</h3>
+						</a>
+						<h4>-
+						
+				            Sarthak Khandelwal&nbsp;
+			        	</h4>
+						<h4>- Development
+ and 
+Web Development</h4>
+						<p><hr />
+
+<p>This is an application by which a user can plan his day to day schedule and get timely reminders for the various tasks or events he has set or planned for any particular day chosen at the appropriate time.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/22-Sarthak%20Khandelwal-planner.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+    			</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+            	<div class="row">
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/22-Tomar-IDS.html" class="image fit">
+                            <img src="/images/thecampushub.jpg" alt="Institute Delivery System" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/22-Tomar-IDS.html" class="image fit">
+						<h3>Institute Delivery System</h3>
+						</a>
+						<h4>-
+						
+				            Abhijit Tomar&nbsp;
+			        	</h4>
+						<h4>- Development
+ and 
+Web Development</h4>
+						<p><hr />
+
+<p>An online system for delivery of (food, and other things) items within the institute. The project will include development of an app/web interface for vendors as well as students.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/22-Tomar-IDS.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/23-Varun%20Patil-%20InstiApp.html" class="image fit">
+                            <img src="/images/iitbapp.png" alt="InstiApp" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/23-Varun%20Patil-%20InstiApp.html" class="image fit">
+						<h3>InstiApp</h3>
+						</a>
+						<h4>-
+						
+				            Varun Patil&nbsp;
+			        	
+				            Yashvardhan Didwania&nbsp;
+			        	</h4>
+						<h4>- Development
+ and 
+Web Development</h4>
+						<p><hr />
+
+<p>InstiApp is a WnCC initiative to create a unified platform for everything that happens inside IIT Bombay.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/23-Varun%20Patil-%20InstiApp.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+			
+            
+            
+            
+            
+            <!-- Creating a new row after every three elements -->
+            
+				<div class="4u">
+					<section class="special">
+						<a href="/soc_projects/26-trehan-swag.html" class="image fit">
+                            <img src="/images/capturetheswag.jpg" alt="Capture The Swag" />
+                            <!--  -->
+                            <div class="ribbon in progress"><span>in progress</span></div>
+                            <!--  -->
+                        </a>
+                        <a href="/soc_projects/26-trehan-swag.html" class="image fit">
+						<h3>Capture The Swag</h3>
+						</a>
+						<h4>-
+						
+				            Akash Trehan&nbsp;
+			        	</h4>
+						<h4>- Network Security</h4>
+						<p><hr />
+
+<p>60 Capture the Flag challenges in 60 days.</p>
+
+</p>
+						<ul class="actions">
+							<li><a href="/soc_projects/26-trehan-swag.html" class="button alt">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
+			
+    			</div>
+			
+			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+		<div style="text-align: center;">
+		<!-- <a href="#" class="button big special">View All Projects</a> -->
+		</div>
+	</div>
+</div>
+
+
+
+<script>
+function openType(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+document.getElementById("defaultOpen").click();
+
+</script>			
+</section>
+
+        <!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="row double">
+            <div class="6u">
+                <div class="row collapse-at-2">
+                    <div class="6u">
+                        <h3><a href="/events">Upcoming Events</a></h3>
+                        <ul class="alt">
+                           <li><a href="https://www.facebook.com/groups/itsp18/">ITSP 2018</a></li>
+                           <li><a href="https://www.wncc-iitb.org/soc/">Seasons of Code 2018</a></li>
+                        </ul>
+                    </div>
+                    <div class="6u">
+                        <h3><a href="/showcase">Showcase</a></h3>
+                        <ul class="alt">
+                            
+                                <a target="_blank" href="/showcase#Hold The Beat"><li>Hold The Beat- Arpan Banerjee</li></a>
+                            
+                                <a target="_blank" href="/showcase#J.A.R.V.I.S."><li>J.A.R.V.I.S.- Nihal Singh</li></a>
+                            
+                                <a target="_blank" href="/showcase#Bellatrix"><li>Bellatrix- Meet Udeshi</li></a>
+                            
+                                <a target="_blank" href="/showcase#Wirespace"><li>Wirespace- Yash Shah</li></a>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="6u">
+                <h2>The Web and Coding Club</h2>
+                <p>We are the coding community of IIT Bombay. WnCC is one of the biggest clubs of IIT Bombay. We believe that every individual should know how to code. Under the aegis of ITC (former STAB), we carry forward our vision of propagating the enthusiasm for coding in our institute.</p>
+                <ul class="icons">
+                    <li><a href="https://twitter.com/wncc_iitb" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/wncc.iitb/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.wncc-iitb.org" class="icon fa-globe"><span class="label">Instagram</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- <ul class="copyright">
+            <li>&copy; Untitled. All rights reserved.</li>
+            <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+            <li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+            <li>Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
+        </ul> -->
+    </div>
+</footer>
+
+
+    </body>
+
+</html>
