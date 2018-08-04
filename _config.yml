@@ -22,4 +22,6 @@ collections:
     output: true
   events:
     output: true
+  blogs:
+    output: true
 
