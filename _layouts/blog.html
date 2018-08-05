@@ -48,20 +48,21 @@ layout: default
             </div>
         </div>
         <section  class="style1 special">
-                <ul class="actions">
-                    {% if page.previous %}
-                        <li><a href="{{ page.previous.url | prepend: site.baseurl  }}#nav" class="float-left button small">&larr; Previous project</a></li>
+                <footer style="margin-bottom: 10em">
+                        {% if page.previous %}
+                        <a href="{{ page.previous.url | prepend: site.baseurl  }}#nav" class="float-left button small">&larr; Previous project</a>
                         {% else %}
-                        <li><a href="#" class="float-left button small disabled" onclick="return false;">&larr; Previous project</a></li>
+                        <a href="#" class="float-left button small disabled" onclick="return false;">&larr; Previous project</a>
                         {% endif %}
 
                         {% if page.next %}
-                        <li><a href="{{ page.next.url | prepend: site.baseurl  }}#nav" class="float-right button small">Next project &rarr;</a></li>
+                        <a href="{{ page.next.url | prepend: site.baseurl  }}#nav" class="float-right button small">Next project &rarr;</a>
                         {% else %}
-                        <li><a href="#" class="float-right button small disabled" onclick="return false;">Next project &rarr;</a></li>
+                        <a href="#" class="float-right button small disabled" onclick="return false;">Next project &rarr;</a>
                         {% endif %}
-                            <li><a href="/blogs" class="button alt">Back to the blog list</a></li>
-                        </ul>
+                        <br><br>
+                        <a href="/blogs" class="button small special float-center"> View all projects</a>
+                    </footer>
         </section>
         {% include disque.html %}
             <br>
