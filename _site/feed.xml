@@ -4,11 +4,10 @@
     <title>WnCC</title>
     <description>This is the official page for The Web and Coding Club of IIT Bombay.
 </description>
-    <link>nihal111.github.io//</link>
-    <atom:link href="nihal111.github.io//feed.xml" rel="self" type="application/rss+xml" />
-
-    <pubDate>Sun, 05 Aug 2018 02:35:29 +0530</pubDate>
-    <lastBuildDate>Sun, 05 Aug 2018 02:35:29 +0530</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 05 Aug 2018 02:30:30 +0530</pubDate>
+    <lastBuildDate>Sun, 05 Aug 2018 02:30:30 +0530</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
   </channel>
