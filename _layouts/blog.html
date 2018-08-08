@@ -3,72 +3,62 @@ layout: default
 ---
 
 <!-- Main -->
-<section id="main" class="wrapper style1">
-    <header class="major">
-        <h2>WnCC Blogs</h2>
-        <p>
-        <span style="font-weight: 500; color: #212121">{{ page.title }} </span>&nbsp;&nbsp;
-        {% for author in page.author%}
-            • {{ author }}&nbsp;&nbsp;&nbsp;
-        {% endfor %}
-        </p>
-    </header>
+<section id="main" class="">
     <div class="container">
         <div class="row">
-            <div class="4u">
-                <hr />
-                <section>
-                    <h3>List of Blog Posts</h3>
-                    <ul class="no-bullets">
-                        {% for project in site.blogs %}
-                        {% if project.url == page.url %}
-                        <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >{{ project.title }}</a></li>
-                        {% else %}
-                        <li><a class="button small fit-sidebar soc_project_button" href="{{ project.url | prepend: site.baseurl  }}#nav">{{ project.title }}</a></li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </section>
+            <div class="2u">
+                <br>
             </div>
-            <div class="8u skel-cell-important">
-                <section >
-                    <header class="major">
-                        <a id="nav" href="{{ page.url | prepend: site.baseurl }}" class="image fit"><img  src="{{ page.image | prepend: site.baseurl  }}" alt="{{ page.title }}" /></a>
-                        <h2 class="post-title" >{{ page.title }}</h2>
-                        <p class="post-meta">
-                        {% if page.author %}
-                            {% for author in page.author%}
-                                 {{ author }}&nbsp;&nbsp;&nbsp;
-                            {% endfor %}
-                        {% endif %}<br/>
-                        {% if page.category %}• {{ page.category }}{% endif %}<br/>
-                        
-                        
-                        
-                        
-                        </p>
-                    </header>
-                    <div>
+            <div class="8u skel-cell-important "><br><br>
+                <section class="special">
+                <h2 style="font-weight: 1000; font-size : 60px;">{{ page.title }}</h2>
+                </section>
+               
+                    <div style="font-weight: 100; font-size : 20px;">
                         {{ content }}
                     </div>
-
-                    <footer style="margin-bottom: 10em">
+            </div>
+             <div class="2u">
+                <br>
+            </div>
+        </div>
+            <hr>
+            <section id="two" class="style1 special">
+                    <h3 style="font-size : 40px; font-weight: 300;">{{ page.author }}</h3>
+                    </section>
+                    <div class="row">
+                    <div class="2u">
+                <br>
+            </div>
+                    <div class="8u" style="font-weight: 100; font-size : 20px;">
+                        <p>
+                            <img src="{{ page.author_image | prepend: site.baseurl  }}" style="float:left;width:100px;height:100px;">
+                             {{ page.about_author }}
+                        </p>
+                    </div>
+                    <div class="2u">
+                <br>
+            </div>
+        </div>
+        <section  class="style1 special">
+                <footer style="margin-bottom: 10em">
                         {% if page.previous %}
                         <a href="{{ page.previous.url | prepend: site.baseurl  }}#nav" class="float-left button small">&larr; Previous Blog Post</a>
                         {% else %}
-                        <a href="#" class="float-left button small disabled" onclick="return false;">&larr; Previous Blog Post</a>
+                        <a href="#" class="float-left button small disabled" onclick="return false;">&larr; Previous Blog Postt</a>
                         {% endif %}
 
                         {% if page.next %}
-                        <a href="{{ page.next.url | prepend: site.baseurl  }}#nav" class="float-right button small">Next pBlog Post &rarr;</a>
+                        <a href="{{ page.next.url | prepend: site.baseurl  }}#nav" class="float-right button small">Next Blog Post &rarr;</a>
                         {% else %}
                         <a href="#" class="float-right button small disabled" onclick="return false;">Next Blog Post &rarr;</a>
                         {% endif %}
                         <br><br>
-                        <a href="{{ '/blogs' | prepend: site.baseurl }}" class="button small special float-center"> View all Blog Posts</a>
+                        <a href="/blogs" class="button small special float-center"> View all Blog Posts</a>
                     </footer>
-            </div>
-        </div>
-    </div>
+        </section>
+        {% include disque.html %}
+            <br>
 
-</section>
+    </div>
+    </section>

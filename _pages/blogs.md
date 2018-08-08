@@ -87,16 +87,18 @@ div.tab button.active {
                             <img src="{{ project.image | prepend: site.baseurl }}" alt="{{ project.title }}" />
                         </a>
                         <a href="{{ project.url | prepend: site.baseurl }}" class="image fit">
-						<h3>{{ project.title }}</h3>
+						<h2>{{ project.title }}</h2>
 						</a>
-						<h4>-
+						<h3>-
 						{% for author in project.author%}
 				            {{ author }}&nbsp;
-			        	{% endfor %}</h4>
+			        	{% endfor %}</h3>
+			        	{% if project.category %}
 						<h4>- {{ project.category }}</h4>
-						<p>{{ project.content | split:'<!--break-->' | first }}</p>
+						{% endif %}
+						<h4>{{ project.description }}</h4><br>
 						<ul class="actions">
-							<li><a href="{{ project.url | prepend: site.baseurl}}" class="button alt">Learn More</a></li>
+							<li><a href="{{ project.url | prepend: site.baseurl}}" class="button alt">Read More</a></li>
 						</ul>
 					</section>
 				</div>
