@@ -6,7 +6,7 @@ mentor: Ishan Tarunesh
 category: "Competitive Coding"
 application_procedure: "proposal"
 weight: 25
-ribbon: in progress
+ribbon: completed
 contact: <a target="_blank" href="mailto:https://ishantarunesh@gmail.com">Email</a> - ishantarunesh@gmail.com
 mentees:
 - Ansh Khurana

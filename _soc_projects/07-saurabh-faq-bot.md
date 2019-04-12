@@ -6,7 +6,7 @@ mentor: Saurabh Kumar
 category: "Web Development, Machine Learning, NLP"
 application_procedure: "proposal"
 weight: 30
-ribbon: in progress
+ribbon: completed
 stipend: INR 3000
 contact: 
 - <a target="_blank" href="mailto:https://saurabhkm007@gmail.com">Email ID</a> - saurabhkm007@gmail.com
