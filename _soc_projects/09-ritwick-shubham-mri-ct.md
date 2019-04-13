@@ -8,7 +8,7 @@ mentor:
 category: "Computer Vision"
 application_procedure: "proposal"
 weight: 70
-ribbon: in progress
+ribbon: completed
 mentees:
 - Siddhesh Pawar
 - Jian Vora

@@ -8,7 +8,7 @@ category:
 - "Web Development"
 application_procedure: "proposal"
 weight: 70
-ribbon: in progress
+ribbon: completed
 stipend: INR 3000
 contact:
 - Messenger - <a target="_blank" href="https://www.facebook.com/abhijit.tomar"> Abhijit Tomar </a>
