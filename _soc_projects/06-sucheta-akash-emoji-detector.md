@@ -8,7 +8,7 @@ mentor:
 category: "Machine Learning"
 application_procedure: "proposal"
 weight: 30
-ribbon: in progress
+ribbon: completed
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/Suchetaaa">Sucheta Ravikanti</a>
