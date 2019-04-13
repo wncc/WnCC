@@ -8,7 +8,7 @@ category:
 - "Image Processing"
 application_procedure: "proposal"
 weight: 70
-ribbon: in progress
+ribbon: completed
 stipend: INR 3000
 mentees:
 - Shashank Raut Desai

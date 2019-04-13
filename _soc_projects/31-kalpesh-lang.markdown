@@ -6,7 +6,7 @@ mentor: "Kalpesh Krishna"
 category: "Development & Machine Learning"
 application_procedure: "proposal"
 weight: 25
-ribbon: in progress
+ribbon: completed
 stipend: INR 3000
 contact:
 - Messenger - <a target="_blank" href="https://www.messenger.com/t/kalpesh.krishna.9">Kalpesh Krishna</a>
