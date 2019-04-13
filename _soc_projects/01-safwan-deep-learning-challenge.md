@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: /images/grandchallenge.png
+image: /images/deeplearning.png
 title: Winning a Deep Learning challenge
 mentor: 
 - Mohd Safwan
