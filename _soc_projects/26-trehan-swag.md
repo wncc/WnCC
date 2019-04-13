@@ -7,7 +7,7 @@ category:
 - Network Security
 application_procedure: "proposal"
 weight: 65
-ribbon: in progress
+ribbon: completed
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/AkashTrehan21?ref=br_rs">Akash Trehan</a>

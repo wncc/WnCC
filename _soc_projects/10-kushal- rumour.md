@@ -7,7 +7,7 @@ mentor:
 category: "Development"
 application_procedure: "proposal"
 weight: 25
-ribbon: in progress
+ribbon: completed
 stipend: INR 3000
 contact: <a target="_blank" href="https://www.facebook.com/kushal.babel"> Kushal Babel </a>
 mentees:
