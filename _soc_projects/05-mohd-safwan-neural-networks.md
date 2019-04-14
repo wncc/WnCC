@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: https://cdn-images-1.medium.com/max/800/1*laH0_xXEkFE0lKJu
+image: /images/recurrent-neural-network.jpg
 title: The Unreasonable Effectiveness of Recurrent Neural Networks
 mentor: Mohd. Safwan
 category: "Machine Learning, Deep Learning, Artificial Intelligence"
@@ -11,10 +11,6 @@ stipend: INR 3000
 contact: 
 - <a target="_blank" href="mailto:https://kdbeatbox@gmail.com">Email ID</a> - kdbeatbox@gmail.com
 - Facebook - <a target="_blank" href="https://www.facebook.com/thehellblazer57"> Mohd Safwan </a>
-mentees:
-- 
-- 
-- 
 ---
 
 ---
