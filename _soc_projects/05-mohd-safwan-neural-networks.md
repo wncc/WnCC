@@ -2,7 +2,10 @@
 layout: soc-project
 image: /images/recurrent-neural-network.jpg
 title: The Unreasonable Effectiveness of Recurrent Neural Networks
-mentor: Mohd. Safwan
+mentor: 
+- Mohd. Safwan
+- Arpit Aggarwal
+- Satvik Mashkaria
 category: "Machine Learning, Deep Learning, Artificial Intelligence"
 application_procedure: "proposal"
 weight: 
