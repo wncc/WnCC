@@ -8,14 +8,14 @@ category: "Image processing, Machine Learning, Graphics"
 application_procedure: "proposal"
 weight: 30
 ribbon: open
-stipend: 
+stipend: INR 3000
 contact:
 - <a target="_blank" href="mailto:rohit.rango@gmail.com">Email ID</a> - rohit.rango@gmail.com
 mentees:
 ---
 
 ---
-### This project will focus on getting human pose estimates in games to generate a dataset using no manual annotations or labelling.
+  This project will focus on getting human pose estimates in games to generate a dataset using no manual annotations or labelling.
 
 <!--break-->
 
@@ -28,3 +28,14 @@ mentees:
 <!--break-->
 
   This will be done by injecting specialized code into the DirectX rendering API. We'll further test the effectiveness of the dataset on real images to see if such a dataset can provide benefits in training.
+
+<!--break-->
+## Timeline 
+
+|Week | Task |
+| --- | --- |
+|Week1 | Understand the main paper, and what pose estimation is |
+|Week2 | Download a free game and start exploring the DirectX API|
+|Week 3, 4 | Extract the pose information from pre-renders|
+|Week 5, 6 | Cleaning up the dataset, and testing a small DNN to predict pose|
+|Week 7, 8 | Try on one more game and start testing on real datasets|

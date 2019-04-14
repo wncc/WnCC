@@ -6,16 +6,13 @@ mentor: "Kumar Ayush"
 category: "Computer Graphics"
 application_procedure: "proposal"
 weight: 65
-ribbon: completed
+ribbon: open
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/cheekujodhpur">Kumar Ayush</a>
 - <a target="_blank" href="mailto:https://cheekujodhpur@gmail.com">Email ID</a> - cheekujodhpur@gmail.com
 mentees:
-- Abeen Bhattacharya
-- Sneha Sunil Bhakare
-- Darshan Tank
-- Navnit Kumar
+- 2 will be accepted
 
 ---
 

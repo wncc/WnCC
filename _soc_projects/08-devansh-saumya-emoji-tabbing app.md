@@ -14,11 +14,11 @@ contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/devansh.garg.549">Devansh Garg</a>
 - <a target="_blank" href="mailto:devansh.garg22@gmail.com">Email ID</a> - devansh.garg22@gmail.com
 mentees:
-- 3
+- 3 will be accepted
 ---
 
 ---
-### This project aims at making tabulation easy and accurate in tournamnets.
+This project aims at making tabulation easy and accurate in tournamnets.
 
 <!--break-->
 
@@ -53,14 +53,5 @@ The technical aspects:
 |**Week 7** |Creating Django forms for direct score updation. |
 |**Week 8** |Setting up breaks according to the scores.|
 
-
-<!--break-->
-
-## Checkpoints:
-
-|**Checkpoint 1:**|Login page and should have learned REST API in Django.| 
-|**Checkpoint 2:**|HTML of the different pages should be done and relational databases in Django is to be learned.|
-|**Checkpoint 3:**|Basic pages should be completed.|
-|**Checkpoint 4:**|The app should be able to set up the rounds and match-up teams.|
 
 <!--break-->

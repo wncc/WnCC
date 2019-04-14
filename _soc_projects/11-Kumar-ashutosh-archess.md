@@ -12,7 +12,7 @@ weight: 65
 
 
 ribbon: open
-stipend: 
+stipend: INR 3000
 contact:
 
 - <a target="_blank" href="mailto:kumar.ashutosh.ee@gmail.com">Email ID</a> - kumar.ashutosh.ee@gmail.com
@@ -55,16 +55,6 @@ Week 6  |Move on to Markerless Chess Board, typically some table surface.
 Week 7  |Add Multiplayer element to make this playable from two different smartphones.
 Week 8  |Documentation and Final.
 
-
-
-### 4 bi-weekly checkpoints
-
-Column 1 | Column 2
---------|----------
-checkpoint 1 | Chess Board is detectable and pieces can be seen on top of the board.
-Checkpoint 2 | Module to move pieces turn by turn to valid places on board.
-checkpoint 3 | Both Player vs player and one vs player enabled chess.
-checkpoint 4 | Add different textured boards and pieces. Documentations and End
 
 
 

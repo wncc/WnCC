@@ -7,7 +7,7 @@ mentor:
 category: "Development, Web Development"
 application_procedure: "proposal"
 weight: 30
-ribbon: in progress
+ribbon: Open
 stipend: INR 3000
 contact:
 - <a target="_blank" href="mailto:mohitkyadav@outlook.com">Email ID</a> - mohitkyadav@outlook.com
@@ -16,9 +16,11 @@ mentees:
 ---
 
 ---
-It's a Pokémon library, lists all Pokemon available on the PokeAPI, allows user to add favorites and store them to the browser local storage, dark/light mode. Allow users to show a random Pokemon based on their lucky number/alphabet/name/DOB. Re-implement card ui on https://git.io/pokearc. It's half done on https://github.com/mohitkyadav/pokearc/ deployed on GitHub (https://git.io/pokearc). Mentees can also propose their ideas for the project.
+It's a Pokémon library, lists all Pokemon available on the PokeAPI, allows user to add favorites and store them to the browser local storage, dark/light mode. 
 
 <!--break-->
+
+Allow users to show a random Pokemon based on their lucky number/alphabet/name/DOB. Re-implement card ui on https://git.io/pokearc. It's half done on https://github.com/mohitkyadav/pokearc/ deployed on GitHub (https://git.io/pokearc). Mentees can also propose their ideas for the project.
 
 ### Timeline: 
 

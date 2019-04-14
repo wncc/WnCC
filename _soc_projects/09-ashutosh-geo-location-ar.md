@@ -7,8 +7,8 @@ mentor:
 category: "Development, Image Processing, Augmented Reality"
 application_procedure: "proposal"
 weight: 30
-ribbon: in progress
-stipend: unknown
+ribbon: open
+stipend: INR 3000
 contact:
 - gitter
 - slack
@@ -18,7 +18,7 @@ mentees:
 ---
 
 ---
-###  This project tries to explore navigation using Geolocation AR. 
+This project tries to explore navigation using Geolocation AR. 
 
 <!--break-->
 

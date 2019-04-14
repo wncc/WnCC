@@ -8,16 +8,19 @@ application_procedure: "proposal"
 weight: 
 ribbon: Open
 stipend: INR 3000
+mentees:
+- 5 will be accepted
 contact: 
 - <a target="_blank" href="mailto:https://kdbeatbox@gmail.com">Email ID</a> - kdbeatbox@gmail.com
 - Facebook - <a target="_blank" href="https://www.facebook.com/thehellblazer57"> Mohd Safwan </a>
 ---
 
 ---
-"Almost 4 years ago, Karpathy published a blog post(http://karpathy.github.io/2015/05/21/rnn-effectiveness/) that has since become quite well known in the community.
+This project will involve learning many machine learning algorithms leading to RNNs. Mentees will implement a Neural Network and a Recurrent Neural Network framework from scratch
 
 <!--break-->
 
+ "Almost 4 years ago, Karpathy published a blog post(http://karpathy.github.io/2015/05/21/rnn-effectiveness/) that has since become quite well known in the community.
  Karpathy discusses some awesome results he achieved by training character level RNN on various text corpus. Anybody interested in this project is expected to go through the post thoroughly, even if you can't understand most of it. We aim to follow Karpathy's approach to understand and gain a deeper appreciation of RNNs while also exploring their versatility.
 
  <!--break-->

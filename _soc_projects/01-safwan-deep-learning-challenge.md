@@ -8,11 +8,13 @@ mentor:
 category: "Image Processing & Machine Learning"
 application_procedure: "proposal"
 weight: 25
-ribbon: in progress
+ribbon: open
+mentees: 
+- 2 to be selected
+stipend: INR 3000
 contact: 
 - Messenger - <a target="_blank" href= "https://www.messenger.com/t/thehellblazer57"> Mohd Safwan </a>
 - Slack
-mentees:
 ---
 
 ---
