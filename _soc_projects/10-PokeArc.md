@@ -16,7 +16,7 @@ mentees:
 ---
 
 ---
-It's a Pokémon library, lists all Pokemon available on the PokeAPI, allows user to add favorites and store them to the browser local storage, dark/light mode. Allow users to show a random Pokemon based on their lucky number/alphabet/name/DOB.
+It's a Pokémon library, lists all Pokemon available on the PokeAPI, allows user to add favorites and store them to the browser local storage, dark/light mode. Allow users to show a random Pokemon based on their lucky number/alphabet/name/DOB. Re-implement card ui on https://git.io/pokearc. It's half done on https://github.com/mohitkyadav/pokearc/ deployed on GitHub (https://git.io/pokearc). Mentees can also propose their ideas for the project.
 
 <!--break-->
 
