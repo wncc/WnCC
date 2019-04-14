@@ -20,12 +20,6 @@ It's a Pokémon library, lists all Pokemon available on the PokeAPI, allows user
 
 <!--break-->
 
-### Progress:
-
- Re-implement card ui on https://git.io/pokearc. It's half done on https://github.com/mohitkyadav/pokearc/ deployed on GitHub (https://git.io/pokearc). Mentees can also propose their ideas for the project.
-
-<!--break-->
-
 ### Timeline: 
 
 * 1st week - Local project setup
