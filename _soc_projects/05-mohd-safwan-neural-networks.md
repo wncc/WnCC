@@ -2,7 +2,10 @@
 layout: soc-project
 image: /images/recurrent-neural-network.jpg
 title: The Unreasonable Effectiveness of Recurrent Neural Networks
-mentor: Mohd. Safwan
+mentor: 
+-Mohd Safwan
+-Arpit Aggarwal
+-Satvik Mashkaria
 category: "Machine Learning, Deep Learning, Artificial Intelligence"
 application_procedure: "proposal"
 weight: 
@@ -20,7 +23,7 @@ This project will involve learning many machine learning algorithms leading to R
 
 <!--break-->
 
- "Almost 4 years ago, Karpathy published a blog post(http://karpathy.github.io/2015/05/21/rnn-effectiveness/) that has since become quite well known in the community.
+Almost 4 years ago, Karpathy published a [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) that has since become quite well known in the community.
  Karpathy discusses some awesome results he achieved by training character level RNN on various text corpus. Anybody interested in this project is expected to go through the post thoroughly, even if you can't understand most of it. We aim to follow Karpathy's approach to understand and gain a deeper appreciation of RNNs while also exploring their versatility.
 
  <!--break-->
