@@ -8,7 +8,7 @@ category: "Development, Machine Learning, Augmented Reality, Computer Vision"
 application_procedure: "proposal"
 weight: 30
 ribbon: open
-stipend: 
+stipend: INR 3000
 contact:
 - <a target="_blank" href="mailto:shashank.batra.sb@gmail.com ">Email ID</a> - shashank.batra.sb@gmail.com
 - Facebook - <a target="_blank" href="https://www.facebook.com/shaank.bawa ">Shashank Batra</a>
@@ -17,8 +17,7 @@ mentees: 5
 ---
 
 ---
-### The goal of this project is to build an Augmented Reality smartphone application that can store and show text linked to locations and objects.
-
+The goal of this project is to build an Augmented Reality smartphone application that can store and show text linked to locations and objects.
 <!--break-->
 
 
@@ -66,15 +65,7 @@ This project is a long term hobby project and would be built from scratch. Thus,
 
 <!--break-->
 
-## Checkpoints:
 
-|**Checkpoint 1(2nd Week):**|  A very simple app that overlays text over glyphs should be completed. | 
-|**Checkpoint 2(4th Week):**| - Progress should be made in location-based and image-recognition based overlaying. |
-|**Checkpoint 3(6th Week):**| The above two should be integrated to work together, with some reasonable accuracy. |
-|**Checkpoint 4(8th Week):** | The final app made and the efforts put throughout the 8 weeks would be considered.| 
-
-
-<!--break-->
 
 
 
