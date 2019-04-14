@@ -6,7 +6,7 @@ title: PokeArc
 category: "Web Development"
 application_procedure: "proposal"
 weight: 10
-ribbon: in progress
+ribbon: open
 stipend: INR 3000
 contact:
 - Email ID - <a target="_blank" href="mailto:mohitkyadav@outlook.com">mohitkyadav@outlook.com</a> 
