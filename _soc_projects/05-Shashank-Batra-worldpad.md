@@ -1,4 +1,4 @@
-﻿---
+---
 layout: soc-project
 image: /images/worldPad_banner.jpg
 title: WorldPad
@@ -10,11 +10,10 @@ weight: 30
 ribbon: open
 stipend: 
 contact:
-- <a target="_blank" href="mailto: shashank.batra.sb@gmail.com ">Gmail ID</a> - shashank.batra.sb@gmail.com
+- <a target="_blank" href="mailto:shashank.batra.sb@gmail.com ">Email ID</a> - shashank.batra.sb@gmail.com
 - Facebook - <a target="_blank" href="https://www.facebook.com/shaank.bawa ">Shashank Batra</a>
-- <a target="_blank" href="https://www.worldpad.slack.com ">Link</a>
-mentees:
--5
+- worldpad.slack.com 
+mentees: 5
 ---
 
 ---
@@ -27,7 +26,7 @@ Linking text to objects or locations can be done in various ways. There can be a
 
 <!--break-->
 
-  This project would be broken up into smaller checkpoints, in increasing level of complexity. The idea is to build advanced features and get as close to the end goal as possible with each step, while overcoming the existing limitations. Thus, weÆll be moving from a simple AR app to a more advanced one, while increasing the accuracy and improving the user experience, and having something to show for all along.
+  This project would be broken up into smaller checkpoints, in increasing level of complexity. The idea is to build advanced features and get as close to the end goal as possible with each step, while overcoming the existing limitations. Thus, we'll be moving from a simple AR app to a more advanced one, while increasing the accuracy and improving the user experience, and having something to show for all along.
 
 
 <!--break-->
@@ -60,7 +59,7 @@ This project is a long term hobby project and would be built from scratch. Thus,
 |**Week 2** |Completing a simple application that overlays texts over glyphs.|
 |**Week 3** | Starting the work on location-based and basic recognition-based overlaying. |
 |**Week 4** |Completing the work on a basic location-based tagging. Accuracy wouldnÆt matter at this stage.|
-|**Week 5** | Completing the work on a basic image-matching/recognition based overlaying. Accuracy wouldnÆt matter at this stage. |
+|**Week 5** | Completing the work on a basic image-matching/recognition based overlaying. Accuracy wouldn't matter at this stage. |
 |**Week 6** | Integrating the location-based method with the image matching/recognition based method and bug-fixing.|
 |**Week 7** |Same as week 6, increasing accuracy and working on the 3D rotation and orientation of the text.|
 |**Week 8** | Buffer week, left for debugging, improvements, making up for the delays and integrating everything together.|
