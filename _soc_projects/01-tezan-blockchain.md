@@ -13,8 +13,13 @@ mentees:
 - 4 to be selected
 stipend: INR 3000
 contact: 
+- <a target="_blank" href="mailto:https://tezansahu@gmail.com\">Email ID</a> - tezansahu@gmail.com
+- Facebook - <a target="_blank" href="https://www.facebook.com/tezan.sahu.3"> Tezan Sahu  </a>
+---
+
 - Slack
 - Telegram 
+
 ---
 
 ---
