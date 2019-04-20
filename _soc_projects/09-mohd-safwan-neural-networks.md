@@ -45,6 +45,11 @@ For students who have participated in Summer of Science(Machine Learning track) 
 ##### Proposal expectations:
 Write about your prior experience with things mentioned in the prerequisites and a list any prior machine learning projects completed. Do send across links to your project repos and demos, if any, along with the proposal. Although this is not mandatory but try to include a rough expected timeline for yourself.
 
+The following points must be included in the proposal for the project:
+- Your motivation and understanding of the project
+- Background in ML/DL (include your previous projects)
+- How do you want to approach the problem, you thoughts/remarks.
+- Experience with Python and scientific libraries
 <!--break-->
 
 ##### Timeline for each week :
@@ -60,11 +65,3 @@ Write about your prior experience with things mentioned in the prerequisites and
 
 <!--break-->
 
-##### Bi-weekly checkpoints:
-- Learn relevant math, libraries, setup a development environment. Get fluent with bash and python. Finish learning, building, and training a fully connected network.
-
-- Understand building blocks of Neural Networks, implement a RNN using PyTorch
-
-- Improve RNN. Start collecting data for training.
-
-- Experiment with various kinds of text corpora. Document observation

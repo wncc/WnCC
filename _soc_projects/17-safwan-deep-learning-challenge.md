@@ -19,13 +19,21 @@ contact:
 
 ---
 
-#### The grand challenge website hosts multiple challenges on biomedical imaging. We are interested in getting good results and hopefully winning the **[Head Circumference challenge ](https://hc18.grand-challenge.org/)**. 
+The grand challenge website hosts multiple challenges on biomedical imaging. We are interested in getting good results and hopefully winning the **[Head Circumference challenge ](https://hc18.grand-challenge.org/)**. 
+
 <!--break-->
 
-####  Anyone interested should read the problem statement thoroughly. We propose two solutions for the problem, running semantic segmentation and then fitting an ellipse on the mask, and regressing for the ellipse's parameters using a Deep CNN. Our initial approach can be viewed **[here](https://github.com/safwankdb/Automated-measurement-of-Fetal-head-circumference)**
+Anyone interested should read the problem statement thoroughly. We propose two solutions for the problem, running semantic segmentation and then fitting an ellipse on the mask, and regressing for the ellipse's parameters using a Deep CNN. Our initial approach can be viewed **[here](https://github.com/safwankdb/Automated-measurement-of-Fetal-head-circumference)**
 
-#### This project will be heavy to say the least, but it will be rewarding. By the end we hope you will learn Deep Learning and will be able to appreciate its importance in our society. You'll be able to understand and implement essential DL papers in PyTorch.
+This project will be heavy to say the least, but it will be rewarding. By the end we hope you will learn Deep Learning and will be able to appreciate its importance in our society. You'll be able to understand and implement essential DL papers in PyTorch.
+
 <!--break-->
+
+The following points must be included in the proposal for the project:
+- Your motivation and understanding of the project
+- Background in ML/DL (include your previous projects)
+- How do you want to approach the problem, you thoughts/remarks.
+- Experience with Python and scientific libraries
 
 ### Tentative Timeline:
 

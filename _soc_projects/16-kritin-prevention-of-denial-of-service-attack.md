@@ -1,7 +1,7 @@
 ---
 layout: soc-project
 image: /images/dos.jpg
-title: Prevention of Sophisticated Denial of service attack
+title: Prevention of Sophisticated DoS attack / Network Security
 mentor:
 - Kritin Garg
 category: 
