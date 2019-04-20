@@ -26,9 +26,6 @@ Prerequisites : Efficiency in c++, slight knowledge of networks and socket progr
 
 <!--break-->
 
-Will only be taking non-cs students.
-<!--break-->
-
 Mentor will conduct an interview for the selection of mentees.
 
 <!--break-->

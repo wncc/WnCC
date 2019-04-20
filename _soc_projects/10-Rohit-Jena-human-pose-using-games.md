@@ -1,7 +1,7 @@
 ---
 layout: soc-project
 image: /images/human-pose.jpg
-title: Generating a human pose datasheet using PC games
+title: Generating a human pose dataset using PC games
 mentor:
 - Rohit Jena
 category: "Image processing, Machine Learning, Graphics"
