@@ -23,11 +23,13 @@ contact:
 To celebrate the recent findings uncovered by scientists in the physics community, we will try to make a simulation of gravitational lensing caused by a black hole using GLSL, beside other simple simulations.
 
 <!--break-->
+
 This involes studying the basics of Shading with GLSL, the OpenGL Shading Language, which flexibly controls the rendering pipeline of the dear GPU in your device.
 Next, we will implement a boilerplate WebGL simulator program in a fairly modern browser.
 After this, we will implement various sample GLSL renders before coding the final one.
 This involves computing the deflection of a light ray incident at a black hole using numerical integration and simulate this effect with GPU to get fast and crisp images.
 
+<!--break-->
 
 Note: The (second) main aim of this project is to understand and use shading, not implementing the shading libraries or understanding general relativity. The first one is to celebrate that new original black hole image, obviously.
 
