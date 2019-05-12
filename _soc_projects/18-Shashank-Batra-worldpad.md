@@ -13,7 +13,12 @@ contact:
 - <a target="_blank" href="mailto:shashank.batra.sb@gmail.com ">Email ID</a> - shashank.batra.sb@gmail.com
 - Facebook - <a target="_blank" href="https://www.facebook.com/shaank.bawa ">Shashank Batra</a>
 - worldpad.slack.com 
-mentees: 5 to be accepted
+mentees: 
+- Maloth Maheer
+- Vineet Bhar
+- Varad Rajesaheb Mane
+- Saurabh Khandelwal
+- Rahul Shanbag
 ---
 
 ---
