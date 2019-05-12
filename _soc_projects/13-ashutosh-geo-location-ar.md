@@ -14,7 +14,7 @@ contact:
 - slack
 - <a target="_blank" href="mailto:kumar.ashutosh.ee@gmail.com">Email ID</a> - kumar.ashutosh.ee@gmail.com
 mentees:
-- Accepting 3 
+- Souvik pal
 ---
 
 ---

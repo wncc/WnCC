@@ -12,7 +12,8 @@ stipend: INR 3000
 contact:
 - <a target="_blank" href="mailto:mohitkyadav@outlook.com">Email ID</a> - mohitkyadav@outlook.com
 mentees:
-- 2 mentees will be accepted
+- Arnav Meshram
+- Apoorv Giriya
 ---
 
 ---

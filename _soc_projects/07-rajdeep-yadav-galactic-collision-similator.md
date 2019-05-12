@@ -10,7 +10,10 @@ application_procedure: "proposal"
 weight: 40
 ribbon: new
 mentees: 
-- 3 to be selected
+- Ajinkya Werulkar
+- Devak Sinha
+- Avyakta Wrat
+- Vedant Prakash Shenoy
 stipend: INR 3000
 contact: 
 - <a target="_blank" href="mailto:https://rajdeepyadav004@gmail.com\">Email</a> - rajdeepyadav004@gmail.com

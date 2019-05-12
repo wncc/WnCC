@@ -10,7 +10,9 @@ application_procedure: "proposal"
 weight: 25
 ribbon: open
 mentees: 
-- 2 to be selected
+- Pritam Chaudhari
+- KOSHLENDRA DUBEY
+- Pankaj Singh
 stipend: INR 3000
 contact: 
 - Messenger - <a target="_blank" href= "https://www.messenger.com/t/thehellblazer57"> Mohd Safwan </a>

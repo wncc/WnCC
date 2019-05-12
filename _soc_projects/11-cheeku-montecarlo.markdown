@@ -12,7 +12,8 @@ contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/cheekujodhpur">Kumar Ayush</a>
 - <a target="_blank" href="mailto:https://cheekujodhpur@gmail.com">Email ID</a> - cheekujodhpur@gmail.com
 mentees:
-- 2 will be accepted
+- Arkya Chatterjee
+- Shalabh Gupta
 
 ---
 

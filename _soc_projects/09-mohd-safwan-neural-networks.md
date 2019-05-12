@@ -12,7 +12,12 @@ weight:
 ribbon: Open
 stipend: INR 3000
 mentees:
-- 5 will be accepted
+- Shaunak Anirudh Natuu
+- Sunil Kumar Meena
+- Mohammad Ali Rehan
+- Saptarshi Ratna
+- Akshit Srivastava
+- Ishita Gupta
 contact: 
 - <a target="_blank" href="mailto:https://kdbeatbox@gmail.com">Email ID</a> - kdbeatbox@gmail.com
 - Facebook - <a target="_blank" href="https://www.facebook.com/thehellblazer57"> Mohd Safwan </a>

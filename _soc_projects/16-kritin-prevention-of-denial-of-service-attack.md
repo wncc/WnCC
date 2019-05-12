@@ -8,7 +8,10 @@ category:
 - "Network Security"
 application_procedure: "proposal"
 mentees:
-- 3 to be selected
+- Ram Krishna Poricha
+- Parth Laturia
+- Shreya Pathak
+- Arpit Singh
 weight: 30
 ribbon: open
 stipend: INR 3000
