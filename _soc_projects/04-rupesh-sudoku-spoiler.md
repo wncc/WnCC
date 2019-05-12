@@ -11,7 +11,10 @@ application_procedure: "proposal"
 weight: 40
 ribbon: new
 mentees: 
-- 3 to be selected
+- Pratyush Agarwal
+- Harshad Ingole
+- Rishikesh Khetri
+- Nandini Manwani
 stipend: INR 3000
 contact: 
 - <a target="_blank" href="mailto:rupesh95903@gmail.com\">Email</a> - rupesh95903@gmail.com
