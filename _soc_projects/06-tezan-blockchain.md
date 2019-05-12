@@ -10,7 +10,10 @@ application_procedure: "proposal"
 weight: 40
 ribbon: new
 mentees: 
-- 4 to be selected
+- Rishav Ranjan
+- Devank Rajvanshi
+- Rishabh Ajay Sureka
+- Shruti Satish
 stipend: INR 3000
 contact: 
 - <a target="_blank" href="mailto:https://tezansahu@gmail.com\">Email ID</a> - tezansahu@gmail.com
@@ -28,7 +31,7 @@ This project focuses on building a Decentralised Application (DApp) for register
 
 <!--break-->
 
-In countries like India where the land records are maintained with human intervention are perennially marred with presumption and excessive bureaucracy,  leading to legal disputes. Land is a precious asset that can be used as a collateral or used for many other productive purposes only if the title deeds are indisputable and are derived using a transparent process. 
+In countries like India where the land records are maintained with human intervention are perennially marred with presumption and excessive bureaucracy,  leading to legal disputes.  Land is a precious asset that can be used as a collateral or used for many other productive purposes only if the title deeds are indisputable and are derived using a transparent process. 
 
 <!--break-->
 
