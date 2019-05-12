@@ -12,6 +12,9 @@ stipend: INR 3000
 contact:
 - <a target="_blank" href="mailto:rohit.rango@gmail.com">Email ID</a> - rohit.rango@gmail.com
 mentees:
+- Niraj Mahajan
+- Rohan Gupta
+- Mohd Safwan
 ---
 
 ---
