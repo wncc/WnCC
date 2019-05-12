@@ -9,7 +9,10 @@ application_procedure: "proposal"
 weight: 40
 ribbon: new
 mentees: 
-- 3 to be selected
+- Shubham Gupta
+- Vipul Agarwal
+- Jain Rajat
+- Hiya Vithlani
 stipend: INR 3000
 contact: 
 - Facebook - <a target="_blank" href="https://www.facebook.com/prabhat7758"> Prabhat Singh  </a>

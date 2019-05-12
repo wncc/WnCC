@@ -10,7 +10,9 @@ application_procedure: "proposal"
 weight: 40
 ribbon: new
 mentees: 
-- 2 to be selected
+- Vinayaka Srivardhan Gosula
+- Rohan Gupta
+- Dorna Vineeth
 stipend: INR 3000
 contact: 
 - <a target="_blank" href="mailto:rnr1410@gmail.com\">Email</a> - rnr1410@gmail.com
