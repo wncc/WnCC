@@ -15,7 +15,7 @@ contact:
 - worldpad.slack.com 
 mentees: 
 - Maloth Maheer
-- Vineet Bhar
+- Vineet Bhat
 - Varad Rajesaheb Mane
 - Saurabh Khandelwal
 - Rahul Shanbag
