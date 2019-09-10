@@ -9,6 +9,10 @@ application_procedure: "proposal"
 weight: 30
 ribbon: open
 stipend: INR 3000
+completed:
+- Saurabh Khandelwal
+- Maheer Maloth
+- Vineet Bhatt
 contact:
 - <a target="_blank" href="mailto:shashank.batra.sb@gmail.com ">Email ID</a> - shashank.batra.sb@gmail.com
 - Facebook - <a target="_blank" href="https://www.facebook.com/shaank.bawa ">Shashank Batra</a>
