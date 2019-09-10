@@ -14,7 +14,10 @@ stipend: INR 3000
 completed:
 - Rajat Jain
 link:
-- Angular:https://github.com/Rockingrajat/soc.  Android Studio:https://github.com/Rockingrajat/Soc2.  Django-polls:https://github.com/Rockingrajat/Notification  poll created:https://drive.google.com/file/d/18-CJSrMjYKq6NG6FHuvPyrMhAuzucxlR/view?usp=drivesdk
+- https://github.com/Rockingrajat/soc
+- https://github.com/Rockingrajat/Soc2  
+- https://github.com/Rockingrajat/Notification  
+- https://drive.google.com/file/d/18-CJSrMjYKq6NG6FHuvPyrMhAuzucxlR/view?usp=drivesdk
 contact: 
 - Facebook - <a target="_blank" href="https://www.facebook.com/prabhat7758"> Prabhat Singh  </a>
 ---
