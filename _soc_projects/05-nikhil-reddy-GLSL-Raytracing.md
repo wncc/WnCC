@@ -15,7 +15,7 @@ stipend: INR 3000
 completed:
 - Dorna Vineeth
 - Vinayaka Gosula Srivardhan
-url:
+link:
 - https://github.com/Dornavineeth/BlackHole_Simulator
 - https://github.com/VinayakaGosula/Black-Hole-Lensing
 contact: 

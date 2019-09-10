@@ -14,7 +14,7 @@ stipend: INR 3000
 completed:
 - Sunil Kumar Meena
 - Akshit Srivastava
-url:
+link:
 - https://github.com/meenabhai-iitbombay/Andrew-ng-s-Ml-assignments.git
 - https://github.com/akshitt/seasons-of-code
 mentees:

@@ -11,7 +11,7 @@ stipend: INR 3000
 completed:
 - Shalabh Gupta
 - Arkya Chatterjee
-url:
+link:
 - https://github.com/cheekujodhpur/drishti-rt
 - https://github.com/cheekujodhpur/drishti-rt
 contact:

@@ -16,7 +16,7 @@ stipend: INR 3000
 completed:
 - Pratyush Agarwal
 - Harshad Ingole
-url:
+link:
 - https://github.com/aryanbdps9/SudokuSpoiler
 - https://github.com/aryanbdps9/SudokuSpoiler
 contact: 

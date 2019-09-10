@@ -15,7 +15,7 @@ completed:
 - Swapnil Ghosh
 - Bhavya Jain
 - Abhinav kumar
-url:
+link:
 - https://codeforces.com/profile/karanagarwalla
 - https://codeforces.com/profile/nimay
 - https://github.com/kasangeri/CompetitiveCoding-SoC-

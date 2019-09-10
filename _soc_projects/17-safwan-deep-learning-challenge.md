@@ -16,7 +16,7 @@ completed:
 - KOSHLENDRA DUBEY
 - Pritam Chaudhari
 - Pankaj Singh
-url:
+link:
 - https://github.com/koshal123/deep-learning-challenge.git
 - https://github.com/pritam27/HC18/blob/master/HC18.ipynb
 - https://github.com/Pankaj1357/HC18-Grand-Challenge

@@ -116,13 +116,13 @@ layout: default
                                 <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">{{ mentee }} </span>
                             {% endfor %}
                         {% endif %}
-                        {% if page.url %}
+                        {% if page.link %}
                             <br/>
-                            <span style="color: red; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Url: </span>
+                            <span style="color: red; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Link: </span>
                             <br/>
-                             {% for mentee in page.url%}
+                             {% for mentee in page.link%}
                 <br/>
-                                <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">{{ mentee }} </span>
+                                <span style="color: red; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">{{ mentee }} </span>
                             {% endfor %}
                         {% endif %}
                         </p>

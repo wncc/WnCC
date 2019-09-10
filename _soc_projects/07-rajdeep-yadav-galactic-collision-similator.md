@@ -15,7 +15,7 @@ stipend: INR 3000
 completed:
 - Avyakta Wrat
 - Devak Sinha
-url:
+link:
 - https://github.com/rajdeepyadav004/Graviton/tree/Avyakta
 - https://drive.google.com/file/d/1mBLbdw7j2cjY174ZGNIlnNs8kHpglXmZ/view?usp=drivesdk
 contact: 

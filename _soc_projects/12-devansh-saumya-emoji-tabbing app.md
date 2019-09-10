@@ -14,8 +14,8 @@ completed:
 - Pulkit Agrawal
 - Aditya Sonawane
 - Shivprasad kathane
-url:
--https://github.com/adityasonawane942/tabbing_.git
+link:
+- https://github.com/adityasonawane942/tabbing_.git
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/devansh.garg.549">Devansh Garg</a>
 - <a target="_blank" href="mailto:devansh.garg22@gmail.com">Email ID</a> - devansh.garg22@gmail.com
