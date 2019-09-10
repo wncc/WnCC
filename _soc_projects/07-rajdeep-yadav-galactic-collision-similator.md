@@ -12,6 +12,12 @@ ribbon: new
 mentees: 
 - 3 to be selected
 stipend: INR 3000
+completed:
+- Avyakta Wrat
+- Devak Sinha
+url:
+- https://github.com/rajdeepyadav004/Graviton/tree/Avyakta
+- https://drive.google.com/file/d/1mBLbdw7j2cjY174ZGNIlnNs8kHpglXmZ/view?usp=drivesdk
 contact: 
 - <a target="_blank" href="mailto:https://rajdeepyadav004@gmail.com\">Email</a> - rajdeepyadav004@gmail.com
 - <a target="_blank" href="https://join.slack.com/t/soc-c/shared_invite/enQtNjA4ODYxOTA2MDgwLTY1ZTJhMjA0NTQ3NTJlOWI0M2VkMWI5MjVlMTE1Y2I3ZjRkOGY2MTFhM2U5OGE1MTg4MmMzMzRhNTYwNTM5OWM">Slack</a>

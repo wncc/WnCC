@@ -12,6 +12,14 @@ mentees:
 weight: 30
 ribbon: open
 stipend: INR 3000
+completed:
+- Arpit Singh
+- Parth Laturia
+- Shreya Pathak
+url:
+- https://drive.google.com/open?id=1UCHM68Pi0rnPK_5PpTOVcncEL7mTcADq
+- https://drive.google.com/open?id=1bOFGX7FMc_ycli5byrU0teIV6MqXYLwJ
+- https://drive.google.com/open?id=1Tcnw4PQknTL7NqXKPCQiyOOtg2jZ3w45
 contact:
 
 - <a target="_blank" href="mailto:kritingarg0209@gmail.com">Email ID</a> - kritingarg0209@gmail.com

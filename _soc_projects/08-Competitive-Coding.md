@@ -15,11 +15,16 @@ completed:
 - Swapnil Ghosh
 - Bhavya Jain
 - Abhinav kumar
+url:
+- https://codeforces.com/profile/karanagarwalla
+- https://codeforces.com/profile/nimay
+- https://github.com/kasangeri/CompetitiveCoding-SoC-
+- https://codeforces.com/submissions/gswapnil100
+- https://codeforces.com/profile/bhavyasjain
+- https://codeforces.com/profile/abhinav2603
 
 contact:
 - <a target="_blank" href="mailto:kuku12320@gmail.com">Email ID</a> - kuku12320@gmail.com
-mentees:
-- 5 mentees will be accepted
 ---
 
 ---

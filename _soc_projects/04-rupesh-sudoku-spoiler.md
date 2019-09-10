@@ -13,6 +13,12 @@ ribbon: new
 mentees: 
 - 3 to be selected
 stipend: INR 3000
+completed:
+- Pratyush Agarwal
+- Harshad Ingole
+url:
+- https://github.com/aryanbdps9/SudokuSpoiler
+- https://github.com/aryanbdps9/SudokuSpoiler
 contact: 
 - <a target="_blank" href="mailto:rupesh95903@gmail.com\">Email</a> - rupesh95903@gmail.com
 - Slack

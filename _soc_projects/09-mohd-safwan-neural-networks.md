@@ -11,6 +11,12 @@ application_procedure: "proposal"
 weight: 
 ribbon: Open
 stipend: INR 3000
+completed:
+- Sunil Kumar Meena
+- Akshit Srivastava
+url:
+- https://github.com/meenabhai-iitbombay/Andrew-ng-s-Ml-assignments.git
+- https://github.com/akshitt/seasons-of-code
 mentees:
 - 5 will be accepted
 contact: 

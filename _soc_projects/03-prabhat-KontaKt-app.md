@@ -11,6 +11,10 @@ ribbon: new
 mentees: 
 - 3 to be selected
 stipend: INR 3000
+completed:
+- Rajat Jain
+url:
+- Angular:https://github.com/Rockingrajat/soc.  Android Studio:https://github.com/Rockingrajat/Soc2.  Django-polls:https://github.com/Rockingrajat/Notification  poll created:https://drive.google.com/file/d/18-CJSrMjYKq6NG6FHuvPyrMhAuzucxlR/view?usp=drivesdk
 contact: 
 - Facebook - <a target="_blank" href="https://www.facebook.com/prabhat7758"> Prabhat Singh  </a>
 ---
