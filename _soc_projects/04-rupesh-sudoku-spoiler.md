@@ -9,7 +9,7 @@ mentor:
 category: "Development, Image Processing & Machine Learning"
 application_procedure: "proposal"
 weight: 40
-ribbon: new
+ribbon: complete
 mentees: 
 - 3 to be selected
 stipend: INR 3000

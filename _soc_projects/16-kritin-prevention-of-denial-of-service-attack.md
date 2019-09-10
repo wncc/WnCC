@@ -10,7 +10,7 @@ application_procedure: "proposal"
 mentees:
 - 3 to be selected
 weight: 30
-ribbon: open
+ribbon: complete
 stipend: INR 3000
 completed:
 - Arpit Singh

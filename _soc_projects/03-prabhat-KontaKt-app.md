@@ -7,7 +7,7 @@ mentor:
 category: "Development, Web Development, Machine Learning"
 application_procedure: "proposal"
 weight: 40
-ribbon: new
+ribbon: complete
 mentees: 
 - 3 to be selected
 stipend: INR 3000
@@ -17,7 +17,7 @@ link:
 - https://github.com/Rockingrajat/soc
 - https://github.com/Rockingrajat/Soc2  
 - https://github.com/Rockingrajat/Notification  
-- https://drive.google.com/file/d/18-CJSrMjYKq6NG6FHuvPyrMhAuzucxlR/view?usp=drivesdk
+
 contact: 
 - Facebook - <a target="_blank" href="https://www.facebook.com/prabhat7758"> Prabhat Singh  </a>
 ---

@@ -8,7 +8,7 @@ mentor:
 category: "Development, Web Development"
 application_procedure: "proposal"
 weight: 30
-ribbon: open
+ribbon: complete
 stipend: INR 3000
 completed:
 - Pulkit Agrawal

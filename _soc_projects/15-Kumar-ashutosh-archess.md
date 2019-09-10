@@ -11,7 +11,7 @@ application_procedure: "proposal"
 weight: 65
 
 
-ribbon: open
+ribbon: complete
 stipend: INR 3000
 contact:
 

@@ -8,7 +8,7 @@ mentor:
 category: "Development & Computer Graphics"
 application_procedure: "proposal"
 weight: 40
-ribbon: new
+ribbon: complete
 mentees: 
 - 2 to be selected
 stipend: INR 3000

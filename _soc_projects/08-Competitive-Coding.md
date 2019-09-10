@@ -7,7 +7,7 @@ mentor:
 category: "Competetive Coding"
 application_procedure: "proposal"
 weight: 30
-ribbon: open
+ribbon: complete
 completed: 
 - Karan Agarwalla
 - Nimay Gupta

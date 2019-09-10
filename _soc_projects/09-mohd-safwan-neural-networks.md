@@ -9,7 +9,7 @@ mentor:
 category: "Machine Learning, Deep Learning, Artificial Intelligence"
 application_procedure: "proposal"
 weight: 
-ribbon: Open
+ribbon: complete
 stipend: INR 3000
 completed:
 - Sunil Kumar Meena
