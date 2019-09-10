@@ -113,7 +113,7 @@ layout: default
                             <br/>
                              {% for mentee in page.completed%}
                 <br/>
-                                <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">{{ page.mentee}} </span>
+                                <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">{{ mentee }} </span>
                             {% endfor %}
                         {% endif %}
                         {% if page.url %}
@@ -122,7 +122,7 @@ layout: default
                             <br/>
                              {% for mentee in page.url%}
                 <br/>
-                                <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">{{ page.mentee}} </span>
+                                <span style="color: darkgreen; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">{{ mentee }} </span>
                             {% endfor %}
                         {% endif %}
                         </p>
