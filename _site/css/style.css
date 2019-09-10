@@ -1274,6 +1274,22 @@ a.hyperlink-nodecoration {color: #629DD1;
     {
         border-right: 3px solid #FFD633;
         border-top: 3px solid #FFD633;
+	}
+	
+	.complete span
+    {
+        background: #FFD633;
+        background: linear-gradient(#FF3300 0%, #FFD633 100%);
+    }
+	.complete span::before
+    {
+        border-left: 3px solid #FFD633;
+        border-top: 3px solid #FFD633;
+    }
+    .complete span::after
+    {
+        border-right: 3px solid #FFD633;
+        border-top: 3px solid #FFD633;
     }
 
     .devcom span

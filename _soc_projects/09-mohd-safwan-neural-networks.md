@@ -9,8 +9,14 @@ mentor:
 category: "Machine Learning, Deep Learning, Artificial Intelligence"
 application_procedure: "proposal"
 weight: 
-ribbon: Open
+ribbon: complete
 stipend: INR 3000
+completed:
+- Sunil Kumar Meena
+- Akshit Srivastava
+link:
+- https://github.com/meenabhai-iitbombay/Andrew-ng-s-Ml-assignments.git
+- https://github.com/akshitt/seasons-of-code
 mentees:
 - Shaunak Anirudh Natuu
 - Sunil Kumar Meena

@@ -7,7 +7,7 @@ mentor:
 category: "Development, Image Processing, Augmented Reality"
 application_procedure: "proposal"
 weight: 30
-ribbon: open
+ribbon: complete
 stipend: INR 3000
 contact:
 - gitter

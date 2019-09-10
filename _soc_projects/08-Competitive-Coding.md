@@ -7,25 +7,24 @@ mentor:
 category: "Competetive Coding"
 application_procedure: "proposal"
 weight: 30
-ribbon: open
+ribbon: complete
+completed: 
+- Karan Agarwalla
+- Nimay Gupta
+- Ranjana Kasangeri
+- Swapnil Ghosh
+- Bhavya Jain
+- Abhinav kumar
+link:
+- https://codeforces.com/profile/karanagarwalla
+- https://codeforces.com/profile/nimay
+- https://github.com/kasangeri/CompetitiveCoding-SoC-
+- https://codeforces.com/submissions/gswapnil100
+- https://codeforces.com/profile/bhavyasjain
+- https://codeforces.com/profile/abhinav2603
+
 contact:
 - <a target="_blank" href="mailto:kuku12320@gmail.com">Email ID</a> - kuku12320@gmail.com
-mentees:
-- Shaikh Md Nadeem Nizam
-- Swapnil Ghosh
-- Shubojit Das
-- Silu Panda
-- Abhinav Kumar
-- Ranjana B Kasangeri
-- Bhavya Jain
-- Mohd Zakir Hussain
-- Jishnu Basavaraju
-- Tanmay Mandal
-- Nimay Gupta
-- Dhananjay Singh
-- Karan Agarwalla
-- Bhavesh Patil
-
 ---
 
 ---

@@ -12,7 +12,7 @@ weight: 65
 mentees:
 - Vinit Awale
 
-ribbon: open
+ribbon: complete
 stipend: INR 3000
 contact:
 - <a target="_blank" href="mailto:kumar.ashutosh.ee@gmail.com">Email ID</a> - kumar.ashutosh.ee@gmail.com

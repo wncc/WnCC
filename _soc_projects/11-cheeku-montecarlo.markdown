@@ -6,8 +6,14 @@ mentor: "Kumar Ayush"
 category: "Computer Graphics"
 application_procedure: "proposal"
 weight: 65
-ribbon: open
+ribbon: complete
 stipend: INR 3000
+completed:
+- Shalabh Gupta
+- Arkya Chatterjee
+link:
+- https://github.com/cheekujodhpur/drishti-rt
+- https://github.com/cheekujodhpur/drishti-rt
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/cheekujodhpur">Kumar Ayush</a>
 - <a target="_blank" href="mailto:https://cheekujodhpur@gmail.com">Email ID</a> - cheekujodhpur@gmail.com

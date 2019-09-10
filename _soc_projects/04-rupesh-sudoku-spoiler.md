@@ -9,13 +9,19 @@ mentor:
 category: "Development, Image Processing & Machine Learning"
 application_procedure: "proposal"
 weight: 40
-ribbon: new
+ribbon: complete
 mentees: 
 - Pratyush Agarwal
 - Harshad Ingole
 - Rishikesh Khetri
 - Nandini Manwani
 stipend: INR 3000
+completed:
+- Pratyush Agarwal
+- Harshad Ingole
+link:
+- https://github.com/aryanbdps9/SudokuSpoiler
+- https://github.com/aryanbdps9/SudokuSpoiler
 contact: 
 - <a target="_blank" href="mailto:rupesh95903@gmail.com\">Email</a> - rupesh95903@gmail.com
 - Slack
