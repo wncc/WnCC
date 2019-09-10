@@ -8,7 +8,7 @@ category: "Competetive Coding"
 application_procedure: "proposal"
 weight: 30
 ribbon: open
-stipend: "Karan Agarwalla -https://codeforces.com/profile/karanagarwalla "
+completed: "Karan Agarwalla -https://codeforces.com/profile/karanagarwalla "
 
 contact:
 - <a target="_blank" href="mailto:kuku12320@gmail.com">Email ID</a> - kuku12320@gmail.com
