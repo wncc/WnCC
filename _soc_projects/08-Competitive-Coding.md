@@ -8,7 +8,13 @@ category: "Competetive Coding"
 application_procedure: "proposal"
 weight: 30
 ribbon: open
-completed: "Karan Agarwalla"
+completed: 
+- Karan Agarwalla
+- Nimay Gupta
+- Ranjana Kasangeri
+- Swapnil Ghosh
+- Bhavya Jain
+- Abhinav kumar
 
 contact:
 - <a target="_blank" href="mailto:kuku12320@gmail.com">Email ID</a> - kuku12320@gmail.com
