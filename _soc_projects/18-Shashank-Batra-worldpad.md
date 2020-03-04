@@ -7,7 +7,7 @@ mentor:
 category: "Development, Machine Learning, Augmented Reality, Computer Vision"
 application_procedure: "proposal"
 weight: 30
-ribbon: complete
+ribbon: completed
 stipend: INR 3000
 completed:
 - Saurabh Khandelwal

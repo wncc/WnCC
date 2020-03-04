@@ -8,7 +8,7 @@ mentor:
 category: "Image Processing & Machine Learning"
 application_procedure: "proposal"
 weight: 25
-ribbon: complete
+ribbon: completed
 mentees: 
 - Pritam Chaudhari
 - KOSHLENDRA DUBEY
