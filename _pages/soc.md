@@ -54,9 +54,9 @@ div.tab button.active {
 <!-- Banner -->
 <section id="banner" style="background-image:url({{ page.banner | prepend: site.baseurl }})">
     <div class="inner">
-        <h2>Seasons Of Code 2018</h2>
+        <h2>Seasons Of Code 2019</h2>
         <p> An Initiative By <a href="https://www.wncc-iitb.org/">The Web and Coding Club, IIT Bombay</a><br/><br/>
-        Tentative Dates: <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=N3ZxOHNlNDFtcnY2bzFhNXJpZjVmbDk2MDMgYWJlZW45QG0&tmsrc=abeen9%40gmail.com">16th May - 16th July</a></p>
+        Tentative Dates: <a href="">11th May - 11th July</a></p>
         <ul class="actions">
             <li><a href="#one" class="button big special">Join The Force</a></li>
         </ul>
@@ -139,18 +139,16 @@ div.tab button.active {
 	</header>
 
 <div class="tab" style="text-align : center">
-  <button class="tablinks" onclick="openType(event, 'running')" id="defaultOpen">Running Projects</button>
-  <button class="tablinks" onclick="openType(event, 'completed')">Completed Projects</button>
+  <button class="tablinks" onclick="openType(event, 'running')" id="defaultOpen">2020</button>
+  <button class="tablinks" onclick="openType(event, 'completed')">Past Projects</button>
 </div>
 <br/>
 
 <div id="completed" class="tabcontent">
 <div class="container">
 <!-- the following line is optional to sort by weight -->
-		{% assign projects = site.soc_projects | sort:"weight"  %}
-            {% for project in site.soc_projects%}
-            {% if project.ribbon == "completed" %}
-            {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+		{% assign projects = site.soc_projects | where:"ribbon","completed" | sort:"weight"  %}
+            {% for project in projects %}
             {% capture thecycle %}{% cycle '1', '2' ,'3' %}{% endcapture %}
             <!-- Creating a new row after every three elements -->
             {% if thecycle == '1' or forloop.first %}
@@ -181,7 +179,6 @@ div.tab button.active {
 			{% if thecycle == '3' or forloop.last %}
     			</div>
 			{% endif %}
-			{% endif %}
             {% endfor %}
 		<div style="text-align: center;">
 		<!-- <a href="#" class="button big special">View All Projects</a> -->
@@ -191,13 +188,11 @@ div.tab button.active {
 
 <div id="running" class="tabcontent">
 <div class="container">
-		{% assign projects = site.soc_projects | sort:"weight"  %}
-            {% for project in site.soc_projects%}
-            {% if project.ribbon != "completed" %}
-            {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-            {% capture thecycle %}{% cycle '0', '1' ,'2' %}{% endcapture %}
+		{% assign projects = site.soc_projects | where:"ribbon","new" | sort:"weight"  %}
+            {% for project in projects %}
+            {% capture thecycle %}{% cycle '1', '2' ,'3' %}{% endcapture %}
             <!-- Creating a new row after every three elements -->
-            {% if thecycle == '0' or forloop.first %}
+            {% if thecycle == '1' or forloop.first %}
             	<div class="row">
             {% endif %}
 				<div class="4u">
@@ -222,9 +217,8 @@ div.tab button.active {
 						</ul>
 					</section>
 				</div>
-			{% if thecycle == '2' or forloop.last %}
+			{% if thecycle == '3' or forloop.last %}
     			</div>
-			{% endif %}
 			{% endif %}
             {% endfor %}
 		<div style="text-align: center;">
