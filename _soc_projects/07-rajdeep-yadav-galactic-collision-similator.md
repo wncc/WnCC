@@ -8,10 +8,19 @@ mentor:
 category: "Development & Computer Graphics"
 application_procedure: "proposal"
 weight: 40
-ribbon: new
+ribbon: completed
 mentees: 
-- 3 to be selected
+- Ajinkya Werulkar
+- Devak Sinha
+- Avyakta Wrat
+- Vedant Prakash Shenoy
 stipend: INR 3000
+completed:
+- Avyakta Wrat
+- Devak Sinha
+link:
+- https://github.com/rajdeepyadav004/Graviton/tree/Avyakta
+- https://drive.google.com/file/d/1mBLbdw7j2cjY174ZGNIlnNs8kHpglXmZ/view
 contact: 
 - <a target="_blank" href="mailto:https://rajdeepyadav004@gmail.com\">Email</a> - rajdeepyadav004@gmail.com
 - <a target="_blank" href="https://join.slack.com/t/soc-c/shared_invite/enQtNjA4ODYxOTA2MDgwLTY1ZTJhMjA0NTQ3NTJlOWI0M2VkMWI5MjVlMTE1Y2I3ZjRkOGY2MTFhM2U5OGE1MTg4MmMzMzRhNTYwNTM5OWM">Slack</a>

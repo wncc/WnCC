@@ -7,14 +7,14 @@ mentor:
 category: "Development, Image Processing, Augmented Reality"
 application_procedure: "proposal"
 weight: 30
-ribbon: open
+ribbon: completed
 stipend: INR 3000
 contact:
 - gitter
 - slack
 - <a target="_blank" href="mailto:kumar.ashutosh.ee@gmail.com">Email ID</a> - kumar.ashutosh.ee@gmail.com
 mentees:
-- Accepting 3 
+- Souvik pal
 ---
 
 ---
