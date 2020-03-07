@@ -1,0 +1,69 @@
+I"ò	<hr />
+
+<!--break-->
+
+<h3 id="gestures-for-3d-space-for-arvr">Gestures for 3d space (for AR/VR)</h3>
+<p>Have you ever wondered what will be the future of interaction with computers or smart devices. Well here is a clue, its going to be touch less.This project  will contain the research part as well as the development (front end and back end) part of the technology.</p>
+
+<h3 id="tentative-project-timeline">Tentative Project Timeline</h3>
+<!--break-->
+
+<table>
+  <thead>
+    <tr>
+      <th>Week Number</th>
+      <th>Tasks to be Completed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Week 1</strong></td>
+      <td>Research on the type of hand gestures and the possible ways of doing them</td>
+    </tr>
+    <tr>
+      <td><strong>Week 2</strong></td>
+      <td>Exploring existing modules for hand recognition and using them in different applications</td>
+    </tr>
+    <tr>
+      <td><strong>Week 3</strong></td>
+      <td>Creating your own module on the basis of the previous problems you faced.</td>
+    </tr>
+    <tr>
+      <td><strong>Week 4</strong></td>
+      <td>Creating a problem statement for an application (for front end design)</td>
+    </tr>
+    <tr>
+      <td><strong>Week 5</strong></td>
+      <td>Buffer</td>
+    </tr>
+    <tr>
+      <td><strong>Week 6</strong></td>
+      <td>Body tracking and monitoring</td>
+    </tr>
+    <tr>
+      <td><strong>Week 7</strong></td>
+      <td>Creating 2nd problem statement for an application (based on body tracking)</td>
+    </tr>
+    <tr>
+      <td><strong>Week 8</strong></td>
+      <td>Front end development.</td>
+    </tr>
+    <tr>
+      <td><strong>Week 9-10</strong></td>
+      <td>Refining and final presentation</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--break-->
+
+<h3 id="resources-">Resources :</h3>
+<ul>
+  <li><a href="https://medium.com/deep-math-machine-learning-ai/chapter-10-deepnlp-recurrent-neural-networks-with-math-c4a6846a50a2">Article 1</a></li>
+  <li><a href="https://medium.com/deep-math-machine-learning-ai/chapter-10-1-deepnlp-lstm-long-short-term-memory-networks-with-math-21477f8e4235">Article 2</a></li>
+  <li><a href="https://medium.com/deep-math-machine-learning-ai/chapter-11-chatbots-to-question-answer-systems-e06c648ac22a">Article 3</a></li>
+  <li><a href="https://medium.com/botsupply/generative-model-chatbots-e422ab08461e">Article 4</a></li>
+  <li><a href="https://www.youtube.com/playlist?list=PLrnPJCHvNZuCaFbD-1TsnRaO39huczYcA">Videos</a></li>
+  <li>There are many more videos on YouTube explaining each of these topics !</li>
+</ul>
+:ET
