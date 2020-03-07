@@ -8,7 +8,7 @@
 -->
 <head>
     <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'/ >
-    <title>Rubik's cube solver</title>
+    <title>3D reconstruction using 2D images</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="Web and Coding Club is one of the biggest clubs of IIT Bombay. As a part of the Students' Technical Activities Body, we aim to provide a gateway for the people in our institute to join the coding community. We create a platform which allows students to gain assistance and mentorship to enhance their coding ability. Our aim is to propagate the enthusiasm for coding in the institute and especially amongst freshmen. We believe that every student here at IITB should have an opportunity to learn how to code and develop a passion for it. The secret of getting ahead is getting started and we aim to provide every student with the right start." />
     <meta name="keywords" content="web,coding,c++,cpp,c,javascript,android,app,development,java,css,python,ml,ai,machine learning,iitb,iit bombay,mumbai,graphics,competitive coding,hacking,security,network,information,data structures,algorithms,open source,hackathons" />
@@ -101,9 +101,11 @@
     <header class="major">
         <h2>Seasons Of Code</h2>
         <p>
-        <span style="font-weight: 500; color: #212121">Rubik's cube solver </span>&nbsp;&nbsp;
+        <span style="font-weight: 500; color: #212121">3D reconstruction using 2D images </span>&nbsp;&nbsp;
         
-            • Chaithanya Naik Mude&nbsp;&nbsp;&nbsp;
+            • Siddhesh Pawar&nbsp;&nbsp;&nbsp;
+        
+            • Hrushikesh Bodas&nbsp;&nbsp;&nbsp;
         
         </p>
     </header>
@@ -287,7 +289,7 @@
                         
                         
                         
-                        <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/45-siddesh-3d-reconstruction.html#nav">3D reconstruction using 2D images</a></li>
+                        <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >3D reconstruction using 2D images</a></li>
                         
                         
                         
@@ -303,7 +305,7 @@
                         
                         
                         
-                        <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >Rubik's cube solver</a></li>
+                        <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/63-chaitanya-rubik-solver.html#nav">Rubik's cube solver</a></li>
                         
                         
                         
@@ -316,18 +318,27 @@
             <div class="8u skel-cell-important">
                 <section >
                     <header class="major">
-                        <a id="nav" href="/soc_projects/63-chaitanya-rubik-solver.html" class="image fit"><img  src="/images/rubiks.jpg" alt="Rubik's cube solver" /></a>
-                        <h2 class="post-title" >Rubik's cube solver</h2>
+                        <a id="nav" href="/soc_projects/45-siddesh-3d-reconstruction.html" class="image fit"><img  src="https://image.slidesharecdn.com/sfmmvs-141103184028-conversion-gate02/95/slam-visual-odometry-structure-from-motion-multiple-view-stereo-69-638.jpg?cb=1496806700" alt="3D reconstruction using 2D images" /></a>
+                        <h2 class="post-title" >3D reconstruction using 2D images</h2>
                         <p class="post-meta">
                         
                         
                             
-                                • Chaithanya Naik Mude&nbsp;&nbsp;&nbsp;
+                                • Siddhesh Pawar&nbsp;&nbsp;&nbsp;
+                            
+                                • Hrushikesh Bodas&nbsp;&nbsp;&nbsp;
                             
                         <br/>
                         • Development, Image Processing, Machine Learning<br/>
                         </p>
                         <p class="post-meta" style="color:#555f66">
+                        
+                        <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Mentees:</span>
+                            
+				<br/>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">• 4</span>
+                            
+			    <br/>
                         
                         
                         
@@ -337,7 +348,10 @@
                             <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">
                                 
 								<br/>
-                                <span style="float: left; margin-left: 50pt">• Email - <a target="_blank" href="mailto:chaithanyampcrl@gmail"> chaithanyampcrl@gmail</a></span>
+                                <span style="float: left; margin-left: 50pt">• Messenger - <a target="_blank" href="https://www.facebook.com/profile.php?id=100014112017403"> Siddhesh Pawar  </a></span>
+                                
+								<br/>
+                                <span style="float: left; margin-left: 50pt">• Whatsapp - 9923536479</span>
                                 
                             </span>
                             
@@ -352,87 +366,80 @@
                     <div>
                         <hr />
 
+<p>Producing 2D images of a 3D world is inherently a lossy process, i.e. the entire geometric richness of 3D gets projected onto a single flat 2D image. We aim to create an API in Python which primarily reconstructs 3D volumes from 2D X-Ray Images.</p>
+
 <!--break-->
 
-<p>Rubik’s cube is one of the most fascinating 3-D combination puzzles we encounter. It is simple to understand the game, given a permutation we need to reduce the cube to a single goal state by rotating it. In this project, we will accomplish solving this cube with as minimum rotations as possible using the ideas of reinforcement learning.</p>
-
-<p>There will be three modules that need to be completed.</p>
+<p>We see this  project as the first step towards a diagnostic tool in conditions where either no CT equipment or the education to interpret x-ray imagery is available, such as for mobile x-ray devices, lay users, or medical diagnostics in developing countries. The project is primarily divided into 2 parts:
+<!--break--></p>
 <ol>
-  <li>Given the details about the faces of the cube, solve the puzzle in the back-end.</li>
-  <li>Given an image, extract the details about the faces of the cube using various image processing and possibly ML techniques</li>
-  <li>Develop an user interface for the above solution.</li>
+  <li>
+    <p>Implementation of various CNN architectures for 3D reconstruction from 2D images(3 people would be working on this part)</p>
+  </li>
+  <li>
+    <p>Development of API(back-end framework for the above task).1 mentee would be working on this part.
+<!--break--></p>
+  </li>
 </ol>
 
-<p>References:</p>
-<ol>
-  <li><a>https://www.nature.com/articles/s42256-019-0070-z</a></li>
-  <li><a>https://arxiv.org/abs/1805.07470</a></li>
-</ol>
+<p>Part 1 has some hard pre-requisites while anyone who has an interest in python or has done some basic programming in python or java-script can apply for part 2.
+<!--break--></p>
 
-<!--break-->
+<p>Pre-requisites for part 1: Must be familiar with any one of the following deep learning frameworks: Pytorch/Tensorflow/Theano/Keras.  A basic idea of neural networks and machine learning is required. Previous experience in image processing is desired although is not a hard pre-requisite. 
+<!--break--></p>
 
-<h3 id="tentative-project-timeline">Tentative Project Timeline</h3>
+<p>Interested people in this part should go through the following paper while applying:
+<a href="https://arxiv.org/pdf/1710.04867.pdf">https://arxiv.org/pdf/1710.04867.pdf</a>
+Note: If you are new to deep learning, it is recommended that you should go through the first 5 chapters of the book before applying:
+<a href="https://www.goodreads.com/book/show/33986067-deep-learning-with-python">https://www.goodreads.com/book/show/33986067-deep-learning-with-python</a>
+<!--break--></p>
 
-<!--break-->
+<h3 id="tentative-timeline">Tentative Timeline:</h3>
 
 <table>
   <thead>
     <tr>
-      <th>Week Number</th>
-      <th>Tasks to be Completed</th>
+      <th>Week</th>
+      <th>Work</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Week 1</strong></td>
-      <td>Learn python and python-on-android, play with Rubik’s cubes to get a clear grasp about the problem. Try pycuber, a python package for dealing with Rubik’s cubes, which helps in creating graphical user interface.</td>
+      <td>Week 1 and 2(Pre-Endsems)</td>
+      <td>Reading of related material and learning relevant applications of the framework that would be used(mostly Keras and PyTorch)</td>
     </tr>
     <tr>
-      <td><strong>Week 2</strong></td>
-      <td>Go through the available literature on the problem. Understand basic algorithms and concepts of Reinforcement learning pertaining to the problem.</td>
+      <td>Week 3</td>
+      <td>Testing and implementing Simple CNN architectures</td>
     </tr>
     <tr>
-      <td><strong>Week 3</strong></td>
-      <td>Try out various Q-learning, Deep Q-learning examples and MCTS.</td>
+      <td>Week 4 and 5</td>
+      <td>Working on Designing and implementation of 3D reconstruction from multiple images along with data pre-processing</td>
     </tr>
     <tr>
-      <td><strong>Week 4</strong></td>
-      <td>Implement Deep Q-learning and MCTS for our problem.</td>
+      <td>Week 6 and 7</td>
+      <td>Programming and testing of various models for 3D reconstruction from single 2D image</td>
     </tr>
     <tr>
-      <td><strong>Week 5</strong></td>
-      <td>Measure performance against benchmark and hyper-parameter tuning.</td>
-    </tr>
-    <tr>
-      <td><strong>Week 6</strong></td>
-      <td>Buffer week to finish up with documentation</td>
-    </tr>
-    <tr>
-      <td><strong>Week 7</strong></td>
-      <td>Given an image taken from a good viewpoint, extract the details.</td>
-    </tr>
-    <tr>
-      <td><strong>Week 8</strong></td>
-      <td>Create a graphical user interface to upload the images of the cubes and return with an animation of the solution.</td>
-    </tr>
-    <tr>
-      <td><strong>Week 9</strong></td>
-      <td>Buffer week to finish up with presentation and documentation</td>
+      <td>Week 8</td>
+      <td>Further improvements on the models that have been created above.</td>
     </tr>
   </tbody>
 </table>
 
 <!--break-->
+<hr />
+
 
                     </div>
 
                     <footer style="margin-bottom: 10em">
                         
-                        <a href="/soc_projects/62-chaitanya-krittika.html#nav" class="float-left button small">&larr; Previous project</a>
+                        <a href="/soc_projects/44-akshit-gan.html#nav" class="float-left button small">&larr; Previous project</a>
                         
 
                         
-                        <a href="/soc_projects/64-rwitaban-computer-graphics.html#nav" class="float-right button small">Next project &rarr;</a>
+                        <a href="/soc_projects/46-vishal-cv-workbench.html#nav" class="float-right button small">Next project &rarr;</a>
                         
                         <br><br>
                         <a href="/soc#two" class="button small special float-center"> View all projects</a>
