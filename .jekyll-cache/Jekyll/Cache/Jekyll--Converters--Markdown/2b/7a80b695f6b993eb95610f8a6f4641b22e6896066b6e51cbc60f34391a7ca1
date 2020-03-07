@@ -1,0 +1,88 @@
+I"�<hr />
+
+<p>Extracting potentially useful information from videos, like presence of faces, humans, specific objects, motion, tracking etc. is an indispensable part of video analysis.
+<!--break--></p>
+
+<p>Recent advancements in deep learning have demonstrated good accuracies on many of these tasks, however these models do not yet generalize well to the unseen real-world deployments.
+<!-- break--></p>
+
+<p>Though the accuracy numbers for these off the shelf models have been reported and can be computed on standard existing datasets, there is currently no way to estimate how would these models perform when challenged in real-world deployments. This makes it necessary to have at least a qualitative comparison of different models against each other on such challenging, unlabelled videos.</p>
+
+<!-- break-->
+
+<p>To enable this, we envision a workbench tool (Python GUI) which will make it easy to compare any two models on a given video for a given task and “see” how they perform. It will be released as open source software. This tool will help understand the “real” strengths and weaknesses of different models for different tasks and will help give important directions to undertake future research.</p>
+
+<!-- break-->
+
+<p>To begin with we can focus on the following computer vision tasks: Motion detection, Face detection, Face recognition, Human detection, Head detection, Object detection, Tracking. A typical use of this tool will involve selecting the task, selecting a video, selecting two models/algorithms to compare and as a result seeing a side by side comparison of the analyzed video played synchronously along with other measurable parameters like time taken etc.</p>
+
+<!--break-->
+
+<h3 id="tentative-timeline">Tentative Timeline:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week</th>
+      <th>Work</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Week 1</td>
+      <td>Understanding the various computer vision tasks involved</td>
+    </tr>
+    <tr>
+      <td>Week 2</td>
+      <td>Motion Detection - stand alone implementations using various alternate techniques</td>
+    </tr>
+    <tr>
+      <td>Week 3</td>
+      <td>Face Detection - stand alone implementations using various alternate off the shelf models/techniques</td>
+    </tr>
+    <tr>
+      <td>Week 4</td>
+      <td>Object detection - stand alone implementations using various alternate off the shelf models/techniques</td>
+    </tr>
+    <tr>
+      <td>Week 5</td>
+      <td>Tool design, architecture and skeleton implementation</td>
+    </tr>
+    <tr>
+      <td>Week 6</td>
+      <td>Integrating motion detection in tool</td>
+    </tr>
+    <tr>
+      <td>Week 7</td>
+      <td>Integrating face detection in tool</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>Integrating object detection in tool</td>
+    </tr>
+    <tr>
+      <td>Week 9</td>
+      <td>Face recognition</td>
+    </tr>
+    <tr>
+      <td>Week 10</td>
+      <td>Human detection</td>
+    </tr>
+    <tr>
+      <td>Week 11</td>
+      <td>Head detection</td>
+    </tr>
+    <tr>
+      <td>Week 12</td>
+      <td>Tracking</td>
+    </tr>
+    <tr>
+      <td>Week 13</td>
+      <td>Buffer/Enhancements/Closure</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- break-->
+<hr />
+:ET

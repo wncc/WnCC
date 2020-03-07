@@ -16,17 +16,19 @@ contact:
 
 ---
 
-Extracting potentially useful information from videos, like presence of faces, humans, specific objects, motion, tracking etc. is an indispensable part of video analysis. 
+Extracting potentially useful information from videos, like presence of faces, humans, specific objects, motion, tracking etc. is an indispensable part of video analysis.
 
-Recent advancements in deep learning have demonstrated good accuracies on many of these tasks, however these models do not yet generalize well to the unseen real-world deployments. 
+<!--break-->
 
-<!-- break-->
-
-Though the accuracy numbers for these off the shelf models have been reported and can be computed on standard existing datasets, there is currently no way to estimate how would these models perform when challenged in real-world deployments. This makes it necessary to have at least a qualitative comparison of different models against each other on such challenging, unlabelled videos. 
+Recent advancements in deep learning have demonstrated good accuracies on many of these tasks, however these models do not yet generalize well to the unseen real-world deployments.
 
 <!-- break-->
 
-To enable this, we envision a workbench tool (Python GUI) which will make it easy to compare any two models on a given video for a given task and "see" how they perform. It will be released as open source software. This tool will help understand the "real" strengths and weaknesses of different models for different tasks and will help give important directions to undertake future research. 
+Though the accuracy numbers for these off the shelf models have been reported and can be computed on standard existing datasets, there is currently no way to estimate how would these models perform when challenged in real-world deployments. This makes it necessary to have at least a qualitative comparison of different models against each other on such challenging, unlabelled videos.
+
+<!-- break-->
+
+To enable this, we envision a workbench tool (Python GUI) which will make it easy to compare any two models on a given video for a given task and "see" how they perform. It will be released as open source software. This tool will help understand the "real" strengths and weaknesses of different models for different tasks and will help give important directions to undertake future research.
 
 <!-- break-->
 
