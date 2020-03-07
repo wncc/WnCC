@@ -299,6 +299,18 @@
                         
                         
                         
+                        <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/47-sudhir-neural.html#nav">3D Object Classification using Mesh Neural Network</a></li>
+                        
+                        
+                        
+                        <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/48-anubhav-ML.html#nav">Lossless high entropy compression algorithm</a></li>
+                        
+                        
+                        
+                        <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/49-lalit-mlgym.html#nav">ML GYM</a></li>
+                        
+                        
+                        
                         <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/60-yash-kaggle.html#nav">Introduction to Kaggle and Machine Learning</a></li>
                         
                         
@@ -312,6 +324,10 @@
                         
                         
                         <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/64-rwitaban-computer-graphics.html#nav">Planet/Atmosphere Renderer using OpenGL</a></li>
+                        
+                        
+                        
+                        <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/65-divyansh-depth.html#nav">Digital Depth Perception</a></li>
                         
                         
                     </ul>
