@@ -7,11 +7,14 @@ mentor:
 category: "Image processing, Machine Learning, Graphics"
 application_procedure: "proposal"
 weight: 30
-ribbon: open
+ribbon: completed
 stipend: INR 3000
 contact:
 - <a target="_blank" href="mailto:rohit.rango@gmail.com">Email ID</a> - rohit.rango@gmail.com
 mentees:
+- Niraj Mahajan
+- Rohan Gupta
+- Mohd Safwan
 ---
 
 ---
