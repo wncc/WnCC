@@ -8,10 +8,20 @@ mentor:
 category: "Image Processing & Machine Learning"
 application_procedure: "proposal"
 weight: 25
-ribbon: open
+ribbon: completed
 mentees: 
-- 2 to be selected
+- Pritam Chaudhari
+- KOSHLENDRA DUBEY
+- Pankaj Singh
 stipend: INR 3000
+completed:
+- KOSHLENDRA DUBEY
+- Pritam Chaudhari
+- Pankaj Singh
+link:
+- https://github.com/koshal123/deep-learning-challenge.git
+- https://github.com/pritam27/HC18/blob/master/HC18.ipynb
+- https://github.com/Pankaj1357/HC18-Grand-Challenge
 contact: 
 - Messenger - <a target="_blank" href= "https://www.messenger.com/t/thehellblazer57"> Mohd Safwan </a>
 - Slack

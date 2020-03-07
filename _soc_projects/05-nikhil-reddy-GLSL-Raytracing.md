@@ -8,10 +8,18 @@ mentor:
 category: "Development & Computer Graphics"
 application_procedure: "proposal"
 weight: 40
-ribbon: new
+ribbon: completed
 mentees: 
-- 2 to be selected
+- Vinayaka Srivardhan Gosula
+- Rohan Gupta
+- Dorna Vineeth
 stipend: INR 3000
+completed:
+- Dorna Vineeth
+- Vinayaka Gosula Srivardhan
+link:
+- https://github.com/Dornavineeth/BlackHole_Simulator
+- https://github.com/VinayakaGosula/Black-Hole-Lensing
 contact: 
 - <a target="_blank" href="mailto:rnr1410@gmail.com\">Email</a> - rnr1410@gmail.com
 - <a target="_blank" href="https://www.facebook.com/rnr1410">Facebook</a>

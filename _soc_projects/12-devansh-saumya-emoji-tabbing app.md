@@ -8,13 +8,21 @@ mentor:
 category: "Development, Web Development"
 application_procedure: "proposal"
 weight: 30
-ribbon: open
+ribbon: completed
 stipend: INR 3000
+completed:
+- Pulkit Agrawal
+- Aditya Sonawane
+- Shivprasad kathane
+link:
+- https://github.com/adityasonawane942/tabbing_.git
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/devansh.garg.549">Devansh Garg</a>
 - <a target="_blank" href="mailto:devansh.garg22@gmail.com">Email ID</a> - devansh.garg22@gmail.com
 mentees:
-- 3 will be accepted
+- Pulkit Agrawal
+- Aditya Sonawane
+- Shivprasad kathane
 ---
 
 ---
