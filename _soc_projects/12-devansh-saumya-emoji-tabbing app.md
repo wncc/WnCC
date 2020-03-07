@@ -8,7 +8,7 @@ mentor:
 category: "Development, Web Development"
 application_procedure: "proposal"
 weight: 30
-ribbon: open
+ribbon: completed
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/devansh.garg.549">Devansh Garg</a>

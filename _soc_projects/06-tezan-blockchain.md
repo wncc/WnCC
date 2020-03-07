@@ -8,7 +8,7 @@ mentor:
 category: "Web Development & Blockchain"
 application_procedure: "proposal"
 weight: 40
-ribbon: new
+ribbon: completed
 mentees: 
 - Rishav Ranjan
 - Devank Rajvanshi

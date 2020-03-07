@@ -6,7 +6,7 @@ mentor: "Kumar Ayush"
 category: "Computer Graphics"
 application_procedure: "proposal"
 weight: 65
-ribbon: open
+ribbon: completed
 stipend: INR 3000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/cheekujodhpur">Kumar Ayush</a>

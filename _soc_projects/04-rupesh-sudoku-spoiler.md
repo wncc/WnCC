@@ -9,7 +9,7 @@ mentor:
 category: "Development, Image Processing & Machine Learning"
 application_procedure: "proposal"
 weight: 40
-ribbon: new
+ribbon: completed
 mentees: 
 - Pratyush Agarwal
 - Harshad Ingole

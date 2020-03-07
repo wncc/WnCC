@@ -8,7 +8,7 @@ mentor:
 category: "Development & Computer Graphics"
 application_procedure: "proposal"
 weight: 40
-ribbon: new
+ribbon: completed
 mentees: 
 - Ajinkya Werulkar
 - Devak Sinha

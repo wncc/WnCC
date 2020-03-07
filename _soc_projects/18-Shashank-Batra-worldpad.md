@@ -7,7 +7,7 @@ mentor:
 category: "Development, Machine Learning, Augmented Reality, Computer Vision"
 application_procedure: "proposal"
 weight: 30
-ribbon: open
+ribbon: completed
 stipend: INR 3000
 contact:
 - <a target="_blank" href="mailto:shashank.batra.sb@gmail.com ">Email ID</a> - shashank.batra.sb@gmail.com

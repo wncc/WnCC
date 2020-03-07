@@ -7,7 +7,7 @@ mentor:
 category: "Development, Web Development, Machine Learning"
 application_procedure: "proposal"
 weight: 40
-ribbon: new
+ribbon: completed
 mentees: 
 - Shubham Gupta
 - Vipul Agarwal

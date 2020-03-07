@@ -7,7 +7,7 @@ mentor:
 category: "Development, Web Development"
 application_procedure: "proposal"
 weight: 30
-ribbon: Open
+ribbon: completed
 stipend: INR 3000
 contact:
 - <a target="_blank" href="mailto:mohitkyadav@outlook.com">Email ID</a> - mohitkyadav@outlook.com

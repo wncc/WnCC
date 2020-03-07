@@ -13,7 +13,7 @@ mentees:
 - Shreya Pathak
 - Arpit Singh
 weight: 30
-ribbon: open
+ribbon: completed
 stipend: INR 3000
 contact:
 

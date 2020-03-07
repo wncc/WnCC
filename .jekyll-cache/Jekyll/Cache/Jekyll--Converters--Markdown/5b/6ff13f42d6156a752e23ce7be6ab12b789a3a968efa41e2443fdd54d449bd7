@@ -1,0 +1,28 @@
+I"�<hr />
+
+<p>Yann LeCun described GANs as “the most interesting idea in the last 10 years in Machine Learning”. And, indeed, Generative Adversarial Networks (GANs for short) have had a huge success since they were introduced in 2014 by Ian J. Goodfellow.</p>
+
+<!--break-->
+
+<p>This project will involve learning many machine learning algorithms leading to GANs. Mentees will implement a Generative Adversarial Network from scratch.
+<!--break--></p>
+
+<p>For students who have participated in Summer of Science (Machine Learning track) before, this would be a great hands-on project!</p>
+
+<!--break-->
+
+<h3 id="tentative-timeline">Tentative Timeline:</h3>
+
+<ul>
+  <li>Learn/Brush-up Python, Torch, Jupyter, Numpy, Unix commands</li>
+  <li>Learn Linear Regression, Logistic Regression, Neural Networks</li>
+  <li>Read up on the use cases and building blocks of Deep Learning.</li>
+  <li>Implement a generative adversarial network from scratch and train it on toy dataset.</li>
+  <li>Learn PyTorch/TensorFlow, implement a GAN network using the library.</li>
+  <li>Start collecting data and training.</li>
+  <li>Document all interesting observations</li>
+</ul>
+
+<!--break-->
+<hr />
+:ET

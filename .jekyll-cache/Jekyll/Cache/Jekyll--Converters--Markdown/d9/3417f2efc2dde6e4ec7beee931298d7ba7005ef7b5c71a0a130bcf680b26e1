@@ -1,0 +1,6 @@
+I"<p>Wirespace was developed collectively by <a href="https://github.com/krsrv">Kumar Saurav</a>, <a href="https://github.com/saunack">Kumar Saunack</a> and <a href="https://github.com/ys1998">Yash Shah</a>, for simplifying file sharing amongst people in the same network.</p>
+
+<p>It is a decentralized file server application which, if permitted, allows clients to directly access file storage on the server side. To put it simply, the software creates a local file server which clients can connect to and read/write directly. The project runs on the browser, so only the server needs to have a copy of the software - the only exception being when the client wants to use the in-place editor.</p>
+
+<p>The repository resides <a href="https://github.com/ys1998/Wirespace">here</a>.</p>
+:ET

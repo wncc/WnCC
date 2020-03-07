@@ -1,0 +1,184 @@
+I"�!<!-- Banner -->
+<section id="banner" style="background-image:url(/images/showcase.jpg)">
+    <div class="inner">
+        <h2>Showcase</h2>
+        <h3 style="color: #fff; font-weight: 600;">The Hall of Fame</h3>
+        <!-- <ul class="actions">
+            <li><a href="#one" class="button big special">Join The Force</a></li>
+        </ul>
+        <ul class="actions">
+            <li><a href="#two" class="button big special">Projects</a></li>
+        </ul> -->
+    </div>
+</section>
+
+<!-- Main -->
+<section id="main" class="wrapper style1">
+    <header class="major">
+       <!--  <h2>No Sidebar</h2>
+        <p>Tempus adipiscing commodo ut aliquam blandit</p> -->
+    </header>
+    <div class="container">
+    
+    
+        <div class="row">
+            <div class="12u">
+                <section class="special">
+                    <a href="https://github.com/arpan98/hold-the-beat" class="hyperlink-nodecoration">
+                        <h2 style="font-weight: 500;" id="Hold The Beat">Hold The Beat</h2>
+                    </a>
+                	<a href="http://arpan98.github.io/hold-the-beat" class="image fit">
+                        <img src="/images/HoldTheBeat.png" alt="" />
+                    </a>
+                    <div style="margin: 0 auto;">
+                        <a href="https://github.com/arpan98"><img src="https://avatars3.githubusercontent.com/u/13916525?v=3&amp;s=400" alt="" class="avatar" /></a>
+                        <a href="https://github.com/arpan98" class="hyperlink-nodecoration"><h3 style="font-weight: 400;">Arpan Banerjee</h3></a>
+                    </div>
+                    <h4 style="font-weight: 500;">
+                    
+	                    
+	                     • Game
+	                    
+	                     • Web App
+	                    
+                    
+                    </h4>
+                    <p><p>A simple, yet elegant game to test your sense of rhythm. Keep clicking to the beat as it fades away, and try to create a new highscore! The repository where this <a href="http://arpan98.github.io/hold-the-beat">website</a> resides can be found <a href="https://github.com/arpan98/hold-the-beat">here</a>.</p>
+</p>
+                    <!-- <ul class="actions">
+                        <li><a href="#" class="button alt">Learn More</a></li>
+                    </ul> -->
+                </section>
+            <hr class="major" />
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="12u">
+                <section class="special">
+                    <a href="https://github.com/nihal111/J.A.R.V.I.S" class="hyperlink-nodecoration">
+                        <h2 style="font-weight: 500;" id="J.A.R.V.I.S.">J.A.R.V.I.S.</h2>
+                    </a>
+                	<a href="https://github.com/nihal111/J.A.R.V.I.S" class="image fit">
+                        <img src="/images/JARVIS.jpg" alt="" />
+                    </a>
+                    <div style="margin: 0 auto;">
+                        <a href="https://github.com/nihal111"><img src="https://avatars0.githubusercontent.com/u/13916513?v=3&amp;s=400" alt="" class="avatar" /></a>
+                        <a href="https://github.com/nihal111" class="hyperlink-nodecoration"><h3 style="font-weight: 400;">Nihal Singh</h3></a>
+                    </div>
+                    <h4 style="font-weight: 500;">
+                    
+	                    
+	                     • AI
+	                    
+	                     • Python
+	                    
+                    
+                    </h4>
+                    <p><p>A simple personal assistant driven by text and voice with limitless possibilities of adding more features. Uses AIML (Artificial Intelligence Markup Language) for pattern matching and chatbot abilities along with a few python and shell scripts to carry out system processes. The repository resides <a href="https://github.com/nihal111/J.A.R.V.I.S">here</a>.</p>
+</p>
+                    <!-- <ul class="actions">
+                        <li><a href="#" class="button alt">Learn More</a></li>
+                    </ul> -->
+                </section>
+            <hr class="major" />
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="12u">
+                <section class="special">
+                    <a href="https://github.com/udiboy1209/bellatrix" class="hyperlink-nodecoration">
+                        <h2 style="font-weight: 500;" id="Bellatrix">Bellatrix</h2>
+                    </a>
+                	<a href="https://github.com/udiboy1209/bellatrix" class="image fit">
+                        <img src="/images/bellatrix.jpg" alt="" />
+                    </a>
+                    <div style="margin: 0 auto;">
+                        <a href="https://github.com/udiboy1209"><img src="https://avatars3.githubusercontent.com/u/7384411?v=3&amp;s=400" alt="" class="avatar" /></a>
+                        <a href="https://github.com/udiboy1209" class="hyperlink-nodecoration"><h3 style="font-weight: 400;">Meet Udeshi</h3></a>
+                    </div>
+                    <h4 style="font-weight: 500;">
+                    
+	                    
+	                     • Augmented Reality
+	                    
+	                     • Computer Vision
+	                    
+                    
+                    </h4>
+                    <p><p>This is an augemented reality gaming platform. The game is projected on a screen and a camera records the user interaction with the screen. The repository resides <a href="https://github.com/udiboy1209/bellatrix">here</a>.</p>
+<style>
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<div class="videowrapper">
+	<iframe width="1024" height="500" src="https://www.youtube.com/embed/v_A9FpL3Sa4" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</p>
+                    <!-- <ul class="actions">
+                        <li><a href="#" class="button alt">Learn More</a></li>
+                    </ul> -->
+                </section>
+            <hr class="major" />
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="12u">
+                <section class="special">
+                    <a href="https://github.com/ys1998/Wirespace" class="hyperlink-nodecoration">
+                        <h2 style="font-weight: 500;" id="Wirespace">Wirespace</h2>
+                    </a>
+                	<a href="https://github.com/ys1998/Wirespace" class="image fit">
+                        <img src="/images/Wirespace.jpg" alt="" />
+                    </a>
+                    <div style="margin: 0 auto;">
+                        <a href="https://github.com/ys1998"><img src="https://avatars1.githubusercontent.com/u/22793037?s=460&amp;v=4" alt="" class="avatar" /></a>
+                        <a href="https://github.com/ys1998" class="hyperlink-nodecoration"><h3 style="font-weight: 400;">Yash Shah</h3></a>
+                    </div>
+                    <h4 style="font-weight: 500;">
+                    
+	                    
+	                     • File Sharing
+	                    
+	                     • Web App
+	                    
+	                     • Python3
+	                    
+	                     • Django
+	                    
+                    
+                    </h4>
+                    <p><p>Wirespace was developed collectively by <a href="https://github.com/krsrv">Kumar Saurav</a>, <a href="https://github.com/saunack">Kumar Saunack</a> and <a href="https://github.com/ys1998">Yash Shah</a>, for simplifying file sharing amongst people in the same network.</p>
+
+<p>It is a decentralized file server application which, if permitted, allows clients to directly access file storage on the server side. To put it simply, the software creates a local file server which clients can connect to and read/write directly. The project runs on the browser, so only the server needs to have a copy of the software - the only exception being when the client wants to use the in-place editor.</p>
+
+<p>The repository resides <a href="https://github.com/ys1998/Wirespace">here</a>.</p>
+</p>
+                    <!-- <ul class="actions">
+                        <li><a href="#" class="button alt">Learn More</a></li>
+                    </ul> -->
+                </section>
+            <hr class="major" />
+            </div>
+        </div>
+    
+    </div>
+</section>
+:ET
