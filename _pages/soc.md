@@ -56,7 +56,7 @@ div.tab button.active {
     <div class="inner">
         <h2>Seasons Of Code 2019</h2>
         <p> An Initiative By <a href="https://www.wncc-iitb.org/">The Web and Coding Club, IIT Bombay</a><br/><br/>
-        Tentative Dates: <a href="">11th May - 11th July</a></p>
+        Tentative Dates: <a href="">10th April - 10th July</a></p>
         <ul class="actions">
             <li><a href="#one" class="button big special">Join The Force</a></li>
         </ul>
@@ -116,7 +116,7 @@ div.tab button.active {
 					<img class="icon major" src="{{ '/svg/light-siber-one.svg' | prepend: site.baseurl }}" />
 					<h3>Padawan</h3>
 					<p>The Force is strong with you. Train yourself to let go of everything you fear to lose. The Force will be with you always. Ready are you?</p><br>
-					<a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScF3u5o_D-6G4E8-jl5ftqDN27tLpnAmR5ThE81OKrMHuFzuQ/viewform?usp=sf_link" class="button big special">Become a Padawan</a>
+					<a target = "_blank" href="https://forms.gle/6hSaLUSB8Gfeogw7A" class="button big special">Become a Padawan</a>
 				</section>
 			</div>
 			<div class="6u">
