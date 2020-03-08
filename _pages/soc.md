@@ -116,7 +116,7 @@ div.tab button.active {
 					<img class="icon major" src="{{ '/svg/light-siber-one.svg' | prepend: site.baseurl }}" />
 					<h3>Padawan</h3>
 					<p>The Force is strong with you. Train yourself to let go of everything you fear to lose. The Force will be with you always. Ready are you?</p><br>
-					<a target = "_blank" href="https://forms.gle/k9AgtYfcaa738Hbn6" class="button big special">Become a Padawan</a>
+					<a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScF3u5o_D-6G4E8-jl5ftqDN27tLpnAmR5ThE81OKrMHuFzuQ/viewform?usp=sf_link" class="button big special">Become a Padawan</a>
 				</section>
 			</div>
 			<div class="6u">
@@ -185,8 +185,6 @@ div.tab button.active {
 	</div>
 </div>
 
-
-
 <div id="completed" class="tabcontent">
 <div class="container">
 <!-- the following line is optional to sort by weight -->
@@ -228,7 +226,6 @@ div.tab button.active {
 		</div>
 	</div>
 </div>
-
 
 
 

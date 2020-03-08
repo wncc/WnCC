@@ -38,5 +38,3 @@ For students who have participated in Summer of Science (Machine Learning track)
 | Week 9-10 | Learn PyTorch/TensorFlow, implement a GAN network using the library.|
 | Week 11-12 | Start collecting data and training. Document all interesting observations|
 
-<!--break-->
----

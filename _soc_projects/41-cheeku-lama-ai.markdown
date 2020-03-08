@@ -5,7 +5,7 @@ title: L.A.M.A. AI using Reinforcement Learning
 mentor: "Kumar Ayush, Anuj Shetty"
 category: "Machine Learning, Development"
 application_procedure: "none"
-weight: 65
+weight: 66
 ribbon: new
 stipend: INR 5000
 contact:

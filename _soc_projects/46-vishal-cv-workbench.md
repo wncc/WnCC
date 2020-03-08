@@ -53,6 +53,3 @@ To begin with we can focus on the following computer vision tasks: Motion detect
 |Week 11 | Head detection |
 |Week 12 | Tracking |
 |Week 13 | Buffer/Enhancements/Closure |
-
-<!-- break-->
----

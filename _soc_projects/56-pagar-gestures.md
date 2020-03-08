@@ -5,7 +5,7 @@ title: Gestures for 3D space
 mentor: "Pranav Pagar, Siddhesh Pawar"
 category: "Image Processing, Machine Learning, Front End development"
 application_procedure: "none"
-weight: 56
+weight: 52
 ribbon: new
 contact:
 
@@ -16,11 +16,10 @@ contact:
 
 ---
 
-<!--break-->
-
-### Gestures for 3d space (for AR/VR) 
 Have you ever wondered what will be the future of interaction with computers or smart devices. Well here is a clue, its going to be touch less.This project  will contain the research part as well as the development (front end and back end) part of the technology.
 
+
+<!--break-->
 
 ### Tentative Project Timeline
 <!--break-->
@@ -37,5 +36,3 @@ Have you ever wondered what will be the future of interaction with computers or 
 |**Week 8** |Front end development.|
 |**Week 9-10** |Refining and final presentation |
 
-
-<!--break-->

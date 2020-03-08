@@ -42,18 +42,3 @@ You can expect to learn about computer networks, security issues, socket program
 |**Week 9** |ML training and debugging |
 |**Week 10** | Buffer |
 
-<!--break-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-

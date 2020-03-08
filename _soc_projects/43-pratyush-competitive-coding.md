@@ -8,7 +8,7 @@ mentor:
 - Yash Gupta
 category: "Competitive Coding"
 application_procedure: "Proposal"
-weight: 65
+weight: 64
 ribbon: new
 contact:
 - <a target="_blank" href="https://join.slack.com/t/competitiveco-wld8763/shared_invite/enQtOTU0MTQ4MDE0NzcyLTBiYzU5N2UyODA0NWMzNGQwM2NlZmJmZDM2ZjMxZjlkMGYzYzI1M2M0NzA5M2Y3NTg0ZmQzNWY1OTFkM2RjMGQ">Slack</a>
@@ -44,5 +44,3 @@ Mention your familiarity with C++ and algorithms in the proposal. Also if you al
 |**Week 6** |Dynamic programming(advanced)|
 |**Week 7** |Graph representation, BFS, DFS|
 |**Week 8** |Dijkstra’s algorithm|
-
-<!--break-->

@@ -44,5 +44,3 @@ The following points must be included in the proposal for the project:
 |**Week 7** |Improve the architecture for better performance|
 |**Week 8** |Generate additional dataset and testing the robustness of the model|
 
-
-<!--break-->

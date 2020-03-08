@@ -20,19 +20,24 @@ contact:
 
 Producing 2D images of a 3D world is inherently a lossy process, i.e. the entire geometric richness of 3D gets projected onto a single flat 2D image. We aim to create an API in Python which primarily reconstructs 3D volumes from 2D X-Ray Images. 
 
-We see this  project as the first step towards a diagnostic tool in conditions where either no CT equipment or the education to interpret x-ray imagery is available, such as for mobile x-ray devices, lay users, or medical diagnostics in developing countries. The project is primarily divided into 2 parts:
 <!--break-->
+
+We see this  project as the first step towards a diagnostic tool in conditions where either no CT equipment or the education to interpret x-ray imagery is available, such as for mobile x-ray devices, lay users, or medical diagnostics in developing countries. The project is primarily divided into 2 parts:
+
 - Implementation of various CNN architectures for 3D reconstruction from 2D images(3 people would be working on this part)
 
 - Development of API(back-end framework for the above task).1 mentee would be working on this part.
+
 <!--break-->
 
 
 Part 1 has some hard pre-requisites while anyone who has an interest in python or has done some basic programming in python or java-script can apply for part 2.
+
 <!--break-->
 
 
 Pre-requisites for part 1: Must be familiar with any one of the following deep learning frameworks: Pytorch/Tensorflow/Theano/Keras.  A basic idea of neural networks and machine learning is required. Previous experience in image processing is desired although is not a hard pre-requisite. 
+
 <!--break-->
 
 
@@ -51,8 +56,4 @@ Note: If you are new to deep learning, it is recommended that you should go thro
 | Week 4 and 5 | Working on Designing and implementation of 3D reconstruction from multiple images along with data pre-processing |
 | Week 6 and 7 | Programming and testing of various models for 3D reconstruction from single 2D image |
 | Week 8 | Further improvements on the models that have been created above. |
-
-
-<!--break-->
----
 

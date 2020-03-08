@@ -6,7 +6,7 @@ mentor:
 - Divyansh Srivastava
 category: "Image Processing"
 application_procedure: "Proposal"
-weight: 65
+weight: 64
 ribbon: new
 contact:
 - Email <a target="_blank" href="mailto:divyanshsrivastava9125@gmail.com"> divyanshsrivastava9125@gmail.com</a> 
@@ -47,5 +47,3 @@ A two page proposal is mandatory in pdf form (other formats will not be entertai
 |**Week 7** |Image projections and introduction to different type of algorithms available online for digital distance measurement as well as their analysis.|
 |**Week 8** |Creation of simple algorithm for digital distance measurement and analysis of its space and time complexity.|
 |**Week 9** |Documentation of final report and analysis of real world scenarios where this algorithm can be used.|
-
-<!--break-->

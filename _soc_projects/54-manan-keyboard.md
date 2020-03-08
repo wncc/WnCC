@@ -14,11 +14,9 @@ contact:
 
 ---
 
-<!--break-->
-
-### Virtual Keyboard
 The project is about making a virtual keyboard that can be projected on any flat surface like a table and then can be used to type in real-time. To start with, we need to program image processing that senses touch at a certain key on the virtual setting of keyboard. after that we need to fetch programs for individual as well as combination of keys (ex. Shift + any letter = Capital).
 
+<!--break-->
 
 ### Tentative Project Timeline
 <!--break-->
@@ -31,4 +29,3 @@ The project is about making a virtual keyboard that can be projected on any flat
 |**Week 7-8** |Final programming for keyboard|
 |**Week 9-10** |Further advancements|
 
-<!--break-->

@@ -16,12 +16,12 @@ contact:
 
 ---
 
-<!--break-->
 
-### Introduction :
 This project focuses on the task of creating a UI for visualizing traffic flow in a city(a road network) using OpenGL.
 The problem of traffic congestion has seen different types of approaches from using simple heuristics to complex machine learning based approaches to predict correct traffic signals in a road network.
 This project does not aim to solve the traffic congestion problem! It will merely serve as a tool to help solving the aforementioned problem. 
+
+<!--break-->
 
 ### Details of Project :
 We will be using OpenGL to render a city and its various components. Elaborating the previous line , we will be creating models in C++ using OpenGL to simulate objects like roads, cars, traffic signals, road junctions etc (UI should be able to read object meshes provided by user for models). All this can be modeled in OpenGL without significant efforts , but the important part is to integrate the UI with the visual platform for e.g. rendering turns on roads as realistically as possible(using curve interpolations).

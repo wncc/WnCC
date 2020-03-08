@@ -16,10 +16,9 @@ contact:
 
 ---
 
-<!--break-->
-
-### Conversational Chatbot
 A conversational chatbot is a software that conducts conversation via auditory or textual methods. This project aims to build a closed-domain, generative-based conversational chatbot from scratch.
+
+<!--break-->
 
 The following will be executed :
 

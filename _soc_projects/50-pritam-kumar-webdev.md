@@ -5,7 +5,7 @@ title: Tools for Web Development
 mentor: "Pritam Kumar"
 category: "Web Development"
 application_procedure: "proposal"
-weight: 50
+weight: 48
 ribbon: new
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/profile.php?id=100027445014110">Pritam Kumar</a>
@@ -18,7 +18,7 @@ contact:
 
 Basic focus on learning coding related to different tools such as HTML, CSS, JavaScript, PHP, Angular and others required to develop a responsible Website.
 
----
+<!--break-->
 
 ### Reading Resourses
 - 1) [W3Schools](https://www.w3schools.com/)

@@ -15,10 +15,9 @@ contact:
 
 ---
 
-<!--break-->
-
 The project has two parts: The front-end is an Android app/website that provides an interface to choose food recipes and create schedules. The back-end will be a Django server that provides personalized recommendations through machine learning.
 
+<!--break-->
 
 ### Tentative Project Timeline
 <!--break-->

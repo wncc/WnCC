@@ -29,4 +29,3 @@ Ever dreamed of making the compression algorithm from Pied Piper featured in the
 |**Week 6,7** |Trying out various models and getting your hands dirty while aiming to achieve the objective|
 |**Week 8,9** | If above task is complete, packaging everything into an end-to-end pipeline |
 
-<!--break-->
