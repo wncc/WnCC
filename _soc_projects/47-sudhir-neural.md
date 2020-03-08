@@ -6,7 +6,7 @@ mentor:
 - Sudhir Shinde
 category: "Machine Learning"
 application_procedure: "Proposal"
-weight: 65
+weight: 47
 ribbon: new
 contact:
 - Email <a target="_blank" href="mailto:sudhirshinde@iitb.ac.in"> sudhirshinde@iitb.ac.in</a> 
@@ -17,8 +17,7 @@ Implementing mesh neural network for 3D shape representation.
 
 <!--break-->
 
-The project will be an implementation of the paper "MeshNet: Mesh Neural Network for 3D Shape Representation"  (AAAI 2019). 
-Paper Link (for more details) - <a href="https://arxiv.org/abs/1811.11424">https://arxiv.org/abs/1811.11424</a>
+The project will be an implementation of the paper <a href="https://arxiv.org/abs/1811.11424">MeshNet: Mesh Neural Network for 3D Shape Representation</a> (AAAI 2019). 
 Mesh is an important and powerful type of data for 3D shapes and widely studied in the field of computer vision and computer graphics. A lot of research is going on to improve the accuracy of the 3D model classification. This paper has achieved 91.9% accuracy. You are expected to implement this research paper. The additional work may include modifying the NN Architecture and train the model on additional datasets.
 
 The following points must be included in the proposal for the project:

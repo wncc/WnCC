@@ -22,7 +22,7 @@ show-in-header: false
 </p>
 
 <h3 style="font-weight: 900;">When does SoC happen?</h3>
-<p>Season of Code is scheduled to happen from 11th May to 11th July. These dates are tentative and may be a subject to change. The proposal portal however is now open and will close on 4th May.
+<p>Season of Code is scheduled to happen from 10th April to 10th July. These dates are tentative and may be a subject to change. The proposal portal however is now open and will close on 21st March.
 </p>
 
 <h3 style="font-weight: 900;">Do I get a room retention if I am doing SoC?</h3>
@@ -53,7 +53,7 @@ show-in-header: false
 </p>
 
 <h3 style="font-weight: 900;">How do I apply for SoC as a student?</h3>
-<p>To start off, fill the <a target = "_balnk" href="https://docs.google.com/forms/d/e/1FAIpQLScF3u5o_D-6G4E8-jl5ftqDN27tLpnAmR5ThE81OKrMHuFzuQ/viewform" >Padawan form</a> with details. Most projects require a proposal to be submitted containg details of what you plan to do. These details can be found on each project's page. If a proposal is not required for your project, fill "-" in the proposal field in the form. Note that you can submit the form whenever you want, before the deadline. The link to the proposal can be of a draft that you keep editin. On the deadline i.e. 4th May, we would download all proposals and consider them as final. Filling the proposal early may attract feedback from the respective project's mentor. You can also approach the mentor on your own for proposal feedback.
+<p>To start off, fill the <a target = "_balnk" href="https://forms.gle/k9AgtYfcaa738Hbn6" >Mentee form</a> with details. Most projects require a proposal to be submitted containg details of what you plan to do. These details can be found on each project's page. If a proposal is not required for your project, fill "-" in the proposal field in the form. Note that you can submit the form whenever you want, before the deadline. The link to the proposal can be of a draft that you keep editin. On the deadline i.e. 21st March, we would download all proposals and consider them as final. Filling the proposal early may attract feedback from the respective project's mentor. You can also approach the mentor on your own for proposal feedback.
 </p>
 
 <h3 style="font-weight: 900;">What should the proposal contain?</h3>
@@ -61,11 +61,11 @@ show-in-header: false
 </p>
 
 <h3 style="font-weight: 900;">Can I submit more than one proposal?</h3>
-<p>Yes, you surely can. Just fill the <a target = "_balnk" href="https://docs.google.com/forms/d/e/1FAIpQLScF3u5o_D-6G4E8-jl5ftqDN27tLpnAmR5ThE81OKrMHuFzuQ/viewform" >Padawan form</a> multiple times with links to your proposals. But you'll be selected for only one project.
+<p>Yes, you surely can. Just fill the <a target = "_balnk" href="https://forms.gle/k9AgtYfcaa738Hbn6" >Mentee form</a> multiple times with links to your proposals. But you'll be selected for only one project.
 </p>	
 
 <h3 style="font-weight: 900;">Can I mentor more than one project?</h3>
-<p>Yes, you can. Just fill the <a target = "_balnk" href="https://docs.google.com/forms/d/e/1FAIpQLSd57osi_wuufUt9caLo5q3QFXNzjXBhcuaKtj2RTK5OG5JFfw/viewform" >Master form</a> multiple times. Note that you would have to put in more time if you plan to mentor ultiple projects. Mentoring can take up a minimum of 4-5 hours per week for one project.
+<p>Yes, you can. Just fill the <a target = "_balnk" href="https://forms.gle/sDqEkrGi6KuLs146A" >Mentor form</a> multiple times. Note that you would have to put in more time if you plan to mentor ultiple projects. Mentoring can take up a minimum of 4-5 hours per week for one project.
 </p>	
 
 <h3 style="font-weight: 900;">How should I contact the mentor?</h3>
@@ -78,11 +78,11 @@ show-in-header: false
 
 
 <h3 style="font-weight: 900;">Should I send proposals directly to the mentoring organizations?</h3>
-<p>No only the proposals submitted through our portal, i.e. by submitting the <a target = "_balnk" href="https://docs.google.com/forms/d/e/1FAIpQLScF3u5o_D-6G4E8-jl5ftqDN27tLpnAmR5ThE81OKrMHuFzuQ/viewform" >Padawan form</a> will be considered valid.
+<p>No only the proposals submitted through our portal, i.e. by submitting the <a target = "_balnk" href="https://forms.gle/k9AgtYfcaa738Hbn6">Mentee form</a> will be considered valid.
 </p>
 
 <h3 style="font-weight: 900;">What if I have more questions?</h3>
-<p>Feel free to ping <a href = "https://www.facebook.com/profile.php?id=100000338522650">Abeen Bhattacharya</a> or  <a href = "https://www.facebook.com/09e.aakash">E Aakash</a>,  or any other WnCC Member. You can also directly message <a href="https://www.facebook.com/wncc.iitb/">WnCC</a>.
+<p>Feel free to ping <a href = "https://www.facebook.com/akshit1511">Akshit Srivastava</a> or  <a href = "https://www.facebook.com/latika.patel.526">Latika Patel</a>,  or any other WnCC Member. You can also directly message <a href="https://www.facebook.com/wncc.iitb/">WnCC</a>.
 </p>
 
 </section>

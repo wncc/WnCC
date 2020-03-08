@@ -8,7 +8,7 @@ category: "Development, Image Processing, Machine Learning, Deep Learning"
 application_procedure: "proposal"
 mentees:
 - 1
-weight: 40
+weight: 46
 ribbon: new
 contact: 
 - Email/Hangouts - vishal.kaushal@gmail.com

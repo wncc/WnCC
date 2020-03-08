@@ -9,7 +9,7 @@ category: "Development, Image Processing, Machine Learning"
 application_procedure: "proposal"
 mentees:
 - 4
-weight: 40
+weight: 45
 ribbon: new
 contact: 
 - Messenger - <a target="_blank" href="https://www.facebook.com/profile.php?id=100014112017403"> Siddhesh Pawar  </a>
@@ -20,14 +20,11 @@ contact:
 
 Producing 2D images of a 3D world is inherently a lossy process, i.e. the entire geometric richness of 3D gets projected onto a single flat 2D image. We aim to create an API in Python which primarily reconstructs 3D volumes from 2D X-Ray Images. 
 
-<!--break-->
-
-
 We see this  project as the first step towards a diagnostic tool in conditions where either no CT equipment or the education to interpret x-ray imagery is available, such as for mobile x-ray devices, lay users, or medical diagnostics in developing countries. The project is primarily divided into 2 parts:
 <!--break-->
-1. Implementation of various CNN architectures for 3D reconstruction from 2D images(3 people would be working on this part)
+- Implementation of various CNN architectures for 3D reconstruction from 2D images(3 people would be working on this part)
 
-2. Development of API(back-end framework for the above task).1 mentee would be working on this part.
+- Development of API(back-end framework for the above task).1 mentee would be working on this part.
 <!--break-->
 
 
@@ -39,10 +36,10 @@ Pre-requisites for part 1: Must be familiar with any one of the following deep l
 <!--break-->
 
 
-Interested people in this part should go through the following paper while applying:
-<https://arxiv.org/pdf/1710.04867.pdf>
-Note: If you are new to deep learning, it is recommended that you should go through the first 5 chapters of the book before applying:
-<https://www.goodreads.com/book/show/33986067-deep-learning-with-python>
+Interested people in this part should go through the following [paper](https://arxiv.org/pdf/1710.04867.pdf) while applying:
+
+Note: If you are new to deep learning, it is recommended that you should go through the first 5 chapters of the [book](https://www.goodreads.com/book/show/33986067-deep-learning-with-python) before applying:
+
 <!--break-->
 
 ### Tentative Timeline:

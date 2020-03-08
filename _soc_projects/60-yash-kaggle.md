@@ -8,7 +8,7 @@ mentor:
 - Vrinda Jindal
 category: "Machine Learning"
 application_procedure: "Proposal"
-weight: 65
+weight: 60
 ribbon: new
 contact:
 - Google Classroom - 2dupwpq(class code)

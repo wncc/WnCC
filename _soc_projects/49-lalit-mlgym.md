@@ -7,7 +7,7 @@ mentor:
 - Devak Sinha 
 category: "Machine Learning"
 application_procedure: "Proposal"
-weight: 65
+weight: 49
 ribbon: new
 contact:
 - Email Id- <a target="_blank" href="mailto:lalitpsaini@gmail.com,devakdsinha@gmail.com">lalitpsaini@gmail.com, devakdsinha@gmail.com</a>  

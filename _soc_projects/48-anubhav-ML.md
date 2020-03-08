@@ -6,7 +6,7 @@ mentor:
 - Anubhav Agarwal
 category: "Machine Learning, Signal Processing, Neural Networks"
 application_procedure: "proposal"
-weight: 65
+weight: 48
 ribbon: new
 contact:
 - Email <a target="_blank" href="mailto:agarwalanubhav.2011@gmail.com">agarwalanubhav.2011@gmail.com</a> 
