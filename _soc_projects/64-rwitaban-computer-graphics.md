@@ -7,7 +7,7 @@ mentor:
 - Arpit Singh
 category: "Computer Graphics"
 application_procedure: "Proposal"
-weight: 65
+weight: 64
 ribbon: new
 contact:
 - Whatsapp - 9560496948 (Rwitaban), 9004563670 (Arpit)

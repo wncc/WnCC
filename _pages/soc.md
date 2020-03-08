@@ -144,10 +144,9 @@ div.tab button.active {
 </div>
 <br/>
 
-<div id="completed" class="tabcontent">
+<div id="running" class="tabcontent">
 <div class="container">
-<!-- the following line is optional to sort by weight -->
-		{% assign projects = site.soc_projects | where:"ribbon","completed" | sort:"weight"  %}
+		{% assign projects = site.soc_projects | where:"ribbon","new" | sort:"weight"  %}
             {% for project in projects %}
             {% capture thecycle %}{% cycle '1', '2' ,'3' %}{% endcapture %}
             <!-- Creating a new row after every three elements -->
@@ -186,9 +185,10 @@ div.tab button.active {
 	</div>
 </div>
 
-<div id="running" class="tabcontent">
+<div id="completed" class="tabcontent">
 <div class="container">
-		{% assign projects = site.soc_projects | where:"ribbon","new" | sort:"weight"  %}
+<!-- the following line is optional to sort by weight -->
+		{% assign projects = site.soc_projects | where:"ribbon","completed" | sort:"weight"  %}
             {% for project in projects %}
             {% capture thecycle %}{% cycle '1', '2' ,'3' %}{% endcapture %}
             <!-- Creating a new row after every three elements -->

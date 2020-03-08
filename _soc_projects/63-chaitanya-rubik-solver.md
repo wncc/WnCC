@@ -6,7 +6,7 @@ mentor:
 - Chaithanya Naik Mude
 category: "Development, Image Processing, Machine Learning"
 application_procedure: "Proposal"
-weight: 65
+weight: 66
 ribbon: new
 contact:
 - Email - <a target="_blank" href="mailto:chaithanyampcrl@gmail"> chaithanyampcrl@gmail</a>
@@ -14,11 +14,9 @@ contact:
 
 ---
 
-
+Rubik’s cube is one of the most fascinating 3-D combination puzzles we encounter. It is simple to understand the game, given a permutation we need to reduce the cube to a single goal state by rotating it. In this project, we will accomplish solving this cube with as minimum rotations as possible using the ideas of reinforcement learning.
 
 <!--break-->
-
-Rubik’s cube is one of the most fascinating 3-D combination puzzles we encounter. It is simple to understand the game, given a permutation we need to reduce the cube to a single goal state by rotating it. In this project, we will accomplish solving this cube with as minimum rotations as possible using the ideas of reinforcement learning.
 
 There will be three modules that need to be completed. 
 1. Given the details about the faces of the cube, solve the puzzle in the back-end. 

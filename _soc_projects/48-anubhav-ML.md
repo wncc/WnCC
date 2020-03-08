@@ -6,7 +6,7 @@ mentor:
 - Anubhav Agarwal
 category: "Machine Learning, Signal Processing, Neural Networks"
 application_procedure: "proposal"
-weight: 65
+weight: 48
 ribbon: new
 contact:
 - Email <a target="_blank" href="mailto:agarwalanubhav.2011@gmail.com">agarwalanubhav.2011@gmail.com</a> 
@@ -29,4 +29,3 @@ Ever dreamed of making the compression algorithm from Pied Piper featured in the
 |**Week 6,7** |Trying out various models and getting your hands dirty while aiming to achieve the objective|
 |**Week 8,9** | If above task is complete, packaging everything into an end-to-end pipeline |
 
-<!--break-->

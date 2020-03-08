@@ -8,7 +8,7 @@ category: "Development, Image Processing, Machine Learning, Deep Learning"
 application_procedure: "proposal"
 mentees:
 - 1
-weight: 40
+weight: 46
 ribbon: new
 contact: 
 - Email/Hangouts - vishal.kaushal@gmail.com
@@ -53,6 +53,3 @@ To begin with we can focus on the following computer vision tasks: Motion detect
 |Week 11 | Head detection |
 |Week 12 | Tracking |
 |Week 13 | Buffer/Enhancements/Closure |
-
-<!-- break-->
----
