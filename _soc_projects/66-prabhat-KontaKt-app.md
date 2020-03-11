@@ -4,6 +4,7 @@ image: /images/kontakt.png
 title: KontaKt App
 mentor: 
 - Prabhat Singh
+-Saurav Garg
 category: "Development, Web Development, Machine Learning"
 application_procedure: "proposal"
 weight: 50
