@@ -6,23 +6,10 @@ mentor:
 - Prabhat Singh
 category: "Development, Web Development, Machine Learning"
 application_procedure: "proposal"
-weight: 40
-ribbon: completed
-mentees: 
-- Shubham Gupta
-- Vipul Agarwal
-- Jain Rajat
-- Hiya Vithlani
-stipend: INR 3000
-completed:
-- Rajat Jain
-link:
-- https://github.com/Rockingrajat/soc
-- https://github.com/Rockingrajat/Soc2  
-- https://github.com/Rockingrajat/Notification  
-
+weight: 50
+ribbon: new
 contact: 
-- Facebook - <a target="_blank" href="https://www.facebook.com/prabhat7758"> Prabhat Singh  </a>
+- Google Classroom Class Code - gvjebaw
 ---
 
 ---
