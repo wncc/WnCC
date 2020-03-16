@@ -4,10 +4,10 @@ image: /images/kontakt.png
 title: KontaKt App
 mentor: 
 - Prabhat Singh
--Saurav Garg
+- Saurav Garg
 category: "Development, Web Development, Machine Learning"
 application_procedure: "proposal"
-weight: 50
+weight: 69
 ribbon: new
 contact: 
 - Google Classroom Class Code - gvjebaw

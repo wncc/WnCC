@@ -5,22 +5,23 @@ title: Tinkerers’ Laboratory Website
 mentor: "Vivek Saurabh Verma"
 category: "Web Development"
 application_procedure: "proposal"
-weight: 67
-- Facebook - <a target="_blank" href="https://www.facebook.com/viveksaurabh.verma">Vivek Saurabh Verma</a> 
+weight: 68
+ribbon: new
+Facebook : <a target="_blank" href="https://www.facebook.com/viveksaurabh.verma">Vivek Saurabh Verma</a> 
 
+---
 ---
 
 Develop a Django website for Tinkerers’ Laboratory
 
----
 
 We are working to add on certain features to the pre-existing Tinkerers’ Laboratory website to incorporate it with a new setup for entry recording, issuing items from the lab, and access to machines using biometric data.
 
----
+<!--break-->
 
 This website needs to be capable to dynamically update to display inventory currently in the lab and people should be able flag errors/discrepancies which would them generate automatic notifications to alert the TL team. Additionally, machine availability and maintenance requests are to be made public. 
 
----
+<!--break-->
 
 No pre-requisites required.
 
