@@ -6,7 +6,7 @@ mentor:
 - Divyansh Srivastava
 category: "Image Processing"
 application_procedure: "Proposal"
-weight: 64
+weight: 69
 ribbon: new
 contact:
 - Email <a target="_blank" href="mailto:divyanshsrivastava9125@gmail.com"> divyanshsrivastava9125@gmail.com</a> 
@@ -14,10 +14,13 @@ contact:
 
 ---
 
-Implement image Processing to get calculate depth
+Digital Image Perception is a simplified algorithm to have the perception of depth (or distance) based on the two different images taken at same time from different (but related) perspectives. This project is inspired by the perception of depth (or distances) by human visual system. 
 
 <!--break-->
-Digital Image Perception is a simplified algorithm to have the perception of depth (or distance) based on the two different images taken at same time from different (but related) perspectives. This project is inspired by the perception of depth (or distances) by human visual system. We have two visual receptors that capture real world image at same instant but from two related but different perspectives.  We will use digital image correlation for most part of the project. We will mostly work on Google Colab.
+
+We have two visual receptors that capture real world image at same instant but from two related but different perspectives.  We will use digital image correlation for most part of the project. We will mostly work on Google Colab.
+
+<!--break-->
 
 Prerequisites:
 

@@ -2,4 +2,5 @@
 hook.rb
 .jekyll-metadata
 .DS_Store
-.jekyll-cache
+.jekyll-cache/
+_site/
