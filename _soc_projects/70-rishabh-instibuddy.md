@@ -14,7 +14,7 @@ contact:
 ---
 
 ---
-Insti buddy will be an assistant whoo helps you search telephone directory of IIT Bombay and keeps you updated with the Facebook feed of campus groups at IIT Bombay.
+Insti buddy will be an assistant who helps you search telephone directory of IIT Bombay and keeps you updated with the Facebook feed of campus groups at IIT Bombay.
 
 <!--break-->
 
@@ -33,7 +33,7 @@ Features:
 |--- | --- | 
 |**Week 1** |Set up necessary environment and learn some basics of GitHub and each platform |
 |**Week 2-3** |Learn basics of all languages which will be used in development( App- Java/kotlin; website - HTML/CSS/Javascript ; Server - Python )|
-|**Week 4-5** |Make a basic prototype model of (Creating a simple app with list views and basic UI; server - creating a UPI with get/POST requests)|
+|**Week 4-5** |Make a basic prototype model of (Creating a simple app with list views and basic UI; server - creating a API with get/POST requests)|
 |**Week 6-7** | Collect the data of all contacts or find the way to directly fetch them and research about methods to scrap posts from Facebook|
 |**Week 8-9** |Implementation of individual features , and testing|
 |**Week 10-11** |Debugging in code/improve code structure/Some buffer time|
