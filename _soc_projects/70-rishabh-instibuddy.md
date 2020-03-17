@@ -8,9 +8,7 @@ application_procedure: "none"
 weight: 70
 ribbon: new
 contact:
-
 - Email - <a target="_blank" href="mailto:rishabharya32@gmail.com">rishabharya32@gmail.com</a>
-
 - Email - <a target="_blank" href="mailto:latika452000@gmail.com">latika452000@gmail.com</a>
 
 ---
@@ -18,11 +16,14 @@ contact:
 ---
 Insti buddy will be an assistant whoo helps you search telephone directory of IIT Bombay and keeps you updated with the Facebook feed of campus groups at IIT Bombay.
 
+<!--break-->
+
 Features:
 
 - Contacts: Accsess Complete telephone directory of IIT Bombay. User may call, mail, and save contact directly using this feature
 
 - Notice: It will show Facebook feeds of all the campus groups relevant to user. Insti buddy also notifies user when anything new comes on these pages .
+
 <!--break-->
 
 ### Tentative Project Timeline

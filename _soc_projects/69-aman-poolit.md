@@ -8,16 +8,25 @@ application_procedure: "none"
 weight: 69
 ribbon: new
 contact:
-
 - Email - <a target="_blank" href="mailto:amankansal.cse@gmail.com">amankansal.cse@gmail.com</a>
-
 ---
 
 ---
-The project aims at extending the web application built for the pooling of possible services that can be shared. This is an idea we are implementing as one of our course projects but want to take it further. Here is an overview - 
+
+The project aims at extending the web application built for the pooling of possible services that can be shared. This is an idea we are implementing as one of our course projects but want to take it further. 
+
+<!--break-->
+
+Here is an overview - 
 
 Modern technology has transformed the marketplace worldwide. Apps and websites like Uber, Zomato, Amazon, and Flipkart have redefined the relationship between consumers and producers. With just the tap of a button, customers can bring the day to day services to their doorstep, giving an all-new meaning to consumerism.
+
+<!--break-->
+
 However, in this dynamic marketplace, there are no apps/websites which offer consumer-consumer interaction. What if you want to order food with friends? How do you find like-minded friends to go with for a movie? 
+
+<!--break-->
+
 Technology at hand ignores the social aspect of the marketplace. We seek to address this void by creating “Pool-It!”, a user-driven platform that brings consumers together. Now no more time wasted searching for the “10th” member to avail your group discount!
 
 - Before Pool-It! (real-life): Call a bunch of people to find out whether they are interested. 25% will say they already watched the movie, 25% will say outright that they are not interested, and the rest will spend at least 2 hours coordinating. ( college problems :) ). 

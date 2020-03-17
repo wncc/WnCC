@@ -25,13 +25,15 @@ layout: default
                 </section>
                 <hr />
                 <section>
-                    <h3>List of Projects</h3>
+                    <h3>List of Running Projects</h3>
                     <ul class="no-bullets">
                         {% for project in site.soc_projects%}
-                        {% if project.url == page.url %}
-                        <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >{{ project.title }}</a></li>
-                        {% else %}
-                        <li><a class="button small fit-sidebar soc_project_button" href="{{ project.url | prepend: site.baseurl  }}#nav">{{ project.title }}</a></li>
+                        {% if project.ribbon == "new" %}
+                            {% if project.url == page.url %}
+                            <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >{{ project.title }}</a></li>
+                            {% else %}
+                            <li><a class="button small fit-sidebar soc_project_button" href="{{ project.url | prepend: site.baseurl  }}#nav">{{ project.title }}</a></li>
+                            {% endif %}
                         {% endif %}
                         {% endfor %}
                     </ul>
