@@ -2,13 +2,13 @@
 layout: soc-project
 image: https://i.ibb.co/BVvg8Fk/soc.jpg
 title: Graphic Intensive MUSIC APP
-mentor: "Sudanshu Sahil, Ravi Jangir"
+mentor: "Sudhanshu Sahil, Ravi Jangir"
 category: "Development, Graphic Design and Animation"
 application_procedure: "proposal"
 weight: 68
 ribbon: new
 contact:
-- Facebook - <a target="_blank" href="https://www.facebook.com/sudhanshu.sahil">Sudanshu Sahil</a>
+- Facebook - <a target="_blank" href="https://www.facebook.com/sudhanshu.sahil">Sudhanshu Sahil</a>
 
 - Email ID - <a target="_blank" href="mailto:sudhanshusahil.14@gmail.com">sudhanshusahil.14@gmail.com</a> 
 
