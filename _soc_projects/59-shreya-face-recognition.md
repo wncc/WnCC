@@ -5,6 +5,10 @@ title: Face Recognition using Statistics
 mentor: "Shreya Pathak, Mohammad Ali Rehan"
 category: "Machine Learning"
 application_procedure: "none"
+mentees:
+- Harshit Gupta
+- Vibhav Aggarwal
+- Sanskar Jaiswal
 weight: 66
 ribbon: new
 contact:

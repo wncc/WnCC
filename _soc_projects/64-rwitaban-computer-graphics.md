@@ -7,6 +7,27 @@ mentor:
 - Arpit Singh
 category: "Computer Graphics"
 application_procedure: "Proposal"
+mentees:
+- Manan Garg
+- Andrews George
+- Deep Satra
+- Avin Rai
+- Harshit Srivastava
+- Ridayesh Parab
+- Raj Aryan Agrawal
+- Pradipta Parag Bora
+- Nabeel Ahmed
+- Sanidhya Anand
+- Rajvi Savla
+- Sambit Behera
+- Atharva Warhade
+- Dev Pratap Singh
+- Jay Vijay Sonawane
+- Mihir Shashikant Ghumbre
+- Meghna Dixit
+- Abhishek N Bhavsar
+- Ritik Mandal
+- Kaustubh Dighe
 weight: 64
 ribbon: new
 contact:

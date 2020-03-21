@@ -8,6 +8,30 @@ mentor:
 - Yash Gupta
 category: "Competitive Coding"
 application_procedure: "Proposal"
+mentees:
+- Akshat gautam
+- Aniket agrawal
+- Devak Sinha
+- Harsh Vinayak Borkar
+- Himanshu Wakode 
+- Hiren Bavaskar
+- Janeel Patel
+- karthikeya  reddy konda
+- Kunal Chhabra
+- Nilesh Sonune
+- Payal Choudhary
+- Prajwal Patil
+- Prajwal Singh
+- Prateek Chauhan
+- Raja Gond
+- Rishav Ranjan
+- Ruchir Chheda
+- Sahasra Ranjan
+- Shivang Tiwari
+- Sidharth Mundhra
+- Tamoghno Kandar
+- Vrinda Jindal
+- Manan Agarwal
 weight: 64
 ribbon: new
 contact:
