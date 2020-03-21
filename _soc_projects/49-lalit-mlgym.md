@@ -12,7 +12,18 @@ ribbon: new
 contact:
 - Email Id- <a target="_blank" href="mailto:lalitpsaini@gmail.com,devakdsinha@gmail.com">lalitpsaini@gmail.com, devakdsinha@gmail.com</a>  
 
----
+mentees:
+- Akash Vivek Chodankar
+- Anjali Yadav
+- D. Chandra Sekhara SS Hetha Havya
+- G. Raghunandan Reddy
+- Ishan Kapnadak
+- Koustav Sen
+- Prakhar Mittal
+- Shaan Shah
+- Shivam Raj
+- Prathmesh Jayaprakash
+- Sheel Shah
 
 ---
 

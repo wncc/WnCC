@@ -11,8 +11,14 @@ contact:
 - Email - <a target="_blank" href="mailto:thesmilingsky@gmail.com">thesmilingsky@gmail.com</a>
 - Facebook - <a target="_blank" href="https://www.facebook.com/gaganjain1582"> ID </a>
 - Whatsapp - <a href="https://chat.whatsapp.com/BzAYoiGJRVwFpQeXj3B4vU"> Group </a>
----
 
+mentees:
+- Heetak Shah
+- Suraj Samaga
+- Deepanshu
+- Vaishnavi Agarwal
+- Supreet Gupta
+- Ritwik Kadu
 ---
 
 We all have used scanned copies of books and have been irritated by the fact that we cannot directly navigate to a particular section of the document or do a Ctrl+F. This project aims to take unstructured text as the input data and to give us nice and good looking structured text. This is not only restricted to properly written text as in a book but also extends to targeting problems like a self driving car detecting and understanding random road signs, automatic detection systems to record and interpret number plates of vehicles which did not follow the red light, and much more! 

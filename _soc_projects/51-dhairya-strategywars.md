@@ -12,6 +12,14 @@ contact:
 
 - Email - <a target="_blank" href="mailto:jaindhairya2001@gmail.com">jaindhairya2001@gmail.com</a>
 
+mentees:
+- Ishita Gupta
+- Samanvaya Jain
+- Akshata Jain
+- Rohith Nithil G
+- Pragya Patel
+- Tejas Bhalla
+- Tejaswi Pagadala
 ---
 
 I'm planning to create a game that simulates a real-life situation, similar to those strategic games done by the finance club, IITB. What needs to be done is that we need to create a game using Django so that multiple students are able to play it in real-time. The student will learn OOPs concepts and Web Development through this project. He/she needs to learn FrontEnd Technologies (Html, CSS, JS, JQuery) to design an attractive interface for the players to play the game, Backend( Django), OOP in Python. 
