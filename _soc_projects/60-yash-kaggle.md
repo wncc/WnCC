@@ -7,6 +7,11 @@ mentor:
 - Pratyush Agarwal
 - Vrinda Jindal
 category: "Machine Learning"
+mentees:
+- Nishant Abhangi
+- Satdhruti Paul
+- Krushnakant Dilip Bhattad
+- Kartikey Gupta
 application_procedure: "Proposal"
 weight: 60
 ribbon: new

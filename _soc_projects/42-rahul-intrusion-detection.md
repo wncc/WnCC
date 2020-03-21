@@ -7,6 +7,14 @@ mentor:
 - Mohammad Taufeeque 
 category: "Network Security, Machine Learning"
 application_procedure: "proposal"
+mentees:
+- Hitesh Kandala
+- Navjeet Debnath
+- R.Kale Mastansha Goud
+- Senthil Kannan
+- Bhargavi Taralekar
+- Aaditi Thete
+- Vanshika Gupta
 weight: 65
 ribbon: new
 contact:

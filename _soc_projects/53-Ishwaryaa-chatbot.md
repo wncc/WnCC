@@ -5,6 +5,15 @@ title: Conversational Chatbot
 mentor: "Shri Ishwaryaa S V"
 category: "Development, Machine Learning, NLP, Speech recognition"
 application_procedure: "none"
+mentees:
+- Aaron Jerry Ninan 
+- Abhilaksh Kumar
+- Devank Rajvanshi
+- E Abhishek
+- Pankaj Singh
+- Pranjal Gupta
+- Ravi Prakash Yadav
+- Soham Mistri
 weight: 53
 ribbon: new
 contact:

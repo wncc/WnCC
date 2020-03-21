@@ -5,6 +5,17 @@ title: Tools for Web Development
 mentor: "Pritam Kumar"
 category: "Web Development"
 application_procedure: "proposal"
+mentees:
+- Ashutosh Yadav
+- Ginjala Varshini
+- Gurnoor Singh Khurana
+- jos katiyare
+- Nikhil Kumar
+- Prapti Kumar
+- Prathmesh Namdeo
+- Sagar Prasad
+- Sahil Suman
+- Shivani Bagri
 weight: 48
 ribbon: new
 contact:
