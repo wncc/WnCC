@@ -10,7 +10,31 @@ ribbon: new
 contact:
 - Email - <a target="_blank" href="mailto:manangrg4@gmail.com">manangrg4@gmail.com</a>
 
----
+mentees:
+- Aanal Sonara
+- Aashuraj Hassani
+- Aashwin Agrawal
+- Aayush Shrivastava
+- Aditya Vijay Jain
+- Akshat Vira
+- ANKIT KUMAR JAIN
+- Darin Jeff
+- Devansh Saini
+- DHANUSH S
+- Harsh Kumar
+- Harshavardhan Ragade
+- Kritin agarwal
+- Nirmal Shah
+- Nitin Kumar
+- Paarth Jain
+- Pallavi Kochar
+- Pavithra
+- Rushil Hari Kopakka
+- Sharvaree Sinkar
+- Sudhansh
+- Tanisha Khandelwal
+- Vishesh Agarwal
+- Yash Sharda
 
 ---
 

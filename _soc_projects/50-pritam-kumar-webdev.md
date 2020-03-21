@@ -12,7 +12,17 @@ contact:
 
 - Email ID - <a target="_blank" href="mailto:pritamkumariitb@gmail.com">pritamkumariitb@gmail.com</a> 
 
----
+mentees:
+- Ashutosh Yadav
+- Ginjala Varshini
+- Gurnoor Singh Khurana
+- jos katiyare
+- Nikhil Kumar
+- Prapti Kumar
+- Prathmesh Namdeo
+- Sagar Prasad
+- Sahil Suman
+- Shivani Bagri
 
 ---
 
