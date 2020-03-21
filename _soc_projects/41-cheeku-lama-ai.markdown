@@ -13,11 +13,7 @@ contact:
 
 - <a target="_blank" href="mailto:cheekujodhpur@gmail.com,anujshetty248@gmail.com">Email ID</a> - cheekujodhpur@gmail.com, anujshetty248@gmail.com
 
-mentees:
-- Akash Cherukuri
-- Anirudh Mittal
-- Jayesh Singla
-- S. Anand Natarajan
+---
 
 ---
 

@@ -4,6 +4,10 @@ image: /images/TL_Logo.jpg
 title: Tinkerers’ Laboratory Website
 mentor: "Vivek Saurabh Verma"
 category: "Web Development"
+mentees:
+- Shabnam Sahay
+- Adit Akarsh
+- Tanmay Hiremath
 application_procedure: "proposal"
 weight: 68
 ribbon: new

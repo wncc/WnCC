@@ -3,8 +3,16 @@ layout: soc-project
 image: /images/artificial.png
 title: Intelligent agents
 mentor: "T Sanjeev Vishnu"
-category: "Artificial Intelligence, Data Science
-"
+category: "Artificial Intelligence, Data Science"
+mentees:
+- Abishek Pai Angle
+- Aum Jain
+- Dev Moxaj Desai
+- Divyanshi Kamra 
+- Madhumitha S
+- Prasann Vishwanathan
+- Tanay Sharma
+- Tushar Nandy
 application_procedure: "none"
 weight: 71
 ribbon: new

@@ -9,13 +9,7 @@ weight: 69
 ribbon: new
 contact:
 - Email - <a target="_blank" href="mailto:amankansal.cse@gmail.com">amankansal.cse@gmail.com</a>
-
-mentees:
-- Vikas Panwar
-- Rahul Prajapat
-- Dhruv Sah
-- JULAKANTI MUKESH REDDY
-- Megha Baboria
+---
 
 ---
 

@@ -5,6 +5,15 @@ title: Graphic Intensive MUSIC APP
 mentor: "Sudhanshu Sahil, Ravi Jangir"
 category: "Development, Graphic Design and Animation"
 application_procedure: "proposal"
+mentees:
+- Shweta Shaw
+- Mitali singhal
+- Yash Sharma
+- Sarthak rao
+- Md Kamran
+- Khyati Jain
+- Ishaan Agarwal
+- Anchal yadav
 weight: 68
 ribbon: new
 contact:
