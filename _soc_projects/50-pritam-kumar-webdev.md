@@ -5,13 +5,6 @@ title: Tools for Web Development
 mentor: "Pritam Kumar"
 category: "Web Development"
 application_procedure: "proposal"
-weight: 48
-ribbon: new
-contact:
-- Facebook - <a target="_blank" href="https://www.facebook.com/profile.php?id=100027445014110">Pritam Kumar</a>
-
-- Email ID - <a target="_blank" href="mailto:pritamkumariitb@gmail.com">pritamkumariitb@gmail.com</a> 
-
 mentees:
 - Ashutosh Yadav
 - Ginjala Varshini
@@ -23,6 +16,14 @@ mentees:
 - Sagar Prasad
 - Sahil Suman
 - Shivani Bagri
+weight: 48
+ribbon: new
+contact:
+- Facebook - <a target="_blank" href="https://www.facebook.com/profile.php?id=100027445014110">Pritam Kumar</a>
+
+- Email ID - <a target="_blank" href="mailto:pritamkumariitb@gmail.com">pritamkumariitb@gmail.com</a> 
+
+---
 
 ---
 

@@ -6,6 +6,11 @@ mentor:
 - Sudhir Shinde
 category: "Machine Learning"
 application_procedure: "Proposal"
+mentees:
+- Reet Mehta 
+- Yogesh Supe 
+- Prathmesh Bele 
+- Shalabh Gupta 
 weight: 47
 ribbon: new
 contact:

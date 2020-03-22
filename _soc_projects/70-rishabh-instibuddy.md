@@ -5,6 +5,12 @@ title: Insti Buddy
 mentor: "Rishabh Arya, Latika Patel"
 category: "Development, Web Development"
 application_procedure: "none"
+mentees:
+- Kumari Sakshi
+- Sahil Kumar
+- Vaibhavi Agrawal
+- Adarsh Kumar
+- Kushal Choudhary
 weight: 70
 ribbon: new
 contact:

@@ -8,7 +8,13 @@ mentor:
 category: "Development, Image Processing, Machine Learning"
 application_procedure: "proposal"
 mentees:
-- 4
+- Dharshan
+- Divya Pattisapu
+- Prayas Jain
+- Avyakta Wrat
+- Ayush Jangir
+- Puranjay Dutta
+- Kriti Chaturvedi
 weight: 45
 ribbon: new
 contact: 

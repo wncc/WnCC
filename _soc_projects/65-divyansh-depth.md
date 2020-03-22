@@ -10,10 +10,8 @@ weight: 69
 ribbon: new
 contact:
 - Email <a target="_blank" href="mailto:divyanshsrivastava9125@gmail.com"> divyanshsrivastava9125@gmail.com</a> 
+---
 
-mentees:
-- Naman Agarwal
-- Hitesh Kumar
 ---
 
 Digital Image Perception is a simplified algorithm to have the perception of depth (or distance) based on the two different images taken at same time from different (but related) perspectives. This project is inspired by the perception of depth (or distances) by human visual system. 

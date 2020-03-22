@@ -12,10 +12,7 @@ contact:
 
 - Email - <a target="_blank" href="mailto:mandaldebabrata123@gmail.com">mandaldebabrata123@gmail.com</a>
 
-mentees:
-- Aman Yadav 
-- Richeek Das
-- Devansh Jain
+---
 
 ---
 

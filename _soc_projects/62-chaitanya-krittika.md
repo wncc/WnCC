@@ -11,10 +11,8 @@ weight: 62
 ribbon: new
 contact:
 - Email - <a target="_blank" href="mailto:chaithanyampcrl@gmail"> chaithanyampcrl@gmail</a>
+---
 
-mentees:
-- Vishnu Jayan
-- Harshit Varma
 ---
 
 Develop a Django website for Krittika

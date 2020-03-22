@@ -6,23 +6,13 @@ mentor:
 - Akshit Srivastava, Tezan Sahu
 category: "Machine Learning"
 application_procedure: "proposal"
-
+mentees:
+- 5
 weight: 44
 ribbon: new
 contact: 
 - Facebook - <a target="_blank" href="https://www.facebook.com/akshit1511"> Akshit Srivastava</a>, <a target="_blank" href="https://www.facebook.com/tezan.sahu.3">Tezan Sahu</a>
-
-mentees:
-- Aakriti
-- Atin Bainada
-- Chirag Garg
-- Liza Dahiya
-- Samyak Shah
-- Sumit Jain
-- Thomas Jacob
-- Yash Gadhia
-- Yatharth Champaneria
-
+---
 
 ---
 

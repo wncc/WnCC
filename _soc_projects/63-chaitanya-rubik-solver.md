@@ -10,11 +10,8 @@ weight: 66
 ribbon: new
 contact:
 - Email - <a target="_blank" href="mailto:chaithanyampcrl@gmail"> chaithanyampcrl@gmail</a>
+---
 
-mentees:
-- Amol Girish Shah 
-- Manas Jain 
-- Rohinee Joshi 
 ---
 
 Rubik’s cube is one of the most fascinating 3-D combination puzzles we encounter. It is simple to understand the game, given a permutation we need to reduce the cube to a single goal state by rotating it. In this project, we will accomplish solving this cube with as minimum rotations as possible using the ideas of reinforcement learning.

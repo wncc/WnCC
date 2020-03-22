@@ -12,23 +12,8 @@ contact:
 - Email - pranavpagar1@gmail.com
 
 - WhatsApp - 9923989106
+---
 
-mentees:
-- KSHITIJ
-- Abhinav Gupta
-- Ankit Kumar Misra
-- ANUPAM NAYAK
-- Jai Israni
-- Jash Shah
-- Atharva mete
-- Tejas Pagare
-- Nishant
-- Senthil Vikram Vodapalli
-- Manan Goyal
-- Richeek Das
-- Rishab Khantwal
-- Rohit Vartak
-- Shrey Singal
 ---
 
 Have you ever wondered what will be the future of interaction with computers or smart devices. Well here is a clue, its going to be touch less.This project  will contain the research part as well as the development (front end and back end) part of the technology.
