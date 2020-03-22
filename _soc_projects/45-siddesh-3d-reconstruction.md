@@ -63,3 +63,4 @@ Note: If you are new to deep learning, it is recommended that you should go thro
 | Week 6 and 7 | Programming and testing of various models for 3D reconstruction from single 2D image |
 | Week 8 | Further improvements on the models that have been created above. |
 
+

@@ -10,7 +10,11 @@ weight: 48
 ribbon: new
 contact:
 - Email <a target="_blank" href="mailto:agarwalanubhav.2011@gmail.com">agarwalanubhav.2011@gmail.com</a> 
----
+mentees:
+- Aman Singh
+- Raj Aryan Agarwal
+- Gaurav P
+- Tirthankar Adhikari
 
 ---
 Implement your own sequence neural net
