@@ -11,7 +11,13 @@ weight: 69
 ribbon: new
 contact: 
 - Google Classroom Class Code - gvjebaw
----
+
+mentees:
+- Abhijeet Prasad Bodas
+- Adarsh Raj
+- Sibasis Nayak
+- Ritveek Mahajan
+- Gardas Chaitanya
 
 ---
 

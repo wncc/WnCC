@@ -11,8 +11,23 @@ contact:
 
 - Facebook - <a target="_blank" href="https://www.facebook.com/profile.php?id=100027724714184">ID</a>
 
----
-
+mentees:
+- Sreyashi Saha
+- Aneri Modi
+- Vinamra Baghel
+- Labdhi Gandhi 
+- Pokala Mohith
+- Zeel Shah
+- Mansi Singhai
+- Garvit Joshi
+- Anusha Mantha
+- Abhijeet Soni
+- Dhruv Arora
+- Amisha S Kanhekar
+- Ayan Agrawal
+- Hardik Siloiya
+- Aayush Shahid
+- Rhythm Shah
 ---
 
 The project has two parts: The front-end is an Android app/website that provides an interface to choose food recipes and create schedules. The back-end will be a Django server that provides personalized recommendations through machine learning.

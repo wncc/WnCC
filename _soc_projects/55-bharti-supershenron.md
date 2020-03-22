@@ -10,6 +10,10 @@ ribbon: new
 contact:
 - <a target="_blank" href="mailto:amanbharti008@gmail.com">Email</a> - 180020012@iitb.ac.in, amanbharti008@gmail.com
 
+mentees:
+- Aditya Raj Singh Udawa
+- Shrey Gupta
+- Arjun Deshmukh
 
 ---
 
