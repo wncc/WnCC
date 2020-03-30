@@ -15,6 +15,7 @@ mentees:
 - Raj Aryan Agarwal
 - Gaurav P
 - Tirthankar Adhikari
+- Ojas Gramopadhye
 
 ---
 Implement your own sequence neural net

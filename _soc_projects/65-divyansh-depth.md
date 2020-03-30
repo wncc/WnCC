@@ -12,7 +12,8 @@ contact:
 - Email <a target="_blank" href="mailto:divyanshsrivastava9125@gmail.com"> divyanshsrivastava9125@gmail.com</a> 
 
 mentees:
-- Naman Agarwal
+- Rishabh Jain
+- Sanyam Singhal
 - Hitesh Kumar
 ---
 

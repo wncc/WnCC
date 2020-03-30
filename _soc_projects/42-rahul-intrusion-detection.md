@@ -15,6 +15,7 @@ mentees:
 - Bhargavi Taralekar
 - Aaditi Thete
 - Vanshika Gupta
+- Gudipaty Aniket 
 weight: 65
 ribbon: new
 contact:

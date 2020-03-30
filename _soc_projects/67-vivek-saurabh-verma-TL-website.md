@@ -2,12 +2,13 @@
 layout: soc-project
 image: /images/TL_Logo.jpg
 title: Tinkerers’ Laboratory Website
-mentor: "Vivek Saurabh Verma"
+mentor: "Vivek Saurabh Verma, Aditya Sonawane"
 category: "Web Development"
 mentees:
-- Shabnam Sahay
+- Aditya Jain
 - Adit Akarsh
 - Tanmay Hiremath
+- Akshat Goel
 application_procedure: "proposal"
 weight: 68
 ribbon: new

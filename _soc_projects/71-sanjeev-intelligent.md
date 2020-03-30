@@ -13,6 +13,7 @@ mentees:
 - Prasann Vishwanathan
 - Tanay Sharma
 - Tushar Nandy
+- Naman Agarwal
 application_procedure: "none"
 weight: 71
 ribbon: new
