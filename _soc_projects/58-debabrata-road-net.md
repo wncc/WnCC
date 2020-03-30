@@ -14,7 +14,6 @@ contact:
 
 mentees:
 - Aman Yadav 
-- Richeek Das
 - Devansh Jain
 
 ---

@@ -24,6 +24,7 @@ mentees:
 - Shivam Raj
 - Prathmesh Jayaprakash
 - Sheel Shah
+- Sumeet Kumar Mishra
 
 ---
 

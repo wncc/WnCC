@@ -14,6 +14,7 @@ mentees:
 - Pranjal Gupta
 - Ravi Prakash Yadav
 - Soham Mistri
+- Vineet Gala
 weight: 53
 ribbon: new
 contact:
