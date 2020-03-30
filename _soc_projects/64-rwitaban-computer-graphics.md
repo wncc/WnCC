@@ -28,6 +28,7 @@ mentees:
 - Abhishek N Bhavsar
 - Ritik Mandal
 - Kaustubh Dighe
+- Shabnam Sahay
 weight: 64
 ribbon: new
 contact:
