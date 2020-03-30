@@ -16,13 +16,15 @@ mentees:
 - Ashutosh Yadav
 - Ginjala Varshini
 - Gurnoor Singh Khurana
-- jos katiyare
+- Jos katiyare
 - Nikhil Kumar
 - Prapti Kumar
 - Prathmesh Namdeo
 - Sagar Prasad
 - Sahil Suman
 - Shivani Bagri
+- Danish Angural
+
 
 ---
 

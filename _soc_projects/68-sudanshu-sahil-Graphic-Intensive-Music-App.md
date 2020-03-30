@@ -14,6 +14,7 @@ mentees:
 - Khyati Jain
 - Ishaan Agarwal
 - Anchal yadav
+- Esha Kolte
 weight: 68
 ribbon: new
 contact:
