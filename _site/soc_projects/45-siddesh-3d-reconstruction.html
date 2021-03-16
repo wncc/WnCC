@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+    
+    <!--
+	Ion by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<head>
+    <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'/ >
+    <title>3D reconstruction using 2D images</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Web and Coding Club is one of the biggest clubs of IIT Bombay. As a part of the Students' Technical Activities Body, we aim to provide a gateway for the people in our institute to join the coding community. We create a platform which allows students to gain assistance and mentorship to enhance their coding ability. Our aim is to propagate the enthusiasm for coding in the institute and especially amongst freshmen. We believe that every student here at IITB should have an opportunity to learn how to code and develop a passion for it. The secret of getting ahead is getting started and we aim to provide every student with the right start." />
+    <meta name="keywords" content="web,coding,c++,cpp,c,javascript,android,app,development,java,css,python,ml,ai,machine learning,iitb,iit bombay,mumbai,graphics,competitive coding,hacking,security,network,information,data structures,algorithms,open source,hackathons" />
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/skel-layers.min.js"></script>
+    <script src="/js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="/css/skel.css" />
+    </noscript>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65902553-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-65902553-1');
+    </script>
+
+</head>
+
+
+	<body id="top">
+
+        <!-- Header -->
+<header id="header" class="skel-layers-fixed">
+    <h1><a href="/" class="site-title" >WnCC</a></h1>
+    <nav id="nav">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <!-- <li><a href="/left-sidebar.html">Left Sidebar</a></li> -->
+            
+              
+                  
+              
+            
+              
+                  
+                    <li><a class="page-link" href="/events/">Events</a></li>
+                  
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                  
+                    <li><a class="page-link" href="/itsp-resources/">ITSP</a></li>
+                  
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                  
+                    <li><a class="page-link" href="/showcase/">Showcase</a></li>
+                  
+              
+            
+              
+                  
+              
+            
+              
+                  
+                    <li><a class="page-link" href="/soc/">SoC</a></li>
+                  
+              
+            
+            <li><a href="http://portals.wncc-iitb.org/internships/" class="page-link ">Internship Portal</a></li>
+            <li><a href="/wiki" class="button special">Wiki</a></li>
+        </ul>
+    </nav>
+</header>
+        <!-- Use <article></article>inside content to center align content-->
+        <!-- Main -->
+<section id="main" class="wrapper style1">
+    <header class="major">
+        <h2>Seasons Of Code</h2>
+        <p>
+        <span style="font-weight: 500; color: #212121">3D reconstruction using 2D images </span>&nbsp;&nbsp;
+        
+            • Siddhesh Pawar&nbsp;&nbsp;&nbsp;
+        
+            • Hrushikesh Bodas&nbsp;&nbsp;&nbsp;
+        
+        </p>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="4u">
+                <section>
+                    <h3>WnCC - Seasons of Code</h3>
+                    <p>Seasons of Code is a programme launched by WnCC along the lines of the Google Summer of Code. It provides one with an opprtunity to learn and participate in a variety of interesting projects under the mentorship of the very best in our institute.</p>
+                    <ul class="actions">
+                        <li><a href="/soc" class="button alt">Learn More</a></li>
+                    </ul>
+                </section>
+                <hr />
+                <section>
+                    <h3>List of Running Projects</h3>
+                    <ul class="no-bullets">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/41-cheeku-lama-ai.html#nav">L.A.M.A. AI using Reinforcement Learning</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/42-rahul-intrusion-detection.html#nav">Intrusion Detection system</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/43-pratyush-competitive-coding.html#nav">Competitive coding</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/44-akshit-gan.html#nav">Why The Hype Around GANs</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar disabled soc_project_button" href="#nav" >3D reconstruction using 2D images</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/46-vishal-cv-workbench.html#nav">Computer Vision Workbench</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/47-sudhir-neural.html#nav">3D Object Classification using Mesh Neural Network</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/48-anubhav-ML.html#nav">Lossless high entropy compression algorithm</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/49-lalit-mlgym.html#nav">ML GYM</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/50-pritam-kumar-webdev.html#nav">Tools for Web Development</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/51-dhairya-strategywars.html#nav">Strategy Wars [Online]</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/52-anuj-food.html#nav">Food Recommendation through Machine Learning</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/53-Ishwaryaa-chatbot.html#nav">Conversational Chatbot</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/54-manan-keyboard.html#nav">Virtual Keyboard</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/55-bharti-supershenron.html#nav">Super Shenron</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/56-pagar-gestures.html#nav">Gestures for 3D space</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/57-gagan-unstructured.html#nav">(Un)structured</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/58-debabrata-road-net.html#nav">Road Network 3D Rendering using OpenGL</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/59-shreya-face-recognition.html#nav">Face Recognition using Statistics</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/60-yash-kaggle.html#nav">Introduction to Kaggle and Machine Learning</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/62-chaitanya-krittika.html#nav">Krittika Website</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/63-chaitanya-rubik-solver.html#nav">Rubik's cube solver</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/64-rwitaban-computer-graphics.html#nav">Planet/Atmosphere Renderer using OpenGL</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/65-divyansh-depth.html#nav">Digital Depth Perception</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/66-prabhat-KontaKt-app.html#nav">KontaKt App</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/67-vivek-saurabh-verma-TL-website.html#nav">Tinkerers’ Laboratory Website</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/68-sudanshu-sahil-Graphic-Intensive-Music-App.html#nav">Graphic Intensive MUSIC APP</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/69-aman-poolit.html#nav">Pool It!</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/70-rishabh-instibuddy.html#nav">Insti Buddy</a></li>
+                            
+                        
+                        
+                        
+                            
+                            <li><a class="button small fit-sidebar soc_project_button" href="/soc_projects/71-sanjeev-intelligent.html#nav">Intelligent agents</a></li>
+                            
+                        
+                        
+                    </ul>
+                </section>
+            </div>
+            <div class="8u skel-cell-important">
+                <section >
+                    <header class="major">
+                        <a id="nav" href="/soc_projects/45-siddesh-3d-reconstruction.html" class="image fit"><img  src="https://image.slidesharecdn.com/sfmmvs-141103184028-conversion-gate02/95/slam-visual-odometry-structure-from-motion-multiple-view-stereo-69-638.jpg?cb=1496806700" alt="3D reconstruction using 2D images" /></a>
+                        <h2 class="post-title" >3D reconstruction using 2D images</h2>
+                        <p class="post-meta">
+                        
+                        
+                            
+                                • Siddhesh Pawar&nbsp;&nbsp;&nbsp;
+                            
+                                • Hrushikesh Bodas&nbsp;&nbsp;&nbsp;
+                            
+                        <br/>
+                        • Development, Image Processing, Machine Learning<br/>
+                        </p>
+                        <p class="post-meta" style="color:#555f66">
+                        
+                        <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Mentees:</span>
+                            
+				<br/>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">• Dharshan</span>
+                            
+				<br/>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">• Divya Pattisapu</span>
+                            
+				<br/>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">• Prayas Jain</span>
+                            
+				<br/>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">• Avyakta Wrat</span>
+                            
+				<br/>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">• Ayush Jangir</span>
+                            
+				<br/>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">• Puranjay Dutta</span>
+                            
+				<br/>
+                                <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt; float: left; margin-left: 50pt">• Kriti Chaturvedi</span>
+                            
+			    <br/>
+                        
+                        
+                        
+                        <br/>
+                            <span style="color: purple; font-weight: 700; font-family: Arial; font-size: 16pt; float: left">Contact the Mentor: </span>
+                            
+                            <span style="color: purple; font-weight: 300; font-family: Arial; font-size: 14pt">
+                                
+								<br/>
+                                <span style="float: left; margin-left: 50pt">• Messenger - <a target="_blank" href="https://www.facebook.com/profile.php?id=100014112017403"> Siddhesh Pawar  </a></span>
+                                
+								<br/>
+                                <span style="float: left; margin-left: 50pt">• Whatsapp - 9923536479</span>
+                                
+                            </span>
+                            
+							<br/>
+                        
+                        
+                            
+                        
+                        
+                        
+
+                        
+                        </p>
+                    </header>
+                    <div>
+                        <hr />
+
+<p>Producing 2D images of a 3D world is inherently a lossy process, i.e. the entire geometric richness of 3D gets projected onto a single flat 2D image. We aim to create an API in Python which primarily reconstructs 3D volumes from 2D X-Ray Images.</p>
+
+<!--break-->
+
+<p>We see this  project as the first step towards a diagnostic tool in conditions where either no CT equipment or the education to interpret x-ray imagery is available, such as for mobile x-ray devices, lay users, or medical diagnostics in developing countries. The project is primarily divided into 2 parts:</p>
+
+<ul>
+  <li>
+    <p>Implementation of various CNN architectures for 3D reconstruction from 2D images(3 people would be working on this part)</p>
+  </li>
+  <li>
+    <p>Development of API(back-end framework for the above task).1 mentee would be working on this part.</p>
+  </li>
+</ul>
+
+<!--break-->
+
+<p>Part 1 has some hard pre-requisites while anyone who has an interest in python or has done some basic programming in python or java-script can apply for part 2.</p>
+
+<!--break-->
+
+<p>Pre-requisites for part 1: Must be familiar with any one of the following deep learning frameworks: Pytorch/Tensorflow/Theano/Keras.  A basic idea of neural networks and machine learning is required. Previous experience in image processing is desired although is not a hard pre-requisite.</p>
+
+<!--break-->
+
+<p>Interested people in this part should go through the following <a href="https://arxiv.org/pdf/1710.04867.pdf">paper</a> while applying:</p>
+
+<p>Note: If you are new to deep learning, it is recommended that you should go through the first 5 chapters of the <a href="https://www.goodreads.com/book/show/33986067-deep-learning-with-python">book</a> before applying:</p>
+
+<!--break-->
+
+<h3 id="tentative-timeline">Tentative Timeline:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week</th>
+      <th>Work</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Week 1 and 2(Pre-Endsems)</td>
+      <td>Reading of related material and learning relevant applications of the framework that would be used(mostly Keras and PyTorch)</td>
+    </tr>
+    <tr>
+      <td>Week 3</td>
+      <td>Testing and implementing Simple CNN architectures</td>
+    </tr>
+    <tr>
+      <td>Week 4 and 5</td>
+      <td>Working on Designing and implementation of 3D reconstruction from multiple images along with data pre-processing</td>
+    </tr>
+    <tr>
+      <td>Week 6 and 7</td>
+      <td>Programming and testing of various models for 3D reconstruction from single 2D image</td>
+    </tr>
+    <tr>
+      <td>Week 8</td>
+      <td>Further improvements on the models that have been created above.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+                    </div>
+
+                    <footer style="margin-bottom: 10em">
+                        
+                        <a href="/soc_projects/44-akshit-gan.html#nav" class="float-left button small">&larr; Previous project</a>
+                        
+
+                        
+                        <a href="/soc_projects/46-vishal-cv-workbench.html#nav" class="float-right button small">Next project &rarr;</a>
+                        
+                        <br><br>
+                        <a href="/soc#two" class="button small special float-center"> View all projects</a>
+                    </footer>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+        <!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="row double">
+            <div class="6u">
+                <div class="row collapse-at-2">
+                    <div class="6u">
+                        <h3><a href="/events">Upcoming Events</a></h3>
+                        <ul class="alt">
+                           <li><a href="https://www.facebook.com/groups/299733430886898">ITSP 2019</a></li>
+                           <li><a href="https://www.wncc-iitb.org/soc/">Seasons of Code 2019</a></li>
+                        </ul>
+                    </div>
+                    <div class="6u">
+                        <h3><a href="/showcase">Showcase</a></h3>
+                        <ul class="alt">
+                            
+                                <a target="_blank" href="/showcase#Hold The Beat"><li>Hold The Beat- Arpan Banerjee</li></a>
+                            
+                                <a target="_blank" href="/showcase#J.A.R.V.I.S."><li>J.A.R.V.I.S.- Nihal Singh</li></a>
+                            
+                                <a target="_blank" href="/showcase#Bellatrix"><li>Bellatrix- Meet Udeshi</li></a>
+                            
+                                <a target="_blank" href="/showcase#Wirespace"><li>Wirespace- Yash Shah</li></a>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="6u">
+                <h2>The Web and Coding Club</h2>
+                <p>We are the coding community of IIT Bombay. WnCC is one of the biggest clubs of IIT Bombay. We believe that every individual should know how to code. Under the aegis of ITC (former STAB), we carry forward our vision of propagating the enthusiasm for coding in our institute.</p>
+                <ul class="icons">
+                    <li><a href="https://www.wncc-iitb.org" class="icon fa-globe"><span class="label">Website</span></a></li>
+                    <li><a href="https://github.com/wncc" class="icon fa-github"><span class="label">Github</span></a></li>
+                    <li><a href="https://www.facebook.com/wncc.iitb/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://twitter.com/wncc_iitb" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- <ul class="copyright">
+            <li>&copy; Untitled. All rights reserved.</li>
+            <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+            <li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+            <li>Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
+        </ul> -->
+    </div>
+</footer>
+
+
+    </body>
+
+</html>

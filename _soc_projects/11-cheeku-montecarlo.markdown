@@ -6,7 +6,7 @@ mentor: "Kumar Ayush"
 category: "Computer Graphics"
 application_procedure: "proposal"
 weight: 65
-ribbon: complete
+ribbon: completed
 stipend: INR 3000
 completed:
 - Shalabh Gupta
