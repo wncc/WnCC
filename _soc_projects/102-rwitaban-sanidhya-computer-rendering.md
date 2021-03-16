@@ -64,14 +64,12 @@ Link to Renderer: https://github.com/sanidhyaanand/Physicc
 |Week Number  | Tasks to be Completed|
 |--- | --- | 
 
-|**Week 1** | Learn about Physics, how a Rendering Engine works and the functionalities you would be implementing|
-|**Week 2** | Implement Newton's Equations of Motion|
-|**Week 3-4** | Collision Detection|
-|**Week 5** | Rigid Body dynamics|
-|**Week 6** | Constrained motion|
-|**Week 7** | Buffer|
-
-
+|**Week 1** |Learn about Physics how a Rendering Engine works and the functionalities you would be implementing |
+|**Week 2** | Implement Newton's Equations of Motion |
+|**Week 3-4** | Collision Detection |
+|**Week 5** | Rigid Body dynamics |
+|**Week 6** | Constrained motion |
+|**Week 7** | Buffer |
 
 
 <!--break-->
