@@ -60,10 +60,10 @@ Link to Renderer: https://github.com/sanidhyaanand/Physicc
 <!--break-->
 
 <!--break-->
+### Tentative Project Timeline
 
 |Week Number  | Tasks to be Completed|
 |--- | --- | 
-
 |**Week 1** |Learn about Physics how a Rendering Engine works and the functionalities you would be implementing |
 |**Week 2** | Implement Newton's Equations of Motion |
 |**Week 3-4** | Collision Detection |
@@ -71,5 +71,15 @@ Link to Renderer: https://github.com/sanidhyaanand/Physicc
 |**Week 6** | Constrained motion |
 |**Week 7** | Buffer |
 
+### Checkpoints:
+<!--break-->
+
+|Checkpoint Number  | Progress|
+|--- | --- | 
+|**1** |Rendering a sphere and a box|
+|**2** |Making an object move|
+|**3** |Forces (Gravity)|
+|**4** |Collision detection|
+|**5** |Reaction Forces|
 
 <!--break-->
