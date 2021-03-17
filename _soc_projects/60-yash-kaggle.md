@@ -14,7 +14,7 @@ mentees:
 - Kartikey Gupta
 application_procedure: "Proposal"
 weight: 60
-ribbon: new
+ribbon: completed
 contact:
 - Google Classroom - 2dupwpq(class code)
 ---

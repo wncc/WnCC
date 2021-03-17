@@ -30,7 +30,7 @@ mentees:
 - Kaustubh Dighe
 - Shabnam Sahay
 weight: 64
-ribbon: new
+ribbon: completed
 contact:
 - Whatsapp - 9560496948 (Rwitaban), 9004563670 (Arpit)
 ---

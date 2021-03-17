@@ -6,7 +6,7 @@ mentor: "Pritam Kumar"
 category: "Web Development"
 application_procedure: "proposal"
 weight: 48
-ribbon: new
+ribbon: completed
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/profile.php?id=100027445014110">Pritam Kumar</a>
 

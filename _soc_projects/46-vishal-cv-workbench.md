@@ -9,7 +9,7 @@ application_procedure: "proposal"
 mentees:
 - Aniket Sadashiva
 weight: 46
-ribbon: new
+ribbon: completed
 contact: 
 - Email/Hangouts - vishal.kaushal@gmail.com
 ---

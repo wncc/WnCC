@@ -6,7 +6,7 @@ mentor: "Dhairya Jain"
 category: "Development, Web Development, Economics"
 application_procedure: "none"
 weight: 51
-ribbon: new
+ribbon: completed
 contact:
 - WhatsApp - 9967876281, 7987697281
 

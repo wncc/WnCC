@@ -6,7 +6,7 @@ mentor: "Debabrata Mandal"
 category: "Computer Graphics, UI Design"
 application_procedure: "none"
 weight: 53
-ribbon: new
+ribbon: completed
 contact:
 - Slack - <a target="_blank" href="soc-2020workspace.slack.com"> Workspace </a>  
 

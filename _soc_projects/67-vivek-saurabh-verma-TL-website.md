@@ -11,7 +11,7 @@ mentees:
 - Akshat Goel
 application_procedure: "proposal"
 weight: 68
-ribbon: new
+ribbon: completed
 Facebook : <a target="_blank" href="https://www.facebook.com/viveksaurabh.verma">Vivek Saurabh Verma</a> 
 
 ---

@@ -17,7 +17,7 @@ mentees:
 - Vanshika Gupta
 - Gudipaty Aniket 
 weight: 65
-ribbon: new
+ribbon: completed
 contact:
 - <a target="_blank" href="https://discord.gg/dy9PGu ">Discord</a>
 

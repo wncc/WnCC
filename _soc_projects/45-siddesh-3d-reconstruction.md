@@ -16,7 +16,7 @@ mentees:
 - Puranjay Dutta
 - Kriti Chaturvedi
 weight: 45
-ribbon: new
+ribbon: completed
 contact: 
 - Messenger - <a target="_blank" href="https://www.facebook.com/profile.php?id=100014112017403"> Siddhesh Pawar  </a>
 - Whatsapp - 9923536479

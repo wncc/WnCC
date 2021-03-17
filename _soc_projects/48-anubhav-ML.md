@@ -7,7 +7,7 @@ mentor:
 category: "Machine Learning, Signal Processing, Neural Networks"
 application_procedure: "proposal"
 weight: 48
-ribbon: new
+ribbon: completed
 contact:
 - Email <a target="_blank" href="mailto:agarwalanubhav.2011@gmail.com">agarwalanubhav.2011@gmail.com</a> 
 mentees:

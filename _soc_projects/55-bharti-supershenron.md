@@ -6,7 +6,7 @@ mentor: "Aman Bharti"
 category: "Web Development"
 application_procedure: "proposal"
 weight: 52
-ribbon: new
+ribbon: completed
 contact:
 - <a target="_blank" href="mailto:amanbharti008@gmail.com">Email</a> - 180020012@iitb.ac.in, amanbharti008@gmail.com
 

@@ -7,7 +7,7 @@ mentor:
 category: "Development, Image Processing, Machine Learning"
 application_procedure: "Proposal"
 weight: 66
-ribbon: new
+ribbon: completed
 contact:
 - Email - <a target="_blank" href="mailto:chaithanyampcrl@gmail"> chaithanyampcrl@gmail</a>
 

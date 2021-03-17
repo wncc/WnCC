@@ -8,7 +8,7 @@ category: "Machine Learning"
 application_procedure: "proposal"
 
 weight: 44
-ribbon: new
+ribbon: completed
 contact: 
 - Facebook - <a target="_blank" href="https://www.facebook.com/akshit1511"> Akshit Srivastava</a>, <a target="_blank" href="https://www.facebook.com/tezan.sahu.3">Tezan Sahu</a>
 

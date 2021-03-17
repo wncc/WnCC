@@ -16,7 +16,7 @@ mentees:
 - Soham Mistri
 - Vineet Gala
 weight: 53
-ribbon: new
+ribbon: completed
 contact:
 - Slack - <a target="_blank" href="https://join.slack.com/t/soc-20/shared_invite/enQtOTY2MDM4OTQyMzIxLWMzMmYxYTMzZjE2ZDkzZDJiMGI0OTgxYjVmYzA5Y2M1NDVmOTFiZGYyMDUxNDE0MTU1ZTJlNjI2MDMxMmI1ODc">Ishwaryaa </a>
 
