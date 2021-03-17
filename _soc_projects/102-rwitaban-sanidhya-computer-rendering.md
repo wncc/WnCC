@@ -19,9 +19,9 @@ contact:
 
 ---
 
-<!--break-->
+The goal is to build a fully functional 3D Physics Engine from scratch that can be integrated into any Rendering Framework
 
-Goal: To build a fully functional 3D Physics Engine from scratch that can be integrated into any Rendering Framework
+<!--break-->
 
 No. of mentees: 8
 

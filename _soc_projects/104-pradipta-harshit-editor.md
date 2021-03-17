@@ -19,6 +19,8 @@ contact:
 
 ---
 
+This project aims to build an open source code editor (like Sublime Text), that uses natural language processing to create a language model for code prediction
+
 <!--break-->
 Description:
 

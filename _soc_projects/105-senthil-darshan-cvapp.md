@@ -8,7 +8,7 @@ mentor:
 category: "Web Development, Image Processing, Machine Learning"
 mentees:
 
-application_procedure: "none" 
+application_procedure: "proposal" 
 weight: 105
 ribbon: new
 contact:
@@ -18,9 +18,9 @@ contact:
 
 ---
 
-<!--break-->
+Object detection with live input & data analysis using tensorflow, opencv, yolo, faster-rcnn, python
 
-Goal: Object detection with live input & data analysis using tensorflow, opencv, yolo, faster-rcnn, python
+<!--break-->
 
 No. of mentees: 4
 

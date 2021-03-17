@@ -18,11 +18,11 @@ contact:
 
 ---
 
+Don't like black and white images? No worries. This project involves building a machine learning model which will do this image colorization for you!
+
 <!--break-->
 
 Description:
-
-Don't like black and white images? No worries. This project involves building a machine learning model which will do this image colorization for you!
 
 Colorizing black and white images is one of the most exciting applications of deep learning. Out of the many available techniques, Generative Adversarial Networks(GANs) based methods have shown excellent results on this task. Referring to GANs, Facebook’s AI research director Yann LeCun called adversarial training “the most interesting idea in the last 10 years in ML”. GANs are really the biggest breakthrough in the history of AI.
 
