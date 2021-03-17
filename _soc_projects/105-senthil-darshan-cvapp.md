@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: /images/artificial.png
+image: /images/cv_web_app.jpeg
 title: "Computer vision based web app"
 mentor: 
 - Senthil Vikram Vodapalli

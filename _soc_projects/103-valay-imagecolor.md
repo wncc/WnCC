@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: /images/artificial.png
+image: /images/image_colorization.png
 title: "Image Colorization"
 mentor: Valay Bundele
 category: "Image Processing, Machine Learning"

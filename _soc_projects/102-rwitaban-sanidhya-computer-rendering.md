@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: /images/artificial.png
+image: /images/physicc.jpeg
 title: "Physicc : A Simple Physics Engine"
 mentor: 
 - Rwitaban Goswami

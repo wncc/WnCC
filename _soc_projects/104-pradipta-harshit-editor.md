@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: /images/artificial.png
+image: /images/text_editor.png
 title: "Language Model Based Syntax Autocompletion in a Text Editor"
 mentor: 
 - Pradipta Parag Bora
