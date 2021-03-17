@@ -6,7 +6,7 @@ mentor: "Aman Kansal, Ansh Khurana"
 category: "Development, Web Development"
 application_procedure: "none"
 weight: 69
-ribbon: new
+ribbon: completed
 contact:
 - Email - <a target="_blank" href="mailto:amankansal.cse@gmail.com">amankansal.cse@gmail.com</a>
 

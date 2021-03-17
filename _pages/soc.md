@@ -54,9 +54,9 @@ div.tab button.active {
 <!-- Banner -->
 <section id="banner" style="background-image:url({{ page.banner | prepend: site.baseurl }})">
     <div class="inner">
-        <h2>Seasons Of Code 2020</h2>
+        <h2>Seasons Of Code 2021</h2>
         <p> An Initiative By <a href="https://www.wncc-iitb.org/">The Web and Coding Club, IIT Bombay</a><br/><br/>
-        Tentative Dates: <a href="">10th April - 10th July</a></p>
+        Tentative Dates: <a href="">22nd March - 18th July</a></p>
         <ul class="actions">
             <li><a href="#one" class="button big special">Join The Force</a></li>
         </ul>
@@ -139,7 +139,7 @@ div.tab button.active {
 	</header>
 
 <div class="tab" style="text-align : center">
-  <button class="tablinks" onclick="openType(event, 'running')" id="defaultOpen">2020</button>
+  <button class="tablinks" onclick="openType(event, 'running')" id="defaultOpen">2021</button>
   <button class="tablinks" onclick="openType(event, 'completed')">Past Projects</button>
 </div>
 <br/>

@@ -12,7 +12,7 @@ mentees:
 - Adarsh Kumar
 - Kushal Choudhary
 weight: 70
-ribbon: new
+ribbon: completed
 contact:
 - Email - <a target="_blank" href="mailto:rishabharya32@gmail.com">rishabharya32@gmail.com</a>
 - Email - <a target="_blank" href="mailto:latika452000@gmail.com">latika452000@gmail.com</a>

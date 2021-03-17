@@ -16,7 +16,7 @@ mentees:
 - Anchal yadav
 - Esha Kolte
 weight: 68
-ribbon: new
+ribbon: completed
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/sudhanshu.sahil">Sudhanshu Sahil</a>
 

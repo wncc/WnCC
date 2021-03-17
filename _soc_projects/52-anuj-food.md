@@ -6,7 +6,7 @@ mentor: "Anuj Agrawal"
 category: "Development, Machine Learning"
 application_procedure: "none"
 weight: 52
-ribbon: new
+ribbon: completed
 contact:
 
 - Facebook - <a target="_blank" href="https://www.facebook.com/profile.php?id=100027724714184">ID</a>

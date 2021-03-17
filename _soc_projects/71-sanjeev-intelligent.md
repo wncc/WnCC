@@ -16,7 +16,7 @@ mentees:
 - Naman Agarwal
 application_procedure: "none"
 weight: 71
-ribbon: new
+ribbon: completed
 contact:
 - Email - <a target="_blank" href="mailto:rishabharya32@gmail.com">vishnutsanjevofficial@gmail.com</a>
 

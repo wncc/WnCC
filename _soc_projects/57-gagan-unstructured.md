@@ -6,7 +6,7 @@ mentor: "Gagan Jain"
 category: "Image Processing, Machine Learning"
 application_procedure: "none"
 weight: 53
-ribbon: new
+ribbon: completed
 contact:
 - Email - <a target="_blank" href="mailto:thesmilingsky@gmail.com">thesmilingsky@gmail.com</a>
 - Facebook - <a target="_blank" href="https://www.facebook.com/gaganjain1582"> ID </a>

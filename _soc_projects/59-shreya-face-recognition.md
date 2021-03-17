@@ -10,7 +10,7 @@ mentees:
 - Vibhav Aggarwal
 - Sanskar Jaiswal
 weight: 66
-ribbon: new
+ribbon: completed
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/shreya.pathak.50159836"> Shreya</a>, <a target="_blank" href="https://www.facebook.com/ali.rehan.3914">Mohammad Ali Rehan </a> 
 

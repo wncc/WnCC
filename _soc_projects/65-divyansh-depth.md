@@ -7,7 +7,7 @@ mentor:
 category: "Image Processing"
 application_procedure: "Proposal"
 weight: 69
-ribbon: new
+ribbon: completed
 contact:
 - Email <a target="_blank" href="mailto:divyanshsrivastava9125@gmail.com"> divyanshsrivastava9125@gmail.com</a> 
 

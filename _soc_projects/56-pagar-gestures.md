@@ -6,7 +6,7 @@ mentor: "Pranav Pagar, Siddhesh Pawar"
 category: "Image Processing, Machine Learning, Front End development"
 application_procedure: "none"
 weight: 52
-ribbon: new
+ribbon: completed
 contact:
 
 - Email - pranavpagar1@gmail.com

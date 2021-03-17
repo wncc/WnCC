@@ -22,18 +22,21 @@ There are no prerequisites for this, however having basic idea of HTML will help
 
 <!--break-->
 
-### Timeline:
+
+### Tentative Project Timeline
 <!--break-->
+
 |Week Number  | Tasks to be Completed|
 |--- | --- | 
-|**Week 1-2** |Learning simple concepts of HTML & CSS.|
-|**Week 2-3** |Learning how to use JavaScript & jQuery.|
-|**Week 3-4** |Intro to PHP|
-|**Week 4-5** |Learning Angular and use it design webpages.|
-|**Final-Week** |Developing a final website with all the concepts learned.|
+|**Week 1-2** |Learning simple concepts of HTML & CSS. |
+|**Week 2-3** |Learning how to use JavaScript & jQuery|
+|**Week 3-4** | Intro to PHP |
+|**Week 4-5** |Learning Angular and use it design webpages|
+|**Final Week** | Developing a final website with all the concepts learned |
 
 ### Checkpoints:
 <!--break-->
+
 |Checkpoint Number  | Progress|
 |--- | --- | 
 |**1** |Learning simple concepts of HTML & CSS.|

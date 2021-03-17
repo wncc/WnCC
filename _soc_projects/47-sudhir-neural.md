@@ -12,7 +12,7 @@ mentees:
 - Prathmesh Bele 
 - Shalabh Gupta 
 weight: 47
-ribbon: new
+ribbon: completed
 contact:
 - Email <a target="_blank" href="mailto:sudhirshinde@iitb.ac.in"> sudhirshinde@iitb.ac.in</a> 
 ---

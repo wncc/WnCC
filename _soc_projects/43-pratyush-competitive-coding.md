@@ -33,7 +33,7 @@ mentees:
 - Vrinda Jindal
 - Manan Agarwal
 weight: 64
-ribbon: new
+ribbon: completed
 contact:
 - <a target="_blank" href="https://join.slack.com/t/competitiveco-wld8763/shared_invite/enQtOTU0MTQ4MDE0NzcyLTBiYzU5N2UyODA0NWMzNGQwM2NlZmJmZDM2ZjMxZjlkMGYzYzI1M2M0NzA5M2Y3NTg0ZmQzNWY1OTFkM2RjMGQ">Slack</a>
 ---

@@ -2,23 +2,18 @@
 layout: soc-project
 image: /images/un-clear.png
 title: (Un)Clear
-mentors:
-- "Omkar Ghugarkar"
-- "Bhuvan Aggarwal"
+mentor:
+- "Omkar Ghugarkar , Bhuvan Aggarwal"
 category:
-- "Image Processing"
+- "Image Processing, "
 - "Machine Learning"
 application_procedure: "none"
 weight: 53
 ribbon: new
 contact:
-- WhatsApp
-	- Omkar Ghugarkar - <a target="_blank" href="tel:8446539938">8446539938</a>
-	- Bhuvan Aggarwal - <a target="_blank" href="tel:9878960462">9878960462</a>
+- WhatsApp - Omkar Ghugarkar - <a target="_blank" href="tel:8446539938">8446539938</a> ,Bhuvan Aggarwal - <a target="_blank" href="tel:9878960462">9878960462</a>
 
-- Email
-	- Omkar Ghugarkar - <a target="_blank" href="mailto:omkarghugark7@gmail.com ">omkarghugark7@gmail.com </a>
-	- Bhuvan Aggarwal - <a target="_blank" href="mailto:bhuvanaggarwal9@gmail.com">bhuvanaggarwal9@gmail.com</a>
+- Email - Omkar Ghugarkar - <a target="_blank" href="mailto:omkarghugark7@gmail.com ">omkarghugark7@gmail.com </a>, Bhuvan Aggarwal - <a target="_blank" href="mailto:bhuvanaggarwal9@gmail.com">bhuvanaggarwal9@gmail.com</a>
 
 mentees:
 - 4-6
@@ -68,6 +63,7 @@ https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-le
 
 ### Timeline:
 <!--break-->
+
 |Week Number  	| Tasks to be Completed|
 |--- 			| --- | 
 |**Week 1** 	|Introduction to OpenCV and Learn Linear Regression and Logistic regression|
@@ -79,6 +75,7 @@ https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-le
 
 ### Checkpoints:
 <!--break-->
+
 |Checkpoint Number  | Progress|
 |--- | --- | 
 |**1** |Complete tutorial on OpenCV|

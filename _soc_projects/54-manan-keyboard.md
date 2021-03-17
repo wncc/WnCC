@@ -6,7 +6,7 @@ mentor: "Manan Kumar Garg"
 category: "Augmented Reality"
 application_procedure: "proposal"
 weight: 54
-ribbon: new
+ribbon: completed
 contact:
 - Email - <a target="_blank" href="mailto:manangrg4@gmail.com">manangrg4@gmail.com</a>
 

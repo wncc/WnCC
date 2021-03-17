@@ -6,7 +6,7 @@ mentor: "Kumar Ayush, Anuj Shetty"
 category: "Machine Learning, Development"
 application_procedure: "none"
 weight: 66
-ribbon: new
+ribbon: completed
 stipend: INR 5000
 contact:
 - Facebook - <a target="_blank" href="https://www.facebook.com/cheekujodhpur">Kumar Ayush</a>&nbsp;<a target="_blank" href="https://www.facebook.com/shetty.anuj">Anuj Shetty</a>

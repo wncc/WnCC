@@ -8,7 +8,7 @@ mentor:
 category: "Web Development"
 application_procedure: "Proposal"
 weight: 62
-ribbon: new
+ribbon: completed
 contact:
 - Email - <a target="_blank" href="mailto:chaithanyampcrl@gmail"> chaithanyampcrl@gmail</a>
 

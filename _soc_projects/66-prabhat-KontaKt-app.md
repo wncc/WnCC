@@ -8,7 +8,7 @@ mentor:
 category: "Development, Web Development, Machine Learning"
 application_procedure: "proposal"
 weight: 69
-ribbon: new
+ribbon: completed
 contact: 
 - Google Classroom Class Code - gvjebaw
 
