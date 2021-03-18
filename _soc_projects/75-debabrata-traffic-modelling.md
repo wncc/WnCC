@@ -5,7 +5,7 @@ title: Traffic congestion modelling and rendering
 mentor: "Debabrata Mandal"
 category: "Development"
 application_procedure: "none"
-weight: 53
+weight: 75
 ribbon: new
 contact:
 - Slack - <a target="_blank" href="https://join.slack.com/t/soc-2020workspace/shared_invite/zt-ng62gmjb-j17G_8XlwiFaaB3YM51OoQ"> Workspace </a>

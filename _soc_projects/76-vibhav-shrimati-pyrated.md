@@ -5,7 +5,7 @@ title: PyRated
 mentor: "Vibhav Aggarwal, Shrimati Tulip Pandey"
 category: "Machine Learning, NLP"
 application_procedure: "none"
-weight: 53
+weight: 76
 ribbon: new
 contact:
 - Vibhav Aggarwal - <a target="_blank" href="mailto:vibhav.agg@iitb.ac.in ">vibhav.agg@iitb.ac.in </a>
