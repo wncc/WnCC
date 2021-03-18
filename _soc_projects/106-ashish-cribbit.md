@@ -34,8 +34,8 @@ No. of mentees: 4
 
 |Week Number  | Tasks to be Completed|
 |--- | --- | 
-|**Week 1** |List the features of the portal, Set up the Environment and learn the basics of each platform, decide/ shortlist platforms for database, etc and design the architecture of the application.|
-|**Week 2** |Survey of similar apps, teams of different components will start working seperately: Front end team, database team, security, network/ communication team.|
+|**Week 1** | List the features of the portal, Set up the Environment and learn the basics of each platform, decide/ shortlist platforms for database, etc and design the architecture of the application.|
+|**Week 2** | Survey of similar apps, teams of different components will start working seperately: Front end team, database team, security, network/ communication team.|
 |**Week 3** | Teams will merge/ integrate the codes of different systems.|
 |**Week 4** | Crib of single subject.|
 |**Week 5** | Provision to add subjects|
