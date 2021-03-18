@@ -1,17 +1,17 @@
 ---
 layout: soc-project
 image: /images/compgeo.png
-title: "Algorithm Design"
+title: "Computational Geometry"
 mentor: 
 - Aravind Bharathi
-category: "Computational Geometry"
+category: "Algorithm Design"
 mentees: 
 
 application_procedure: "proposal" 
 weight: 88
 ribbon: new
 contact:
-- Via mail: bv.iitb.2023@gmail.com. They may contact me via WhatsApp once they are selected.
+- Via <a target="_blank" href="bv.iitb.2023@gmail.com">mail</a>. They may contact me via WhatsApp once they are selected.
 
 
 ---
@@ -25,8 +25,6 @@ There are many fields of computer science that deal with solving problems of a g
 No. of mentees: 3 (although it is quite flexible)
 
 Description:
-
-
 Computational geometry is a term claimed by a number of different groups. The term was coined perhaps first by Marvin Minsky in his book “Perceptrons”, which was about pattern recognition, and it has also been used often to describe algorithms for manipulating curves and surfaces in solid modeling. Its most widely recognized use, however, is to describe the subfield of algorithm theory that involves the design and analysis of efficient algorithms for problems involving geometric input and output. 
 
 There are many fields of computer science that deal with solving problems of a geometric nature. These include computer graphics, computer vision and image processing, robotics, computer-aided design and manufacturing, computational fluid-dynamics, and geographic information systems, to name a few.
@@ -56,15 +54,15 @@ Alternatively, they can choose a specific domain and learn it in depth (although
 
 
 ### Checkpoints:
-<!--break-->
-
 As it is going to be quite an open project, once you get an idea on what you want to work on (in terms of a geometric algorithm), you can develop a timeline along the following lines (and get back to me if you need any help). Nevertheless, the first two checkpoints will be the same for everyone.
 
-Say, you want to analyse and create 3D shapes for computer vision algorithms.
+<!--break-->
+
+
 |Checkpoint Number  | Progress|
 |--- | --- | 
 |**1** |Read and Understand the basics of graph theory and algorithm design |
-|**2** |From the provided material, get an idea about computational geometry and choose a topic to work on|
+|**2** |From the provided material, get an idea about computational geometry and choose a topic to work on.Say, you want to analyse and create 3D shapes for computer vision algorithms.|
 |**3** |Point Cloud Generation|
 |**4** |Polygon Meshing|
 |**5** |Poisson Surface Reconstruction|
