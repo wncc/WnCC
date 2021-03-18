@@ -2,7 +2,7 @@
 layout: soc-project
 image: /images/py-rated.png
 title: PyRated
-mentor: "Vibhav Aggarwal, Shrimati Tulip Pandey"
+mentor: "Vibhav Aggarwal, Tulip Pandey"
 category: "Machine Learning, NLP"
 application_procedure: "none"
 weight: 76
