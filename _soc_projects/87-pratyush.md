@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: /images/pratyush_rl.jpeg
+image: /images/pratyush-rl.jpeg
 title: "R(ea)L Trader"
 mentor: 
 - Pratyush Agarwal
@@ -18,13 +18,13 @@ contact:
 ---
 
 ---
+The end goal is to deploy a RL based agent for automated stock trading.
 
+<!--break-->
 
 No. of mentees: 6
 
 Description:
-
-"The end goal is to deploy a RL based agent for automated stock trading.
 
 Reinforcement learning might sound exotic and advanced, but the underlying concept of this technique is quite simple. In fact, everyone knows about it since childhood!
 

@@ -18,14 +18,14 @@ contact:
 ---
 
 ---
+“Machine intelligence is the last invention that humanity will ever need to make.” ~Nick Bostrom 
+Try out your hands on developing a superhuman AI to ace the game of 2048.
 
+<!--break-->
 
 No. of mentees: 5
 
 Description:
-
-
-“Machine intelligence is the last invention that humanity will ever need to make.” ~Nick Bostrom 
 
 Fascinated by the potential of Reinforcement Learning? Want to leverage this potential on the challenging game 2048? Want to explore how the convolution of Neural Networks and Reinforcement Learning is turning out to be a game changer in the field of AI. Try out your hands on developing a superhuman AI to ace the game of 2048.
 

@@ -18,6 +18,9 @@ contact:
 
 ---
 
+In this project, we'll build a snake game from scratch, and implement both basic Reinforcement Learning and Deep Reinforcement Learning techniques to help the snake master the game and get really high scores. 
+
+<!--break-->
 
 No. of mentees: 3
 
