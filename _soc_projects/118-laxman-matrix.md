@@ -49,7 +49,7 @@ decompositions. |
 |**Week 2** | Brush up on C++, with high focus on OOP concepts. Understanding a few DSA topics (complexity analysis, std::vectors)|
 |**Week 3** | Building a base matrix template class, and implementing a simple QR decomposition to test it.|
 |**Week 4** | Adding various factorisations to help solve linear equations. Stress testing our code and writing docs.|
-|**Week 5** | nderstanding Linear Recurrences, starting with basic stuff like Fibonacci calculations using matrices and end by solving <a target="_blank" href="https://projecteuler.net/problem=258">PE258!</a>|
+|**Week 5** | Understanding Linear Recurrences, starting with basic stuff like Fibonacci calculations using matrices and end by solving <a target="_blank" href="https://projecteuler.net/problem=258">PE258!</a>|
 
 
 <!--break-->
