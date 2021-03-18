@@ -22,6 +22,8 @@ The aim of this project is to train students who aim to do well at ICPC regional
 We are planning to take a small batch size, so that the content is tailored individually according to your strengths and weaknesses. At the end, we expect a short report of around 3-4 pages detailing what we went through in the entire program. The time requirement for this program will be somewhat high, since ICPC regionals are in May and the goal of this program is to prepare you for that.
 Bare minimum requirement: Have been **1600+** rating on codeforces before the beginning of the program.
 
+To apply for this project, fill this form - https://forms.gle/Rm61n5jLmNsw6Y7J9 . Also fill the mentee form shared by WnCC.
+
 <!--break-->
 
 ### Timeline:
