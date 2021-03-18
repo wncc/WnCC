@@ -11,7 +11,7 @@ application_procedure: "proposal"
 weight: 88
 ribbon: new
 contact:
-- Via <a target="_blank" href="bv.iitb.2023@gmail.com">mail</a>. They may contact me via WhatsApp once they are selected.
+- Via <a target="_blank" href="mailto:bv.iitb.2023@gmail.com ">mail</a>. They may contact me via WhatsApp once they are selected.
 
 
 ---
