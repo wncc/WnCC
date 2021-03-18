@@ -2,14 +2,14 @@
 layout: soc-project
 image: /images/py-rated.png
 title: PyRated
-mentor: "Vibhav Aggarwal, Shrimati Tulip Pandey"
+mentor: "Vibhav Aggarwal, Tulip Pandey"
 category: "Machine Learning, NLP"
 application_procedure: "none"
 weight: 76
 ribbon: new
 contact:
 - Vibhav Aggarwal - <a target="_blank" href="mailto:vibhav.agg@iitb.ac.in ">vibhav.agg@iitb.ac.in </a>
-- Shrimati Tulip Pandey - <a target="_blank" href="mailto:190050125@iitb.ac.in">190050125@iitb.ac.in </a>
+- Tulip Pandey - <a target="_blank" href="mailto:190050125@iitb.ac.in">190050125@iitb.ac.in </a>
 
 mentees:
 - Preferably 4 but may take more based on SOPs 
