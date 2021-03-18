@@ -22,7 +22,7 @@ The selected students will work together to build the Anime Club IITB website fr
 
 No. of mentees: 3-4
 
-Pre-requisites: HTML/CSS
+Pre-requisites: Motivation, Dedication and enthusiasm :)
 
 
 Description:
