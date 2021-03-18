@@ -15,8 +15,8 @@ contact:
 ---
 
 ---
+We shall build an app that's smart enough like an assistant to help me know how I spend my time and then help me manage my time. 
 
-We envision a system that can take a few minutes of audio from a recording device and use that information to write an article on that event.
 
 <!--break-->
 
