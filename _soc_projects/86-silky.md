@@ -1,6 +1,6 @@
 ---
 layout: soc-project
-image: /images/2048-1.png
+image: /images/2048.jpg
 title: "Gaming meets AI !!!"
 mentor: 
 - Silky Kumari
@@ -53,28 +53,16 @@ DeepMind Atari [research paper](https://arxiv.org/pdf/1509.06461.pdf) published 
 
 <!--break-->
 
-<!--break-->
 ### Tentative Project Timeline
-
+<!--break-->
 
 |Week Number  | Tasks to be Completed|
-|--- | --- | 
-|**Week 1** |Python basics and Python libraries like Matplotlib, numpy. 
-Read about Python Object Oriented Programming.
- |
-|**Week 2** | Brush up the basics of Deep Learning. 
-Revisit tensorflow/pytorch Framework as we would be using that for the final code. 
-Start reading RL from Barto and Sutton.
-|
-|**Week 3** |Get familiar with DRL.
-Explore the various architectures like DQN, DDQN from Stanford Engineering Channel on Youtube.
-Develop the game environment using MatPlotlib/PyGame.
-|
-|**Week 4** |Complete the code of vanilla DQN from scratch on the lines of DeepMind Atari research paper.
-|
-|**Week 5** | Start training on Google Colab or any other GPU resource. 
-Analyse the performance of other DRL based architectures on the gaming environment.
-|
+|---   | ---   | 
+|**Week 1** |Python basics and Python libraries like Matplotlib, numpy. Read about Python Object Oriented Programming.|
+|**Week 2** | Brush up the basics of Deep Learning. Revisit tensorflow/pytorch Framework. Start reading RL from Barto and Sutton.|
+|**Week 3** |Explore the architectures like DQN, DDQN from Stanford Engineering on Youtube. Develop the game environment using MatPlotlib|
+|**Week 4** |Complete the code of vanilla DQN from scratch on the lines of DeepMind Atari research paper.|
+|**Week 5** | Train on Google Colab or any other GPU resource and analyse the performance of other DRL based architectures|
 
 
 ### Checkpoints:
