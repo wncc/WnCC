@@ -12,7 +12,10 @@ application_procedure: "proposal"
 weight: 87
 ribbon: new
 contact:
-- Contact mentors on Facebook primarily: https://www.facebook.com/7.raaghav.raaj  https://www.facebook.com/pratyush.agarwal.7505  https://www.facebook.com/profile.php?id=100007640195296  After selection of the mentees, we'll form whatsapp group and slack channel. 
+- Facebook - <a target="_blank" href="https://www.facebook.com/7.raaghav.raaj">Raaghav Raaj</a> 
+<a target="_blank" href="https://www.facebook.com/pratyush.agarwal.7505">Pratyush Agarwal</a>
+<a target="_blank" href="https://www.facebook.com/profile.php?id=100007640195296">Yash Gupta</a> 
+ After selection of the mentees, we'll form whatsapp group and slack channel. 
 
 
 ---
