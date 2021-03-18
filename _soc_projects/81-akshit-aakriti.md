@@ -8,7 +8,7 @@ mentor:
 category: "Machine Learning"
 mentees:
 application_procedure: "none"
-weight: 80
+weight: 81
 ribbon: new
 contact:
 - Whatsapp/Telegram - 9899985369

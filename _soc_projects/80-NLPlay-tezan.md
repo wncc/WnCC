@@ -17,13 +17,15 @@ contact:
 ---
 
 ---
-Natural Language Processing (NLP) is a field of AI that gives the machines the ability to read, understand and derive meaning from human languages. 
+
+The core idea behind this project is to familiarize with Deep NLP (one of the most sough-after domains of AI) & get hands-on experience with various deep network architectures while trying to accomplish 2 major tasks: Sentiment Analysis (Classification) & Automatic Lyrics Generation (Text Generation)
 
 <!--break-->
 
 No. of mentees: 8-9
 
 Description:
+Natural Language Processing (NLP) is a field of AI that gives the machines the ability to read, understand and derive meaning from human languages. 
 Back in 2014, Sequence to Sequence (Seq2Seq) models revolutionized the field of NLP. Machine Learning is a quickly developing discipline, and it wasn’t too long since even more groundbreaking work built on the shoulders of giants came along. Today, we talk about the hype surrounding Transformer models such as BERT and, most recently, GPT-3. 
 
 This project involves learning NLP from the ground up. You will be introduced to the fundamental concepts and algorithms used for Natural Language Processing through an in-depth exploration of two different examples: sentiment classification and song lyrics generation. Starting the journey by understanding the basic theory behind Deep NLP, you will maneuver your way through RNNs, LSTMs and GRUs while simultaneously applying the gained knowledge to the sentiment classification task. In the second stage of the project, we will focus on transformers, beginning with using BERT, RoBERTa & XLM for the sentiment classification task, and concluding this project by employing models like GPT & T5 for the song lyrics generation task.

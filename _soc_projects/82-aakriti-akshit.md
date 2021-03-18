@@ -2,11 +2,11 @@
 layout: soc-project
 image: /images/aakriti-akshit.jpg
 title: A Deep Dive into CNNs
-mentor: "Aakrit, Akshit Srivastava"
+mentor: "Aakriti, Akshit Srivastava"
 category: "Machine Learning, Computer Vision"
 mentees:
 application_procedure: "none"
-weight: 101
+weight: 82
 ribbon: new
 contact:
 - Telegram - <a target="_blank" href="">https://t.me/aakriti_281</a> 

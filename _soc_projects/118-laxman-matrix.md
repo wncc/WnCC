@@ -8,7 +8,7 @@ category: "Competitive Coding"
 mentees:
 
 application_procedure: "proposal" 
-weight: 105
+weight: 118
 ribbon: new
 contact:
 - Email - <a target="_blank" href="mailto:desai.laxman2001@gmail.com">desai.laxman2001@gmail.com</a>
