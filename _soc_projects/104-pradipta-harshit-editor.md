@@ -5,6 +5,7 @@ title: "Language Model Based Syntax Autocompletion in a Text Editor"
 mentor: 
 - Pradipta Parag Bora
 - Harshit Gupta
+- Ankit Kumar Jain
 category: "Development, Machine Learning, NLP"
 mentees:
 
