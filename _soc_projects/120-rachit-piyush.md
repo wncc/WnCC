@@ -10,12 +10,12 @@ application_procedure: "proposal"
 weight: 114
 ribbon: new
 contact:
-- Anirudh -  <a target="_blank" href="https://www.facebook.com/anirudh.mittal.986/">Messenger</a> ,  9352032003 (Whatsapp) 
+- Email - <a href="mailto:baggarachit@gmail.com">baggarachit@gmail.com</a>. Initial contact would be through email but after that we'll decide depending on convenience.
 
 ---
 
 ---
-We shall build an app that's smart enough like an assistant to help me know how I spend my time and then help me manage my time. 
+We will be using Flutter Framework to compose user interfaces and implement functionality. 
 
 
 <!--break-->
@@ -30,11 +30,7 @@ Flutter is an extremely trending framework for app development that gives you a 
 Preferred Skills: Some small amount of Coding knowledge would be beneficial along with a working computer onto which you can install Flutter.
 
 <!--break-->
-"week 1 :
-week 2 : 
-week 3 : 
-week 4 :  .
-week 5 : "
+
 <!--break-->
 ### Tentative Project Timeline
 
