@@ -9,7 +9,7 @@ weight: 76
 ribbon: new
 contact:
 - Vibhav Aggarwal - <a target="_blank" href="mailto:vibhav.agg@iitb.ac.in ">vibhav.agg@iitb.ac.in </a>
-- Shrimati Tulip Pandey - <a target="_blank" href="mailto:190050125@iitb.ac.in">190050125@iitb.ac.in </a>
+- Tulip Pandey - <a target="_blank" href="mailto:190050125@iitb.ac.in">190050125@iitb.ac.in </a>
 
 mentees:
 - Preferably 4 but may take more based on SOPs 
