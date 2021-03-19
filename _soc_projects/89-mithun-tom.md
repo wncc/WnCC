@@ -9,7 +9,9 @@ application_procedure: "none"
 weight: 101
 ribbon: new
 contact:
-- Google classroom 
+- Email - <a target="_blank" href="mailto:pradiptabora@cse.iitb.ac.in">pradiptabora@cse.iitb.ac.in</a>
+Whatsapp - 8638224928
+Google classroom code txrph2n.
 
 
 ---
