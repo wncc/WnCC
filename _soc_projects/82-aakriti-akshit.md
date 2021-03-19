@@ -9,7 +9,7 @@ application_procedure: "none"
 weight: 82
 ribbon: new
 contact:
-- Telegram - <a target="_blank" href="">https://t.me/aakriti_281</a> 
+- Telegram/Whatsapp - 95223595092 
 
 ---
 

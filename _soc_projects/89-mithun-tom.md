@@ -9,13 +9,14 @@ application_procedure: "none"
 weight: 101
 ribbon: new
 contact:
-- Google classroom 
+- Email - <a target="_blank" href="mailto:pmb703.2018@gmail.com">pmb703.2018@gmail.com</a>
+- Whatsapp - 7715806144
+- Google classroom code txrph2n.
 
 
 ---
 
 ---
-
 This project would be dealing with dealing with reinforcement learning.
 
 <!--break-->
