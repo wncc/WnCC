@@ -15,9 +15,11 @@ contact:
 ---
 
 ---
-Have you ever wondered what data science is? Or how you should get started with it? This project answers those questions by helping one start off with data science.
+[APPLICATIONS CLOSED!!!]
 
 <!--break-->
+
+Have you ever wondered what data science is? Or how you should get started with it? This project answers those questions by helping one start off with data science.
 
 No. of mentees: 4-6
 
