@@ -18,10 +18,11 @@ contact:
 ---
 
 ---
-
-Ready to make a simple app that can compete with Google Photos?
+[APPLICATIONS CLOSED!!!]
 
 <!--break-->
+
+Ready to make a simple app that can compete with Google Photos?
 
 No. of mentees: 6-8
 
