@@ -16,10 +16,11 @@ contact:
 ---
 
 ---
-
-Learning competitive coding, starting from where CS101 left. Introduction to "Competitive" part of it. Optimising code and learning data structures and algorithms.
+[APPLICATIONS CLOSED!!!]
 
 <!--break-->
+
+Learning competitive coding, starting from where CS101 left. Introduction to "Competitive" part of it. Optimising code and learning data structures and algorithms.
 
 No. of mentees: <= 3
 
