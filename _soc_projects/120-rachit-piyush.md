@@ -15,10 +15,12 @@ contact:
 ---
 
 ---
-We will be using Flutter Framework to compose user interfaces and implement functionality. 
 
+[APPLICATIONS CLOSED!!!]
 
 <!--break-->
+
+We will be using Flutter Framework to compose user interfaces and implement functionality. 
 
 No. of mentees: 4
 
