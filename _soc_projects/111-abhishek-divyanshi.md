@@ -15,9 +15,10 @@ contact:
 ---
 
 ---
-The project targets to build a music recommender system which takes in your picture and then predicts your mood and accordingly predicts a song for you.
+[APPLICATIONS CLOSED!!!]
 
 <!--break-->
+The project targets to build a music recommender system which takes in your picture and then predicts your mood and accordingly predicts a song for you.
 
 No. of mentees: 10-11
 
