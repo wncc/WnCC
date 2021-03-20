@@ -15,13 +15,13 @@ contact:
 mentees:
 - 10-15 students
 ---
+[APPLICATIONS CLOSED!!!]
+
+<!--break-->
 
 
 This will teach you to develop a website using various tools like HTML, CSS , JavaScript, PHP Angular and a few other tools. 
 There are no prerequisites for this, however having basic idea of HTML will help. 
-
-<!--break-->
-
 
 ### Tentative Project Timeline
 <!--break-->
