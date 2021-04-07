@@ -5,7 +5,7 @@ This website is completely static and runs on jekyll.
 
 ## Content: 
 
-### [Wiki](http://wncc-iitb.org/wiki/)  
+### [Wiki](https://wiki.wncc-iitb.org/)  
 WnCC's own wiki. Containing wide-ranging articles, references and guides for everyone and especially beginners. Join the community, read, request, contribute and share!
 
 ### [SoC- Seasons of Code](http://wncc-iitb.org/soc/)  
