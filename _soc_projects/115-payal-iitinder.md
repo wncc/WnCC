@@ -10,7 +10,7 @@ application_procedure: "none"
 weight: 115
 ribbon: new
 contact:
-- Payal: choudharypayal2410 AT gmail DOT com, Rahul:7337433417
+- Payal:choudharypayal2410 AT gmail DOT com, Rahul:7337433417
 - Replace AT with '@' and DOT with '.'
 
 
