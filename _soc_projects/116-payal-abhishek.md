@@ -9,8 +9,8 @@ application_procedure: "none"
 weight: 116
 ribbon: new
 contact:
-- Whatsapp - +917280911163(Payal), +919921665952(Abhishek)
-
+- Payal:choudharypayal2410 AT gmail DOT com, +919921665952(Abhishek)
+- Replace AT with '@' and DOT with '.'
 
 ---
 
